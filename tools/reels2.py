@@ -144,10 +144,31 @@ def chrome(d, spec, t, total):
     d.text((64, H - 150), 'NEXORA', font=font('xb', 34), fill=INK); d.text((64 + d.textlength('NEXORA ', font=font('xb', 34)), H - 146), '· made with AI agents', font=font('m', 30), fill=MUTED)
     rrect(d, (64, H - 92, W - 64, H - 82), 5, (255, 255, 255, 35)); rrect(d, (64, H - 92, 64 + (W - 128) * min(1, t / total), H - 82), 5, MINT)
 
+MAX_WORDS = 6  # QA gate (owner-approved Oct 29, 2026): max 6 words on screen at a time
+
+def chunks(ws, n=MAX_WORDS):
+    """Split words into sentence-aware groups of at most n words, evenly sized (no 1-word leftovers)."""
+    sents, cur = [], []
+    for w_ in ws:
+        cur.append(w_)
+        if w_[-1] in '.!?': sents.append(cur); cur = []
+    if cur: sents.append(cur)
+    groups = []
+    for sn in sents:
+        k = -(-len(sn) // n); size = -(-len(sn) // k)
+        groups += [sn[i:i + size] for i in range(0, len(sn), size)]
+    return groups
+
 def caption(d, seg, t, st, en, y, size=58, maxw=W - 160, hl=MINT):
-    """Word-by-word karaoke caption: spoken words bright, current word highlighted."""
-    ws, k = words_at(seg, t, st, en); f = font('xb', size); lines, cur = [], []
-    for i, w_ in enumerate(ws):
+    """Word-by-word karaoke caption, max 6 words at a time: spoken words bright, current word highlighted."""
+    ws, k = words_at(seg, t, st, en); f = font('xb', size)
+    groups = chunks(ws); acc, ci = 0, 0
+    for gi, g in enumerate(groups):
+        if k > acc: ci = gi
+        acc += len(g)
+    base = sum(len(g) for g in groups[:ci]); grp = list(enumerate(groups[ci], base))
+    lines, cur = [], []
+    for i, w_ in grp:
         if d.textlength(' '.join(x for _, x in cur + [(i, w_)]), font=f) > maxw and cur: lines.append(cur); cur = []
         cur.append((i, w_))
     if cur: lines.append(cur)
@@ -159,6 +180,21 @@ def caption(d, seg, t, st, en, y, size=58, maxw=W - 160, hl=MINT):
             if i == k - 1: rrect(d, (x - 10, y0 + li * lh - 6, x + ww + 10, y0 + li * lh + size + 10), 14, hl)
             col = (14, 20, 32) if i == k - 1 else (INK if i < k else (233, 238, 245, 90))
             d.text((x, y0 + li * lh), w_, font=f, fill=col); x += ww + d.textlength(' ', font=f)
+
+# ---- end card (QA gate: every reel ends on the series tag + the same Nexora end card) ----
+def frame_end(spec, tl, t, total, seg, st, en):
+    im = background(t); d = ImageDraw.Draw(im, 'RGBA')
+    a = back((t - st) / 0.4)
+    logo = Image.new('RGBA', (W, 260), (0, 0, 0, 0)); c = ImageDraw.Draw(logo, 'RGBA')
+    fl = font('black', 170); lw = c.textlength('NEXORA', font=fl); c.text(((W - lw) / 2, 20), 'NEXORA', font=fl, fill=PAPER)
+    paste_center(im, logo, W / 2, 640, 0.85 + 0.15 * a, min(1, a))
+    tag = spec['series'].upper(); ft = font('xb', 44); tw = d.textlength(tag, font=ft)
+    rrect(d, ((W - tw) / 2 - 30, 800, (W + tw) / 2 + 30, 876), 38, (70, 215, 181, 60), MINT, 3); d.text(((W - tw) / 2, 812), tag, font=ft, fill=MINT)
+    caption(d, seg, t, st, en, 1120, 66)
+    if seg.get('emoji'):
+        b = back((t - st) / 0.4); paste_center(im, emoji(seg['emoji'], 150), W / 2, 1380 + 8 * math.sin(t * 4), 0.3 + 0.7 * b, min(1, b))
+    chrome(d, spec, t, total)
+    return im.convert('RGB')
 
 def seg_at(tl, t):
     for i, (s, e) in enumerate(tl):
@@ -301,7 +337,9 @@ def render(spec, out, style, sid, tmp):
                           '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out], stdin=subprocess.PIPE)
     starts = [a for a, _ in tl]
     for k in range(nf):
-        t = k / FPS; img = fr(spec, tl, t, total)
+        t = k / FPS; si, sst, sen = seg_at(tl, t)
+        if spec['segments'][si].get('kind') == 'cta': img = frame_end(spec, tl, t, total, spec['segments'][si], sst, sen)
+        else: img = fr(spec, tl, t, total)
         dz = min([t - a for a in starts if t >= a] or [9])
         if dz < 0.3:  # zoom punch on each new line
             z = 1 + 0.06 * (1 - ease(dz / 0.3)); cw, ch = int(W / z), int(H / z)
