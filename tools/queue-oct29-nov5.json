@@ -1,98 +1,697 @@
 [
-{"slug":"pd-01-make-it-better","style":"chat","series":"Prompt Drop #01","segments":[
- {"kind":"hook","say":"Stop telling AI to make it better.","hot":["better"],"emoji":"✋"},
- {"kind":"line","say":"It has no idea what better means to you. Give it a reader, a limit, and a rule.","hot":["reader","limit","rule"]},
- {"kind":"prompt","say":"Rewrite this for busy readers. Cut thirty percent. Keep every fact. Then list what you cut and why.","text":"Rewrite this for busy readers. Cut 30%. Keep every fact. Then list what you cut and why."},
- {"kind":"reply","say":"That last line is the trick. You can check its work instead of trusting it.","text":"Here's the shorter version… And here's what I cut, and why:","hot":["check"],"emoji":"✅"},
- {"kind":"cta","say":"Save this for your next email, and follow for one prompt a day.","hot":["save","follow"],"emoji":"🔖"}]},
-{"slug":"rc-02-locked-chats","style":"kinetic","series":"AI Reality Check #02","segments":[
- {"kind":"hook","say":"ChatGPT can lock your chats now. But there's a catch.","hot":["lock","catch"],"emoji":"🔒"},
- {"kind":"line","say":"Locked chats sit behind a four digit PIN, or Face ID, and leave your normal history and search.","hot":["PIN"]},
- {"kind":"line","say":"But if you forget the PIN, resetting it permanently deletes every locked chat.","hot":["deletes"],"emoji":"⚠️"},
- {"kind":"line","say":"And locking isn't encryption. It hides chats. It doesn't change how they're stored.","hot":["hides"]},
- {"kind":"cta","say":"Use a PIN you'll remember. Follow for honest AI tips, no hype.","hot":["follow"],"emoji":"👀"}]},
-{"slug":"ftf-01-free-tools","style":"steps","series":"Free Tool Friday #01","segments":[
- {"kind":"hook","say":"Three AI tools with a free plan, for boring work.","hot":["free"],"emoji":"🆓"},
- {"kind":"line","say":"One. Perplexity. Search answers with sources you can click.","step":"Perplexity: answers with clickable sources"},
- {"kind":"line","say":"Two. Gemini Notebook, formerly Notebook L M. Upload your own docs and ask questions about them.","step":"Gemini Notebook: ask questions about your own docs"},
- {"kind":"line","say":"Three. Canva. AI help for slides, posts and simple designs.","step":"Canva: AI help for slides, posts and designs"},
- {"kind":"cta","say":"Free plans have limits and change, so check before you rely on them. Comment the job you want a free tool for.","hot":["comment"],"emoji":"👇"}]},
-{"slug":"pd-07-icloud-calendar","style":"chat","series":"Prompt Drop #07","segments":[
- {"kind":"hook","say":"ChatGPT can now read and edit your iCloud calendar.","hot":["calendar"],"emoji":"🗓️"},
- {"kind":"line","say":"Once it's connected, try this.","hot":["this"]},
- {"kind":"prompt","say":"Find three free one hour slots this week before 3 p.m. What did I overbook? Suggest what to move.","text":"Find three free 1-hour slots this week before 3pm. What did I overbook? Suggest what to move."},
- {"kind":"reply","say":"Setup needs an app specific password from your Apple account, and it connects to iCloud only.","text":"Checking your iCloud calendar… Here are 3 open slots:","hot":["iCloud"]},
- {"kind":"cta","say":"Save this, and follow for one prompt a day that saves you an hour.","hot":["save","follow"],"emoji":"🔖"}]},
-{"slug":"pd-02-meeting-notes","style":"chat","series":"Prompt Drop #02","segments":[
- {"kind":"hook","say":"Turn a one hour meeting into five lines.","hot":["five"],"emoji":"📝"},
- {"kind":"line","say":"Paste your notes or transcript. Then type this.","hot":["this"]},
- {"kind":"prompt","say":"List every decision, every owner, every deadline. Flag anything that has no owner.","text":"List every decision, every owner, every deadline. Flag anything that has no owner."},
- {"kind":"reply","say":"The last line is the value. It finds the work nobody picked up.","text":"Decisions: … Owners: … Deadlines: … ⚠️ No owner yet:","hot":["nobody"],"emoji":"🎯"},
- {"kind":"cta","say":"Works in ChatGPT, Claude or Gemini. Save it, and follow for more.","hot":["save"],"emoji":"🔖"}]},
-{"slug":"rc-03-knowledge-cutoff","style":"kinetic","series":"AI Reality Check #03","segments":[
- {"kind":"hook","say":"Your AI might be months behind the news.","hot":["behind"],"emoji":"📅"},
- {"kind":"line","say":"Every model is trained up to a cutoff date. Ask about something newer, and it can fill the gap with a confident guess.","hot":["guess"]},
- {"kind":"prompt","say":"Before you trust it on anything recent, ask: what date does your information go up to? Then search the web for anything newer and link your sources.","text":"What date does your information go up to? Then search the web for anything newer and link your sources."},
- {"kind":"line","say":"No web search on? Treat recent facts as unchecked.","hot":["unchecked"],"emoji":"⚠️"},
- {"kind":"cta","say":"Follow for honest AI tips, no hype.","hot":["follow"],"emoji":"👀"}]},
-{"slug":"pd-03-polite-no","style":"chat","series":"Prompt Drop #03","segments":[
- {"kind":"hook","say":"Need to say no without sounding rude?","hot":["no"],"emoji":"🙅"},
- {"kind":"line","say":"Describe the situation. Then ask this.","hot":["this"]},
- {"kind":"prompt","say":"Write three replies. Warm, neutral, firm. Under sixty words. No apologies more than once.","text":"Write 3 replies: warm, neutral, firm. Under 60 words. No apologies more than once."},
- {"kind":"reply","say":"Three options means you pick the tone, not the AI.","text":"Warm: … Neutral: … Firm: …","hot":["you"],"emoji":"✅"},
- {"kind":"cta","say":"Save this for the next awkward email, and follow for one prompt a day.","hot":["save"],"emoji":"🔖"}]},
-{"slug":"rc-04-100-hours-claim","style":"kinetic","series":"AI Reality Check #04","segments":[
- {"kind":"hook","say":"An AI browser says it saves your team over a hundred hours a week.","hot":["hundred"],"emoji":"⏱️"},
- {"kind":"line","say":"That's the company's own tagline on Product Hunt, not a test result.","hot":["tagline"]},
- {"kind":"line","say":"AI browsers aim at repeat web tasks. Forms, lookups, copy paste between tabs. What you save depends on how much of your week looks like that.","hot":["repeat"]},
- {"kind":"line","say":"Before you trust any time saved claim, time one real task by hand, then with the tool. That's your number.","hot":["your"],"emoji":"🧪"},
- {"kind":"cta","say":"Not sponsored. Comment the tool you want tested next.","hot":["comment"],"emoji":"👇"}]},
-{"slug":"pd-04-devils-advocate","style":"chat","series":"Prompt Drop #04","segments":[
- {"kind":"hook","say":"AI agrees with you too much.","hot":["agrees"],"emoji":"👍"},
- {"kind":"line","say":"Make it argue back. Type this.","hot":["argue"]},
- {"kind":"prompt","say":"Here's my plan. Give me the three strongest reasons it fails. Then tell me what I'd need to believe for it to work.","text":"Here's my plan. Give me the 3 strongest reasons it fails. Then tell me what I'd need to believe for it to work."},
- {"kind":"reply","say":"You get the objections before your boss or your customers do.","text":"Reason 1 it fails: … Reason 2: … Reason 3: …","hot":["before"],"emoji":"🧠"},
- {"kind":"cta","say":"Save this, and follow for one prompt a day.","hot":["save"],"emoji":"🔖"}]},
-{"slug":"rc-05-long-chats","style":"kinetic","series":"AI Reality Check #05","segments":[
- {"kind":"hook","say":"Long chats make AI worse.","hot":["worse"],"emoji":"🧵"},
- {"kind":"line","say":"After enough back and forth, a chatbot can lose track of details from the start. Your rules, your tone, which version you agreed on.","hot":["lose"]},
- {"kind":"prompt","say":"The fix takes ten seconds. Ask it to summarize what we've decided so far, as a bullet list. Then paste that into a new chat.","text":"Summarize what we've decided so far, as a bullet list."},
- {"kind":"line","say":"Works in ChatGPT, Claude or Gemini.","emoji":"✅"},
- {"kind":"cta","say":"Follow for honest AI tips, no hype.","hot":["follow"],"emoji":"👀"}]},
-{"slug":"pd-05-weekly-plan","style":"chat","series":"Prompt Drop #05","segments":[
- {"kind":"hook","say":"Plan your whole week in sixty seconds.","hot":["week"],"emoji":"🗓️"},
- {"kind":"line","say":"Brain dump everything. Then type this.","hot":["this"]},
- {"kind":"prompt","say":"Sort into must, should, drop. Put the musts into my calendar gaps. Max three big things a day.","text":"Sort into must, should, drop. Put the musts into my calendar gaps: [paste your free slots]. Max 3 big things a day."},
- {"kind":"reply","say":"The drop list is the real win.","text":"Must: … Should: … Drop: …","hot":["drop"],"emoji":"🗑️"},
- {"kind":"cta","say":"Save this for Monday, and follow for one prompt a day.","hot":["save"],"emoji":"🔖"}]},
-{"slug":"rc-06-ai-voice","style":"kinetic","series":"AI Reality Check #06","segments":[
- {"kind":"hook","say":"People can often tell you used AI.","hot":["tell"],"emoji":"✍️"},
- {"kind":"line","say":"Out of the box, chatbots write in one safe, average voice. The same openers, the same tidy lists, the same words.","hot":["average"]},
- {"kind":"prompt","say":"Fix it by giving it you. Paste three things you actually wrote, then ask it to match this voice, and flag any line you wouldn't say.","text":"Match this voice for the draft below. Flag any line I wouldn't say."},
- {"kind":"line","say":"You still read it before you send it.","hot":["read"],"emoji":"👀"},
- {"kind":"cta","say":"Follow for honest AI tips, no hype.","hot":["follow"]}]},
-{"slug":"rc-01-ai-makes-things-up","style":"kinetic","series":"AI Reality Check #01","segments":[
- {"kind":"hook","say":"AI will confidently make things up.","hot":["up"],"emoji":"🤥"},
- {"kind":"line","say":"Fake quotes, fake numbers, even fake sources. It's called hallucination, and every chatbot does it sometimes.","hot":["hallucination"]},
- {"kind":"prompt","say":"Add this line to research prompts. Only use facts you can link to. Say not sure otherwise.","text":"Only use facts you can link to. Say 'not sure' otherwise."},
- {"kind":"line","say":"Then actually click the links. That part is on you.","hot":["click"],"emoji":"🔗"},
- {"kind":"cta","say":"Follow for honest AI tips, no hype.","hot":["follow"]}]},
-{"slug":"pd-08-email-thread","style":"chat","series":"Prompt Drop #08","segments":[
- {"kind":"hook","say":"Forty email thread? Get the point in ten seconds.","hot":["ten"],"emoji":"📨"},
- {"kind":"line","say":"Paste the whole thread. Then type this.","hot":["this"]},
- {"kind":"prompt","say":"Give me three bullets. What happened, what's decided, what's still open. Then tell me what I need to do next, and by when.","text":"Give me 3 bullets: what happened, what's decided, what's still open. Then tell me what I need to do next, and by when."},
- {"kind":"reply","say":"Check the deadlines it pulls out against the emails before you act on them.","text":"Happened: … Decided: … Open: … Your next step: …","hot":["check"],"emoji":"✅"},
- {"kind":"cta","say":"Save this for the next reply all mess.","hot":["save"],"emoji":"🔖"}]},
-{"slug":"pd-09-practice-test","style":"chat","series":"Prompt Drop #09","segments":[
- {"kind":"hook","say":"Turn tonight's lecture notes into a practice test.","hot":["test"],"emoji":"📚"},
- {"kind":"line","say":"Paste your notes into ChatGPT, Claude or Gemini. Then run this.","hot":["this"]},
- {"kind":"prompt","say":"Make ten flashcards from these notes. Then quiz me with five questions, one at a time. Tell me what I got wrong and why.","text":"Make 10 flashcards from these notes. Then quiz me with 5 questions, one at a time. Tell me what I got wrong and why."},
- {"kind":"reply","say":"Check its answers against your notes. AI can get things wrong, and your notes are the source.","text":"Flashcard 1: … Ready? Question 1 of 5:","hot":["notes"],"emoji":"✅"},
- {"kind":"cta","say":"Save this for exam week, and follow for one prompt a day.","hot":["save"],"emoji":"🔖"}]},
-{"slug":"rc-07-chatgpt-watermark","style":"kinetic","series":"AI Reality Check #07","segments":[
- {"kind":"hook","say":"Is ChatGPT secretly watermarking your essays?","hot":["watermarking"],"emoji":"🔍"},
- {"kind":"line","say":"Per OpenAI's October fifth announcement, as reported, it will add an invisible watermark to ChatGPT text in the EU.","hot":["EU"]},
- {"kind":"line","say":"The mark is a pattern in word choice. You can't see it. Outside the EU, it's off by default.","hot":["off"]},
- {"kind":"line","say":"There's no public checker. Access is limited to approved researchers.","hot":["no"]},
- {"kind":"cta","say":"Check your school's AI policy, and say when you used AI. Follow for honest AI news.","hot":["follow"],"emoji":"👀"}]}
+ {
+  "slug": "pd-01-make-it-better",
+  "style": "chat",
+  "series": "Prompt Drop #01",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Stop telling AI to make it better.",
+    "hot": [
+     "better"
+    ],
+    "emoji": "✋"
+   },
+   {
+    "kind": "line",
+    "say": "It has no idea what better means to you. Give it a reader, a limit, and a rule.",
+    "hot": [
+     "reader",
+     "limit",
+     "rule"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Rewrite this for busy readers. Cut thirty percent. Keep every fact. Then list what you cut and why.",
+    "text": "Rewrite this for busy readers. Cut 30%. Keep every fact. Then list what you cut and why."
+   },
+   {
+    "kind": "reply",
+    "say": "That last line is the trick. You can check its work instead of trusting it.",
+    "text": "Here's the shorter version… And here's what I cut, and why:",
+    "hot": [
+     "check"
+    ],
+    "emoji": "✅"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this for your next email, and follow for one prompt a day.",
+    "hot": [
+     "save",
+     "follow"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "rc-01-locked-chats",
+  "style": "kinetic",
+  "series": "AI Reality Check #01",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "ChatGPT can lock your chats now. But there's a catch.",
+    "hot": [
+     "lock",
+     "catch"
+    ],
+    "emoji": "🔒"
+   },
+   {
+    "kind": "line",
+    "say": "Locked chats sit behind a four digit PIN, or Face ID, and leave your normal history and search.",
+    "hot": [
+     "PIN"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "But if you forget the PIN, resetting it permanently deletes every locked chat.",
+    "hot": [
+     "deletes"
+    ],
+    "emoji": "⚠️"
+   },
+   {
+    "kind": "line",
+    "say": "And locking isn't encryption. It hides chats. It doesn't change how they're stored.",
+    "hot": [
+     "hides"
+    ]
+   },
+   {
+    "kind": "cta",
+    "say": "Use a PIN you'll remember. Follow for honest AI tips, no hype.",
+    "hot": [
+     "follow"
+    ],
+    "emoji": "👀"
+   }
+  ]
+ },
+ {
+  "slug": "ftf-01-free-tools",
+  "style": "steps",
+  "series": "Free Tool Friday #01",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Three AI tools with a free plan, for boring work.",
+    "hot": [
+     "free"
+    ],
+    "emoji": "🆓"
+   },
+   {
+    "kind": "line",
+    "say": "One. Perplexity. Search answers with sources you can click.",
+    "step": "Perplexity: answers with clickable sources"
+   },
+   {
+    "kind": "line",
+    "say": "Two. Gemini Notebook, formerly Notebook L M. Upload your own docs and ask questions about them.",
+    "step": "Gemini Notebook: ask questions about your own docs"
+   },
+   {
+    "kind": "line",
+    "say": "Three. Canva. AI help for slides, posts and simple designs.",
+    "step": "Canva: AI help for slides, posts and designs"
+   },
+   {
+    "kind": "cta",
+    "say": "Free plans have limits and change, so check before you rely on them. Comment the job you want a free tool for.",
+    "hot": [
+     "comment"
+    ],
+    "emoji": "👇"
+   }
+  ]
+ },
+ {
+  "slug": "pd-02-icloud-calendar",
+  "style": "chat",
+  "series": "Prompt Drop #02",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "ChatGPT can now read and edit your iCloud calendar.",
+    "hot": [
+     "calendar"
+    ],
+    "emoji": "🗓️"
+   },
+   {
+    "kind": "line",
+    "say": "Once it's connected, try this.",
+    "hot": [
+     "this"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Find three free one hour slots this week before 3 p.m. What did I overbook? Suggest what to move.",
+    "text": "Find three free 1-hour slots this week before 3pm. What did I overbook? Suggest what to move."
+   },
+   {
+    "kind": "reply",
+    "say": "Setup needs an app specific password from your Apple account, and it connects to iCloud only.",
+    "text": "Checking your iCloud calendar… Here are 3 open slots:",
+    "hot": [
+     "iCloud"
+    ]
+   },
+   {
+    "kind": "cta",
+    "say": "Save this, and follow for one prompt a day that saves you an hour.",
+    "hot": [
+     "save",
+     "follow"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "pd-03-meeting-notes",
+  "style": "chat",
+  "series": "Prompt Drop #03",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Turn a one hour meeting into five lines.",
+    "hot": [
+     "five"
+    ],
+    "emoji": "📝"
+   },
+   {
+    "kind": "line",
+    "say": "Paste your notes or transcript. Then type this.",
+    "hot": [
+     "this"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "List every decision, every owner, every deadline. Flag anything that has no owner.",
+    "text": "List every decision, every owner, every deadline. Flag anything that has no owner."
+   },
+   {
+    "kind": "reply",
+    "say": "The last line is the value. It finds the work nobody picked up.",
+    "text": "Decisions: … Owners: … Deadlines: … ⚠️ No owner yet:",
+    "hot": [
+     "nobody"
+    ],
+    "emoji": "🎯"
+   },
+   {
+    "kind": "cta",
+    "say": "Works in ChatGPT, Claude or Gemini. Save it, and follow for more.",
+    "hot": [
+     "save"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "rc-02-knowledge-cutoff",
+  "style": "kinetic",
+  "series": "AI Reality Check #02",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Your AI might be months behind the news.",
+    "hot": [
+     "behind"
+    ],
+    "emoji": "📅"
+   },
+   {
+    "kind": "line",
+    "say": "Every model is trained up to a cutoff date. Ask about something newer, and it can fill the gap with a confident guess.",
+    "hot": [
+     "guess"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Before you trust it on anything recent, ask: what date does your information go up to? Then search the web for anything newer and link your sources.",
+    "text": "What date does your information go up to? Then search the web for anything newer and link your sources."
+   },
+   {
+    "kind": "line",
+    "say": "No web search on? Treat recent facts as unchecked.",
+    "hot": [
+     "unchecked"
+    ],
+    "emoji": "⚠️"
+   },
+   {
+    "kind": "cta",
+    "say": "Follow for honest AI tips, no hype.",
+    "hot": [
+     "follow"
+    ],
+    "emoji": "👀"
+   }
+  ]
+ },
+ {
+  "slug": "pd-04-polite-no",
+  "style": "chat",
+  "series": "Prompt Drop #04",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Need to say no without sounding rude?",
+    "hot": [
+     "no"
+    ],
+    "emoji": "🙅"
+   },
+   {
+    "kind": "line",
+    "say": "Describe the situation. Then ask this.",
+    "hot": [
+     "this"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Write three replies. Warm, neutral, firm. Under sixty words. No apologies more than once.",
+    "text": "Write 3 replies: warm, neutral, firm. Under 60 words. No apologies more than once."
+   },
+   {
+    "kind": "reply",
+    "say": "Three options means you pick the tone, not the AI.",
+    "text": "Warm: … Neutral: … Firm: …",
+    "hot": [
+     "you"
+    ],
+    "emoji": "✅"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this for the next awkward email, and follow for one prompt a day.",
+    "hot": [
+     "save"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "rc-03-100-hours-claim",
+  "style": "kinetic",
+  "series": "AI Reality Check #03",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "An AI browser says it saves your team over a hundred hours a week.",
+    "hot": [
+     "hundred"
+    ],
+    "emoji": "⏱️"
+   },
+   {
+    "kind": "line",
+    "say": "That's the company's own tagline on Product Hunt, not a test result.",
+    "hot": [
+     "tagline"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "AI browsers aim at repeat web tasks. Forms, lookups, copy paste between tabs. What you save depends on how much of your week looks like that.",
+    "hot": [
+     "repeat"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "Before you trust any time saved claim, time one real task by hand, then with the tool. That's your number.",
+    "hot": [
+     "your"
+    ],
+    "emoji": "🧪"
+   },
+   {
+    "kind": "cta",
+    "say": "Not sponsored. Comment the tool you want tested next.",
+    "hot": [
+     "comment"
+    ],
+    "emoji": "👇"
+   }
+  ]
+ },
+ {
+  "slug": "pd-05-devils-advocate",
+  "style": "chat",
+  "series": "Prompt Drop #05",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "AI agrees with you too much.",
+    "hot": [
+     "agrees"
+    ],
+    "emoji": "👍"
+   },
+   {
+    "kind": "line",
+    "say": "Make it argue back. Type this.",
+    "hot": [
+     "argue"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Here's my plan. Give me the three strongest reasons it fails. Then tell me what I'd need to believe for it to work.",
+    "text": "Here's my plan. Give me the 3 strongest reasons it fails. Then tell me what I'd need to believe for it to work."
+   },
+   {
+    "kind": "reply",
+    "say": "You get the objections before your boss or your customers do.",
+    "text": "Reason 1 it fails: … Reason 2: … Reason 3: …",
+    "hot": [
+     "before"
+    ],
+    "emoji": "🧠"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this, and follow for one prompt a day.",
+    "hot": [
+     "save"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "rc-04-long-chats",
+  "style": "kinetic",
+  "series": "AI Reality Check #04",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Long chats make AI worse.",
+    "hot": [
+     "worse"
+    ],
+    "emoji": "🧵"
+   },
+   {
+    "kind": "line",
+    "say": "After enough back and forth, a chatbot can lose track of details from the start. Your rules, your tone, which version you agreed on.",
+    "hot": [
+     "lose"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "The fix takes ten seconds. Ask it to summarize what we've decided so far, as a bullet list. Then paste that into a new chat.",
+    "text": "Summarize what we've decided so far, as a bullet list."
+   },
+   {
+    "kind": "line",
+    "say": "Works in ChatGPT, Claude or Gemini.",
+    "emoji": "✅"
+   },
+   {
+    "kind": "cta",
+    "say": "Follow for honest AI tips, no hype.",
+    "hot": [
+     "follow"
+    ],
+    "emoji": "👀"
+   }
+  ]
+ },
+ {
+  "slug": "pd-07-weekly-plan",
+  "style": "chat",
+  "series": "Prompt Drop #07",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Plan your whole week in sixty seconds.",
+    "hot": [
+     "week"
+    ],
+    "emoji": "🗓️"
+   },
+   {
+    "kind": "line",
+    "say": "Brain dump everything. Then type this.",
+    "hot": [
+     "this"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Sort into must, should, drop. Put the musts into my calendar gaps. Max three big things a day.",
+    "text": "Sort into must, should, drop. Put the musts into my calendar gaps: [paste your free slots]. Max 3 big things a day."
+   },
+   {
+    "kind": "reply",
+    "say": "The drop list is the real win.",
+    "text": "Must: … Should: … Drop: …",
+    "hot": [
+     "drop"
+    ],
+    "emoji": "🗑️"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this for Monday, and follow for one prompt a day.",
+    "hot": [
+     "save"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "rc-05-ai-voice",
+  "style": "kinetic",
+  "series": "AI Reality Check #05",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "People can often tell you used AI.",
+    "hot": [
+     "tell"
+    ],
+    "emoji": "✍️"
+   },
+   {
+    "kind": "line",
+    "say": "Out of the box, chatbots write in one safe, average voice. The same openers, the same tidy lists, the same words.",
+    "hot": [
+     "average"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Fix it by giving it you. Paste three things you actually wrote, then ask it to match this voice, and flag any line you wouldn't say.",
+    "text": "Match this voice for the draft below. Flag any line I wouldn't say."
+   },
+   {
+    "kind": "line",
+    "say": "You still read it before you send it.",
+    "hot": [
+     "read"
+    ],
+    "emoji": "👀"
+   },
+   {
+    "kind": "cta",
+    "say": "Follow for honest AI tips, no hype.",
+    "hot": [
+     "follow"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "rc-06-ai-makes-things-up",
+  "style": "kinetic",
+  "series": "AI Reality Check #06",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "AI will confidently make things up.",
+    "hot": [
+     "up"
+    ],
+    "emoji": "🤥"
+   },
+   {
+    "kind": "line",
+    "say": "Fake quotes, fake numbers, even fake sources. It's called hallucination, and every chatbot does it sometimes.",
+    "hot": [
+     "hallucination"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Add this line to research prompts. Only use facts you can link to. Say not sure otherwise.",
+    "text": "Only use facts you can link to. Say 'not sure' otherwise."
+   },
+   {
+    "kind": "line",
+    "say": "Then actually click the links. That part is on you.",
+    "hot": [
+     "click"
+    ],
+    "emoji": "🔗"
+   },
+   {
+    "kind": "cta",
+    "say": "Follow for honest AI tips, no hype.",
+    "hot": [
+     "follow"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "pd-08-email-thread",
+  "style": "chat",
+  "series": "Prompt Drop #08",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Forty email thread? Get the point in ten seconds.",
+    "hot": [
+     "ten"
+    ],
+    "emoji": "📨"
+   },
+   {
+    "kind": "line",
+    "say": "Paste the whole thread. Then type this.",
+    "hot": [
+     "this"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Give me three bullets. What happened, what's decided, what's still open. Then tell me what I need to do next, and by when.",
+    "text": "Give me 3 bullets: what happened, what's decided, what's still open. Then tell me what I need to do next, and by when."
+   },
+   {
+    "kind": "reply",
+    "say": "Check the deadlines it pulls out against the emails before you act on them.",
+    "text": "Happened: … Decided: … Open: … Your next step: …",
+    "hot": [
+     "check"
+    ],
+    "emoji": "✅"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this for the next reply all mess.",
+    "hot": [
+     "save"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "pd-09-practice-test",
+  "style": "chat",
+  "series": "Prompt Drop #09",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Turn tonight's lecture notes into a practice test.",
+    "hot": [
+     "test"
+    ],
+    "emoji": "📚"
+   },
+   {
+    "kind": "line",
+    "say": "Paste your notes into ChatGPT, Claude or Gemini. Then run this.",
+    "hot": [
+     "this"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Make ten flashcards from these notes. Then quiz me with five questions, one at a time. Tell me what I got wrong and why.",
+    "text": "Make 10 flashcards from these notes. Then quiz me with 5 questions, one at a time. Tell me what I got wrong and why."
+   },
+   {
+    "kind": "reply",
+    "say": "Check its answers against your notes. AI can get things wrong, and your notes are the source.",
+    "text": "Flashcard 1: … Ready? Question 1 of 5:",
+    "hot": [
+     "notes"
+    ],
+    "emoji": "✅"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this for exam week, and follow for one prompt a day.",
+    "hot": [
+     "save"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "rc-07-chatgpt-watermark",
+  "style": "kinetic",
+  "series": "AI Reality Check #07",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Is ChatGPT secretly watermarking your essays?",
+    "hot": [
+     "watermarking"
+    ],
+    "emoji": "🔍"
+   },
+   {
+    "kind": "line",
+    "say": "Per OpenAI's October fifth announcement, as reported, it will add an invisible watermark to ChatGPT text in the EU.",
+    "hot": [
+     "EU"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "The mark is a pattern in word choice. You can't see it. Outside the EU, it's off by default.",
+    "hot": [
+     "off"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "There's no public checker. Access is limited to approved researchers.",
+    "hot": [
+     "no"
+    ]
+   },
+   {
+    "kind": "cta",
+    "say": "Check your school's AI policy, and say when you used AI. Follow for honest AI news.",
+    "hot": [
+     "follow"
+    ],
+    "emoji": "👀"
+   }
+  ]
+ }
 ]
