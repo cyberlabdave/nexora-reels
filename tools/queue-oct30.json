@@ -1,0 +1,176 @@
+[
+ {
+  "slug": "ftf-02-free-dictation",
+  "style": "steps",
+  "series": "Free Tool Friday #02",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Stop typing. Three AI dictation tools with free plans.",
+    "hot": [
+     "free"
+    ],
+    "emoji": "🎙️"
+   },
+   {
+    "kind": "line",
+    "say": "One. Granola Voice Typing, free on every Granola plan. On a Mac, hold F N and talk.",
+    "step": "Granola: hold fn, just talk"
+   },
+   {
+    "kind": "line",
+    "say": "Two. Wispr Flow. Free on Mac, Windows, iPhone and Android, with a weekly word cap.",
+    "step": "Wispr Flow: free, weekly cap"
+   },
+   {
+    "kind": "line",
+    "say": "Three. Superwhisper. Its free plan dictates with on-device models.",
+    "step": "Superwhisper: free, on-device"
+   },
+   {
+    "kind": "cta",
+    "say": "Check each plan's limits. Save this, and follow for a free tool every Friday.",
+    "hot": [
+     "save",
+     "follow"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "pd-10-mock-interview",
+  "style": "chat",
+  "series": "Prompt Drop #10",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Job interview this week? Let AI grill you first.",
+    "hot": [
+     "grill"
+    ],
+    "emoji": "🎤"
+   },
+   {
+    "kind": "line",
+    "say": "Don't ask it for tips. Make it run the interview, one question at a time.",
+    "hot": [
+     "interview"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "Interview me for the role I want. Ask one question at a time. After each answer, give one strength, one fix, and a stronger version. Stop after five questions.",
+    "text": "Interview me for a [job title] role. Ask one question at a time. After each answer: one strength, one fix, a stronger version. Stop after 5 questions."
+   },
+   {
+    "kind": "reply",
+    "say": "Answer it like the real thing. The feedback after each answer is the practice.",
+    "text": "Let's start. Question 1: Tell me about a time you missed a deadline. What did you do next?",
+    "hot": [
+     "practice"
+    ],
+    "emoji": "✅"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this for your next interview, and follow for one AI prompt a day.",
+    "hot": [
+     "save",
+     "follow"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "wf-01-meeting-followup",
+  "style": "steps",
+  "series": "60-Second Workflow #01",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Meeting notes that stay on your Mac. Then the follow-up email.",
+    "hot": [
+     "follow-up"
+    ],
+    "emoji": "📝"
+   },
+   {
+    "kind": "line",
+    "say": "Not tested by us. This is based on official info.",
+    "hot": [
+     "official"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "Step one. Google AI Edge Foresight, an experimental Mac app. Google says it uses your mic and system audio to fill in your shorthand notes, fully on device, even offline.",
+    "step": "Foresight: notes stay on-device"
+   },
+   {
+    "kind": "line",
+    "say": "Step two. Paste the notes into ChatGPT. Its free plan drafts emails. Ask for an action item table, then a short follow-up email.",
+    "step": "ChatGPT: table plus email"
+   },
+   {
+    "kind": "line",
+    "say": "Step three. Check names and dates yourself, and tell people before you record.",
+    "step": "You: check, then send"
+   },
+   {
+    "kind": "cta",
+    "say": "Comment if you want a real hands-on test.",
+    "hot": [
+     "comment"
+    ],
+    "emoji": "👇"
+   }
+  ]
+ },
+ {
+  "slug": "af-01-public-fails",
+  "style": "steps",
+  "series": "AI Fails #01",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Three real AI fails, all on the public record.",
+    "hot": [
+     "fails"
+    ],
+    "emoji": "👻"
+   },
+   {
+    "kind": "line",
+    "say": "Not tested by us. Based on official info and news reports.",
+    "hot": [
+     "official"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "One. Google's AI search answers once suggested glue on pizza. Google's own blog blamed joke forum posts.",
+    "step": "Google: glue on pizza"
+   },
+   {
+    "kind": "line",
+    "say": "Two. Air Canada's chatbot made up a refund rule. A tribunal made the airline pay, CBS News reported.",
+    "step": "Air Canada: invented refund rule"
+   },
+   {
+    "kind": "line",
+    "say": "Three. Lawyers filed six fake cases that ChatGPT made up. A judge fined them, Reuters reported.",
+    "step": "Lawyers: six fake cases"
+   },
+   {
+    "kind": "cta",
+    "say": "Check AI answers against a real source. Comment if you want a real hands-on test.",
+    "hot": [
+     "comment"
+    ],
+    "emoji": "👇"
+   }
+  ]
+ }
+]
