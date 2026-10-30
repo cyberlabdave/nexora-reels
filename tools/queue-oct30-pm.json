@@ -1,0 +1,94 @@
+[
+ {
+  "slug": "pd-11-find-my-gaps",
+  "style": "chat",
+  "series": "Prompt Drop #11",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Make AI find the gaps in what you know. Part two.",
+    "hot": [
+     "gaps"
+    ],
+    "emoji": "🧠"
+   },
+   {
+    "kind": "line",
+    "say": "Explain the topic in your own words first. Then let the AI check you.",
+    "hot": [
+     "own words"
+    ]
+   },
+   {
+    "kind": "prompt",
+    "say": "I'll explain a topic in my own words. Point out what I got wrong or left out. Then ask me one question about my weakest part.",
+    "text": "I'll explain [topic] in my own words. Point out what I got wrong or left out. Then ask me one question about my weakest part."
+   },
+   {
+    "kind": "reply",
+    "say": "Now you know exactly what to study next, instead of rereading everything.",
+    "text": "Good start. You left out why it happens. Question: what causes it?",
+    "hot": [
+     "study"
+    ],
+    "emoji": "✅"
+   },
+   {
+    "kind": "cta",
+    "say": "Save this before your next exam, and follow for one AI prompt a day.",
+    "hot": [
+     "save",
+     "follow"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ },
+ {
+  "slug": "rc-08-locked-chats-part2",
+  "style": "kinetic",
+  "series": "AI Reality Check #08",
+  "segments": [
+   {
+    "kind": "hook",
+    "say": "Locked your ChatGPT chat? Part two. Three things it still doesn't hide.",
+    "hot": [
+     "doesn't",
+     "hide"
+    ],
+    "emoji": "🔒"
+   },
+   {
+    "kind": "line",
+    "say": "One. Anything ChatGPT remembered before you locked it stays remembered.",
+    "hot": [
+     "remembered"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "Two. An old shared link keeps working. Delete the link yourself.",
+    "hot": [
+     "shared",
+     "link"
+    ]
+   },
+   {
+    "kind": "line",
+    "say": "Three. Anyone who can open the chat can still copy it.",
+    "hot": [
+     "copy"
+    ]
+   },
+   {
+    "kind": "cta",
+    "say": "Save this before you lock your next chat, and follow for honest AI tips.",
+    "hot": [
+     "save",
+     "follow"
+    ],
+    "emoji": "🔖"
+   }
+  ]
+ }
+]
