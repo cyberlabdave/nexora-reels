@@ -38,7 +38,7 @@ MINT, CORAL, INK, PAPER, MUTED = (70, 215, 181), (255, 122, 102), (233, 238, 245
 def tts(text, path, sid):
     env = dict(os.environ, LD_LIBRARY_PATH=os.path.join(TTS_BIN, 'lib'))
     subprocess.run([os.path.join(TTS_BIN, 'bin', 'sherpa-onnx-offline-tts'), f'--kokoro-model={KOKORO}/model.onnx', f'--kokoro-voices={KOKORO}/voices.bin',
-                    f'--kokoro-tokens={KOKORO}/tokens.txt', f'--kokoro-data-dir={KOKORO}/espeak-ng-data', '--num-threads=4', f'--sid={sid}', '--kokoro-length-scale=0.92',
+                    f'--kokoro-tokens={KOKORO}/tokens.txt', f'--kokoro-data-dir={KOKORO}/espeak-ng-data', '--num-threads=4', f'--sid={sid}', '--kokoro-length-scale=' + os.environ.get('NX_PACE', '0.92'),
                     f'--output-filename={path}', text], check=True, env=env, capture_output=True)
     with wave.open(path) as w:
         sr = w.getframerate(); a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
@@ -327,7 +327,110 @@ def frame_steps(spec, tl, t, total):
     chrome(d, spec, t, total)
     return im.convert('RGB')
 
-STYLES = {'chat': frame_chat, 'kinetic': frame_kinetic, 'steps': frame_steps}
+
+# ======== v3 "scene" style: full-screen visual card every line + TikTok-style lower-third captions ========
+YEL = (255, 216, 77)
+def stroke_text(d, xy, text, f, fill, sw=6):
+    d.text(xy, text, font=f, fill=fill, stroke_width=sw, stroke_fill=(5, 8, 20))
+
+def lower_caption(d, seg, t, st, en, y=1500, size=80):
+    ws, k = words_at(seg, t, st, en); groups = chunks(ws, 4); acc, ci = 0, 0
+    for gi, g in enumerate(groups):
+        if k > acc: ci = gi
+        acc += len(g)
+    base = sum(len(g) for g in groups[:ci]); grp = list(enumerate(groups[ci], base)); f = font('black', size)
+    lines, cur = [], []
+    for i, w_ in grp:
+        if d.textlength(' '.join(x for _, x in cur + [(i, w_)]), font=f) > W - 140 and cur: lines.append(cur); cur = []
+        cur.append((i, w_))
+    if cur: lines.append(cur)
+    lh = int(size * 1.18); y0 = y - len(lines) * lh // 2
+    for li, line in enumerate(lines):
+        lw = d.textlength(' '.join(x for _, x in line), font=f); x = (W - lw) / 2
+        for i, w_ in line:
+            ww = d.textlength(w_, font=f)
+            col = YEL if i == k - 1 else (PAPER if i < k else (255, 255, 255, 120))
+            stroke_text(d, (x, y0 + li * lh), w_, f, col); x += ww + d.textlength(' ', font=f)
+
+def ui_window(w, h, title, accent=MINT):
+    card = Image.new('RGBA', (w, h), (0, 0, 0, 0)); c = ImageDraw.Draw(card, 'RGBA')
+    rrect(c, (8, 14, w - 2, h), 44, (0, 0, 0, 90))  # shadow
+    rrect(c, (0, 0, w - 10, h - 14), 44, (250, 251, 255, 255))
+    rrect(c, (0, 0, w - 10, 96), 44, (236, 240, 248, 255)); c.rectangle((0, 60, w - 10, 96), fill=(236, 240, 248, 255))
+    for j, col in enumerate([(255, 95, 87), (255, 189, 46), (40, 200, 64)]): c.ellipse((34 + j * 40, 34, 60 + j * 40, 60), fill=col)
+    c.text((170, 26), title, font=font('b', 38), fill=(60, 66, 90))
+    return card, c
+
+def scene_card(seg, t, st, en, idx):
+    """Builds the centre visual for one line: chat (prompt/reply), checklist (bullets), or a big title card."""
+    kind = seg.get('kind'); w, h = 940, 860
+    if kind in ('prompt', 'reply'):
+        card, c = ui_window(w, 600, 'AI chat')
+        y = 140
+        if kind == 'prompt':
+            txt = seg.get('text', seg['say']); n = int(len(txt) * min(1, max(0, (t - st) / max(0.1, en - st - 0.2))))
+            f = font('sb', 44); lines = wrap(c, txt, f, w - 240); bh = len(lines) * 60 + 56
+            rrect(c, (170, y, w - 50, y + bh), 34, (14, 143, 126, 255)); left = n
+            for li, line in enumerate(lines):
+                c.text((206, y + 28 + li * 60), line[:max(0, left)], font=f, fill=(255, 255, 255)); left -= len(line) + 1
+            if n < len(txt) and int(t * 4) % 2 == 0: c.rectangle((206, y + bh - 70, 212, y + bh - 30), fill=(255, 255, 255))
+        else:
+            rep = seg.get('text', seg['say']); f = font('m', 42); lines = wrap(c, rep, f, w - 260); bh = len(lines) * 58 + 56
+            a = ease((t - st) / 0.5)
+            rrect(c, (40, y, w - 170, y + bh), 34, (232, 236, 246, 255))
+            for li, line in enumerate(lines): c.text((76, y + 28 + li * 58), line, font=f, fill=(31, 36, 50, int(255 * a)))
+            if seg.get('title'):
+                tf = font('black', 64); c.text((40, y + bh + 60), seg['title'], font=tf, fill=(14, 143, 126))
+        return card
+    if seg.get('bullets'):
+        card, c = ui_window(w, h, seg.get('title', 'Checklist'))
+        bs = seg['bullets']; per = (en - st) / max(1, len(bs)); y = 150
+        for j, b in enumerate(bs):
+            a = ease((t - st - j * per * 0.8) / 0.35)
+            if a <= 0: break
+            f = font('b', 46); lines = wrap(c, b, f, w - 230); bh = max(110, len(lines) * 60 + 40)
+            x0 = int(40 + (1 - a) * 120)
+            rrect(c, (x0, y, w - 50, y + bh), 28, (240, 244, 252, int(255 * a)))
+            c.ellipse((x0 + 24, y + bh / 2 - 30, x0 + 84, y + bh / 2 + 30), fill=(30, 170, 110, int(255 * a)))
+            c.text((x0 + 38, y + bh / 2 - 30), '✓', font=font('black', 46), fill=(255, 255, 255, int(255 * a)))
+            for li, line in enumerate(lines): c.text((x0 + 112, y + bh / 2 - len(lines) * 30 + li * 60), line, font=f, fill=(31, 36, 50, int(255 * a)))
+            y += bh + 26
+        return card
+    # big title card
+    card = Image.new('RGBA', (w, h), (0, 0, 0, 0)); c = ImageDraw.Draw(card, 'RGBA')
+    accents = [(14, 143, 126), (226, 87, 76), (109, 69, 224), (201, 133, 26)]
+    acc = accents[idx % len(accents)]
+    rrect(c, (8, 18, w - 2, h - 120), 56, (0, 0, 0, 80)); rrect(c, (0, 0, w - 10, h - 138), 56, acc + (255,))
+    for j in range(5):  # decorative rings
+        r = 120 + j * 60; c.ellipse((w - 220 - r, -r + 60, w - 220 + r, r + 60), outline=(255, 255, 255, 22), width=6)
+    if seg.get('emoji'):
+        em = emoji(seg['emoji'], 230); bob = int(10 * math.sin(t * 3)); card.paste(em, (60, 60 + bob), em)
+    title = seg.get('title') or ' '.join(seg['say'].split()[:5])
+    tf = font('black', 104); lines = wrap(c, title, tf, w - 130); y = h - 160 - len(lines) * 116
+    for li, line in enumerate(lines): c.text((60, y + li * 116), line, font=tf, fill=(255, 255, 255))
+    return card
+
+def frame_scene(spec, tl, t, total):
+    segs = spec['segments']; i, st, en = seg_at(tl, t); seg = segs[i]
+    im = background(t, [MINT, CORAL, (140, 120, 255), MINT, CORAL][i % 5]); d = ImageDraw.Draw(im, 'RGBA')
+    # hook flash: first 1.2s the hook title fills the screen
+    if i == 0 and t < 1.25:
+        title = seg.get('title') or seg['say']; tf = font('black', 132)
+        a = back(t / 0.3); lines = wrap(d, title, tf, W - 120)
+        layer = Image.new('RGBA', (W, len(lines) * 150 + 40), (0, 0, 0, 0)); c = ImageDraw.Draw(layer, 'RGBA')
+        for li, line in enumerate(lines):
+            lw = c.textlength(line, font=tf); stroke_text(c, ((W - lw) / 2, li * 150), line, tf, YEL if li == len(lines) - 1 else PAPER, 8)
+        paste_center(im, layer, W / 2, 920, 0.7 + 0.3 * a, min(1, a))
+        if seg.get('emoji'): paste_center(im, emoji(seg['emoji'], 180), W / 2, 400, 0.5 + 0.5 * a, min(1, a))
+        chrome(d, spec, t, total); return im.convert('RGB')
+    a = back((t - st) / 0.4); card = scene_card(seg, t, st, en, i)
+    drift = 1 + 0.02 * ((t - st) / max(0.5, en - st))
+    paste_center(im, card, W / 2, 820 + int((1 - min(1, a)) * 140), (0.9 + 0.1 * min(1, a)) * drift, min(1, a * 1.3))
+    lower_caption(d, seg, t, st, en)
+    chrome(d, spec, t, total)
+    return im.convert('RGB')
+
+STYLES = {'chat': frame_chat, 'kinetic': frame_kinetic, 'steps': frame_steps, 'scene': frame_scene}
 
 def render(spec, out, style, sid, tmp):
     os.makedirs(tmp, exist_ok=True)

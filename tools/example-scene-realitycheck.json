@@ -1,0 +1,6 @@
+{"series":"AI Reality Check #02","segments":[
+ {"kind":"hook","title":"Locked ChatGPT chats have a catch","say":"ChatGPT can lock your chats now. But there's a catch.","emoji":"🔒"},
+ {"kind":"line","title":"How it works","bullets":["4-digit PIN or Face ID","Hidden from history","Hidden from search"],"say":"Locked chats sit behind a four digit PIN, or Face ID, and leave your history and search."},
+ {"kind":"line","title":"Forget the PIN = chats deleted","say":"But if you forget the PIN, resetting it permanently deletes every locked chat.","emoji":"⚠️"},
+ {"kind":"line","title":"Hidden ≠ encrypted","say":"And locking isn't encryption. It hides chats. It doesn't change how they're stored.","emoji":"🕵️"},
+ {"kind":"cta","say":"Use a PIN you'll remember. Follow for honest AI tips.","hot":["follow"],"emoji":"👀"}]}

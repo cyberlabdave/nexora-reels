@@ -1,0 +1,7 @@
+{"series":"Prompt Drop #01","segments":[
+ {"kind":"hook","title":"Stop saying \"make it better\"","say":"Stop telling AI to make it better.","emoji":"✋"},
+ {"kind":"line","title":"AI can't read your mind","say":"It has no idea what better means to you.","emoji":"🤷"},
+ {"kind":"line","title":"Give it 3 things","bullets":["A reader: busy people","A limit: cut 30%","A rule: keep every fact"],"say":"Give it a reader, a limit, and a rule."},
+ {"kind":"prompt","say":"Rewrite this for busy readers. Cut thirty percent. Keep every fact. Then list what you cut and why.","text":"Rewrite this for busy readers. Cut 30%. Keep every fact. Then list what you cut and why."},
+ {"kind":"reply","title":"Now you can check it","say":"That last line lets you check its work instead of trusting it.","text":"Here's the shorter version… And here's what I cut, and why:"},
+ {"kind":"cta","say":"Save this, and follow for one prompt a day.","hot":["save","follow"],"emoji":"🔖"}]}
