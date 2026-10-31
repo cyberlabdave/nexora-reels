@@ -416,12 +416,14 @@ def frame_scene(spec, tl, t, total):
     # hook flash: first 1.2s the hook title fills the screen
     if i == 0 and t < 1.25:
         title = seg.get('title') or seg['say']; tf = font('black', 132)
-        a = back(t / 0.3); lines = wrap(d, title, tf, W - 120)
+        # Frame-1 hook (Creative Director, Oct 31): the hook is fully visible on the very first frame
+        # (no fade-in from an empty screen) and 'slams' from 108% to 100% in 0.25s for motion.
+        s = 1.08 - 0.08 * ease(t / 0.25); lines = wrap(d, title, tf, W - 120)
         layer = Image.new('RGBA', (W, len(lines) * 150 + 40), (0, 0, 0, 0)); c = ImageDraw.Draw(layer, 'RGBA')
         for li, line in enumerate(lines):
             lw = c.textlength(line, font=tf); stroke_text(c, ((W - lw) / 2, li * 150), line, tf, YEL if li == len(lines) - 1 else PAPER, 8)
-        paste_center(im, layer, W / 2, 920, 0.7 + 0.3 * a, min(1, a))
-        if seg.get('emoji'): paste_center(im, emoji(seg['emoji'], 180), W / 2, 400, 0.5 + 0.5 * a, min(1, a))
+        paste_center(im, layer, W / 2, 920, s, 1.0)
+        if seg.get('emoji'): paste_center(im, emoji(seg['emoji'], 180), W / 2, 400, s + 0.04 * math.sin(t * 9), 1.0)
         chrome(d, spec, t, total); return im.convert('RGB')
     a = back((t - st) / 0.4); card = scene_card(seg, t, st, en, i)
     drift = 1 + 0.02 * ((t - st) / max(0.5, en - st))
