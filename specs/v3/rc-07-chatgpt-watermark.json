@@ -1,0 +1,56 @@
+{
+ "series": "AI Reality Check #07",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Is ChatGPT watermarking your essays?",
+   "say": "Is ChatGPT watermarking your essays?",
+   "emoji": "🔍"
+  },
+  {
+   "kind": "line",
+   "title": "Per OpenAI, as reported",
+   "say": "Per OpenAI's October fifth announcement, as reported:",
+   "emoji": "📰"
+  },
+  {
+   "kind": "line",
+   "title": "EU text: invisible watermark",
+   "say": "ChatGPT text in the EU gets an invisible watermark, in the coming weeks.",
+   "emoji": "🇪🇺"
+  },
+  {
+   "kind": "line",
+   "title": "A pattern in word choice",
+   "say": "It's a pattern in word choice. You can't see it.",
+   "emoji": "🔤"
+  },
+  {
+   "kind": "line",
+   "title": "What's true",
+   "bullets": [
+    "Outside the EU: off by default",
+    "No public checker"
+   ],
+   "say": "Outside the EU, it's off by default. And there's no public checker."
+  },
+  {
+   "kind": "line",
+   "title": "What to do",
+   "bullets": [
+    "Check your school's AI policy",
+    "Say when you used AI"
+   ],
+   "say": "Check your school's AI policy, and say when you used AI."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this, and follow for honest AI news.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "👀"
+  }
+ ]
+}

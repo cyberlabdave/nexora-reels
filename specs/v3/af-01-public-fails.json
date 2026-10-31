@@ -1,0 +1,75 @@
+{
+ "series": "AI Fails #01",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "3 real AI fails, on record",
+   "say": "Three real AI fails, all on the public record.",
+   "emoji": "👻"
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "say": "Not tested by us: based on official info and news.",
+   "emoji": "📄"
+  },
+  {
+   "kind": "line",
+   "title": "1. Glue on pizza",
+   "say": "One: Google's AI search answers suggested glue on pizza.",
+   "emoji": "🍕"
+  },
+  {
+   "kind": "line",
+   "title": "Source: Google's own blog",
+   "bullets": [
+    "Advice came from forum content"
+   ],
+   "say": "Google's own blog said it came from forum content."
+  },
+  {
+   "kind": "line",
+   "title": "2. A refund rule that wasn't",
+   "say": "Two: Air Canada's chatbot told a customer he could get a bereavement refund. The real policy said no.",
+   "emoji": "✈️"
+  },
+  {
+   "kind": "line",
+   "title": "Source: CBS News",
+   "bullets": [
+    "A tribunal made the airline pay"
+   ],
+   "say": "A tribunal ordered the airline to pay."
+  },
+  {
+   "kind": "line",
+   "title": "3. Six fake court cases",
+   "say": "Three: lawyers filed six fake cases ChatGPT made up.",
+   "emoji": "⚖️"
+  },
+  {
+   "kind": "line",
+   "title": "Source: Reuters",
+   "bullets": [
+    "A judge fined them"
+   ],
+   "say": "A judge fined them, Reuters reported."
+  },
+  {
+   "kind": "line",
+   "title": "The fix",
+   "bullets": [
+    "Check the original source"
+   ],
+   "say": "The fix: check AI answers against the original source."
+  },
+  {
+   "kind": "cta",
+   "say": "Comment if you want a real hands-on test.",
+   "hot": [
+    "comment"
+   ],
+   "emoji": "👇"
+  }
+ ]
+}

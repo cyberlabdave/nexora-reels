@@ -1,0 +1,56 @@
+{
+ "series": "60-Second Workflow #01",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Meeting notes → follow-up email",
+   "say": "Meeting notes that stay on your Mac, then the follow-up email.",
+   "emoji": "📝"
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "say": "Not tested by us: based on official info.",
+   "emoji": "📄"
+  },
+  {
+   "kind": "line",
+   "title": "Step 1: Google AI Edge Foresight",
+   "bullets": [
+    "Experimental Mac app",
+    "Fills in your shorthand notes",
+    "Fully local, even offline"
+   ],
+   "say": "Step one: Google AI Edge Foresight, an experimental Mac app. Google says it fills in your shorthand notes, fully local, even offline."
+  },
+  {
+   "kind": "line",
+   "title": "Step 2: paste into ChatGPT",
+   "say": "Step two: paste the notes into ChatGPT. OpenAI says its free plan drafts emails.",
+   "emoji": "📋"
+  },
+  {
+   "kind": "prompt",
+   "say": "Ask for an action item table, then a short follow-up email.",
+   "text": "Action-item table, then a short email."
+  },
+  {
+   "kind": "line",
+   "title": "Step 3: you check",
+   "bullets": [
+    "Names and dates",
+    "Tell people before you record"
+   ],
+   "say": "Step three: check names and dates yourself, and tell people before you record."
+  },
+  {
+   "kind": "cta",
+   "say": "Comment if you want a real hands-on test. Save this for your next client call.",
+   "hot": [
+    "comment",
+    "save"
+   ],
+   "emoji": "👇"
+  }
+ ]
+}

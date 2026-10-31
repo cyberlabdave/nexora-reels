@@ -1,0 +1,52 @@
+{
+ "series": "Prompt Drop #08",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "40 emails → the point in 10s",
+   "say": "Forty email thread? Get the point in ten seconds.",
+   "emoji": "📨"
+  },
+  {
+   "kind": "line",
+   "title": "Paste the whole thread",
+   "say": "Paste the whole thread, then type this.",
+   "emoji": "📋"
+  },
+  {
+   "kind": "prompt",
+   "say": "Give me three bullets: what happened, what's decided, what's still open.",
+   "text": "3 bullets: happened, decided, open."
+  },
+  {
+   "kind": "prompt",
+   "say": "Then tell me what I need to do next, and by when.",
+   "text": "What do I do next, and by when?"
+  },
+  {
+   "kind": "line",
+   "title": "What you get",
+   "bullets": [
+    "What happened",
+    "What's decided",
+    "What's still open",
+    "Your next step"
+   ],
+   "say": "Happened, decided, open, and your next step."
+  },
+  {
+   "kind": "line",
+   "title": "Check the deadlines",
+   "say": "Check the deadlines it pulls out against the emails before you act.",
+   "emoji": "📅"
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for the next reply-all mess.",
+   "hot": [
+    "save"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}

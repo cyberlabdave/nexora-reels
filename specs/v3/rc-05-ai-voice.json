@@ -1,0 +1,52 @@
+{
+ "series": "AI Reality Check #05",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "People can tell you used AI",
+   "say": "People can often tell you used AI.",
+   "emoji": "✍️"
+  },
+  {
+   "kind": "line",
+   "title": "One safe, average voice",
+   "bullets": [
+    "Same openers",
+    "Same tidy lists",
+    "Same words"
+   ],
+   "say": "Out of the box, chatbots write in one safe, average voice. Same openers, same lists, same words."
+  },
+  {
+   "kind": "line",
+   "title": "Fix: give it YOU",
+   "say": "Fix it by giving it you. Paste three things you actually wrote.",
+   "emoji": "🫵"
+  },
+  {
+   "kind": "prompt",
+   "say": "Match this voice for the draft below.",
+   "text": "Match this voice for the draft below."
+  },
+  {
+   "kind": "prompt",
+   "say": "Flag any line I wouldn't say.",
+   "text": "Flag any line I wouldn't say."
+  },
+  {
+   "kind": "line",
+   "title": "You still read it",
+   "say": "You still read it before you send it.",
+   "emoji": "👀"
+  },
+  {
+   "kind": "cta",
+   "say": "Save this, and follow for honest AI tips, no hype.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}

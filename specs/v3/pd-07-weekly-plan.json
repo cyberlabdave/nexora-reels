@@ -1,0 +1,52 @@
+{
+ "series": "Prompt Drop #07",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Plan your week in 60 seconds",
+   "say": "Plan your whole week in sixty seconds.",
+   "emoji": "🗓️"
+  },
+  {
+   "kind": "line",
+   "title": "Brain-dump everything",
+   "say": "Brain dump everything, then type this.",
+   "emoji": "🧠"
+  },
+  {
+   "kind": "prompt",
+   "say": "Sort into must, should, drop.",
+   "text": "Sort into must, should, drop."
+  },
+  {
+   "kind": "prompt",
+   "say": "Put the musts into my calendar gaps. Max three big things a day.",
+   "text": "Musts into my gaps. Max 3 a day."
+  },
+  {
+   "kind": "line",
+   "title": "Must · Should · Drop",
+   "bullets": [
+    "Must: in your calendar",
+    "Should: if there's time",
+    "Drop: gone"
+   ],
+   "say": "Must, should, drop."
+  },
+  {
+   "kind": "line",
+   "title": "The drop list is the win",
+   "say": "The drop list is the real win.",
+   "emoji": "🗑️"
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for Monday, and follow for one prompt a day.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}

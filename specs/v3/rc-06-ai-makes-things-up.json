@@ -1,0 +1,47 @@
+{
+ "series": "AI Reality Check #06",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "AI confidently makes things up",
+   "say": "AI will confidently make things up.",
+   "emoji": "🤥"
+  },
+  {
+   "kind": "line",
+   "title": "Fake, fake, fake",
+   "bullets": [
+    "Fake quotes",
+    "Fake numbers",
+    "Fake sources"
+   ],
+   "say": "Fake quotes, fake numbers, even fake sources."
+  },
+  {
+   "kind": "line",
+   "title": "It's called hallucination",
+   "say": "It's called hallucination, and every chatbot does it sometimes.",
+   "emoji": "🌀"
+  },
+  {
+   "kind": "prompt",
+   "say": "Add this line to research prompts: only use facts you can link to. Say not sure otherwise.",
+   "text": "Only facts you can link. Else 'not sure'."
+  },
+  {
+   "kind": "line",
+   "title": "Then click the links",
+   "say": "Then actually click the links. That part is on you.",
+   "emoji": "🔗"
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for your next research task, and follow for honest AI tips.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}

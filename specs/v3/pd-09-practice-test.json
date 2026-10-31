@@ -1,0 +1,47 @@
+{
+ "series": "Prompt Drop #09",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Lecture notes → practice test",
+   "say": "Turn tonight's lecture notes into a practice test.",
+   "emoji": "📚"
+  },
+  {
+   "kind": "line",
+   "title": "Paste notes, run 3 prompts",
+   "say": "Paste your notes, then run three prompts.",
+   "emoji": "📋"
+  },
+  {
+   "kind": "prompt",
+   "say": "One: summarize these notes in five bullets a beginner would understand.",
+   "text": "Summarize in 5 beginner bullets."
+  },
+  {
+   "kind": "prompt",
+   "say": "Two: make ten flashcards from these notes.",
+   "text": "Make 10 flashcards from these notes."
+  },
+  {
+   "kind": "prompt",
+   "say": "Three: quiz me, one question at a time, and tell me what I got wrong.",
+   "text": "Quiz me: 5 questions, one at a time."
+  },
+  {
+   "kind": "line",
+   "title": "Your notes are the source",
+   "say": "Then check its answers against your notes.",
+   "emoji": "✅"
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for exam week, and follow for one prompt a day.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}

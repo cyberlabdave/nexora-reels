@@ -1,0 +1,53 @@
+{
+ "series": "AI Reality Check #04",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Long chats make AI worse",
+   "say": "Long chats make AI worse.",
+   "emoji": "🧵"
+  },
+  {
+   "kind": "line",
+   "title": "It forgets the start",
+   "bullets": [
+    "Your rules",
+    "Your tone",
+    "The version you agreed on"
+   ],
+   "say": "After enough back and forth, it can lose your rules, your tone, which version you agreed on."
+  },
+  {
+   "kind": "line",
+   "title": "The 10-second fix",
+   "say": "The fix takes ten seconds.",
+   "emoji": "⏱️"
+  },
+  {
+   "kind": "prompt",
+   "say": "Summarize what we've decided so far, as a bullet list.",
+   "text": "Summarize what we've decided so far."
+  },
+  {
+   "kind": "line",
+   "title": "Paste it into a new chat",
+   "say": "Then paste that into a new chat and carry on.",
+   "emoji": "🆕"
+  },
+  {
+   "kind": "line",
+   "title": "ChatGPT, Claude or Gemini",
+   "say": "Works in ChatGPT, Claude or Gemini.",
+   "emoji": "✅"
+  },
+  {
+   "kind": "cta",
+   "say": "Save this, and follow for honest AI tips, no hype.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "👀"
+  }
+ ]
+}

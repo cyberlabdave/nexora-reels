@@ -1,0 +1,46 @@
+{
+ "series": "Prompt Drop #05",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "AI agrees with you too much",
+   "say": "AI agrees with you too much.",
+   "emoji": "👍"
+  },
+  {
+   "kind": "line",
+   "title": "Make it argue back",
+   "say": "Make it argue back.",
+   "emoji": "🥊"
+  },
+  {
+   "kind": "prompt",
+   "say": "Here's my plan. Give me the three strongest reasons it fails.",
+   "text": "My plan: 3 reasons it fails?"
+  },
+  {
+   "kind": "prompt",
+   "say": "Then tell me what I'd need to believe for it to work.",
+   "text": "What must I believe for it to work?"
+  },
+  {
+   "kind": "line",
+   "title": "Objections, before your boss",
+   "bullets": [
+    "Reason 1 it fails",
+    "Reason 2 it fails",
+    "Reason 3 it fails"
+   ],
+   "say": "You get the objections before your boss or your customers do."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for your next big decision, and follow for one prompt a day.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}
