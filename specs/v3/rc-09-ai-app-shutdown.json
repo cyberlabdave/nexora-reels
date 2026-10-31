@@ -1,0 +1,47 @@
+{
+"series": "AI Reality Check #09",
+"segments": [
+{
+"kind": "hook",
+"title": "It had your inbox. Gone Nov 6.",
+"say": "This AI assistant had people's email and calendar. It shuts down November sixth.",
+"emoji": "⚠️"
+},
+{
+"kind": "line",
+"title": "Ollie closes Nov 6",
+"say": "Ollie connected to email and calendar. TechCrunch says it closes November sixth.",
+"emoji": "⏳"
+},
+{
+"kind": "line",
+"title": "New AI apps can fold fast",
+"say": "New AI assistants launch every week. Not all of them last.",
+"emoji": "📉"
+},
+{
+"kind": "line",
+"title": "2 checks before you connect",
+"bullets": [
+"Can I export my data?",
+"How do I remove its access?"
+],
+"say": "Before you connect your email, check: can you export your data, and remove its access?"
+},
+{
+"kind": "line",
+"title": "Clean up old access",
+"say": "Your Google or Microsoft account settings list apps with access. Remove ones you don't use.",
+"emoji": "🔑"
+},
+{
+"kind": "cta",
+"say": "Save this, and follow for honest AI tips.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}

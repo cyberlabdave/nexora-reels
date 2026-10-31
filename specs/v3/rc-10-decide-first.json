@@ -1,0 +1,51 @@
+{
+"series": "AI Reality Check #10",
+"segments": [
+{
+"kind": "hook",
+"title": "Experts copied AI's lean 86%",
+"say": "Experts went with their AI's hidden lean eighty six percent of the time.",
+"emoji": "🧭"
+},
+{
+"kind": "line",
+"title": "A coin flip set the lean",
+"say": "In an Anthropic study, a coin flip picked which option each analyst's AI leaned toward. Nobody was told.",
+"emoji": "🪙"
+},
+{
+"kind": "line",
+"title": "The setup",
+"bullets": [
+"50 professional analysts",
+"4 judgment calls",
+"Nobody spotted the planted leans"
+],
+"say": "Fifty analysts, four judgment calls. None suspected the leans were planted."
+},
+{
+"kind": "line",
+"title": "The fix: decide first",
+"bullets": [
+"Write your answer first",
+"Then ask the AI",
+"Ask for the other side"
+],
+"say": "The fix: write down your own answer first. Then ask the AI."
+},
+{
+"kind": "prompt",
+"say": "Then ask: give me the strongest case for the option I didn't pick.",
+"text": "Give me the strongest case for the option I didn't pick."
+},
+{
+"kind": "cta",
+"say": "Save this, and follow for honest AI tips, no hype.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}

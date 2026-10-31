@@ -1,0 +1,54 @@
+{
+"series": "Showdown #1",
+"segments": [
+{
+"kind": "hook",
+"title": "GPT-6 vs Gemini 4 Argon",
+"say": "GPT-6 versus Gemini 4 Argon, from the official pages.",
+"emoji": "⚔️"
+},
+{
+"kind": "line",
+"title": "Not tested by us",
+"say": "Not tested by us: based on official info.",
+"emoji": "📄"
+},
+{
+"kind": "line",
+"title": "GPT-6, per OpenAI",
+"bullets": [
+"Answers with visuals and buttons",
+"A thinking slider",
+"Rolling out to paid plans"
+],
+"say": "OpenAI says GPT-6 can answer with visuals and buttons, with a thinking slider. It's rolling out to paid plans."
+},
+{
+"kind": "line",
+"title": "Argon, per Google",
+"bullets": [
+"Tasks that run while you're away",
+"40+ connected apps",
+"Google AI Pro and Ultra"
+],
+"say": "Google says Argon runs tasks while you're away and connects to over forty apps. It's for Google AI Pro and Ultra."
+},
+{
+"kind": "line",
+"title": "On a free plan?",
+"bullets": [
+"ChatGPT Free: GPT-5.6 Luna",
+"Argon: listed for Pro and Ultra"
+],
+"say": "On the free plan, ChatGPT uses a lighter model. Google lists Argon for Pro and Ultra."
+},
+{
+"kind": "cta",
+"say": "Comment if you want a real hands-on test.",
+"hot": [
+"comment"
+],
+"emoji": "👇"
+}
+]
+}
