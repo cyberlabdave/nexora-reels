@@ -1,0 +1,47 @@
+{
+"series": "Prompt Drop #15",
+"segments": [
+{
+"kind": "hook",
+"title": "No reply? Send this",
+"say": "Got no reply? This prompt writes a follow-up people actually answer.",
+"emoji": "📨"
+},
+{
+"kind": "line",
+"title": "Paste your first email",
+"say": "Paste the email you sent, and how long ago you sent it.",
+"emoji": "📋"
+},
+{
+"kind": "prompt",
+"say": "Write a three line follow-up. One clear question. No guilt trip.",
+"text": "Write a 3-line follow-up. One clear question. No guilt-trip."
+},
+{
+"kind": "reply",
+"title": "Short beats pushy",
+"say": "Short and specific is easier to answer than pushy.",
+"text": "Hi Sam, quick nudge on my note from last week. Could you confirm by Friday? Thanks!"
+},
+{
+"kind": "line",
+"title": "Easy to answer",
+"bullets": [
+"One question",
+"A clear deadline",
+"An easy yes or no"
+],
+"say": "One question, a clear deadline, an easy yes or no."
+},
+{
+"kind": "cta",
+"say": "Save this for your next unanswered email, and follow for one prompt a day.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}

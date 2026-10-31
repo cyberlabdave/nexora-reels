@@ -1,0 +1,45 @@
+{
+"series": "AI Reality Check #11",
+"segments": [
+{
+"kind": "hook",
+"title": "You wrote it. Detector says AI.",
+"say": "You wrote it yourself, and an AI detector still says it's AI.",
+"emoji": "🚩"
+},
+{
+"kind": "line",
+"title": "Detectors guess",
+"say": "AI detectors give a guess, not proof. They can flag human writing.",
+"emoji": "🎲"
+},
+{
+"kind": "line",
+"title": "Keep proof of your work",
+"bullets": [
+"Version history",
+"Notes and outline",
+"Early drafts"
+],
+"say": "So keep proof: version history, your notes, and early drafts."
+},
+{
+"kind": "line",
+"title": "Where to find it",
+"bullets": [
+"Google Docs: File → Version history",
+"Word: files saved to OneDrive"
+],
+"say": "Google Docs and Word both keep version history for files saved online."
+},
+{
+"kind": "cta",
+"say": "Save this before your next deadline, and follow for honest AI tips.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}

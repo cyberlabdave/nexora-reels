@@ -1,0 +1,47 @@
+{
+"series": "Prompt Drop #14",
+"segments": [
+{
+"kind": "hook",
+"title": "Group can't pick a restaurant?",
+"say": "Your group chat can't pick a restaurant? Let AI settle it.",
+"emoji": "🍽️"
+},
+{
+"kind": "line",
+"title": "Paste everyone's wishes",
+"bullets": [
+"Food rules",
+"Budget",
+"Area and time"
+],
+"say": "Paste what everyone wants: food rules, budget, area and time."
+},
+{
+"kind": "prompt",
+"say": "Suggest three kinds of places that fit everyone, say who compromises, and write a poll.",
+"text": "3 options that fit everyone. Who compromises? Write a poll."
+},
+{
+"kind": "reply",
+"title": "Instant group poll",
+"say": "It even writes the poll for your group chat.",
+"text": "A) Thai near the station  B) Pizza, veggie menu  C) Tapas. Vote! 🗳️"
+},
+{
+"kind": "line",
+"title": "Check it's open",
+"say": "Check each place is real and open before you go. AI can be out of date.",
+"emoji": "📍"
+},
+{
+"kind": "cta",
+"say": "Send this to your group chat, and follow for one prompt a day.",
+"hot": [
+"send",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}
