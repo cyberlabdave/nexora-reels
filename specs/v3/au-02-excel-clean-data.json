@@ -1,0 +1,47 @@
+{
+"series": "AI Update #2",
+"segments": [
+{
+"kind": "hook",
+"title": "Excel now finds your mess",
+"say": "Copilot in Excel can now find the mess in your spreadsheet for you.",
+"emoji": "🧹"
+},
+{
+"kind": "line",
+"title": "It looks for",
+"bullets": [
+"Duplicates",
+"Messy formatting",
+"Wrong data types"
+],
+"say": "Microsoft says the clean data skill scans for duplicates, messy formatting and wrong data types."
+},
+{
+"kind": "line",
+"title": "You approve every fix",
+"say": "It suggests fixes right in the file, and you approve every change.",
+"emoji": "✅"
+},
+{
+"kind": "prompt",
+"say": "So in a workbook with Copilot, just ask it to check your data.",
+"text": "Find duplicates and formatting problems in this sheet."
+},
+{
+"kind": "line",
+"title": "If your work Excel has Copilot",
+"say": "It's in Microsoft three sixty five Copilot. Microsoft says it rolled out in October.",
+"emoji": "💼"
+},
+{
+"kind": "cta",
+"say": "Save this, and follow for one AI update a day.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}
