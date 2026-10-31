@@ -2,7 +2,7 @@
  {"kind":"hook","title":"Your AI might be months behind","say":"Your AI might be months behind the news.","emoji":"📅"},
  {"kind":"line","title":"Every model has a cutoff date","say":"Every model is trained up to a cutoff date.","emoji":"🗓️"},
  {"kind":"line","title":"Newer? It may guess","say":"Ask about something newer, and it can fill the gap with a confident guess.","emoji":"🤔"},
- {"kind":"prompt","say":"Before you trust it on anything recent, ask: what date does your information go up to?","text":"What date does your information go up to?"},
+ {"kind":"prompt","say":"Before you trust it on anything recent, ask: what date does your information go up to?","text":"What date does your info go up to?"},
  {"kind":"prompt","say":"Then: search the web for anything newer, and link your sources.","text":"Search the web for anything newer and link your sources."},
  {"kind":"line","title":"No web search? Unchecked.","say":"No web search on? Treat recent facts as unchecked.","emoji":"⚠️"},
  {"kind":"cta","say":"Follow for honest AI tips, no hype.","hot":["follow"],"emoji":"👀"}]}

@@ -9,7 +9,7 @@
 },
 {
 "kind": "line",
-"title": "46% will ask AI first",
+"title": "46% will compare prices with AI",
 "say": "In a new survey, forty six percent of US shoppers plan to use AI to compare prices.",
 "emoji": "📊"
 },
@@ -43,5 +43,6 @@
 ],
 "emoji": "🔖"
 }
-]
+],
+"host": true
 }
