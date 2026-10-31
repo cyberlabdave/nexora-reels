@@ -1,0 +1,7 @@
+{"series":"Prompt Drop #03","segments":[
+ {"kind":"hook","title":"1-hour meeting → 5 lines","say":"Turn a one hour meeting into five lines.","emoji":"📝"},
+ {"kind":"line","title":"Paste your notes","say":"Paste your notes or transcript, then type this.","emoji":"📋"},
+ {"kind":"prompt","say":"List every decision, every owner, every deadline. Flag anything that has no owner.","text":"List every decision, every owner, every deadline. Flag anything that has no owner."},
+ {"kind":"reply","title":"Finds work nobody owns","say":"That last line finds the work nobody picked up.","text":"Decisions: … Owners: … Deadlines: … ⚠ No owner yet: …"},
+ {"kind":"line","title":"Works in","bullets":["ChatGPT","Claude","Gemini"],"say":"Works in ChatGPT, Claude or Gemini."},
+ {"kind":"cta","say":"Save it for your next meeting, and follow for one prompt a day.","hot":["save","follow"],"emoji":"🔖"}]}
