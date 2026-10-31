@@ -1,0 +1,43 @@
+{
+"series": "Prompt Drop #13",
+"segments": [
+{
+"kind": "hook",
+"title": "Receipt photo → spreadsheet row",
+"say": "Snap a receipt, get a spreadsheet row.",
+"emoji": "🧾"
+},
+{
+"kind": "line",
+"title": "Upload the photo",
+"say": "Upload a photo of the receipt to ChatGPT, Claude or Gemini.",
+"emoji": "📸"
+},
+{
+"kind": "prompt",
+"say": "Read this receipt. Give me vendor, date, total, tax and category as one CSV row.",
+"text": "Read this receipt. Vendor, date, total, tax, category: one CSV row."
+},
+{
+"kind": "reply",
+"title": "Paste it in your sheet",
+"say": "Paste that row straight into your expense sheet.",
+"text": "Corner Café, Nov 2, [total], [tax], Meals"
+},
+{
+"kind": "line",
+"title": "Check the total",
+"say": "Always check the total against the receipt. AI can misread numbers.",
+"emoji": "👀"
+},
+{
+"kind": "cta",
+"say": "Save this for tax season, and follow for one prompt a day.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}
