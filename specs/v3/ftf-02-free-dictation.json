@@ -1,0 +1,58 @@
+{
+ "series": "Free Tool Friday #02",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Stop typing: 3 free AI tools",
+   "say": "Stop typing. Three AI dictation tools with free plans.",
+   "emoji": "🎙️"
+  },
+  {
+   "kind": "line",
+   "title": "1. Granola Voice Typing",
+   "say": "One: Granola Voice Typing, free on every Granola plan.",
+   "emoji": "1️⃣"
+  },
+  {
+   "kind": "line",
+   "title": "Granola: Mac only (beta)",
+   "bullets": [
+    "Hold fn and talk",
+    "Removes the ums",
+    "Adds punctuation"
+   ],
+   "say": "On a Mac, hold F N and talk. It removes the ums and adds punctuation."
+  },
+  {
+   "kind": "line",
+   "title": "2. Wispr Flow",
+   "bullets": [
+    "Mac, Windows",
+    "iPhone, Android",
+    "Weekly word cap"
+   ],
+   "say": "Two: Wispr Flow. Free on Mac, Windows, iPhone and Android, with a weekly word cap."
+  },
+  {
+   "kind": "line",
+   "title": "3. Superwhisper",
+   "say": "Three: Superwhisper. Its free plan dictates with on-device models.",
+   "emoji": "3️⃣"
+  },
+  {
+   "kind": "line",
+   "title": "Free plans have limits",
+   "say": "Free plans change, so check each one's limits.",
+   "emoji": "⚠️"
+  },
+  {
+   "kind": "cta",
+   "say": "Save this, and follow for a free tool every Friday.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}

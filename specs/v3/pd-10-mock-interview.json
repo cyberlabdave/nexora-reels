@@ -1,0 +1,47 @@
+{
+ "series": "Prompt Drop #10",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Interview? Let AI grill you first",
+   "say": "Job interview this week? Let AI grill you first.",
+   "emoji": "🎤"
+  },
+  {
+   "kind": "line",
+   "title": "Don't ask for tips",
+   "say": "Don't ask it for tips. Make it run the interview.",
+   "emoji": "🙅"
+  },
+  {
+   "kind": "prompt",
+   "say": "Interview me for this role. Ask one question at a time.",
+   "text": "Interview me. One question at a time."
+  },
+  {
+   "kind": "line",
+   "title": "After each answer",
+   "bullets": [
+    "One strength",
+    "One fix",
+    "A stronger version"
+   ],
+   "say": "After each answer: one strength, one fix, and a stronger version. Stop after five."
+  },
+  {
+   "kind": "reply",
+   "title": "Answer like it's real",
+   "say": "Answer it like the real thing. Paste in the job post for sharper questions.",
+   "text": "Question 1: Tell me about a time you missed a deadline."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for your next interview, and follow for one AI prompt a day.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}

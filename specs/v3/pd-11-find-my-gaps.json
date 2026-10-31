@@ -1,0 +1,46 @@
+{
+ "series": "Prompt Drop #11",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Make AI find your gaps",
+   "say": "Make AI find the gaps in what you know. Part two.",
+   "emoji": "🧠"
+  },
+  {
+   "kind": "line",
+   "title": "Explain it yourself first",
+   "say": "Explain the topic in your own words first.",
+   "emoji": "✍️"
+  },
+  {
+   "kind": "prompt",
+   "say": "I'll explain this topic in my own words. Point out what I got wrong or left out.",
+   "text": "What did I get wrong or leave out?"
+  },
+  {
+   "kind": "prompt",
+   "say": "Then ask me one question about my weakest part.",
+   "text": "Ask me about my weakest part."
+  },
+  {
+   "kind": "line",
+   "title": "AI's job: find the holes",
+   "bullets": [
+    "What you got wrong",
+    "What you left out",
+    "What to study next"
+   ],
+   "say": "Now you know exactly what to study next, instead of rereading everything."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this before your next exam, and follow for one AI prompt a day.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "emoji": "🔖"
+  }
+ ]
+}
