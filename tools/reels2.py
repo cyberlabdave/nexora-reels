@@ -93,6 +93,10 @@ def build_audio(segs, sid, tmp):
         sfx[s0:s0 + L] += (0.18 * nz * np.sin(np.pi * tt / 0.28) ** 2)[:len(sfx[s0:s0 + L])]
     mix = voice + bed * (0.16 - 0.09 * np.clip(env * 3, 0, 1)) + sfx
     mix = np.clip(mix / max(1, np.abs(mix).max() / 0.95), -1, 1)
+    global VOICE_ENV
+    hop = sr // FPS; nfr = len(voice) // hop
+    ve = np.abs(voice[:nfr * hop]).reshape(nfr, hop).mean(1)
+    VOICE_ENV = np.clip(ve / (np.percentile(ve[ve > 0.005], 90) + 1e-6 if (ve > 0.005).any() else 1), 0, 1)
     path = os.path.join(tmp, 'mix.wav')
     with wave.open(path, 'wb') as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((mix * 32767).astype(np.int16).tobytes())
@@ -428,9 +432,54 @@ def frame_scene(spec, tl, t, total):
     a = back((t - st) / 0.4); card = scene_card(seg, t, st, en, i)
     drift = 1 + 0.02 * ((t - st) / max(0.5, en - st))
     paste_center(im, card, W / 2, 820 + int((1 - min(1, a)) * 140), (0.9 + 0.1 * min(1, a)) * drift, min(1, a * 1.3))
-    lower_caption(d, seg, t, st, en)
+    lower_caption(d, seg, t, st, en, y=1575 if spec.get('host') else 1500)
     chrome(d, spec, t, total)
     return im.convert('RGB')
+
+# ---- AI host (Creative Director proposal, Oct 31): an original, drawn, openly-AI presenter ----
+# Cartoon only (never photoreal, never based on a real person). Mouth follows the voice; eyes blink.
+VOICE_ENV = None
+_host_base = {}
+def host_sprite(mouth, blink, t, size=250):
+    S = 600; im = Image.new('RGBA', (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(im, 'RGBA')
+    d.ellipse((10, 10, S - 10, S - 10), fill=(22, 30, 48, 255), outline=MINT + (255,), width=16)   # badge
+    mask = Image.new('L', (S, S), 0); ImageDraw.Draw(mask).ellipse((26, 26, S - 26, S - 26), fill=255)
+    p = Image.new('RGBA', (S, S), (0, 0, 0, 0)); c = ImageDraw.Draw(p, 'RGBA')
+    bob = int(6 * math.sin(t * 2.2))
+    c.ellipse((90, 430 + bob, 510, 760 + bob), fill=(37, 56, 112))                                   # shoulders / top
+    c.polygon([(260, 440 + bob), (300, 500 + bob), (340, 440 + bob)], fill=(250, 251, 255))           # collar
+    rrect(c, (330, 520 + bob, 410, 566 + bob), 14, MINT + (255,)); c.text((344, 520 + bob), 'AI', font=font('black', 38), fill=(14, 20, 32))
+    c.rounded_rectangle((262, 380 + bob, 338, 450 + bob), 20, fill=(231, 176, 140))                   # neck
+    c.ellipse((160, 120 + bob, 440, 420 + bob), fill=(240, 190, 152))                                 # face
+    c.ellipse((146, 240 + bob, 186, 300 + bob), fill=(231, 176, 140)); c.ellipse((414, 240 + bob, 454, 300 + bob), fill=(231, 176, 140))  # ears
+    c.chord((150, 90 + bob, 450, 330 + bob), 180, 360, fill=(44, 38, 62))                             # hair
+    c.ellipse((152, 150 + bob, 214, 262 + bob), fill=(44, 38, 62)); c.ellipse((386, 150 + bob, 448, 262 + bob), fill=(44, 38, 62))
+    c.chord((210, 120 + bob, 400, 240 + bob), 180, 360, fill=(44, 38, 62))
+    eh = 6 if blink else 42                                                                           # eyes
+    for ex in (240, 360):
+        c.ellipse((ex - 22, 262 + bob - eh / 2, ex + 22, 262 + bob + eh / 2), fill=(250, 251, 255))
+        if not blink: c.ellipse((ex - 15, 250 + bob, ex + 15, 280 + bob), fill=(20, 26, 40)); c.ellipse((ex - 5, 253 + bob, ex + 5, 263 + bob), fill=(255, 255, 255))
+    for ex in (240, 360): c.ellipse((ex - 34, 300 + bob, ex + 6 if ex < 300 else ex + 34, 322 + bob), fill=(244, 150, 140, 90))
+    for ex in (240, 360): c.line((ex - 26, 226 + bob, ex + 22, 220 + bob), fill=(44, 38, 62), width=9)  # brows
+    mh = 6 + 46 * mouth; mw = 56 - 10 * mouth                                                          # mouth
+    c.rounded_rectangle((300 - mw, 340 + bob - mh / 2, 300 + mw, 340 + bob + mh / 2), int(min(mh, 2 * mw) / 2), fill=(120, 40, 52))
+    if mouth < 0.15: c.arc((300 - 50, 300 + bob, 300 + 50, 360 + bob), 20, 160, fill=(120, 40, 52), width=8)
+    c.arc((128, 160 + bob, 472, 470 + bob), 200, 340, fill=MINT + (255,), width=14)                    # headset
+    c.line((172, 300 + bob, 222, 372 + bob), fill=MINT + (255,), width=10); c.ellipse((212, 360 + bob, 240, 388 + bob), fill=MINT + (255,))
+    im.paste(p, (0, 0), Image.composite(p, Image.new('RGBA', (S, S), (0, 0, 0, 0)), mask))
+    d.ellipse((10, 10, S - 10, S - 10), outline=MINT + (255,), width=16)
+    return im.resize((size, size), Image.LANCZOS)
+
+def add_host(img, t, k):
+    mouth = float(VOICE_ENV[min(k, len(VOICE_ENV) - 1)]) if VOICE_ENV is not None else 0.0
+    blink = (t % 3.7) < 0.12
+    # big and centred under the hook for the first 1.25s, then it moves to the bottom-right corner
+    m = ease((t - 1.1) / 0.4); size = int(340 - 110 * m); cx = W / 2 + (W - 165 - W / 2) * m; cy = 1390 - 60 * m
+    sp = host_sprite(round(mouth * 6) / 6, blink, t, size)
+    base = img.convert('RGBA'); paste_center(base, sp, cx, cy, 1.0, 1.0)
+    d = ImageDraw.Draw(base, 'RGBA'); f = font('xb', 26); lab = 'AI HOST'; lw = d.textlength(lab, font=f); ly = cy + size / 2 - 6
+    rrect(d, (cx - lw / 2 - 16, ly, cx + lw / 2 + 16, ly + 38), 19, (14, 20, 32, 235), MINT, 2); d.text((cx - lw / 2, ly + 4), lab, font=f, fill=MINT)
+    return base.convert('RGB')
 
 STYLES = {'chat': frame_chat, 'kinetic': frame_kinetic, 'steps': frame_steps, 'scene': frame_scene}
 
@@ -445,6 +494,7 @@ def render(spec, out, style, sid, tmp):
         t = k / FPS; si, sst, sen = seg_at(tl, t)
         if spec['segments'][si].get('kind') == 'cta': img = frame_end(spec, tl, t, total, spec['segments'][si], sst, sen)
         else: img = fr(spec, tl, t, total)
+        if spec.get('host'): img = add_host(img, t, k)
         dz = min([t - a for a in starts if t >= a] or [9])
         if dz < 0.3:  # zoom punch on each new line
             z = 1 + 0.06 * (1 - ease(dz / 0.3)); cw, ch = int(W / z), int(H / z)
