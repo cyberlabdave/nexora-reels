@@ -1,0 +1,47 @@
+{
+"series": "AI Update #1",
+"segments": [
+{
+"kind": "hook",
+"title": "Canva now edits whole decks",
+"say": "Canva can now change every slide in your deck from one sentence.",
+"emoji": "🎨"
+},
+{
+"kind": "line",
+"title": "New: Canva Brush",
+"say": "It's called Brush. Canva launched it on October twenty ninth.",
+"emoji": "🆕"
+},
+{
+"kind": "line",
+"title": "3 edits to try",
+"bullets": [
+"Restyle a design",
+"Change every page at once",
+"Slide → Instagram post"
+],
+"say": "Restyle a design, change every page at once, or turn a slide into an Instagram post."
+},
+{
+"kind": "prompt",
+"say": "Open a design, pick Brush in Canva AI, and type the change.",
+"text": "Change every header to navy and make it bolder."
+},
+{
+"kind": "line",
+"title": "Canva Pro only, for now",
+"say": "It's for Canva Pro for now. Canva says more plans are coming soon.",
+"emoji": "🔒"
+},
+{
+"kind": "cta",
+"say": "Save this, and follow for one AI update a day.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}

@@ -1,0 +1,47 @@
+{
+"series": "Prompt Drop #12",
+"segments": [
+{
+"kind": "hook",
+"title": "Paste this before any gift",
+"say": "Before you buy any gift this year, paste this.",
+"emoji": "🎁"
+},
+{
+"kind": "line",
+"title": "46% will ask AI first",
+"say": "In a new survey, forty six percent of US shoppers plan to use AI to compare prices.",
+"emoji": "📊"
+},
+{
+"kind": "prompt",
+"say": "I'm buying this. Give me three cheaper options, and what to check before I buy.",
+"text": "I'm buying [item]. 3 cheaper options? What should I check?"
+},
+{
+"kind": "reply",
+"title": "Then check the store",
+"say": "Then check the real price on the store page. AI prices can be out of date.",
+"text": "Cheaper options: … Check first: return policy, shipping, warranty…"
+},
+{
+"kind": "line",
+"title": "Always check yourself",
+"bullets": [
+"Today's real price",
+"Return policy",
+"Shipping cost"
+],
+"say": "Today's price, the return policy, and shipping. Every time."
+},
+{
+"kind": "cta",
+"say": "Save this for Black Friday, and follow for one prompt a day.",
+"hot": [
+"save",
+"follow"
+],
+"emoji": "🔖"
+}
+]
+}
