@@ -1,0 +1,7 @@
+{"series":"AI Reality Check #03","segments":[
+ {"kind":"hook","title":"\"Saves 100+ hours a week\"?","say":"An AI browser says it saves your team 100 plus hours a week.","emoji":"⏱️"},
+ {"kind":"line","title":"Their tagline, not a test","say":"That's the company's own tagline, not a test result.","emoji":"🏷️"},
+ {"kind":"line","title":"AI browsers aim at","bullets":["Forms","Lookups","Copy-paste between tabs"],"say":"AI browsers aim at repeat web tasks: forms, lookups, copy paste."},
+ {"kind":"line","title":"Your week decides","say":"Your savings depend on how much of your week is that.","emoji":"📊"},
+ {"kind":"line","title":"Find your real number","bullets":["Time one task by hand","Time it with the tool","That's your number"],"say":"So time one real task by hand, then with the tool."},
+ {"kind":"cta","say":"Not sponsored. Comment the tool you want tested next.","hot":["comment"],"emoji":"👇"}]}
