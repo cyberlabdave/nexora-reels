@@ -1,0 +1,47 @@
+{
+ "series": "Prompt Drop #16",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Part 2: your iCloud Mail",
+   "say": "Part two: ChatGPT can read your iCloud Mail too. Try these three.",
+   "emoji": "📬",
+   "hot": [
+    "Mail"
+   ]
+  },
+  {
+   "kind": "prompt",
+   "say": "One. Find what people need from you.",
+   "text": "Which emails ask me to do something?"
+  },
+  {
+   "kind": "prompt",
+   "say": "Two. Turn an email into an event.",
+   "text": "Put Sam's meeting email on my calendar."
+  },
+  {
+   "kind": "prompt",
+   "say": "Three. Draft it, then read it before you send.",
+   "text": "Draft a reply offering 2 free slots."
+  },
+  {
+   "kind": "line",
+   "title": "Before you connect",
+   "bullets": [
+    "iCloud addresses only",
+    "Needs an app-specific password"
+   ],
+   "say": "It only sees iCloud addresses, and setup needs an app-specific password."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for Monday's inbox, and follow Nexora, the honest referee for AI.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}

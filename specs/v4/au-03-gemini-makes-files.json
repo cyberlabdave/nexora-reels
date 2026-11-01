@@ -1,0 +1,55 @@
+{
+ "series": "AI Update #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Gemini now makes the file",
+   "say": "Gemini can now make the PDF for you, and let you edit it right in the chat.",
+   "emoji": "📄",
+   "hot": [
+    "file"
+   ]
+  },
+  {
+   "kind": "prompt",
+   "say": "Upload your messy notes and type:",
+   "text": "Make this a 1-page PDF study guide."
+  },
+  {
+   "kind": "line",
+   "title": "Highlight to fix",
+   "say": "Then highlight any part, and ask Gemini to change it.",
+   "emoji": "🖍️",
+   "hot": [
+    "Highlight"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Where it works",
+   "bullets": [
+    "PDF: web and mobile",
+    "Docs, Sheets, slides: web"
+   ],
+   "say": "PDFs work on web and mobile. Docs, Sheets and slides are web only."
+  },
+  {
+   "kind": "line",
+   "title": "For all Gemini users",
+   "say": "Google says it's available to all users, wherever the Gemini app is.",
+   "emoji": "🌍",
+   "hot": [
+    "all"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for your next study guide, and follow Nexora, the honest referee for AI.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}

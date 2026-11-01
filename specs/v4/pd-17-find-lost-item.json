@@ -1,0 +1,52 @@
+{
+ "series": "Prompt Drop #17",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Lost something tiny? Ask AI",
+   "say": "Lost something tiny? Let AI search the photo for you.",
+   "emoji": "🔎",
+   "hot": [
+    "tiny"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Snap 2-3 close photos",
+   "bullets": [
+    "Good light",
+    "Close and sharp",
+    "Cover the whole area"
+   ],
+   "say": "Take two or three close, sharp photos of the area, in good light."
+  },
+  {
+   "kind": "prompt",
+   "say": "Upload them and type:",
+   "text": "Find a white earbud in these photos."
+  },
+  {
+   "kind": "reply",
+   "say": "Ask it to say where, next to something that doesn't move.",
+   "text": "Possible match: bottom left, next to the chair leg."
+  },
+  {
+   "kind": "line",
+   "title": "Then check the spot",
+   "say": "AI can miss things or guess wrong, so check the spot yourself.",
+   "emoji": "✅",
+   "hot": [
+    "check"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for the next time you lose your keys, and follow Nexora, the honest referee for AI.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}

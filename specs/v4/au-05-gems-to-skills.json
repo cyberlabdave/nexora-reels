@@ -1,0 +1,51 @@
+{
+ "series": "AI Update #5",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Gemini Gems become Skills",
+   "say": "Using Gemini Gems? They turn into Skills on November seventeenth.",
+   "emoji": "⏳",
+   "hot": [
+    "Skills"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Type / to run one",
+   "say": "Skills are reusable instructions. Type a slash and the skill's name to run one.",
+   "emoji": "⚡",
+   "hot": [
+    "/"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "The dates",
+   "bullets": [
+    "Nov 17: Gems go read-only",
+    "Dec 17: Gems removed",
+    "Converted for you"
+   ],
+   "say": "November seventeenth, Gems go read only. December seventeenth, they're removed."
+  },
+  {
+   "kind": "line",
+   "title": "Save big files first",
+   "say": "Google converts them for you, but download big knowledge files before then.",
+   "emoji": "💾",
+   "hot": [
+    "download"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Save this before November seventeenth, and follow Nexora, the honest referee for AI.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}

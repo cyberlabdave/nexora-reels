@@ -1,0 +1,59 @@
+{
+ "series": "AI Reality Check #12",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Free Claude Pro for students?",
+   "say": "Free Claude Pro for students? Here's the real answer.",
+   "emoji": "🎓",
+   "hot": [
+    "students"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It comes from your school",
+   "say": "Claude for Education is a plan your university gets for the whole campus.",
+   "emoji": "🏫",
+   "hot": [
+    "school"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Check first",
+   "bullets": [
+    "Ask your IT desk",
+    "Sign in with your uni email"
+   ],
+   "say": "Ask your IT desk, or sign in with your university email."
+  },
+  {
+   "kind": "line",
+   "title": "Careful with 'free codes'",
+   "say": "That's the official route. Be careful with sites selling codes.",
+   "emoji": "⚠️",
+   "hot": [
+    "Careful"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "No school plan? Free plan",
+   "say": "No school plan? Claude has a free plan, with usage limits.",
+   "emoji": "🆓",
+   "hot": [
+    "Free"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Send this to a student friend, and follow Nexora, the honest referee for AI.",
+   "hot": [
+    "send",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}

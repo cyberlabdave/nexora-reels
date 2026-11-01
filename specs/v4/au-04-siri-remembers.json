@@ -1,0 +1,56 @@
+{
+ "series": "AI Update #4",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Siri remembers your chats now",
+   "say": "Siri can now remember what you talked about before.",
+   "emoji": "🧠",
+   "hot": [
+    "remembers"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "New in iOS 27.2",
+   "say": "With iOS twenty-seven point two, you can ask Siri about something it told you before.",
+   "emoji": "📱",
+   "hot": [
+    "27.2"
+   ]
+  },
+  {
+   "kind": "prompt",
+   "say": "Like this:",
+   "text": "What did you recommend last week?"
+  },
+  {
+   "kind": "line",
+   "title": "It can use more",
+   "bullets": [
+    "Photos in Messages",
+    "Calendar attendees",
+    "Your voicemails"
+   ],
+   "say": "It can also use photos in Messages, calendar attendees, and your voicemails."
+  },
+  {
+   "kind": "line",
+   "title": "You pick the apps",
+   "say": "A new setting, Excluded Apps, lets you choose which apps Siri can access.",
+   "emoji": "🔒",
+   "hot": [
+    "pick"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Save this before you update, and follow Nexora, the honest referee for AI.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}
