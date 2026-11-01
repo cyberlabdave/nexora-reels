@@ -5,7 +5,7 @@ captured frame by frame in headless Chromium (Playwright) and encoded with ffmpe
 Usage: python3 reels3.py spec.json out.mp4 [--voice 1] [--accent cyan|mint|violet|coral]
 spec: {"series":"AI Reality Check #02","segments":[{"kind":"hook|line|prompt|reply|step|cta","say":"spoken","title":"<=6 words on screen",
         "text":"prompt / reply / step text","emoji":"📅","hot":["word"]}]}
-Kinds: hook = big headline; line = headline; prompt = typing chat card (You); reply = AI answer card; step = numbered step card; cta = save/follow end card.
+Kinds: hook = big headline; quiz = question + A/B/C option cards + 3-2-1 countdown ring (title, options, answer); reveal = same cards, right answer lights up (title, options, answer, source); line = headline; prompt = typing chat card (You); reply = AI answer card; step = numbered step card; cta = save/follow end card.
 Text rule: light text on navy, or navy text on white cards. Never dark text on navy.
 """
 import json, os, sys, argparse, subprocess, shutil, re
@@ -66,6 +66,22 @@ ul.bul li{display:flex;align-items:center;gap:26px;padding:30px 36px;border-radi
 ul.bul li i{flex:none;width:58px;height:58px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font:900 34px Inter;font-style:normal;color:var(--cardink)}
 .head.sm{font-size:96px}
 #flash{position:absolute;inset:0;background:var(--acc);opacity:0;pointer-events:none}
+/* Format Lab Nov 1, 2026: Quiz + Reveal scenes (guess-before-reveal) */
+.qtag{display:inline-flex;align-items:center;gap:14px;padding:14px 30px;border-radius:999px;background:var(--acc);color:var(--cardink);font:900 36px Inter;letter-spacing:.12em;text-transform:uppercase}
+.qhead{font:900 92px/1.06 Inter;letter-spacing:-.02em;text-wrap:balance;color:var(--ink)}
+.opts{width:100%;display:flex;flex-direction:column;gap:26px}
+.opt{position:relative;display:flex;align-items:center;gap:30px;padding:30px 40px;border-radius:34px;background:var(--card);color:var(--cardink);font:900 68px/1.1 Inter;text-align:left;box-shadow:0 18px 50px rgba(0,0,0,.4)}
+.opt .lt{flex:none;width:92px;height:92px;border-radius:26px;background:var(--cardink);color:#FFFFFF;display:grid;place-items:center;font:900 52px Inter}
+.opt .mk{margin-left:auto;font:900 64px Inter;opacity:0}
+.opt.ok{background:var(--acc);color:var(--cardink)}
+.opt.ok .lt{background:#FFFFFF;color:var(--cardink)}
+.opt.no{background:#2A3360;color:#FFFFFF}
+.opt.no .lt{background:rgba(255,255,255,.18);color:#FFFFFF}
+.ring{position:relative;width:230px;height:230px}
+.ring svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.ring .n{position:absolute;inset:0;display:grid;place-items:center;font:900 120px Inter;color:#FFFFFF}
+.src{font:700 34px Inter;color:var(--muted)}
+.dot{position:absolute;width:26px;height:26px;border-radius:50%;background:var(--acc);opacity:0}
 </style></head><body>
 <div id="bg"><div class="blob" id="b1" style="background:var(--acc)"></div><div class="blob" id="b2" style="background:#7C5CFF"></div><div id="grid"></div></div>
 <div id="scenes"></div>
@@ -90,6 +106,11 @@ D.segs.forEach((s,i)=>{const el=document.createElement('div');el.className='scen
   else if(s.kind==='prompt'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">YOU</span>Paste this prompt</div><div class="card"><span class="ty"></span><span class="caret"></span></div></div><div class="save"><span class="e">🔖</span>Save this prompt</div></div>`}
   else if(s.kind==='reply'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">AI</span>Example reply</div><div class="card ai"><span class="ty"></span></div></div></div>`}
   else if(s.kind==='step'){h=`<div class="center"><div class="step"><div class="num">${s.n}</div><div class="card"><span class="ty"></span></div></div>${s.title?`<div class="head" style="font-size:84px">${words.map(wspan).join(' ')}</div>`:''}</div>`}
+  else if(s.kind==='quiz'||s.kind==='reveal'){const L='ABCD';const op=(s.options||[]).map((o,k)=>`<div class="opt" data-k="${k}"><span class="lt">${L[k]}</span><span>${esc(o)}</span><span class="mk">${k===s.answer?'✓':'✕'}</span></div>`).join('');
+    const tag=s.kind==='quiz'?`<div class="qtag">${esc(s.tag||'Quick quiz')}</div>`:'';
+    const foot=s.kind==='quiz'?`<div class="ring"><svg viewBox="0 0 230 230"><circle cx="115" cy="115" r="100" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="18"/><circle class="arc" cx="115" cy="115" r="100" fill="none" stroke="var(--acc)" stroke-width="18" stroke-linecap="round" stroke-dasharray="628.3" stroke-dashoffset="0"/></svg><div class="n">?</div></div>`:(s.source?`<div class="src">${esc(s.source)}</div>`:'');
+    const dots=s.kind==='reveal'?Array.from({length:16},(_,k)=>`<i class="dot" data-a="${k}"></i>`).join(''):'';
+    h=`<div class="center" style="gap:46px">${tag}<div class="qhead">${words.map(wspan).join(' ')}</div><div class="opts">${op}</div>${foot}</div>${dots}`}
   else if(s.kind==='cta'){h=`<div class="center cta"><div class="emo">${s.emoji||'🔖'}</div><div class="head">${esc(s.title||'SAVE THIS')}</div><div class="sub">${esc(s.sub||'')}</div><div class="tiny">${esc(s.tiny||'')}</div></div>`}
   el.innerHTML=h;root.appendChild(el);});
 const scenes=[...document.querySelectorAll('.scene')];
@@ -114,6 +135,23 @@ function seek(t){
   const who=el.querySelector('.who');if(who){who.style.opacity=clamp(lt/.2,0,1)}
   const num=el.querySelector('.num');if(num){const q=back(lt/.35);num.style.transform=`scale(${q}) rotate(${(1-q)*-30}deg)`}
   const sv=el.querySelector('.save');if(sv){const q=back((lt-dur*.55)/.35);sv.style.opacity=clamp((lt-dur*.55)/.12,0,1);sv.style.transform=`scale(${.6+.4*q+.03*Math.sin(t*6)})`}
+  if(s.kind==='quiz'||s.kind==='reveal'){
+    const qh=[...el.querySelectorAll('.qhead .w')];const per=Math.min(.12,.6/Math.max(qh.length,1));
+    qh.forEach((w,j)=>{const p=s.kind==='reveal'?1:back((lt-.05-j*per)/.3);w.style.opacity=s.kind==='reveal'?clamp(lt/.2,0,1):clamp((lt-.05-j*per)/.12,0,1);w.style.transform=`translateY(${(1-p)*50}px) scale(${.75+.25*p})`});
+    const tg=el.querySelector('.qtag');if(tg){const q=back(lt/.3);tg.style.transform=`scale(${q})`;tg.style.opacity=clamp(lt/.1,0,1)}
+    const ops=[...el.querySelectorAll('.opt')];
+    if(s.kind==='quiz'){const gap=Math.min(.75,Math.max(dur*.45,.9)/Math.max(ops.length,1));
+      ops.forEach((o,j)=>{const st=.5+j*gap;const q=back((lt-st)/.35);o.style.opacity=clamp((lt-st)/.12,0,1);o.style.transform=`translateX(${(1-q)*(j%2?160:-160)}px) scale(${1+.015*Math.sin(t*4+j)})`});
+      const cw=Math.min(2.4,dur*.4),rem=dur-lt;const arc=el.querySelector('.arc'),n=el.querySelector('.ring .n'),rg=el.querySelector('.ring');
+      const fr=rem>cw?1:clamp(rem/cw,0,1);arc.style.strokeDashoffset=String(628.3*(1-fr));
+      if(rem<=cw){const k=Math.max(1,Math.ceil(rem/(cw/3)));n.textContent=String(k);const ph=(cw/3)-((rem)%(cw/3));rg.style.transform=`scale(${1.12-.12*ease(ph/.3)})`}else{n.textContent='?';rg.style.transform=`scale(${1+.04*Math.sin(t*5)})`}
+      rg.style.opacity=clamp((lt-.5-ops.length*gap)/.2,0,1)}
+    else{const k=clamp(lt/.35,0,1);ops.forEach((o,j)=>{const ok=j===s.answer;o.classList.toggle('ok',ok&&lt>.25);o.classList.toggle('no',!ok&&lt>.25);
+        o.style.opacity=ok?1:1-.45*k;const q=ok?back((lt-.25)/.4):0;o.style.transform=`scale(${ok?1+.07*q:1-.04*k})`;o.querySelector('.mk').style.opacity=clamp((lt-.3)/.15,0,1)});
+      const okel=ops[s.answer];if(okel){const r=okel.getBoundingClientRect();const cx=r.left+r.width/2,cy=r.top+r.height/2;
+        [...el.querySelectorAll('.dot')].forEach((d,j)=>{const a=j/16*Math.PI*2,pr=ease((lt-.3)/.7);d.style.left=(cx-13+Math.cos(a)*(120+440*pr))+'px';d.style.top=(cy-13+Math.sin(a)*(60+260*pr))+'px';d.style.opacity=lt<.3?0:(1-pr)})}
+      const sr=el.querySelector('.src');if(sr)sr.style.opacity=clamp((lt-.6)/.2,0,1)}
+  }
   if(s.kind==='cta'){[...el.querySelectorAll('.head,.sub,.tiny')].forEach((x,j)=>{const q=back((lt-.15-j*.18)/.35);x.style.opacity=clamp((lt-.15-j*.18)/.12,0,1);x.style.transform=`translateY(${(1-q)*50}px)`});
     if(emo)emo.style.transform=`scale(${(.4+.6*back(lt/.45))*(1+.06*Math.sin(t*5))})`;}
 }
@@ -141,6 +179,8 @@ def build(spec, tl, total, accent):
         k = s.get('kind', 'line')
         d = {'kind': k, 'vs': vs, 've': ve, 'emoji': s.get('emoji', ''), 'hot': s.get('hot', []), 'text': s.get('text', ''), 'bullets': s.get('bullets', [])}
         if k in ('hook', 'line'): d['title'] = short_title(s)
+        if k in ('quiz', 'reveal'):
+            d.update({'title': short_title(s), 'options': s.get('options', [])[:4], 'answer': int(s.get('answer', 0)), 'source': s.get('source', ''), 'tag': s.get('tag', 'Quick quiz')})
         if k == 'step': n += 1; d['n'] = s.get('n', n); d['text'] = s.get('step', s.get('text', '')); d['title'] = s.get('title', '')
         if k == 'cta':
             say = s.get('say', ''); low = say.lower(); hot = [h.lower() for h in s.get('hot', [])]

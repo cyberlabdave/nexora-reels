@@ -1,0 +1,61 @@
+{
+ "series": "AI Quiz #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Is AI's stat even real?",
+   "say": "Quick quiz. When AI quotes a stat, is it real?",
+   "emoji": "🧐",
+   "hot": [
+    "real"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "title": "How many led to the study?",
+   "tag": "1,285 AI stats checked",
+   "options": [
+    "9 in 10",
+    "2 in 3",
+    "4 in 10"
+   ],
+   "answer": 2,
+   "say": "Researchers checked 1,285 stats that AI quoted. How many led to a matching study? Three. Two. One.",
+   "hot": [
+    "study"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "Only 4 in 10",
+   "options": [
+    "9 in 10",
+    "2 in 3",
+    "4 in 10"
+   ],
+   "answer": 2,
+   "source": "Trakkr research, Oct 28, 2026",
+   "say": "Only four in ten. Most of the rest hit a source nobody could check.",
+   "hot": [
+    "Only"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Click the source first",
+   "say": "So before you share an AI stat, click the source first.",
+   "emoji": "🔎",
+   "hot": [
+    "source"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Comment your guess, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source in the caption",
+   "emoji": "👇"
+  }
+ ]
+}
