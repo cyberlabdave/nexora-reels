@@ -1,3 +1,7 @@
 # reels2.py render scratch folders
 *.mp4.tmp/
 __pycache__/
+
+# local TTS engine + voice model (downloaded, too big for git)
+tools/kokoro-en-v0_19/
+tools/sherpa-onnx-*/

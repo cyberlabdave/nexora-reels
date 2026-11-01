@@ -1,0 +1,72 @@
+{
+ "series": "Answer in One Word #01",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "AI answers life in ONE word",
+   "say": "I made AI answer real life questions in one word.",
+   "emoji": "☝️",
+   "hot": [
+    "one"
+   ]
+  },
+  {
+   "kind": "prompt",
+   "say": "First, paste this.",
+   "text": "Answer every question in one word. No explaining."
+  },
+  {
+   "kind": "line",
+   "title": "Reply to my boss at 11pm?",
+   "say": "Should I reply to my boss at eleven p m?",
+   "emoji": "🌙"
+  },
+  {
+   "kind": "line",
+   "say": "A I says: Tomorrow.",
+   "title": "AI: Tomorrow.",
+   "hot": [
+    "tomorrow"
+   ],
+   "emoji": "🤖"
+  },
+  {
+   "kind": "line",
+   "title": "Study the night before exam?",
+   "say": "Can I study the night before the exam?",
+   "emoji": "📚"
+  },
+  {
+   "kind": "line",
+   "say": "A I says: Risky.",
+   "title": "AI: Risky.",
+   "hot": [
+    "risky"
+   ],
+   "emoji": "🤖"
+  },
+  {
+   "kind": "line",
+   "title": "Is my CV too long?",
+   "say": "Is my two page C V too long?",
+   "emoji": "📄"
+  },
+  {
+   "kind": "line",
+   "say": "A I says: Probably.",
+   "title": "AI: Probably.",
+   "hot": [
+    "probably"
+   ],
+   "emoji": "🤖"
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT YOUR QUESTION",
+   "sub": "We'll ask it next",
+   "tiny": "Answers are examples. Try it yourself.",
+   "say": "Comment your question. Nexora: the honest referee for AI. Follow for one a day.",
+   "emoji": "👇"
+  }
+ ]
+}

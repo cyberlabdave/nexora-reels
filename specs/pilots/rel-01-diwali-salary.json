@@ -1,0 +1,7 @@
+{"series":"AI vs Relatives #01","segments":[
+ {"kind":"hook","title":"Aunty asked my salary. Again.","say":"Aunty asked my salary at Diwali. Again.","emoji":"🪔","hot":["salary"]},
+ {"kind":"line","title":"So I asked AI","say":"So I asked AI for a comeback.","emoji":"🤖"},
+ {"kind":"prompt","say":"A relative asked my salary at a family dinner. Give three short replies: polite, funny, change the subject.","text":"A relative asked my salary at dinner. Give 3 short replies: polite, funny, change the subject."},
+ {"kind":"line","title":"Pick your fighter","bullets":["“Enough for sweets every Diwali!”","“Less than my student loan.”","“Did you make these laddoos?”"],"say":"Polite. Funny. Or just change the subject.","emoji":"🥊"},
+ {"kind":"line","title":"Works for marriage questions too","say":"Works for marriage questions too.","emoji":"💍"},
+ {"kind":"cta","title":"SEND TO YOUR COUSIN","sub":"Happy Diwali 🪔","tiny":"Example replies. Paste the prompt in any free AI.","say":"Send this to your cousin. Nexora: the honest referee for AI. Follow for one a day.","emoji":"📨"}]}

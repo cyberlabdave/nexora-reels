@@ -1,0 +1,8 @@
+{"series":"Real or Scam? #01","segments":[
+ {"kind":"hook","title":"Only ONE of these is real","say":"Only one of these messages is real. Guess which.","emoji":"🕵️","hot":["one"]},
+ {"kind":"step","n":1,"text":"“Hi Mum, new number. Phone broke. Can you send money today?”","say":"One. Hi Mum, new number, can you send money today?"},
+ {"kind":"step","n":2,"text":"“Your OTP is 4821. Never share it with anyone.”","say":"Two. Your code is four eight two one. Never share it."},
+ {"kind":"step","n":3,"text":"“Part-time job! Like videos, earn ₹5,000 a day.”","say":"Three. Part time job. Like videos, earn five thousand a day."},
+ {"kind":"line","title":"Answer","bullets":["Scam: new number + money","Real: tells you not to share","Scam: paid to like videos"],"say":"Only two is real. One and three are classic scams.","emoji":"✅"},
+ {"kind":"prompt","say":"Not sure? Paste the message into AI and ask this.","text":"Is this message a scam? List the red flags."},
+ {"kind":"cta","title":"COMMENT YOUR GUESS","sub":"Did you get it right?","tiny":"Example messages. AI can be wrong, so check with the sender.","say":"Comment your guess. Nexora: the honest referee for AI. Follow for one a day.","emoji":"👇"}]}
