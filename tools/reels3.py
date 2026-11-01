@@ -104,8 +104,8 @@ function seek(t){
   const since=t-s.vs;$('#flash').style.opacity=cur>0&&since<.12?(.18*(1-since/.12)):0;
   const c=el.querySelector('.center');c.style.transform=`scale(${1+.03*(1-ease(lt/.35))+.012*lt/Math.max(dur,1)})`;
   if(s.kind==='hook'||s.kind==='line'||(s.kind==='step'&&s.title)){
-    const ws=[...el.querySelectorAll('.w')];const per=Math.min(.16,(Math.max(dur*.55,.3))/Math.max(ws.length,1));
-    ws.forEach((w,j)=>{const p=back((lt-.04-j*per)/.32);const o=clamp((lt-.04-j*per)/.12,0,1);w.style.opacity=o;w.style.transform=`translateY(${(1-p)*60}px) scale(${.7+.3*p})`});}
+    const ws=[...el.querySelectorAll('.w')];const hk=s.kind==='hook'&&cur===0;const per=hk?.045:Math.min(.16,(Math.max(dur*.55,.3))/Math.max(ws.length,1));const d0=hk?0:.04;
+    ws.forEach((w,j)=>{const p=hk&&t<1/30?1:back((lt-d0-j*per)/.32);const o=hk&&t<1/30?1:clamp((lt-d0-j*per)/.12,0,1);w.style.opacity=o;w.style.transform=`translateY(${(1-p)*60}px) scale(${.7+.3*p})`});}
   const lis=[...el.querySelectorAll('ul.bul li')];if(lis.length){const gap=Math.min(.9,Math.max(dur*.7,.6)/lis.length);lis.forEach((li,j)=>{const q=back((lt-.35-j*gap)/.35);li.style.opacity=clamp((lt-.35-j*gap)/.12,0,1);li.style.transform=`translateX(${(1-q)*-140}px)`})}
   const emo=el.querySelector('.emo');if(emo){const p=back(lt/.45);emo.style.opacity=clamp(lt/.15,0,1);emo.style.transform=`scale(${.4+.6*p}) rotate(${(1-p)*-18+3*Math.sin(t*2.2)}deg) translateY(${8*Math.sin(t*3)}px)`}
   const ty=el.querySelector('.ty');if(ty){const full=s.text||'';const p=clamp((lt-.25)/Math.max(dur*.62,.6),0,1);const n=Math.round(full.length*p);ty.textContent=full.slice(0,n);
