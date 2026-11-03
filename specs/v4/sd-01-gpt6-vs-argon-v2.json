@@ -1,0 +1,101 @@
+{
+ "series": "Showdown #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "GPT-6 vs Gemini 4 Argon",
+   "say": "GPT-6 versus Gemini 4 Argon, from the official pages.",
+   "emoji": "⚔️",
+   "hot": [
+    "vs"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "emoji": "📄",
+   "hot": [
+    "tested"
+   ],
+   "say": "Not tested by us: based on official info."
+  },
+  {
+   "kind": "line",
+   "title": "GPT-6: visuals and buttons",
+   "emoji": "🖼️",
+   "hot": [
+    "visuals"
+   ],
+   "say": "OpenAI says GPT-6 can answer with visuals and buttons,"
+  },
+  {
+   "kind": "line",
+   "title": "Plus a thinking slider",
+   "emoji": "🎚️",
+   "hot": [
+    "slider"
+   ],
+   "say": "with a thinking slider."
+  },
+  {
+   "kind": "line",
+   "title": "Rolling out to paid plans",
+   "emoji": "💳",
+   "hot": [
+    "paid"
+   ],
+   "say": "It's rolling out to paid plans."
+  },
+  {
+   "kind": "line",
+   "title": "Argon: tasks while you're away",
+   "emoji": "🌙",
+   "hot": [
+    "away"
+   ],
+   "say": "Google says Argon runs tasks while you're away"
+  },
+  {
+   "kind": "line",
+   "title": "40+ connected apps",
+   "emoji": "🔌",
+   "hot": [
+    "40+"
+   ],
+   "say": "and connects to over forty apps."
+  },
+  {
+   "kind": "line",
+   "title": "For Google AI Pro and Ultra",
+   "emoji": "💎",
+   "hot": [
+    "ultra"
+   ],
+   "say": "It's for Google AI Pro and Ultra."
+  },
+  {
+   "kind": "line",
+   "title": "On a free plan?",
+   "bullets": [
+    "ChatGPT Free: GPT-5.6 Luna",
+    "Argon: listed for Pro and Ultra"
+   ],
+   "hot": [
+    "free"
+   ],
+   "say": "On the free plan, ChatGPT uses a lighter model. Google lists Argon for Pro and Ultra."
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Comment if you want a real hands-on test, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Not tested by us: based on official info",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}
