@@ -1,0 +1,73 @@
+{
+ "series": "Kids & Families #4",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Kia ora: one word, many jobs!",
+   "say": "One word, many jobs! Nikau from Rotorua, New Zealand, shows you.",
+   "emoji": "👦🏽",
+   "hot": [
+    "kia",
+    "ora:"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "In Māori: Kia ora!",
+   "emoji": "🌿",
+   "hot": [
+    "kia",
+    "ora!"
+   ],
+   "say": "In Māori, he says, Kia ora!"
+  },
+  {
+   "kind": "line",
+   "title": "Job 1: Hello",
+   "emoji": "👋",
+   "hot": [
+    "hello"
+   ],
+   "say": "Job one: it can mean hello."
+  },
+  {
+   "kind": "line",
+   "title": "Job 2: Thank you",
+   "emoji": "🙏",
+   "hot": [
+    "thank"
+   ],
+   "say": "Job two: it can mean thank you."
+  },
+  {
+   "kind": "line",
+   "title": "Job 3: Cheers, be well",
+   "emoji": "😊",
+   "hot": [
+    "well"
+   ],
+   "say": "Job three: cheers, be well."
+  },
+  {
+   "kind": "line",
+   "title": "A wish for life and health",
+   "emoji": "💚",
+   "hot": [
+    "health"
+   ],
+   "say": "It's a wish for life and good health. That's a lovely way to say hi!"
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to someone you want to wish well, and follow for a new word.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new language",
+   "emoji": "📨",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ]
+}
