@@ -1,0 +1,65 @@
+{
+ "series": "Kids & Families #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Say hello in Swahili!",
+   "say": "Let's say hello in Swahili, with Amani from Mombasa, Kenya!",
+   "emoji": "👧🏾",
+   "hot": [
+    "Swahili"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "title": "Which one is Swahili?",
+   "tag": "Hello from Kenya",
+   "options": [
+    "Bonjour",
+    "Jambo",
+    "Konnichiwa"
+   ],
+   "answer": 1,
+   "say": "Amani says hello. Which word does she use? Three. Two. One.",
+   "hot": [
+    "Swahili"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "It's Jambo!",
+   "options": [
+    "Bonjour",
+    "Jambo",
+    "Konnichiwa"
+   ],
+   "answer": 1,
+   "source": "Jambo: a friendly hello in East Africa",
+   "say": "It's Jambo! A friendly hello all over East Africa.",
+   "hot": [
+    "Jambo"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Sound like a local",
+   "bullets": [
+    "Habari? = Any news?",
+    "Nzuri! = Fine!"
+   ],
+   "say": "Want to sound like a local? Ask, Habari? It means, any news? And the answer is, Nzuri. Fine!"
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Which word should we learn next? Comment below, and follow for a new word.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new language",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

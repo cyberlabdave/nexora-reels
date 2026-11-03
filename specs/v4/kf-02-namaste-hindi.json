@@ -1,0 +1,55 @@
+{
+ "series": "Kids & Families #2",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Say hello like Priya!",
+   "say": "Say hello like Priya, from Jaipur, India!",
+   "emoji": "👧🏽",
+   "hot": [
+    "hello"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Namaste means I bow to you",
+   "say": "In Hindi, she says, Namaste. It means, I bow to you.",
+   "emoji": "🙏",
+   "hot": [
+    "Namaste"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "How to do it",
+   "bullets": [
+    "Press your palms together",
+    "Fingers point up",
+    "Give a small bow"
+   ],
+   "say": "Press your palms together, fingers up, and give a small bow."
+  },
+  {
+   "kind": "line",
+   "title": "For family, guests and friends",
+   "say": "It's a kind, respectful hello for family, guests, and new friends.",
+   "emoji": "🤝",
+   "hot": [
+    "respectful",
+    "family"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to someone you'd say namaste to, and follow for a new word.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new language",
+   "emoji": "📨",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ]
+}

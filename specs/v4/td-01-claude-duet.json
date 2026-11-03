@@ -1,0 +1,65 @@
+{
+ "series": "Tool Drop #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "An AI that messages you first",
+   "say": "Tool Drop number one. Claude Duet is an AI that messages you first.",
+   "emoji": "📬",
+   "hot": [
+    "first"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "bullets": [
+    "Based on official info",
+    "Anthropic, October 21"
+   ],
+   "say": "Not tested by us. This is based on Anthropic's official announcement."
+  },
+  {
+   "kind": "line",
+   "title": "What it does",
+   "bullets": [
+    "Morning brief from your apps",
+    "Checks every few hours",
+    "Asks before it sends or pays"
+   ],
+   "say": "Each morning it sends a brief from your connected apps, checks in every few hours, and asks before it sends, pays, or deletes anything."
+  },
+  {
+   "kind": "line",
+   "title": "The limits",
+   "bullets": [
+    "Can misread what's urgent",
+    "Uses your Claude limits",
+    "Runs in its own app"
+   ],
+   "say": "Anthropic says it can still misread what's urgent, it uses your normal Claude limits, and it runs in its own app."
+  },
+  {
+   "kind": "line",
+   "title": "Who can get it",
+   "bullets": [
+    "US Pro, Max, Ultra plans",
+    "Waitlist, research preview",
+    "No free plan listed"
+   ],
+   "say": "It's starting with US Pro, Max and Ultra subscribers, by waitlist. No free plan is listed."
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Comment if you want a real hands-on test, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Not tested by us: based on official info",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "series": "AI Reality Check #13",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Never re-explain yourself to AI",
+   "say": "Long chats make AI worse. Part two: never re-explain yourself again.",
+   "emoji": "🧵",
+   "hot": [
+    "re-explain"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Ask for a handoff note",
+   "say": "Before a chat gets long, ask for a handoff note.",
+   "emoji": "📝",
+   "hot": [
+    "handoff"
+   ]
+  },
+  {
+   "kind": "prompt",
+   "say": "Type: write a handoff note with my goal, rules and decisions.",
+   "text": "Handoff note: goal, rules, decisions."
+  },
+  {
+   "kind": "reply",
+   "say": "You get a short note you can carry anywhere.",
+   "text": "Goal: launch email. Rules: short, friendly. Decided: send Tuesday."
+  },
+  {
+   "kind": "line",
+   "title": "Then in a new chat",
+   "bullets": [
+    "Paste the note first",
+    "Save rules in settings",
+    "One topic per chat"
+   ],
+   "say": "Paste it into a fresh chat. Save your standing rules in settings, and keep one topic per chat."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for your next long project, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "save",
+    "follow"
+   ]
+  }
+ ]
+}
