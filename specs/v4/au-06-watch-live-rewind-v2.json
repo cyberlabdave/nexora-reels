@@ -1,0 +1,79 @@
+{
+ "series": "AI Update #6",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Replay the last 15 seconds",
+   "say": "Missed what someone said? Your Apple Watch can replay the last fifteen seconds.",
+   "emoji": "⌚",
+   "hot": [
+    "15"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Double-press the Digital Crown",
+   "emoji": "👆",
+   "say": "It's called Live Rewind. Double-press the Digital Crown to see it as text."
+  },
+  {
+   "kind": "line",
+   "title": "Text vanishes when screen dims",
+   "emoji": "💨",
+   "hot": [
+    "vanishes"
+   ],
+   "say": "The text vanishes after the screen dims."
+  },
+  {
+   "kind": "line",
+   "title": "Recaps: summaries, not transcripts",
+   "emoji": "📝",
+   "hot": [
+    "summaries"
+   ],
+   "say": "Recaps are summaries, not transcripts."
+  },
+  {
+   "kind": "line",
+   "title": "It chimes, even on silent",
+   "emoji": "🔔",
+   "hot": [
+    "silent"
+   ],
+   "say": "And it chimes, even on silent."
+  },
+  {
+   "kind": "line",
+   "title": "Who gets it",
+   "bullets": [
+    "Series 12 or Ultra 4",
+    "iPhone 16 or later"
+   ],
+   "emoji": "⌚",
+   "hot": [
+    "gets"
+   ],
+   "say": "You need a Series 12 or Ultra 4, and an iPhone 16 or later."
+  },
+  {
+   "kind": "line",
+   "title": "Beta, English first",
+   "emoji": "🧪",
+   "hot": [
+    "beta"
+   ],
+   "say": "It's in beta, English first."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Not tested by us: Apple's official info",
+   "hot": [
+    "save",
+    "follow"
+   ]
+  }
+ ]
+}
