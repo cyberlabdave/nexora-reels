@@ -12,6 +12,7 @@ import json, os, sys, argparse, subprocess, shutil, re
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import reels2  # audio pipeline (tts + music + mix) is reused unchanged
+import kids_cast  # drawn Kids & Families cast (spec segment field "cast": "amani" etc.)
 
 W, H, FPS = 1080, 1920, 30
 ACCENTS = {'cyan': '#22D3EE', 'mint': '#46D7B5', 'violet': '#A78BFA', 'coral': '#FF7A66'}
@@ -65,6 +66,8 @@ ul.bul{list-style:none;width:100%;display:flex;flex-direction:column;gap:22px}
 ul.bul li{display:flex;align-items:center;gap:26px;padding:30px 36px;border-radius:30px;background:var(--card);color:var(--cardink);font:800 54px/1.15 Inter;text-align:left;box-shadow:0 18px 50px rgba(0,0,0,.35)}
 ul.bul li i{flex:none;width:58px;height:58px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font:900 34px Inter;font-style:normal;color:var(--cardink)}
 .head.sm{font-size:96px}
+.kidwrap{font-size:0;line-height:0}
+.kid .eyes{transform-box:fill-box;transform-origin:center}
 #flash{position:absolute;inset:0;background:var(--acc);opacity:0;pointer-events:none}
 </style></head><body>
 <div id="bg"><div class="blob" id="b1" style="background:var(--acc)"></div><div class="blob" id="b2" style="background:#7C5CFF"></div><div id="grid"></div></div>
@@ -81,12 +84,12 @@ const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[
 $('#series').innerHTML=esc(D.series).replace(/(#\d+)/,'<b>$1</b>');
 const root=$('#scenes');
 D.segs.forEach((s,i)=>{const el=document.createElement('div');el.className='scene '+s.kind;el.id='s'+i;let h='';
-  const words=(s.title||'').split(/\s+/).filter(Boolean);
+  const words=(s.title||'').split(/\s+/).filter(Boolean);const emoHTML=(sz)=>s.kid?`<div class="emo kidwrap">${s.kid}</div>`:(s.emoji?`<div class="emo"${sz?` style="font-size:${sz}px"`:''}>${s.emoji}</div>`:'');
   let hot=(s.hot||[]).map(x=>x.toLowerCase().replace(/[^a-z0-9']/g,''));
   if((s.kind==='hook'||s.kind==='line')&&!words.some(w=>hot.includes(w.toLowerCase().replace(/[^a-z0-9']/g,'')))){const c=words.map(w=>w.toLowerCase().replace(/[^a-z0-9']/g,'')).filter(w=>w.length>3);if(c.length){hot=[c.reduce((x,y)=>y.length>x.length?y:x)]}}
   const wspan=(w,j)=>{const k=w.toLowerCase().replace(/[^a-z0-9']/g,'');const cls=hot.includes(k)?(s.kind==='hook'?'w hl':'w hot'):'w';return `<span class="${cls}" data-j="${j}">${esc(w)}</span>`};
-  if((s.kind==='hook'||s.kind==='line')&&s.bullets&&s.bullets.length){h=`<div class="center" style="gap:44px">${s.emoji?`<div class="emo" style="font-size:150px">${s.emoji}</div>`:''}<div class="head sm">${words.map(wspan).join(' ')}</div><ul class="bul">${s.bullets.map((b,k)=>`<li><i>${k+1}</i><span>${esc(b)}</span></li>`).join('')}</ul></div>`}
-  else if(s.kind==='hook'||s.kind==='line'){h=`<div class="center">${s.emoji?`<div class="emo">${s.emoji}</div>`:''}<div class="head ${s.kind==='hook'?'big':''}">${words.map(wspan).join(' ')}</div></div>`}
+  if((s.kind==='hook'||s.kind==='line')&&s.bullets&&s.bullets.length){h=`<div class="center" style="gap:44px">${emoHTML(150)}<div class="head sm">${words.map(wspan).join(' ')}</div><ul class="bul">${s.bullets.map((b,k)=>`<li><i>${k+1}</i><span>${esc(b)}</span></li>`).join('')}</ul></div>`}
+  else if(s.kind==='hook'||s.kind==='line'){h=`<div class="center">${emoHTML(0)}<div class="head ${s.kind==='hook'?'big':''}">${words.map(wspan).join(' ')}</div></div>`}
   else if(s.kind==='prompt'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">YOU</span>Paste this prompt</div><div class="card"><span class="ty"></span><span class="caret"></span></div></div><div class="save"><span class="e">🔖</span>Save this prompt</div></div>`}
   else if(s.kind==='reply'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">AI</span>Example reply</div><div class="card ai"><span class="ty"></span></div></div></div>`}
   else if(s.kind==='step'){h=`<div class="center"><div class="step"><div class="num">${s.n}</div><div class="card"><span class="ty"></span></div></div>${s.title?`<div class="head" style="font-size:84px">${words.map(wspan).join(' ')}</div>`:''}</div>`}
@@ -107,6 +110,7 @@ function seek(t){
     const ws=[...el.querySelectorAll('.w')];const hk=s.kind==='hook'&&cur===0;const per=hk?.045:Math.min(.16,(Math.max(dur*.55,.3))/Math.max(ws.length,1));const d0=hk?0:.04;
     ws.forEach((w,j)=>{const p=hk&&t<1/30?1:back((lt-d0-j*per)/.32);const o=hk&&t<1/30?1:clamp((lt-d0-j*per)/.12,0,1);w.style.opacity=o;w.style.transform=`translateY(${(1-p)*60}px) scale(${.7+.3*p})`});}
   const lis=[...el.querySelectorAll('ul.bul li')];if(lis.length){const gap=Math.min(.9,Math.max(dur*.7,.6)/lis.length);lis.forEach((li,j)=>{const q=back((lt-.35-j*gap)/.35);li.style.opacity=clamp((lt-.35-j*gap)/.12,0,1);li.style.transform=`translateX(${(1-q)*-140}px)`})}
+  const eyes=el.querySelector('.kid .eyes');if(eyes){const ph=(t+.7*cur)%3.1;eyes.style.transform=`scaleY(${ph<.12?.12:1})`}
   const emo=el.querySelector('.emo');if(emo){const p=back(lt/.45);emo.style.opacity=clamp(lt/.15,0,1);emo.style.transform=`scale(${.4+.6*p}) rotate(${(1-p)*-18+3*Math.sin(t*2.2)}deg) translateY(${8*Math.sin(t*3)}px)`}
   const ty=el.querySelector('.ty');if(ty){const full=s.text||'';const p=clamp((lt-.25)/Math.max(dur*.62,.6),0,1);const n=Math.round(full.length*p);ty.textContent=full.slice(0,n);
     const card=el.querySelector('.card');const q=back(lt/.4);card.style.transform=`translateY(${(1-q)*120}px) scale(${.92+.08*q})`;card.style.opacity=clamp(lt/.15,0,1);
@@ -140,6 +144,7 @@ def build(spec, tl, total, accent):
         ve = tl[i + 1][0] - 0.12 if i + 1 < len(tl) else total
         k = s.get('kind', 'line')
         d = {'kind': k, 'vs': vs, 've': ve, 'emoji': s.get('emoji', ''), 'hot': s.get('hot', []), 'text': s.get('text', ''), 'bullets': s.get('bullets', [])}
+        if s.get('cast'): d['kid'] = kids_cast.kid_svg(s['cast'], 380 if k in ('hook', 'line') and not s.get('bullets') else 260)
         if k in ('hook', 'line'): d['title'] = short_title(s)
         if k == 'step': n += 1; d['n'] = s.get('n', n); d['text'] = s.get('step', s.get('text', '')); d['title'] = s.get('title', '')
         if k == 'cta':
