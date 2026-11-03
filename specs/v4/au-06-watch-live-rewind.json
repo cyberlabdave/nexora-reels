@@ -1,0 +1,54 @@
+{
+ "series": "AI Update #6",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Replay the last 15 seconds",
+   "say": "Missed what someone said? Your Apple Watch can replay the last fifteen seconds.",
+   "emoji": "⌚",
+   "hot": [
+    "15",
+    "seconds"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Double-press the Digital Crown",
+   "say": "It's called Live Rewind. Double-press the Digital Crown to see it as text.",
+   "emoji": "👆",
+   "hot": [
+    "Double-press"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "What to know",
+   "bullets": [
+    "Text gone after screen dims",
+    "Recaps: summaries, no transcript",
+    "Chimes, even on silent"
+   ],
+   "say": "The text vanishes after the screen dims. Recaps are summaries, not transcripts. And it chimes, even on silent."
+  },
+  {
+   "kind": "line",
+   "title": "Who gets it",
+   "bullets": [
+    "Series 12 or Ultra 4",
+    "iPhone 16 or later",
+    "Beta, English first"
+   ],
+   "say": "You need a Series 12 or Ultra 4, and an iPhone 16 or later. Beta, English first."
+  },
+  {
+   "kind": "cta",
+   "say": "Save this, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Not tested by us: Apple's official info",
+   "hot": [
+    "save",
+    "follow"
+   ]
+  }
+ ]
+}
