@@ -1,0 +1,11 @@
+{
+ "series": "Kids & Families #15",
+ "segments": [
+  {"kind":"hook","title":"Say hello in French!","say":"Say hello in French with Luka from Lyon, France!","emoji":"👦🏻","hot":["French!"]},
+  {"kind":"line","title":"It starts with B. Guess!","say":"The word starts with the letter B. Can you guess it?","emoji":"🤔","hot":["Guess!"]},
+  {"kind":"line","title":"Bonjour!","say":"Bonjour! That means hello.","emoji":"👋","hot":["Bonjour!"]},
+  {"kind":"line","title":"Say it: bon-ZHOOR","say":"Try it with me. Bon-zhoor.","emoji":"🗣️","hot":["bon-ZHOOR"]},
+  {"kind":"line","title":"Two more to try","bullets":["Merci = thank you","Au revoir = goodbye"],"say":"Merci means thank you. Au revoir means goodbye."},
+  {"kind":"cta","title":"SEND THIS","say":"Send this to a friend learning French, and follow for a new word.","sub":"Nexora: the honest referee for AI. Follow for one a day.","tiny":"A new kid, a new language","emoji":"📨","hot":["send","follow"]}
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "series": "AI Reality Check #15",
+ "segments": [
+  {"kind":"hook","title":"Your AI plan can shrink overnight","say":"Your paid AI plan's limits can shrink overnight. Here's how to stay ready.","emoji":"📉","hot":["overnight"]},
+  {"kind":"line","title":"Grok did it last weekend","say":"Last weekend, some Grok users hit their weekly limit in days.","emoji":"⏱️","hot":["days"]},
+  {"kind":"line","title":"More changes coming","say":"And ChatGPT and Codex are set to share one limit.","emoji":"🔀","hot":["share"]},
+  {"kind":"line","title":"Why it happens","say":"Running AI costs a lot, so limits can change without warning.","emoji":"💸","hot":["without warning"]},
+  {"kind":"line","title":"3 habits that help","bullets":["Check your usage weekly","Keep a free backup tool","Don't prepay a year"],"say":"Check your usage weekly, keep a free backup, and don't prepay a year."},
+  {"kind":"cta","title":"SAVE THIS","say":"Save this so your week never gets wrecked, and follow Nexora, the honest referee for AI.","sub":"Nexora: the honest referee for AI. Follow for one a day.","hot":["save","follow"]}
+ ]
+}
