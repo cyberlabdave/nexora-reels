@@ -1,0 +1,62 @@
+{
+ "series": "Kids & Families #10",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Japan's magic word before dinner!",
+   "say": "Hana from Kyoto, Japan, says a special word before every meal.",
+   "emoji": "👧🏻",
+   "hot": [
+    "dinner!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Itadakimasu!",
+   "say": "She says, itadakimasu!",
+   "emoji": "🍙",
+   "hot": [
+    "itadakimasu!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's a big thank you",
+   "say": "It's a big thank you to everyone who helped make the food.",
+   "emoji": "🙏",
+   "hot": [
+    "thank"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Farmers, cooks, and nature",
+   "say": "Thank you to the farmers, the cooks, and nature too.",
+   "emoji": "🌾",
+   "hot": [
+    "nature"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Try it tonight!",
+   "say": "Try it at dinner tonight. Itadakimasu!",
+   "emoji": "🍚",
+   "hot": [
+    "tonight!"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to your family before dinner, and follow for a new word.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new language",
+   "emoji": "📨",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ]
+}

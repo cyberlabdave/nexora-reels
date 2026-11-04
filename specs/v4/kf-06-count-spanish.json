@@ -1,0 +1,69 @@
+{
+ "series": "Kids & Families #6",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Count to five in Spanish!",
+   "say": "Count to five in Spanish with Lucía from Seville, Spain!",
+   "emoji": "👧🏻",
+   "hot": [
+    "spanish!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Uno, dos, tres",
+   "say": "Uno, dos, tres. One, two, three.",
+   "emoji": "☝️",
+   "hot": [
+    "uno,",
+    "dos,",
+    "tres"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Cuatro, cinco!",
+   "say": "Cuatro, cinco! Four, five!",
+   "emoji": "🖐️",
+   "hot": [
+    "cuatro,",
+    "cinco!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Count your fingers",
+   "say": "Now count your fingers with Lucía.",
+   "hot": [
+    "fingers"
+   ],
+   "bullets": [
+    "Uno = 1 · Dos = 2",
+    "Tres = 3 · Cuatro = 4",
+    "Cinco = 5"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "¡Muy bien! Very good!",
+   "say": "Muy bien! That means, very good!",
+   "emoji": "🎉",
+   "hot": [
+    "bien!"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to someone who loves counting, and follow for a new word.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new language",
+   "emoji": "📨",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ]
+}

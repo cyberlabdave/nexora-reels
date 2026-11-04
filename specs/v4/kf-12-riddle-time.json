@@ -1,0 +1,62 @@
+{
+ "series": "Kids & Families #12",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Two riddles. Can you solve them?",
+   "say": "Riddle time with Oskar from Stockholm, Sweden! Two riddles. Can you solve them?",
+   "emoji": "👦🏼",
+   "hot": [
+    "riddles."
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Hands, but can't clap?",
+   "say": "Riddle one. What has hands, but can't clap?",
+   "emoji": "🤔",
+   "hot": [
+    "clap?"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "A clock!",
+   "say": "A clock! Its hands tell the time.",
+   "emoji": "🕰️",
+   "hot": [
+    "clock!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Break it before using it?",
+   "say": "Riddle two. What has to be broken before you can use it?",
+   "emoji": "🤔",
+   "hot": [
+    "broken"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "An egg!",
+   "say": "An egg! Crack it, then cook it.",
+   "emoji": "🥚",
+   "hot": [
+    "egg!"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Did you get both? Comment below, and follow for more riddles.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new riddle",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

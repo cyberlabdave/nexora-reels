@@ -1,0 +1,74 @@
+{
+ "series": "Kids & Families #5",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "The tallest animal on Earth!",
+   "say": "Neema from Arusha, Tanzania, sees the tallest animal on Earth. Can you guess it?",
+   "emoji": "👧🏿",
+   "hot": [
+    "tallest"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "title": "Which animal is the tallest?",
+   "tag": "Tanzania quiz",
+   "options": [
+    "Elephant",
+    "Giraffe",
+    "Ostrich"
+   ],
+   "answer": 1,
+   "say": "Which animal is the tallest? Three. Two. One.",
+   "hot": [
+    "tallest"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "It's the giraffe!",
+   "options": [
+    "Elephant",
+    "Giraffe",
+    "Ostrich"
+   ],
+   "answer": 1,
+   "source": "Giraffe Conservation Foundation",
+   "say": "It's the giraffe! The tallest animal on Earth.",
+   "hot": [
+    "giraffe!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Babies are six feet tall!",
+   "say": "Even a newborn baby giraffe is about six feet tall.",
+   "emoji": "🦒",
+   "hot": [
+    "six"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Standing within an hour",
+   "say": "And it stands up within about an hour of being born!",
+   "emoji": "⏱️",
+   "hot": [
+    "hour"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Which animal should Neema find next? Comment below, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}
