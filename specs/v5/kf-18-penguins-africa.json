@@ -1,0 +1,73 @@
+{
+ "series": "Kids & Families #18",
+ "place": "South Africa",
+ "flag": "🇿🇦",
+ "kid": {
+  "name": "Thabo",
+  "skin": "#6B4226",
+  "hair": "#1B1B1B",
+  "hairStyle": "short",
+  "outfit": "#16A34A"
+ },
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Penguins live in Africa!",
+   "sub": "with Thabo from Cape Town 🇿🇦",
+   "bubble": "Hello!",
+   "say": "Penguins live in Africa! Meet them with Thabo from Cape Town."
+  },
+  {
+   "kind": "quiz",
+   "title": "Where is this beach?",
+   "tag": "Penguin quiz",
+   "options": [
+    "Antarctica",
+    "South Africa",
+    "Brazil"
+   ],
+   "answer": 1,
+   "say": "Where is their sunny beach? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "South Africa!",
+   "options": [
+    "Antarctica",
+    "South Africa",
+    "Brazil"
+   ],
+   "answer": 1,
+   "source": "SANParks",
+   "say": "South Africa! Near Cape Town."
+  },
+  {
+   "kind": "line",
+   "title": "Here since 1983!",
+   "emoji": "🐧",
+   "say": "Penguins have lived on this beach since nineteen eighty-three."
+  },
+  {
+   "kind": "line",
+   "title": "Look, don't touch!",
+   "bullets": [
+    "Big rocks calm the waves",
+    "Sharp beaks: just watch!"
+   ],
+   "say": "Big rocks calm the waves. Their beaks are sharp, so we just watch.",
+   "emoji": "🐧"
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "👇",
+   "say": "Which animal should Thabo show us next? Comment below, and follow for more.",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

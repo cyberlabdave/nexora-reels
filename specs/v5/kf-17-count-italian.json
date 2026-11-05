@@ -1,0 +1,86 @@
+{
+ "series": "Kids & Families #17",
+ "place": "Italy",
+ "flag": "🇮🇹",
+ "kid": {
+  "name": "Giulia",
+  "skin": "#F1C9A5",
+  "hair": "#5A3A22",
+  "hairStyle": "long",
+  "outfit": "#2E86DE"
+ },
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Count to 5 in Italian!",
+   "sub": "with Giulia from Rome 🇮🇹",
+   "bubble": "Ciao!",
+   "say": "{it:Ciao!} Let's count to five in Italian, with Giulia from Rome!"
+  },
+  {
+   "kind": "count",
+   "title": "Count with me!",
+   "item": "🍋",
+   "say": "Ready?",
+   "words": [
+    {
+     "say": "{it:Uno!} One!",
+     "label": "Uno!",
+     "trans": "Uno = 1"
+    },
+    {
+     "say": "{it:Due!} Two!",
+     "label": "Due!",
+     "trans": "Due = 2"
+    },
+    {
+     "say": "{it:Tre!} Three!",
+     "label": "Tre!",
+     "trans": "Tre = 3"
+    },
+    {
+     "say": "{it:Quattro!} Four!",
+     "label": "Quattro!",
+     "trans": "Quattro = 4"
+    },
+    {
+     "say": "{it:Cinque!} Five!",
+     "label": "Cinque!",
+     "trans": "Cinque = 5"
+    }
+   ]
+  },
+  {
+   "kind": "quiz",
+   "title": "Which word means 3?",
+   "tag": "Italian quiz",
+   "options": [
+    "Due",
+    "Tre",
+    "Cinque"
+   ],
+   "answer": 1,
+   "say": "Which word means three? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's Tre!",
+   "options": [
+    "Due",
+    "Tre",
+    "Cinque"
+   ],
+   "answer": 1,
+   "source": "Larousse dictionary",
+   "say": "It's {it:tre!} Great job!"
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "sub": "to a little one who loves counting",
+   "tiny": "Nexora: the honest referee for AI. Follow for one a day.",
+   "emoji": "💌",
+   "say": "Send this to a little one who loves counting!"
+  }
+ ]
+}

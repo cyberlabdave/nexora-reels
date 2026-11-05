@@ -1,0 +1,60 @@
+{
+ "series": "AI Reality Check #16",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "AI agents booked 4 Uber rides",
+   "say": "AI agents booked just four Uber rides in Halloween week.",
+   "emoji": "🚕",
+   "hot": [
+    "4"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Out of 320 million",
+   "say": "Out of about three hundred twenty million trips and orders, Uber says.",
+   "emoji": "📊",
+   "hot": [
+    "320 million"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Food orders? About 500",
+   "say": "Agents placed about five hundred food orders. Still tiny.",
+   "emoji": "🍔",
+   "hot": [
+    "500"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "The app is already fast",
+   "bullets": [
+    "Ride: about 50 seconds",
+    "Food reorder: about 90"
+   ],
+   "say": "A ride takes about fifty seconds to book. A food reorder, about ninety."
+  },
+  {
+   "kind": "line",
+   "title": "Let AI compare, you book",
+   "say": "So let AI research and compare. Then tap book yourself.",
+   "emoji": "🧠",
+   "hot": [
+    "compare"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Would you let AI book your ride? Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

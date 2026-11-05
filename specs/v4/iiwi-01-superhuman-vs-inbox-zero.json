@@ -1,0 +1,62 @@
+{
+ "series": "Is It Worth It? #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Paid inbox or free one?",
+   "say": "Superhuman or Inbox Zero: a paid AI inbox, or a free one?",
+   "emoji": "📬",
+   "hot": [
+    "free"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "say": "Not tested by us. This is based on official info.",
+   "emoji": "📄",
+   "hot": [
+    "Not tested"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Superhuman",
+   "bullets": [
+    "Paid plans only",
+    "AI on every plan",
+    "Auto Drafts: Business plan"
+   ],
+   "say": "Superhuman lists only paid plans. AI is on every plan. Auto Drafts start on Business."
+  },
+  {
+   "kind": "line",
+   "title": "Inbox Zero",
+   "bullets": [
+    "Email app is free",
+    "Pay for AI, or self-host",
+    "Gmail and Outlook"
+   ],
+   "say": "Inbox Zero's email app is free. Pay for the AI, or host the open source code yourself."
+  },
+  {
+   "kind": "line",
+   "title": "Both draft your replies",
+   "say": "Both can draft replies for you to check before you send.",
+   "emoji": "✍️",
+   "hot": [
+    "draft"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Comment if you want a real hands-on test, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}
