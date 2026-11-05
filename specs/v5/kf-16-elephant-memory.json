@@ -1,0 +1,74 @@
+{
+ "series": "Kids & Families #16",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "The animal that never forgets!",
+   "say": "Meet the animal that never forgets, with Kwan from Chiang Mai, Thailand!",
+   "emoji": "👧🏽",
+   "hot": [
+    "never forgets!"
+   ],
+   "sub": "with Kwan from Chiang Mai 🇹🇭",
+   "bubble": "Sawasdee!"
+  },
+  {
+   "kind": "line",
+   "title": "Huge, grey, long trunk. Guess!",
+   "say": "A clue: it is huge, grey, and has a long trunk. Can you guess it?",
+   "emoji": "🤔",
+   "hot": [
+    "Guess!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's the elephant!",
+   "say": "It's the elephant! They have amazing memories.",
+   "emoji": "🐘",
+   "hot": [
+    "elephant!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Three elephant facts",
+   "bullets": [
+    "Biggest animal on land",
+    "Remembers old friends",
+    "'Talks' in low rumbles"
+   ],
+   "say": "They're the biggest animal on land, remember old friends for years, and talk in low rumbles we can barely hear."
+  },
+  {
+   "kind": "line",
+   "title": "They snorkel!",
+   "say": "Elephants swim well, and use their trunk like a snorkel.",
+   "emoji": "🌊",
+   "hot": [
+    "snorkel"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "What animal should we meet next? Comment below, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ],
+ "place": "Thailand",
+ "flag": "🇹🇭",
+ "kid": {
+  "name": "Kwan",
+  "skin": "#C98A5E",
+  "hair": "#1B1B1B",
+  "hairStyle": "bun",
+  "outfit": "#F59E0B"
+ }
+}
