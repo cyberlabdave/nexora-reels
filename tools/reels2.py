@@ -35,11 +35,21 @@ BG1, BG2 = (14, 20, 32), (21, 29, 44)
 MINT, CORAL, INK, PAPER, MUTED = (70, 215, 181), (255, 122, 102), (233, 238, 245), (255, 253, 248), (147, 160, 180)
 
 # ---------------- audio ----------------
+def _multi_dir():
+    m = os.environ.get('NX_KOKORO_MULTI') or os.path.join(os.path.dirname(os.path.abspath(TTS_BIN)), 'kokoro-multi-lang-v1_0')
+    if not os.path.exists(os.path.join(m, 'model.onnx')) and os.environ.get('NX_OLD_VOICE') != '1':
+        try:  # fetch the owner-approved voice model next to the TTS binary once (GitHub release asset)
+            subprocess.run('curl -sSL https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2 | tar xj',
+                           shell=True, check=True, cwd=os.path.dirname(m))
+        except Exception as e:
+            print('WARNING: Jessica voice model unavailable, falling back to old voice:', e, file=sys.stderr)
+    return m if os.path.exists(os.path.join(m, 'model.onnx')) else None
+
 def tts(text, path, sid):
     """Owner decision Nov 5, 2026: voice = Jessica (Kokoro multi-lang v1.0, sid 4) at a natural pace whenever
     NX_KOKORO_MULTI is set. The old v0_19 voices are only a fallback."""
     env = dict(os.environ, LD_LIBRARY_PATH=os.path.join(TTS_BIN, 'lib'))
-    multi = os.environ.get('NX_KOKORO_MULTI')
+    multi = _multi_dir()
     if multi:
         args = [f'--kokoro-model={multi}/model.onnx', f'--kokoro-voices={multi}/voices.bin', f'--kokoro-tokens={multi}/tokens.txt',
                 f'--kokoro-data-dir={multi}/espeak-ng-data', f'--kokoro-dict-dir={multi}/dict',
