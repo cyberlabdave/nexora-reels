@@ -1,0 +1,78 @@
+{
+ "series": "Kids & Families #13",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Millions of butterflies fly to Mexico!",
+   "say": "Every winter, monarch butterflies fly all the way to Mexico. Diego from Mexico City loves them!",
+   "emoji": "👦🏽",
+   "hot": [
+    "mexico!"
+   ],
+   "sub": "with Diego from Mexico City 🇲🇽",
+   "bubble": "¡Hola!"
+  },
+  {
+   "kind": "quiz",
+   "title": "What colour are monarch wings?",
+   "tag": "Mexico quiz",
+   "options": [
+    "Blue and white",
+    "Orange and black",
+    "Green and yellow"
+   ],
+   "answer": 1,
+   "say": "What colour are monarch butterflies? Three. Two. One.",
+   "hot": [
+    "monarch"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "Orange and black!",
+   "options": [
+    "Blue and white",
+    "Orange and black",
+    "Green and yellow"
+   ],
+   "answer": 1,
+   "source": "Minnesota DNR: orange wings, black veins",
+   "say": "Orange and black, with little white spots!",
+   "hot": [
+    "orange",
+    "black!"
+   ],
+   "confetti": true
+  },
+  {
+   "kind": "line",
+   "title": "They winter in Mexico",
+   "say": "They spend the winter in forests west of Mexico City.",
+   "emoji": "🌲",
+   "hot": [
+    "winter"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to a butterfly fan, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "📨",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ],
+ "place": "Mexico",
+ "flag": "🇲🇽",
+ "kid": {
+  "name": "Diego",
+  "skin": "#C98A5E",
+  "hair": "#3A2416",
+  "hairStyle": "short",
+  "outfit": "#14B8A6"
+ }
+}

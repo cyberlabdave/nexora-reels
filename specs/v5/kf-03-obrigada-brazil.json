@@ -1,0 +1,77 @@
+{
+ "series": "Kids & Families #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Thank you in Portuguese!",
+   "say": "Bia from Salvador, Brazil, wants to say thank you. Can you guess how?",
+   "emoji": "👧🏽",
+   "hot": [
+    "Portuguese"
+   ],
+   "sub": "with Bia from Salvador 🇧🇷",
+   "bubble": "Oi!"
+  },
+  {
+   "kind": "quiz",
+   "title": "What does Bia say?",
+   "tag": "Thanks from Brazil",
+   "options": [
+    "Gracias",
+    "Obrigado",
+    "Obrigada"
+   ],
+   "answer": 2,
+   "say": "What does Bia say? Careful, it's a tricky one! Three. Two. One.",
+   "hot": [
+    "Bia"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "Bia says Obrigada!",
+   "options": [
+    "Gracias",
+    "Obrigado",
+    "Obrigada"
+   ],
+   "answer": 2,
+   "source": "Obrigado / Obrigada = I am obliged",
+   "say": "{pt:Obrigada!} Girls and women say {pt:obrigada.}",
+   "hot": [
+    "Obrigada"
+   ],
+   "confetti": true
+  },
+  {
+   "kind": "line",
+   "title": "The word follows you",
+   "bullets": [
+    "Boys and men: Obrigado",
+    "Girls and women: Obrigada"
+   ],
+   "say": "Boys and men say {pt:obrigado.} The word matches the person saying it."
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Did you guess right? Comment below, and follow for a new word.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new language",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ],
+ "place": "Brazil",
+ "flag": "🇧🇷",
+ "kid": {
+  "name": "Bia",
+  "skin": "#C98A5E",
+  "hair": "#2A1A10",
+  "hairStyle": "puffs",
+  "outfit": "#14B8A6"
+ }
+}

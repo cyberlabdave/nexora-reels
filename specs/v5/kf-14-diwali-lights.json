@@ -1,0 +1,74 @@
+{
+ "series": "Kids & Families #14",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Happy Diwali, the festival of lights!",
+   "say": "Happy Diwali! Anaya from Mumbai, India, is celebrating the festival of lights.",
+   "emoji": "👧🏽",
+   "hot": [
+    "diwali,",
+    "lights!"
+   ],
+   "sub": "with Anaya from Mumbai 🇮🇳",
+   "bubble": "Namaste!"
+  },
+  {
+   "kind": "line",
+   "title": "Little lamps called diyas",
+   "say": "Families light little clay lamps called diyas.",
+   "emoji": "🪔",
+   "hot": [
+    "diyas"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Colourful rangoli patterns",
+   "say": "They make colourful patterns on the floor, called rangoli.",
+   "emoji": "🎨",
+   "hot": [
+    "rangoli"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Sweets shared with friends",
+   "say": "And they share sweets with family and friends.",
+   "emoji": "🍬",
+   "hot": [
+    "sweets"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Say it: Happy Diwali!",
+   "say": "Say it with Anaya. Happy Diwali!",
+   "emoji": "✨",
+   "hot": [
+    "diwali!"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to someone celebrating Diwali, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new festival",
+   "emoji": "📨",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ],
+ "place": "India",
+ "flag": "🇮🇳",
+ "kid": {
+  "name": "Anaya",
+  "skin": "#9C6644",
+  "hair": "#1B1B1B",
+  "hairStyle": "long",
+  "outfit": "#8B5CF6"
+ }
+}
