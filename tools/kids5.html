@@ -1,0 +1,159 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Fredoka;src:url("FONTDIR/Fredoka-wdth-wght.ttf");font-weight:300 700}
+@font-face{font-family:Emo;src:url(file:///usr/share/fonts/truetype/noto/NotoColorEmoji.ttf)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;font-family:Fredoka,sans-serif;background:#5EC8FF}
+.abs{position:absolute}
+#stage{position:absolute;inset:0;overflow:hidden;background:linear-gradient(#4FC0FF 0%,#9EE1FF 55%,#D6F4FF 72%)}
+#sun{left:770px;top:70px;width:250px;height:250px;border-radius:50%;background:#FFD23F;box-shadow:0 0 0 30px rgba(255,210,63,.33),0 0 0 70px rgba(255,210,63,.16)}
+.cloud{width:300px;height:100px;border-radius:60px;background:#fff}
+.cloud:before,.cloud:after{content:"";position:absolute;background:#fff;border-radius:50%}
+.cloud:before{left:50px;top:-55px;width:130px;height:130px}.cloud:after{left:140px;top:-35px;width:100px;height:100px}
+.hill{border-radius:50%}
+.flower{font:86px Emo}
+#pill{top:200px;left:60px;font:600 36px Fredoka;padding:12px 30px;border-radius:999px;background:#fff;color:#1F4FA8;box-shadow:0 6px 0 rgba(0,0,0,.12);z-index:5}
+#pill .e{font-family:Emo}
+#made{bottom:280px;left:60px;font:600 30px Fredoka;padding:10px 22px;border-radius:999px;background:rgba(255,255,255,.9);color:#244;z-index:5}
+.scene{position:absolute;inset:0;display:none}
+.title{position:absolute;left:50px;right:50px;top:290px;text-align:center;font-weight:700;line-height:1.02;color:#fff;-webkit-text-stroke:.11em #1F4FA8;paint-order:stroke fill;text-shadow:0 .09em 0 #1F4FA8;z-index:4}
+.title .l{display:inline-block;will-change:transform}
+.sub{position:absolute;left:60px;right:60px;text-align:center;font-weight:600;font-size:64px;color:#1F4FA8;line-height:1.1;z-index:4}
+.sub .e{font-family:Emo}
+.mid{position:absolute;left:50px;right:50px;top:700px;height:560px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px}
+.big{font:300px Emo;line-height:1;filter:drop-shadow(0 18px 0 rgba(0,0,0,.12))}
+.cards{width:100%;display:flex;flex-direction:column;gap:22px}
+.card{display:flex;align-items:center;gap:26px;padding:26px 34px;border-radius:40px;background:#fff;color:#1F2A44;font:600 58px/1.12 Fredoka;box-shadow:0 12px 0 rgba(31,79,168,.25)}
+.card i{flex:none;width:84px;height:84px;border-radius:50%;display:grid;place-items:center;font:700 50px Fredoka;font-style:normal;color:#fff;background:#FF7A2F;box-shadow:0 6px 0 #C24E10}
+.card.ok{background:#3CCB6B;color:#fff;box-shadow:0 12px 0 #1F8F45}
+.card.ok i{background:#fff;color:#1F8F45;box-shadow:none}
+.card.no{opacity:.35}
+.count{display:flex;justify-content:center;align-items:flex-end;gap:8px;width:100%;flex-wrap:nowrap}
+.it{width:178px;display:flex;flex-direction:column;align-items:center;gap:8px}
+.it .e{font:150px Emo;line-height:1}
+.it .n{font:700 60px Fredoka;width:104px;height:104px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#FF7A2F;box-shadow:0 8px 0 #C24E10}
+.word{font:700 150px Fredoka;color:#FFD23F;-webkit-text-stroke:13px #C2410C;paint-order:stroke fill;text-align:center;line-height:1}
+.trans{font:600 62px Fredoka;color:#1F4FA8}
+.timer{width:200px;height:200px;border-radius:50%;background:#fff;display:grid;place-items:center;font:700 120px Fredoka;color:#E8502F;box-shadow:0 10px 0 rgba(0,0,0,.15)}
+.src{font:500 34px Fredoka;color:#1F4FA8;background:rgba(255,255,255,.8);padding:8px 22px;border-radius:20px}
+#kid{position:absolute;width:440px;height:660px;overflow:visible;z-index:3}
+#bubble{position:absolute;padding:30px 40px;border-radius:50px;background:#fff;font:600 58px/1.12 Fredoka;color:#1F2A44;box-shadow:0 12px 0 rgba(0,0,0,.12);z-index:4;max-width:560px}
+#bubble:after{content:"";position:absolute;right:-44px;bottom:50px;border:26px solid transparent;border-left:52px solid #fff}
+.conf{position:absolute;width:26px;height:40px;border-radius:6px;z-index:6}
+.cta .title{top:520px}
+</style></head><body>
+<div id="stage">
+ <div class="abs" id="sun"></div>
+ <div class="abs cloud" style="top:560px"></div><div class="abs cloud" style="top:860px"></div><div class="abs cloud" style="top:1160px;transform:scale(.8)"></div>
+ <div class="abs hill" style="left:-300px;top:1500px;width:1100px;height:900px;background:#5BC24A"></div>
+ <div class="abs hill" style="left:350px;top:1570px;width:1200px;height:900px;background:#43A93A"></div>
+ <div id="flowers"></div>
+ <div id="scenes"></div>
+ <svg id="kid" viewBox="0 0 400 600"></svg>
+ <div id="bubble"></div>
+ <div class="abs" id="pill"></div>
+ <div class="abs" id="made">✨ Made with AI agents</div>
+ <div id="confetti"></div>
+</div>
+<script>
+const D=/*DATA*/null;const $=s=>document.querySelector(s);
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));const ease=x=>1-Math.pow(1-clamp(x,0,1),3);
+const back=x=>{x=clamp(x,0,1);const c=2.2;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const emo=s=>esc(s).replace(/(\p{Extended_Pictographic}[\u{FE0F}\u{1F3FB}-\u{1F3FF}\u{200D}\p{Extended_Pictographic}]*|[\u{1F1E6}-\u{1F1FF}]{2})/gu,'<span class="e">$1</span>');
+const K=D.kid;const COLORS=['#FF6FB1','#FFC93C','#4FD1C5','#7C9CFF','#FF8A5B','#3CCB6B'];
+/* flowers */
+$('#flowers').innerHTML=[0,1,2,3,4,5].map(i=>`<div class="abs flower" style="left:${40+i*170}px;top:${1660+(i%2)*60}px">${['🌼','🌷','🌼','🌻','🌷','🌼'][i]}</div>`).join('');
+const sn=D.series.match(/#\d+/);$('#pill').innerHTML=`<span class="e">${D.flag||'🌍'}</span> Kids &amp; Families${D.place?' · '+esc(D.place):''}`;
+/* kid (original drawing) */
+const hairBack={pigtails:`<circle cx="80" cy="205" r="55" fill="${K.hair}"/><circle cx="320" cy="205" r="55" fill="${K.hair}"/><circle cx="92" cy="150" r="18" fill="#FF4FA3"/><circle cx="308" cy="150" r="18" fill="#FF4FA3"/>`,
+ puffs:`<circle cx="95" cy="85" r="70" fill="${K.hair}"/><circle cx="305" cy="85" r="70" fill="${K.hair}"/>`,
+ long:`<path d="M70 180 Q60 330 110 360 L290 360 Q340 330 330 180 Z" fill="${K.hair}"/>`,
+ bun:`<circle cx="200" cy="50" r="55" fill="${K.hair}"/>`,bob:`<path d="M72 170 Q70 300 120 300 L280 300 Q330 300 328 170 Z" fill="${K.hair}"/>`,short:''};
+const hairTop={short:`<path d="M80 170 Q90 55 200 55 Q310 55 320 170 Q290 120 200 118 Q120 118 80 170Z" fill="${K.hair}"/>`};
+const ht=hairTop[K.hairStyle]||`<path d="M75 178 Q88 48 200 52 Q312 48 325 178 Q300 108 200 118 Q108 108 75 178Z" fill="${K.hair}"/>`;
+$('#kid').innerHTML=`<g id="body">
+ <rect x="138" y="470" width="44" height="105" rx="20" fill="#34386B"/><rect x="218" y="470" width="44" height="105" rx="20" fill="#34386B"/>
+ <ellipse cx="156" cy="580" rx="42" ry="18" fill="#fff"/><ellipse cx="244" cy="580" rx="42" ry="18" fill="#fff"/>
+ <g id="armL"><rect x="68" y="330" width="46" height="150" rx="23" fill="${K.outfit}"/><circle cx="91" cy="488" r="28" fill="${K.skin}"/></g>
+ <g id="armR"><rect x="286" y="330" width="46" height="150" rx="23" fill="${K.outfit}"/><circle cx="309" cy="488" r="28" fill="${K.skin}"/></g>
+ <path d="M110 330 Q200 300 290 330 L325 510 Q200 535 75 510 Z" fill="${K.outfit}"/>
+ <path d="M150 318 Q200 360 250 318" stroke="#fff" stroke-width="12" fill="none" opacity=".7"/>
+ <circle cx="165" cy="430" r="12" fill="#fff" opacity=".55"/><circle cx="235" cy="455" r="12" fill="#fff" opacity=".55"/><circle cx="205" cy="400" r="12" fill="#fff" opacity=".55"/>
+ <g id="head">${hairBack[K.hairStyle]||''}
+  <rect x="180" y="290" width="40" height="40" fill="${K.skin}"/>
+  <circle cx="200" cy="190" r="125" fill="${K.skin}"/>${ht}
+  <g id="eyes"><ellipse cx="155" cy="198" rx="16" ry="22" fill="#1B1B2F"/><ellipse cx="245" cy="198" rx="16" ry="22" fill="#1B1B2F"/>
+  <circle cx="161" cy="189" r="6" fill="#fff"/><circle cx="251" cy="189" r="6" fill="#fff"/></g>
+  <path d="M135 160 Q155 148 175 158" stroke="#1B1B2F" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M225 158 Q245 148 265 160" stroke="#1B1B2F" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="122" cy="242" r="20" fill="#F2836B" opacity=".55"/><circle cx="278" cy="242" r="20" fill="#F2836B" opacity=".55"/>
+  <path id="smile" d="M170 255 Q200 282 230 255" stroke="#7A1E2C" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse id="mouth" cx="200" cy="262" rx="30" ry="8" fill="#7A1E2C"/>
+ </g></g>`;
+/* scenes */
+const root=$('#scenes');
+function tsize(t){const n=(t||'').length;return n<=10?140:n<=16?122:n<=24?104:n<=34?90:78}
+function letters(t){return esc(t).split(/(\s+)/).map(w=>/^\s+$/.test(w)?' ':`<span style="white-space:nowrap">${[...w].map(c=>`<span class="l">${c}</span>`).join('')}</span>`).join('')}
+D.segs.forEach((s,i)=>{const el=document.createElement('div');el.className='scene '+s.kind;let h=`<div class="title" style="font-size:${tsize(s.title)}px">${letters(s.title||'')}</div>`;
+ const subTop=s.kind==='cta'?900:640;
+ if(s.sub&&s.kind!=='cta')h+=`<div class="sub" style="top:${subTop}px">${emo(s.sub)}</div>`;
+ let m='';
+ if(s.kind==='count'){m=`<div class="count">${s.words.map((w,j)=>`<div class="it"><div class="e">${s.item||'⭐'}</div><div class="n" style="background:${COLORS[j%6]};box-shadow:0 8px 0 rgba(0,0,0,.2)">${j+1}</div></div>`).join('')}</div><div class="word"></div><div class="trans"></div>`}
+ else if(s.kind==='quiz'||s.kind==='reveal'){m=`<div class="cards">${(s.options||[]).map((o,j)=>`<div class="card"><i>${'ABC'[j]}</i><span>${emo(o)}</span></div>`).join('')}</div>${s.kind==='quiz'?'<div class="timer">3</div>':(s.source?`<div class="src">Source: ${esc(s.source)}</div>`:'')}`}
+ else if(s.bullets&&s.bullets.length){m=`${s.emoji?`<div class="big" style="font-size:150px">${s.emoji}</div>`:''}<div class="cards">${s.bullets.map((b,j)=>`<div class="card"><i style="background:${COLORS[j%6]};box-shadow:none">${j+1}</i><span>${emo(b)}</span></div>`).join('')}</div>`}
+ else if(s.kind==='cta'){m=`<div class="big">${s.emoji||'⭐'}</div>`;h+=`<div class="sub" style="top:1040px;font-size:46px">${emo(s.sub||'')}</div>`}
+ else if(s.emoji){m=`<div class="big">${s.emoji}</div>`}
+ if(m)h+=`<div class="mid" style="${s.kind==='cta'?'top:640px;height:300px':''}">${m}</div>`;
+ el.innerHTML=h;root.appendChild(el)});
+const scenes=[...root.children];
+/* confetti pool */
+const CF=$('#confetti');const confs=[];for(let i=0;i<60;i++){const c=document.createElement('div');c.className='conf';c.style.background=COLORS[i%6];CF.appendChild(c);confs.push({el:c,x:(i*97)%1080,vx:((i*53)%200-100)*2.2,vy:-(600+(i*71)%700),r:(i*37)%360})}
+let confAt=-9;
+function seek(t){
+ /* ambient */
+ document.querySelectorAll('.cloud').forEach((c,i)=>{c.style.left=(((t*(28+i*14)+i*450)%1500)-360)+'px'});
+ $('#sun').style.transform=`rotate(${t*20}deg) scale(${1+.04*Math.sin(t*2)})`;
+ document.querySelectorAll('.flower').forEach((f,i)=>{f.style.transform=`rotate(${8*Math.sin(t*2+i)}deg)`});
+ let cur=0;D.segs.forEach((s,i)=>{if(t>=s.vs)cur=i});
+ scenes.forEach((el,i)=>el.style.display=i===cur?'block':'none');
+ const s=D.segs[cur],el=scenes[cur],lt=t-s.vs,dur=s.ve-s.vs;
+ /* kid placement */
+ const kid=$('#kid'),bub=$('#bubble');let kx=620,ky=1200,ks=1;
+ if(s.kind==='hook'){kx=300;ky=870;ks=1.3}else if(s.kind==='cta'){kx=320;ky=1160;ks=1.05}
+ const ent=cur===0?1:back(lt/.45);
+ kid.style.left=kx+'px';kid.style.top=ky+'px';
+ const hop=Math.abs(Math.sin(t*3.2))*22;
+ kid.style.transform=`translateY(${-hop+(1-ent)*300}px) scale(${ks}) rotate(${3*Math.sin(t*1.6)}deg)`;kid.style.transformOrigin='50% 100%';
+ const fi=Math.min(D.lips.length-1,Math.floor(t*D.fps));const lv=D.lips[fi]||0;
+ const talk=lv>0.06;$('#mouth').setAttribute('ry',talk?6+lv*24:0);$('#mouth').setAttribute('rx',talk?24+lv*10:0);$('#smile').style.opacity=talk?0:1;
+ $('#eyes').style.transformOrigin='200px 198px';$('#eyes').style.transform=`scaleY(${((t+1.5)%3.1)<.11?.12:1})`;
+ const wave=s.kind==='hook'||s.kind==='cta'||s.kind==='reveal'||s.confetti;
+ $('#armR').style.transformOrigin='309px 345px';$('#armR').style.transform=wave?`rotate(${-140+24*Math.sin(t*7)}deg)`:`rotate(${6*Math.sin(t*2)}deg)`;
+ $('#armL').style.transformOrigin='91px 345px';$('#armL').style.transform=s.kind==='count'?`rotate(${120+15*Math.sin(t*5)}deg)`:`rotate(${-6*Math.sin(t*2)}deg)`;
+ /* bubble */
+ let bt=s.bubble||'';if(s.kind==='count'){const j=s.parts.filter(p=>t>=p).length-1;bt=j>=0&&s.trans[j]?s.trans[j]:''}
+ if(bt){bub.style.display='block';bub.innerHTML=emo(bt);const q=back((lt-.2)/.35);
+  if(s.kind==='hook'){bub.style.left='90px';bub.style.top='760px'}else{bub.style.left='80px';bub.style.top='1330px'}
+  bub.style.transform=`scale(${q})`;bub.style.transformOrigin='100% 80%';}else bub.style.display='none';
+ /* title letters */
+ const ls=[...el.querySelectorAll('.title .l')];const per=Math.min(.035,.45/Math.max(ls.length,1));const hk=cur===0;
+ ls.forEach((l,j)=>{const p=hk?1:back((lt-j*per)/.32);l.style.transform=`translateY(${(1-p)*-90+5*Math.sin(t*4+j*.6)}px) scale(${.4+.6*p})`;l.style.opacity=hk?1:clamp((lt-j*per)/.1,0,1)});
+ const sub=el.querySelector('.sub');if(sub){const q=back((lt-.3)/.35);sub.style.opacity=clamp((lt-.3)/.12,0,1);sub.style.transform=`scale(${.7+.3*q})`}
+ const big=el.querySelector('.big');if(big){const q=back((lt-.15)/.5);big.style.opacity=clamp((lt-.15)/.12,0,1);big.style.transform=`scale(${.3+.7*q}) rotate(${(1-q)*-25+6*Math.sin(t*3)}deg) translateY(${-12*Math.abs(Math.sin(t*3))}px)`}
+ const cards=[...el.querySelectorAll('.card')];
+ if(s.kind==='quiz'||s.kind==='reveal'){cards.forEach((c,j)=>{const q=back((lt-.25-j*.18)/.35);c.style.opacity=s.kind==='reveal'&&lt>.5&&j!==s.answer?.35:clamp((lt-.25-j*.18)/.1,0,1);c.style.transform=`translateX(${(1-q)*(j%2?140:-140)}px) scale(${s.kind==='reveal'&&j===s.answer&&lt>.5?1.06+.03*Math.sin(t*6):1})`;
+   c.classList.toggle('ok',s.kind==='reveal'&&j===s.answer&&lt>.5)});
+  const tm=el.querySelector('.timer');if(tm){const left=dur-lt;const n=Math.max(1,Math.min(3,Math.ceil((left-.2)/0.75)));tm.textContent=lt<dur*.35?'?':n;tm.style.transform=`scale(${1+.12*Math.abs(Math.sin(t*Math.PI*1.33))})`}
+  const src=el.querySelector('.src');if(src)src.style.opacity=clamp((lt-1)/.3,0,1);}
+ else cards.forEach((c,j)=>{const g=Math.min(.7,Math.max(dur*.6,.6)/cards.length);const q=back((lt-.35-j*g)/.35);c.style.opacity=clamp((lt-.35-j*g)/.1,0,1);c.style.transform=`translateX(${(1-q)*-160}px)`});
+ if(s.kind==='count'){const its=[...el.querySelectorAll('.it')];let on=-1;its.forEach((it,j)=>{const p0=s.parts[j];const q=back((t-p0+.05)/.35);const vis=t>=p0-.05;if(vis)on=j;it.style.opacity=vis?1:0;
+   it.style.transform=`scale(${vis?(.3+.7*q)*(j===on?1.15:1):.3}) translateY(${j===on?-24:0}px) rotate(${vis?6*Math.sin(t*4+j):0}deg)`});
+  its.forEach((it,j)=>{if(j===on)it.style.transform+=` translateY(${-10*Math.abs(Math.sin(t*6))}px)`});
+  const w=el.querySelector('.word');w.textContent=on>=0?s.words[on]:'';const q=on>=0?back((t-s.parts[on])/.3):0;w.style.transform=`scale(${.5+.5*q})`;
+  el.querySelector('.trans').textContent='';}
+ /* confetti */
+ if((s.kind==='reveal'||s.confetti)){const c0=s.vs+.2;const ct=t-c0;
+  confs.forEach((c,i)=>{if(ct<0||ct>3.2){c.el.style.display='none';return}c.el.style.display='block';const sp=420+(i*71)%520;const x=c.x+60*Math.sin(ct*3+i);const y=-80-(i*137)%500+sp*ct*1.4;c.el.style.left=x+'px';c.el.style.top=y+'px';c.el.style.transform=`rotate(${c.r+ct*360}deg)`})}
+ else confs.forEach(c=>c.el.style.display='none');
+}
+window.seek=seek;window.ready=document.fonts.ready.then(()=>true);
+</script></body></html>

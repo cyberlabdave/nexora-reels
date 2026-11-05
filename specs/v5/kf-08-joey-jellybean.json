@@ -1,0 +1,75 @@
+{
+ "series": "Kids & Families #8",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A baby kangaroo is jellybean-sized!",
+   "say": "A baby kangaroo starts out as small as a jellybean! Ruby from Brisbane, Australia, explains.",
+   "emoji": "👧🏼",
+   "hot": [
+    "jellybean-sized!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Its name is a joey",
+   "say": "A baby kangaroo is called a joey.",
+   "emoji": "🦘",
+   "hot": [
+    "joey"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It grows in the pouch",
+   "say": "The tiny joey grows inside mum's pouch.",
+   "emoji": "🦘",
+   "hot": [
+    "pouch"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "First hop out: ten months!",
+   "say": "At around ten months, it's ready to hop out for the first time.",
+   "emoji": "🌟",
+   "hot": [
+    "months!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Kangaroo facts to remember",
+   "say": "Let's remember it together.",
+   "hot": [
+    "remember"
+   ],
+   "bullets": [
+    "Baby = joey",
+    "Born jellybean-sized",
+    "Hops out at ~10 months"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to someone who loves kangaroos, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "📨",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ],
+ "place": "Australia",
+ "flag": "🇦🇺",
+ "kid": {
+  "name": "Ruby",
+  "skin": "#E0A87A",
+  "hair": "#C8862B",
+  "hairStyle": "bun",
+  "outfit": "#14B8A6"
+ }
+}

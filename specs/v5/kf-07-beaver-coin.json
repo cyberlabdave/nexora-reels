@@ -1,0 +1,74 @@
+{
+ "series": "Kids & Families #7",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Canada put this animal on money!",
+   "say": "Maya from Toronto, Canada, has a coin with an animal on it. Guess which one!",
+   "emoji": "👧🏼",
+   "hot": [
+    "money!"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "title": "Who is on the 5-cent coin?",
+   "tag": "Canada quiz",
+   "options": [
+    "Moose",
+    "Beaver",
+    "Polar bear"
+   ],
+   "answer": 1,
+   "say": "Which animal is on Canada's five-cent coin? Three. Two. One.",
+   "hot": [
+    "5-cent"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "It's the beaver!",
+   "options": [
+    "Moose",
+    "Beaver",
+    "Polar bear"
+   ],
+   "answer": 1,
+   "source": "Royal Canadian Mint: design first issued in 1937",
+   "say": "It's the beaver! It has been on the coin since nineteen thirty-seven.",
+   "hot": [
+    "beaver!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Beavers build dams",
+   "say": "Beavers build dams with sticks and mud.",
+   "emoji": "🦫",
+   "hot": [
+    "dams"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Did you guess right? Comment below, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ],
+ "place": "Canada",
+ "flag": "🇨🇦",
+ "kid": {
+  "name": "Maya",
+  "skin": "#F2C9A0",
+  "hair": "#6B3E1E",
+  "hairStyle": "long",
+  "outfit": "#2F6FE8"
+ }
+}

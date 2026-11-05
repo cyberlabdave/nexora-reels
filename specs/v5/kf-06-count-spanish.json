@@ -1,0 +1,8 @@
+{"series":"Kids & Families #6","place":"Spain","flag":"🇪🇸",
+ "kid":{"name":"Lucía","skin":"#C98A5E","hair":"#3A2416","hairStyle":"pigtails","outfit":"#E8502F"},
+ "segments":[
+  {"kind":"hook","title":"Count to 5 in Spanish!","sub":"with Lucía from Seville 🇪🇸","bubble":"¡Hola!","say":"{es:¡Hola!} Hi friends! Let's count to five in Spanish, with Lucía from Seville."},
+  {"kind":"count","title":"Count with me!","item":"🍊","say":"Hold up your fingers. Ready?",
+   "words":[{"say":"{es:¡Uno!} One!","label":"¡Uno!","trans":"Uno = 1"},{"say":"{es:¡Dos!} Two!","label":"¡Dos!","trans":"Dos = 2"},{"say":"{es:¡Tres!} Three!","label":"¡Tres!","trans":"Tres = 3"},{"say":"{es:¡Cuatro!} Four!","label":"¡Cuatro!","trans":"Cuatro = 4"},{"say":"{es:¡Cinco!} Five!","label":"¡Cinco!","trans":"Cinco = 5"}]},
+  {"kind":"line","title":"¡Muy bien!","sub":"That means: very good! 🎉","emoji":"🎉","confetti":true,"bubble":"You did it!","say":"{es:¡Muy bien!} That means, very good! You did it!"},
+  {"kind":"cta","title":"SEND THIS","sub":"to a little one who loves counting","emoji":"💌","say":"Send this to a little one who loves counting, and follow for a new word every day!"}]}
