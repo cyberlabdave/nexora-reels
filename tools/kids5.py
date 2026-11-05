@@ -155,7 +155,7 @@ def page(spec, tl, total, lips):
     fd = 'file://' + os.path.abspath(FONT_DIR)
     return html.replace('FONTDIR', fd).replace('/*DATA*/null', json.dumps(data, ensure_ascii=False))
 
-def render(spec, out, sid=3, cover=None):
+def render(spec, out, sid=4, cover=None):
     tmp = os.path.abspath(out + '.tmp'); os.makedirs(tmp, exist_ok=True)
     wav, tl, total, lips = build_audio(spec, sid, tmp)
     html = os.path.join(tmp, 'reel.html'); open(html, 'w').write(page(spec, tl, total, lips))
@@ -165,6 +165,6 @@ def render(spec, out, sid=3, cover=None):
     return total
 
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(); ap.add_argument('spec'); ap.add_argument('out'); ap.add_argument('--cover'); ap.add_argument('--voice', type=int, default=int(os.environ.get('NX_KIDS_VOICE', 3)))
+    ap = argparse.ArgumentParser(); ap.add_argument('spec'); ap.add_argument('out'); ap.add_argument('--cover'); ap.add_argument('--voice', type=int, default=int(os.environ.get('NX_KIDS_VOICE', 4)))
     a = ap.parse_args(); spec = json.load(open(a.spec))
     print('%.1fs' % render(spec, a.out, a.voice, a.cover))

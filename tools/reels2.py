@@ -36,10 +36,20 @@ MINT, CORAL, INK, PAPER, MUTED = (70, 215, 181), (255, 122, 102), (233, 238, 245
 
 # ---------------- audio ----------------
 def tts(text, path, sid):
+    """Owner decision Nov 5, 2026: voice = Jessica (Kokoro multi-lang v1.0, sid 4) at a natural pace whenever
+    NX_KOKORO_MULTI is set. The old v0_19 voices are only a fallback."""
     env = dict(os.environ, LD_LIBRARY_PATH=os.path.join(TTS_BIN, 'lib'))
-    subprocess.run([os.path.join(TTS_BIN, 'bin', 'sherpa-onnx-offline-tts'), f'--kokoro-model={KOKORO}/model.onnx', f'--kokoro-voices={KOKORO}/voices.bin',
-                    f'--kokoro-tokens={KOKORO}/tokens.txt', f'--kokoro-data-dir={KOKORO}/espeak-ng-data', '--num-threads=4', f'--sid={sid}', '--kokoro-length-scale=' + os.environ.get('NX_PACE', '0.92'),
-                    f'--output-filename={path}', text], check=True, env=env, capture_output=True)
+    multi = os.environ.get('NX_KOKORO_MULTI')
+    if multi:
+        args = [f'--kokoro-model={multi}/model.onnx', f'--kokoro-voices={multi}/voices.bin', f'--kokoro-tokens={multi}/tokens.txt',
+                f'--kokoro-data-dir={multi}/espeak-ng-data', f'--kokoro-dict-dir={multi}/dict',
+                f'--kokoro-lexicon={multi}/lexicon-us-en.txt,{multi}/lexicon-zh.txt', '--kokoro-lang=en',
+                '--sid=' + os.environ.get('NX_VOICE', '4'), '--kokoro-length-scale=' + os.environ.get('NX_PACE_MULTI', '0.97')]
+    else:
+        args = [f'--kokoro-model={KOKORO}/model.onnx', f'--kokoro-voices={KOKORO}/voices.bin', f'--kokoro-tokens={KOKORO}/tokens.txt',
+                f'--kokoro-data-dir={KOKORO}/espeak-ng-data', f'--sid={sid}', '--kokoro-length-scale=' + os.environ.get('NX_PACE', '0.92')]
+    subprocess.run([os.path.join(TTS_BIN, 'bin', 'sherpa-onnx-offline-tts'), *args, '--num-threads=4', f'--output-filename={path}', text],
+                   check=True, env=env, capture_output=True)
     with wave.open(path) as w:
         sr = w.getframerate(); a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
     return a, sr
