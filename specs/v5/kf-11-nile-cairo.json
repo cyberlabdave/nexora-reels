@@ -1,0 +1,77 @@
+{
+ "series": "Kids & Families #11",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A giant river runs through Cairo!",
+   "say": "Zahra from Cairo, Egypt, lives next to a giant river. Which one?",
+   "emoji": "👧🏽",
+   "hot": [
+    "river"
+   ],
+   "sub": "with Zahra from Cairo 🇪🇬",
+   "bubble": "Hi!"
+  },
+  {
+   "kind": "quiz",
+   "title": "Which river flows through Cairo?",
+   "tag": "Egypt quiz",
+   "options": [
+    "Amazon",
+    "Nile",
+    "Thames"
+   ],
+   "answer": 1,
+   "say": "Which river flows through Cairo? Three. Two. One.",
+   "hot": [
+    "cairo?"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "It's the Nile!",
+   "options": [
+    "Amazon",
+    "Nile",
+    "Thames"
+   ],
+   "answer": 1,
+   "source": "The Nile divides Cairo into east and west",
+   "say": "It's the Nile! One of the longest rivers in the world.",
+   "hot": [
+    "nile!"
+   ],
+   "confetti": true
+  },
+  {
+   "kind": "line",
+   "title": "The pyramids are nearby",
+   "say": "The pyramids of Giza stand on the Nile's west side.",
+   "emoji": "🔺",
+   "hot": [
+    "pyramids"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Which river should we visit next? Comment below, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new place",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ],
+ "place": "Egypt",
+ "flag": "🇪🇬",
+ "kid": {
+  "name": "Zahra",
+  "skin": "#9C6644",
+  "hair": "#1B1B1B",
+  "hairStyle": "puffs",
+  "outfit": "#F59E0B"
+ }
+}

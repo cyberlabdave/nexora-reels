@@ -1,0 +1,86 @@
+{
+ "series": "Kids & Families #9",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Alpacas make a funny sound!",
+   "say": "Mateo from Cusco, Peru, knows a funny alpaca sound. Can you guess it?",
+   "emoji": "👦🏽",
+   "hot": [
+    "funny"
+   ],
+   "sub": "with Mateo from Cusco 🇵🇪",
+   "bubble": "¡Hola!"
+  },
+  {
+   "kind": "quiz",
+   "title": "What sound does an alpaca make?",
+   "tag": "Peru quiz",
+   "options": [
+    "Moo",
+    "Hum",
+    "Quack"
+   ],
+   "answer": 1,
+   "say": "What sound does an alpaca make most? Three. Two. One.",
+   "hot": [
+    "alpaca"
+   ]
+  },
+  {
+   "kind": "reveal",
+   "title": "Alpacas hum!",
+   "options": [
+    "Moo",
+    "Hum",
+    "Quack"
+   ],
+   "answer": 1,
+   "source": "Modern Farmer: the hum is their most common sound",
+   "say": "Hmmmm! Alpacas hum. It's their most common sound.",
+   "hot": [
+    "hum!"
+   ],
+   "confetti": true
+  },
+  {
+   "kind": "line",
+   "title": "They live in the Andes",
+   "say": "Alpacas live high in the Andes mountains of Peru.",
+   "emoji": "🏔️",
+   "hot": [
+    "andes"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Can you hum like one?",
+   "say": "Now you try. Hum like an alpaca!",
+   "emoji": "🦙",
+   "hot": [
+    "hum"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Which animal sound should we learn next? Comment below, and follow for more.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ],
+ "place": "Peru",
+ "flag": "🇵🇪",
+ "kid": {
+  "name": "Mateo",
+  "skin": "#C98A5E",
+  "hair": "#1B1B1B",
+  "hairStyle": "short",
+  "outfit": "#E8502F"
+ }
+}
