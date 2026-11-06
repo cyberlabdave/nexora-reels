@@ -6,6 +6,7 @@ bubbly Fredoka letters that bounce in, objects that pop in as they are counted, 
 countdown, confetti on reveals. Voice: Kokoro multi-lang v1.0 at natural pace, with NATIVE voices for
 foreign words (Spanish, French, Hindi, Italian, Portuguese, Japanese, Chinese).
 
+Count scenes may set "start" (first badge number, default 1) for Part 2 counts like six to ten.
 Usage: python3 kids5.py spec.json out.mp4 [--cover out.jpg] [--voice 3]
 Env: NX_TTS_DIR (sherpa-onnx v1.12.20 shared build), NX_KOKORO_MULTI (kokoro-multi-lang-v1_0 folder)
 
@@ -140,7 +141,7 @@ PERSON = re.compile('[\U0001F466-\U0001F469\U0001F9D2\U0001F9D1]')
 def page(spec, tl, total, lips):
     segs = []
     for s, t in zip(spec['segments'], tl):
-        d = {k: s.get(k) for k in ('kind', 'title', 'sub', 'tiny', 'emoji', 'bullets', 'options', 'answer', 'source', 'bubble', 'item', 'confetti', 'tag')}
+        d = {k: s.get(k) for k in ('kind', 'title', 'sub', 'tiny', 'emoji', 'bullets', 'options', 'answer', 'source', 'bubble', 'item', 'confetti', 'tag', 'start')}
         if d['emoji'] and PERSON.search(d['emoji']): d['emoji'] = None
         d['words'] = [w.get('label') or plain(w['say']).split()[0] for w in s.get('words', [])]
         d['trans'] = [w.get('trans', '') for w in s.get('words', [])]

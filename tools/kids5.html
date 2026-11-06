@@ -97,7 +97,7 @@ D.segs.forEach((s,i)=>{const el=document.createElement('div');el.className='scen
  const subTop=s.kind==='cta'?900:640;
  if(s.sub&&s.kind!=='cta')h+=`<div class="sub" style="top:${subTop}px">${emo(s.sub)}</div>`;
  let m='';
- if(s.kind==='count'){m=`<div class="count">${s.words.map((w,j)=>`<div class="it"><div class="e">${s.item||'⭐'}</div><div class="n" style="background:${COLORS[j%6]};box-shadow:0 8px 0 rgba(0,0,0,.2)">${j+1}</div></div>`).join('')}</div><div class="word"></div><div class="trans"></div>`}
+ if(s.kind==='count'){m=`<div class="count">${s.words.map((w,j)=>`<div class="it"><div class="e">${s.item||'⭐'}</div><div class="n" style="background:${COLORS[j%6]};box-shadow:0 8px 0 rgba(0,0,0,.2)">${(s.start||1)+j}</div></div>`).join('')}</div><div class="word"></div><div class="trans"></div>`}
  else if(s.kind==='quiz'||s.kind==='reveal'){m=`<div class="cards">${(s.options||[]).map((o,j)=>`<div class="card"><i>${'ABC'[j]}</i><span>${emo(o)}</span></div>`).join('')}</div>${s.kind==='quiz'?'<div class="timer">3</div>':(s.source?`<div class="src">Source: ${esc(s.source)}</div>`:'')}`}
  else if(s.bullets&&s.bullets.length){m=`${s.emoji?`<div class="big" style="font-size:150px">${s.emoji}</div>`:''}<div class="cards">${s.bullets.map((b,j)=>`<div class="card"><i style="background:${COLORS[j%6]};box-shadow:none">${j+1}</i><span>${emo(b)}</span></div>`).join('')}</div>`}
  else if(s.kind==='cta'){m=`<div class="big">${s.emoji||'⭐'}</div>`;h+=`<div class="sub" style="top:1040px;font-size:46px">${emo(s.sub||'')}</div>`}

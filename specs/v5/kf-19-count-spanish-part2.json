@@ -1,0 +1,86 @@
+{
+ "series": "Kids & Families #19",
+ "place": "Colombia",
+ "flag": "🇨🇴",
+ "kid": {
+  "name": "Valentina",
+  "skin": "#A86B4C",
+  "hair": "#2B1A12",
+  "hairStyle": "puffs",
+  "outfit": "#F5B700"
+ },
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Count to 10 in Spanish!",
+   "bubble": "¡Hola! Part 2!",
+   "say": "{es:¡Hola!} Part two! Let's count six to ten in Spanish, with Valentina."
+  },
+  {
+   "kind": "count",
+   "title": "Count with me!",
+   "item": "🍓",
+   "say": "Ready?",
+   "words": [
+    {
+     "say": "{es:¡Seis!} Six!",
+     "label": "¡Seis!",
+     "trans": "Seis = 6"
+    },
+    {
+     "say": "{es:¡Siete!} Seven!",
+     "label": "¡Siete!",
+     "trans": "Siete = 7"
+    },
+    {
+     "say": "{es:¡Ocho!} Eight!",
+     "label": "¡Ocho!",
+     "trans": "Ocho = 8"
+    },
+    {
+     "say": "{es:¡Nueve!} Nine!",
+     "label": "¡Nueve!",
+     "trans": "Nueve = 9"
+    },
+    {
+     "say": "{es:¡Diez!} Ten!",
+     "label": "¡Diez!",
+     "trans": "Diez = 10"
+    }
+   ],
+   "start": 6
+  },
+  {
+   "kind": "quiz",
+   "title": "Which word means 8?",
+   "tag": "Spanish quiz",
+   "options": [
+    "Seis",
+    "Ocho",
+    "Diez"
+   ],
+   "answer": 1,
+   "say": "Which word means eight? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's Ocho!",
+   "options": [
+    "Seis",
+    "Ocho",
+    "Diez"
+   ],
+   "answer": 1,
+   "source": "RAE",
+   "say": "It's {es:¡ocho!} {es:¡Muy bien!} Very good!"
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "sub": "to a little one who loves counting",
+   "tiny": "Nexora: the honest referee for AI. Follow for one a day.",
+   "emoji": "💌",
+   "say": "Send this to a little one who loves counting!"
+  }
+ ]
+}
