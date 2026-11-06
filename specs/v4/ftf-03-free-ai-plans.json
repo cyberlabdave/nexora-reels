@@ -1,0 +1,63 @@
+{
+ "series": "Free Tool Friday #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Free AI plans, side by side",
+   "say": "ChatGPT, Claude, Gemini. Here's what you get free.",
+   "emoji": "🆓",
+   "hot": [
+    "Free"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "ChatGPT Free",
+   "bullets": [
+    "Unlimited everyday text chats",
+    "Search, uploads, images",
+    "Ads in some countries"
+   ],
+   "say": "ChatGPT: unlimited everyday chats, search, uploads and images. Ads in some countries."
+  },
+  {
+   "kind": "line",
+   "title": "Claude Free",
+   "bullets": [
+    "Limits reset every 5 hours",
+    "Search, files, code",
+    "Memory across chats"
+   ],
+   "say": "Claude: limits reset every five hours. Search, files, code and memory."
+  },
+  {
+   "kind": "line",
+   "title": "Gemini Free",
+   "bullets": [
+    "Deep Research included",
+    "Images, audio overviews",
+    "No video generation"
+   ],
+   "say": "Gemini: Deep Research, images and audio overviews. No video."
+  },
+  {
+   "kind": "line",
+   "title": "Checked on official pages",
+   "say": "All from their official pages today. Limits can change.",
+   "emoji": "✅",
+   "hot": [
+    "official"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SAVE THIS",
+   "say": "Save this for picking a free AI, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "save",
+    "follow"
+   ]
+  }
+ ]
+}
