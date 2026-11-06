@@ -1,0 +1,70 @@
+{
+ "series": "AI Reality Check #17",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "3 more real AI fails",
+   "say": "Three more real AI fails, all on the record.",
+   "emoji": "🚨",
+   "hot": [
+    "fails"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "1. City bot: take their tips",
+   "say": "One: New York City's business chatbot said bosses could take workers' tips.",
+   "emoji": "🏙️",
+   "hot": [
+    "tips"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Source: The Markup",
+   "bullets": [
+    "Wrong on tips and cash rules",
+    "The city took it down"
+   ],
+   "say": "The Markup caught it. The city took it down."
+  },
+  {
+   "kind": "line",
+   "title": "2. A bot roasted its boss",
+   "say": "Two: D P D's delivery chatbot swore at a customer and mocked the company.",
+   "emoji": "📦",
+   "hot": [
+    "roasted"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "3. A wrong fact in an ad",
+   "say": "Three: Google's first Bard ad got a telescope fact wrong.",
+   "emoji": "🔭",
+   "hot": [
+    "wrong"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "The fix",
+   "bullets": [
+    "Check the original source",
+    "Ask for a human"
+   ],
+   "say": "The fix: check the source, and ask for a human when it matters.",
+   "emoji": "✅"
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Seen an AI fail? Comment below, and follow.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}
