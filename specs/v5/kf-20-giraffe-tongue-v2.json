@@ -1,0 +1,75 @@
+{
+ "series": "Kids & Families #20",
+ "place": "Botswana",
+ "flag": "🇧🇼",
+ "kid": {
+  "name": "Lesedi",
+  "skin": "#5C3A24",
+  "hair": "#151515",
+  "hairStyle": "bun",
+  "outfit": "#7C3AED"
+ },
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Giraffe tongues are blue!",
+   "bubble": "Hi, I'm Lesedi! 🦒",
+   "say": "Giraffe part two, with Lesedi from Botswana!"
+  },
+  {
+   "kind": "line",
+   "title": "Blue-black tongues!",
+   "emoji": "🦒",
+   "say": "Their tongues are blue-black!"
+  },
+  {
+   "kind": "quiz",
+   "title": "How long is its tongue?",
+   "tag": "Giraffe quiz",
+   "options": [
+    "5 inches",
+    "20 inches",
+    "20 feet"
+   ],
+   "answer": 1,
+   "say": "How long is a giraffe's tongue? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Up to 20 inches!",
+   "options": [
+    "5 inches",
+    "20 inches",
+    "20 feet"
+   ],
+   "answer": 1,
+   "source": "San Diego Zoo",
+   "say": "Up to twenty inches! Longer than a ruler."
+  },
+  {
+   "kind": "line",
+   "title": "It reaches high leaves",
+   "emoji": "🦒",
+   "say": "It helps reach leaves high up in the trees."
+  },
+  {
+   "kind": "line",
+   "title": "Why so dark?",
+   "sub": "It may stop sunburn!",
+   "emoji": "☀️",
+   "say": "The dark color may keep its tongue from getting sunburned!"
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "sub": "Which animal should Lesedi show next?",
+   "tiny": "Nexora: the honest referee for AI. Follow for one a day.",
+   "emoji": "👇",
+   "say": "Which animal should Lesedi show next? Comment below, and follow!",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

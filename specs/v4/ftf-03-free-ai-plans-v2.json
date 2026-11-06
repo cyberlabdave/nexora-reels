@@ -1,0 +1,71 @@
+{
+ "series": "Free Tool Friday #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "What do you actually get free?",
+   "say": "What do you actually get free? ChatGPT, Claude, Gemini.",
+   "emoji": "🆓",
+   "hot": [
+    "free"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "ChatGPT Free",
+   "bullets": [
+    "Unlimited everyday text chats",
+    "Search, uploads, images",
+    "Ads in some countries"
+   ],
+   "say": "ChatGPT: unlimited everyday chats, search, uploads and images. Ads in some countries.",
+   "emoji": "💬"
+  },
+  {
+   "kind": "line",
+   "title": "Claude Free",
+   "bullets": [
+    "Limits reset every 5 hours",
+    "Search, files, code",
+    "Memory across chats"
+   ],
+   "say": "Claude: limits reset every five hours. Search, files, code and memory.",
+   "emoji": "⏳"
+  },
+  {
+   "kind": "line",
+   "title": "Gemini Free",
+   "bullets": [
+    "Deep Research included",
+    "Images, audio overviews",
+    "No video generation"
+   ],
+   "say": "Gemini: Deep Research, images and audio overviews. No video.",
+   "emoji": "🔬"
+  },
+  {
+   "kind": "line",
+   "title": "Pick by what you need",
+   "emoji": "🎯",
+   "bullets": [
+    "Everyday chats: ChatGPT",
+    "Memory: Claude",
+    "Deep Research: Gemini"
+   ],
+   "say": "So: everyday chats, ChatGPT. Memory, Claude. Deep Research, Gemini.",
+   "hot": [
+    "need"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SAVE THIS",
+   "say": "Limits can change. Save this, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "save",
+    "follow"
+   ]
+  }
+ ]
+}

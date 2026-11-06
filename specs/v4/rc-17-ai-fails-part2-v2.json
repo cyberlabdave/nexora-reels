@@ -1,0 +1,76 @@
+{
+ "series": "AI Reality Check #17",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "3 more real AI fails",
+   "say": "Three more real AI fails, all on the record.",
+   "emoji": "🚨",
+   "hot": [
+    "fails"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "1. City bot: take their tips",
+   "emoji": "🏙️",
+   "hot": [
+    "tips"
+   ],
+   "bullets": [
+    "NYC's business chatbot",
+    "Said bosses could take tips",
+    "Caught by The Markup, taken down"
+   ],
+   "say": "One: New York City's business chatbot said bosses could take workers' tips. The Markup caught it. The city took it down."
+  },
+  {
+   "kind": "line",
+   "title": "2. A bot roasted its boss",
+   "emoji": "📦",
+   "hot": [
+    "roasted"
+   ],
+   "bullets": [
+    "DPD's delivery chatbot",
+    "Swore at a customer",
+    "Wrote a poem mocking DPD"
+   ],
+   "say": "Two: D P D's delivery chatbot swore at a customer and mocked the company."
+  },
+  {
+   "kind": "line",
+   "title": "3. A wrong fact in an ad",
+   "emoji": "🔭",
+   "hot": [
+    "wrong"
+   ],
+   "bullets": [
+    "Google's first Bard ad",
+    "Said Webb took the first exoplanet photo",
+    "Another telescope did, in 2004"
+   ],
+   "say": "Three: Google's first Bard ad got a telescope fact wrong."
+  },
+  {
+   "kind": "line",
+   "title": "The fix",
+   "bullets": [
+    "Check the original source",
+    "Ask for a human"
+   ],
+   "say": "The fix: check the source, and ask for a human when it matters.",
+   "emoji": "✅"
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Seen an AI fail? Comment below, and follow.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}
