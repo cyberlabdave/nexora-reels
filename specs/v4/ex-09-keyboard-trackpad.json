@@ -1,0 +1,62 @@
+{
+ "series": "Phone Hidden Features #2",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Your keyboard is a trackpad",
+   "say": "Your iPhone keyboard is secretly a trackpad.",
+   "emoji": "⌨️",
+   "hot": [
+    "trackpad"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Hold the space bar",
+   "say": "Touch and hold the space bar until the keyboard turns light gray.",
+   "emoji": "👇",
+   "hot": [
+    "space"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Now slide your finger",
+   "say": "Now slide your finger to move the cursor anywhere.",
+   "emoji": "↔️",
+   "hot": [
+    "slide"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "No more tapping the typo",
+   "say": "No more stabbing at the exact letter to fix a typo.",
+   "emoji": "✍️",
+   "hot": [
+    "typo"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's in Apple's own guide",
+   "say": "It's in Apple's own iPhone user guide.",
+   "emoji": "📘",
+   "hot": [
+    "Apple's"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Did you know this one? Yes or no in the comments, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Apple iPhone User Guide",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

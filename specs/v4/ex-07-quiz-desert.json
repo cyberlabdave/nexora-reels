@@ -1,0 +1,64 @@
+{
+ "series": "Guess It #2",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "World's biggest desert?",
+   "say": "Quick quiz. What's the biggest desert on Earth?",
+   "emoji": "🏜️",
+   "hot": [
+    "biggest"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Pick one",
+   "say": "Sahara, Gobi, or Antarctica? Lock it in. Three. Two. One.",
+   "emoji": "🤔",
+   "bullets": [
+    "A. Sahara",
+    "B. Gobi",
+    "C. Antarctica"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's Antarctica!",
+   "say": "It's Antarctica!",
+   "emoji": "🧊",
+   "hot": [
+    "Antarctica!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Desert = very little rain",
+   "say": "A desert is about how little rain or snow falls, not how hot it is.",
+   "emoji": "🌧️",
+   "hot": [
+    "rain"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "About 14 million km²",
+   "say": "Britannica lists the Antarctic ice sheet at about fourteen million square kilometers.",
+   "emoji": "📏",
+   "hot": [
+    "14"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Did you say Sahara? Be honest. Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Encyclopaedia Britannica",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

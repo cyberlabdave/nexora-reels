@@ -1,0 +1,62 @@
+{
+ "series": "History Mysteries #2",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A whole colony vanished",
+   "say": "In 1587, a whole colony vanished. No one knows where.",
+   "emoji": "🏝️",
+   "hot": [
+    "vanished"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Roanoke Island, 1587",
+   "say": "English settlers started a colony on Roanoke Island.",
+   "emoji": "⛵",
+   "hot": [
+    "Roanoke"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Three years later: empty",
+   "say": "The leader, John White, came back about three years later. Everyone was gone.",
+   "emoji": "🏚️",
+   "hot": [
+    "empty"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "One clue: CROATOAN",
+   "say": "The only clue: the word Croatoan, carved into a tree.",
+   "emoji": "🌳",
+   "hot": [
+    "CROATOAN"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Still unsolved",
+   "say": "Historians still argue about what happened.",
+   "emoji": "❓",
+   "hot": [
+    "unsolved"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Did they move away, or something worse? Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Encyclopaedia Britannica",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

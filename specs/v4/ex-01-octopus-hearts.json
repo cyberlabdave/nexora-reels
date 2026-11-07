@@ -1,0 +1,62 @@
+{
+ "series": "Animal Facts #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "An octopus has three hearts",
+   "say": "An octopus has three hearts. And blue blood.",
+   "emoji": "🐙",
+   "hot": [
+    "three"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Two hearts pump the gills",
+   "say": "Two hearts push blood past the gills.",
+   "emoji": "🫁",
+   "hot": [
+    "gills"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "The third one stops",
+   "say": "The third feeds the body, and it stops beating when the octopus swims.",
+   "emoji": "💤",
+   "hot": [
+    "stops"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Its blood is blue",
+   "say": "Its blood is blue, because it carries oxygen with copper, not iron.",
+   "emoji": "🩵",
+   "hot": [
+    "blue"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Its arms think too",
+   "say": "Bonus: two thirds of its neurons are in its arms, not its head.",
+   "emoji": "🧠",
+   "hot": [
+    "arms"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Three hearts, or brains in your arms? Which would you pick? Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Smithsonian Magazine",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "series": "Guess It #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Which planet has most moons?",
+   "say": "Quick quiz. Which planet has the most moons?",
+   "emoji": "🪐",
+   "hot": [
+    "moons"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Pick one",
+   "say": "Is it Jupiter, Saturn, or Neptune? Lock it in. Three. Two. One.",
+   "emoji": "🤔",
+   "bullets": [
+    "A. Jupiter",
+    "B. Saturn",
+    "C. Neptune"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's Saturn!",
+   "say": "It's Saturn!",
+   "emoji": "🪐",
+   "hot": [
+    "Saturn"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Way more than any planet",
+   "say": "NASA counts well over two hundred seventy confirmed moons. Far more than any other planet.",
+   "emoji": "🔭",
+   "hot": [
+    "270"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Most are tiny",
+   "say": "Most are tiny, just a few miles across.",
+   "emoji": "🪨",
+   "hot": [
+    "tiny"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Did you get it right? Comment yes or no, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: NASA Science, Saturn moons",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

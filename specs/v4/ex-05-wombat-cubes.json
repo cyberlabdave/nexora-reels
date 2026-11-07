@@ -1,0 +1,62 @@
+{
+ "series": "Animal Facts #2",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "This animal poops cubes",
+   "say": "This animal poops cubes. Real cubes.",
+   "emoji": "🟫",
+   "hot": [
+    "cubes"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Meet the wombat",
+   "say": "Meet the wombat, from Australia.",
+   "emoji": "🦘",
+   "hot": [
+    "wombat"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Not from a square bottom",
+   "say": "Scientists found the cubes are not shaped on the way out.",
+   "emoji": "🔬",
+   "hot": [
+    "not"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Shaped inside the gut",
+   "say": "They take shape inside the gut, which has stiff and stretchy zones.",
+   "emoji": "🧩",
+   "hot": [
+    "inside"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Four stiff zones = 4 walls",
+   "say": "Four stiff zones could make the four walls of a cube.",
+   "emoji": "🧱",
+   "hot": [
+    "walls"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Weirdest animal fact you know? Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Georgia Tech",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

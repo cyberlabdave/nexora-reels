@@ -1,0 +1,64 @@
+{
+ "series": "Kids & Families #21",
+ "place": "Canada",
+ "flag": "🇨🇦",
+ "kid": {
+  "name": "Maya",
+  "skin": "#E8B892",
+  "hair": "#7A4A22",
+  "hairStyle": "long",
+  "outfit": "#2563EB"
+ },
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Polar bears have black skin!",
+   "sub": "with Maya from Churchill 🇨🇦",
+   "bubble": "Hi friends!",
+   "say": "Hi friends! I'm Maya from Churchill, Canada. Did you know polar bears have black skin?"
+  },
+  {
+   "kind": "line",
+   "title": "White fur, black skin!",
+   "emoji": "🐻‍❄️",
+   "say": "Under all that white fur, a polar bear's skin is black!"
+  },
+  {
+   "kind": "line",
+   "title": "Babies start pink",
+   "emoji": "🍼",
+   "say": "Cubs are born with pink skin. It turns black when they are three or four months old."
+  },
+  {
+   "kind": "quiz",
+   "title": "Why black skin?",
+   "options": [
+    "To hide",
+    "Soak up sun",
+    "To look cool"
+   ],
+   "answer": 1,
+   "say": "Why do scientists think it's black? To hide, to soak up the sun, or to look cool? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Soak up the sun!",
+   "options": [
+    "To hide",
+    "Soak up sun",
+    "To look cool"
+   ],
+   "answer": 1,
+   "source": "Polar Bears International",
+   "say": "Soak up the sun! Dark colors catch the sun's warmth, and may protect from strong sunlight too."
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "A new kid, a new animal",
+   "emoji": "👇",
+   "say": "What animal should we meet next? Comment below, and follow for more."
+  }
+ ]
+}

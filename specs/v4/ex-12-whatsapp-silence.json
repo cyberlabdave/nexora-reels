@@ -1,0 +1,65 @@
+{
+ "series": "Phone Hidden Features #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Stop WhatsApp spam calls",
+   "say": "WhatsApp has a setting that stops calls from strangers ringing your phone.",
+   "emoji": "📵",
+   "hot": [
+    "spam"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Silence Unknown Callers",
+   "say": "It's called Silence Unknown Callers.",
+   "emoji": "🔕",
+   "hot": [
+    "Silence"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Turn it on here",
+   "say": "Open WhatsApp settings, then Privacy, then Calls.",
+   "emoji": "⚙️",
+   "bullets": [
+    "Settings",
+    "Privacy",
+    "Calls",
+    "Silence unknown callers"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Calls still show in your list",
+   "say": "Silenced calls won't ring, but they still show in your call list.",
+   "emoji": "📋",
+   "hot": [
+    "list"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Miss nothing important",
+   "say": "So you can still call back anyone you need.",
+   "emoji": "✅",
+   "hot": [
+    "nothing"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to the friend who gets spam calls, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: WhatsApp blog",
+   "emoji": "📤",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

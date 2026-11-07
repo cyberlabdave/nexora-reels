@@ -1,0 +1,62 @@
+{
+ "series": "History Mysteries #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A book nobody can read",
+   "say": "There's a six hundred year old book that nobody can read.",
+   "emoji": "📜",
+   "hot": [
+    "nobody"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "240 pages, unknown script",
+   "say": "Two hundred forty pages, in a script and language found nowhere else.",
+   "emoji": "🔤",
+   "hot": [
+    "unknown"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Plants no one can name",
+   "say": "It's full of drawings, like plants no one can identify.",
+   "emoji": "🌿",
+   "hot": [
+    "drawings"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Experts tried. All failed.",
+   "say": "For over a century, many people have tried to crack it. No one has.",
+   "emoji": "🔐",
+   "hot": [
+    "failed"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's at Yale today",
+   "say": "It's the Voynich manuscript, kept at Yale's Beinecke Library since 1969.",
+   "emoji": "🏛️",
+   "hot": [
+    "Yale"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Real secret code, or an old hoax? Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Yale Alumni Magazine, Beinecke Library",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

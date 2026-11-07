@@ -1,0 +1,65 @@
+{
+ "series": "Phone Hidden Features #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Tap the back of your iPhone",
+   "say": "Your iPhone has a button on the back. You just can't see it.",
+   "emoji": "📱",
+   "hot": [
+    "back"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's called Back Tap",
+   "say": "It's called Back Tap. Double or triple tap the back to run a shortcut.",
+   "emoji": "👆",
+   "hot": [
+    "Back Tap"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Turn it on here",
+   "say": "Settings, Accessibility, Touch, Back Tap.",
+   "emoji": "⚙️",
+   "bullets": [
+    "Settings",
+    "Accessibility",
+    "Touch",
+    "Back Tap"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Pick what it does",
+   "say": "Pick an action, like screenshot, Control Center, or Magnifier.",
+   "emoji": "📸",
+   "hot": [
+    "screenshot"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "iOS 14 or later",
+   "say": "It works on iOS fourteen or later.",
+   "emoji": "✅",
+   "hot": [
+    "iOS"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Double tap for screenshot, or flashlight? Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Apple Support",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

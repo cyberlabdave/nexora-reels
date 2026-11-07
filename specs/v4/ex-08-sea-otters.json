@@ -1,0 +1,62 @@
+{
+ "series": "Animal Facts #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Sea otters hold hands to sleep",
+   "say": "Some sea otters hold paws while they sleep.",
+   "emoji": "🦦",
+   "hot": [
+    "hands"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "So they don't drift away",
+   "say": "It keeps them from drifting apart in the open ocean.",
+   "emoji": "🌊",
+   "hot": [
+    "drifting"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Groups called rafts",
+   "say": "They sleep in groups called rafts, to stay safe and warm.",
+   "emoji": "🛟",
+   "hot": [
+    "rafts"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Or wrap up in kelp",
+   "say": "Others wrap themselves in kelp, like a seatbelt.",
+   "emoji": "🌿",
+   "hot": [
+    "kelp"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "No blubber, just fur",
+   "say": "They have no blubber. Thick fur keeps them warm.",
+   "emoji": "🧥",
+   "hot": [
+    "fur"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Otters or penguins: cutest sleepers? Comment below, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Source: Discover Magazine",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}
