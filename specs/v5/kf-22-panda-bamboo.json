@@ -15,19 +15,19 @@
    "title": "Pandas eat SO much bamboo!",
    "sub": "with Mei from Chengdu 🇨🇳",
    "bubble": "Nǐ hǎo!",
-   "say": "{zh:你好!} That means hello! I'm Mei from Chengdu, China. Let's meet the giant panda!"
+   "say": "{zh:你好!} That means hello! I'm Mei from China. Let's meet the panda!"
   },
   {
    "kind": "line",
    "title": "Up to 100 pounds a day!",
    "emoji": "🎋",
-   "say": "A giant panda eats seventy to one hundred pounds of bamboo every single day!"
+   "say": "Pandas eat up to one hundred pounds of bamboo a day!"
   },
   {
    "kind": "line",
    "title": "A secret thumb!",
    "emoji": "🐼",
-   "say": "Pandas have a special wrist bone that works like a thumb, to grip bamboo."
+   "say": "A special wrist bone works like a thumb!"
   },
   {
    "kind": "quiz",
@@ -38,7 +38,7 @@
     "A puppy"
    ],
    "answer": 1,
-   "say": "How big is a newborn panda? A cat, a stick of butter, or a puppy? Three. Two. One."
+   "say": "How big is a baby panda? A cat, a butter stick, or a puppy? Three. Two. One."
   },
   {
    "kind": "reveal",
@@ -50,15 +50,15 @@
    ],
    "answer": 1,
    "source": "Smithsonian's National Zoo",
-   "say": "A stick of butter! Newborn cubs are tiny."
+   "say": "A stick of butter! So tiny."
   },
   {
    "kind": "cta",
    "title": "COMMENT BELOW",
-   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "sub": "Follow Nexora for more!",
    "tiny": "A new kid, a new animal",
    "emoji": "👇",
-   "say": "What animal should we meet next? Comment below, and follow for more."
+   "say": "Which animal next? Comment below!"
   }
  ]
 }

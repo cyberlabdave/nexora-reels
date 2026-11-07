@@ -4,7 +4,7 @@
   {
    "kind": "hook",
    "title": "Apple's new hub knows your face",
-   "say": "Apple's new HomeView went on sale November thirteenth. It knows your face.",
+   "say": "Apple's new HomeView is on sale now. And it knows your face.",
    "emoji": "🏠",
    "hot": [
     "face"
@@ -13,7 +13,7 @@
   {
    "kind": "line",
    "title": "Up to six faces",
-   "say": "It can recognize up to six people, and keeps each person's stuff separate.",
+   "say": "It recognizes up to six people, and keeps each person's stuff separate.",
    "emoji": "👨‍👩‍👧",
    "hot": [
     "six"
@@ -22,7 +22,7 @@
   {
    "kind": "line",
    "title": "Your texts need your iPhone",
-   "say": "Your Messages and Calendar only show when it sees you, and your iPhone is nearby and recently unlocked.",
+   "say": "Your texts only show when it sees you, and your iPhone is nearby and unlocked recently.",
    "emoji": "🔐",
    "hot": [
     "iPhone"
@@ -31,7 +31,7 @@
   {
    "kind": "line",
    "title": "Camera data walled off",
-   "say": "Apple says camera and mic data is processed in Secure Exclaves, which even Apple can't access.",
+   "say": "Apple says camera and mic data stays walled off, even from Apple.",
    "emoji": "🛡️",
    "hot": [
     "Exclaves"
@@ -40,7 +40,7 @@
   {
    "kind": "line",
    "title": "Not sold in the EU",
-   "say": "Not sold in the EU, and Siri AI on it is still in beta.",
+   "say": "Not sold in the EU. Siri AI on it is still beta.",
    "emoji": "🇪🇺",
    "hot": [
     "EU"
@@ -49,7 +49,7 @@
   {
    "kind": "cta",
    "title": "SEND THIS",
-   "say": "Would you put a face-scanning screen in your kitchen? Send this to a friend, and follow Nexora.",
+   "say": "Face-scanning screen in your kitchen? Send this to a friend, and follow Nexora.",
    "sub": "Nexora: the honest referee for AI. Follow for one a day.",
    "tiny": "Not tested by us: based on Apple's announcement",
    "emoji": "📤",
