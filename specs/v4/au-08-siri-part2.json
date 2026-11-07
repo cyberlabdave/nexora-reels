@@ -1,0 +1,61 @@
+{
+ "series": "AI Update #8",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Not every iPhone gets this Siri",
+   "say": "Siri that remembers you, part two: not every iPhone gets it.",
+   "emoji": "📱",
+   "hot": [
+    "every"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Which iPhones get it",
+   "bullets": [
+    "iPhone 16 or newer",
+    "iPhone 15 Pro",
+    "iPhone 15 Pro Max"
+   ],
+   "say": "You need an iPhone sixteen or newer, or a fifteen Pro or Pro Max."
+  },
+  {
+   "kind": "line",
+   "title": "Five new languages",
+   "bullets": [
+    "French and Spanish",
+    "Japanese and Korean",
+    "Portuguese"
+   ],
+   "say": "It now speaks French, Spanish, Japanese, Korean and Portuguese."
+  },
+  {
+   "kind": "line",
+   "title": "Not in the EU or China",
+   "say": "But it's not in the EU or mainland China.",
+   "emoji": "🌍",
+   "hot": [
+    "EU"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Keep apps away from Siri",
+   "say": "And Excluded Apps lets you pick which apps Siri can see.",
+   "emoji": "🔒",
+   "hot": [
+    "away"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Send this to a friend with an iPhone, and follow Nexora.",
+   "hot": [
+    "send",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}
