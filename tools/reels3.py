@@ -6,6 +6,8 @@ Usage: python3 reels3.py spec.json out.mp4 [--voice 1] [--accent cyan|mint|viole
 spec: {"series":"AI Reality Check #02","segments":[{"kind":"hook|line|prompt|reply|step|cta","say":"spoken","title":"<=6 words on screen",
         "text":"prompt / reply / step text","emoji":"📅","hot":["word"]}]}
 Kinds: hook = big headline; line = headline; prompt = typing chat card (You); reply = AI answer card; step = numbered step card; cta = save/follow end card.
+Hook "style" (optional, default = big headline): "question" + "options" [..]; "split" + "before"/"after" {emoji,text} (emoji flies across);
+"result" + "result" {label,emoji,text} (finished outcome card first). Full hook text is visible on frame 0 in every style.
 Text rule: light text on navy, or navy text on white cards. Never dark text on navy.
 """
 import json, os, sys, argparse, subprocess, shutil, re
@@ -66,6 +68,21 @@ ul.bul li{display:flex;align-items:center;gap:26px;padding:30px 36px;border-radi
 ul.bul li i{flex:none;width:58px;height:58px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font:900 34px Inter;font-style:normal;color:var(--cardink)}
 .head.sm{font-size:96px}
 #flash{position:absolute;inset:0;background:var(--acc);opacity:0;pointer-events:none}
+/* hook styles (branch creative/hooks-2026-11-07): question / split / result. Default hook unchanged. */
+.opts{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;width:100%}
+.opt{padding:30px 46px;border-radius:999px;background:var(--card);color:var(--cardink);font:900 64px Inter;box-shadow:0 18px 50px rgba(0,0,0,.4);border:6px solid transparent}
+.opt.on{border-color:var(--acc);background:var(--acc)}
+.split{display:flex;gap:28px;width:100%;position:relative}
+.pane{flex:1;border-radius:40px;padding:44px 30px 50px;display:flex;flex-direction:column;align-items:center;gap:26px;text-align:center}
+.pane.b{background:#2A1430;border:5px solid #FF7A66}.pane.a{background:#0F2E33;border:5px solid var(--acc)}
+.pane .lab{font:900 44px Inter;letter-spacing:.12em}.pane.b .lab{color:#FF7A66}.pane.a .lab{color:var(--acc)}
+.pane .pe{font-family:Emo;font-size:150px;line-height:1}
+.pane .pt{font:800 54px/1.15 Inter;color:var(--ink)}
+.mover{position:absolute;font-family:Emo;font-size:170px;line-height:1;top:-205px;left:0;filter:drop-shadow(0 20px 40px rgba(0,0,0,.5))}
+.res{width:100%;background:var(--card);color:var(--cardink);border-radius:44px;padding:50px 50px 56px;text-align:left;box-shadow:0 30px 80px rgba(0,0,0,.45),0 0 0 8px var(--acc)}
+.res .rl{font:800 32px Inter;letter-spacing:.1em;text-transform:uppercase;color:#56607F;margin-bottom:22px}
+.res .rt{display:flex;align-items:center;gap:30px;font:900 84px/1.08 Inter}
+.res .ck{flex:none;width:120px;height:120px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font-family:Emo;font-size:70px}
 </style></head><body>
 <div id="bg"><div class="blob" id="b1" style="background:var(--acc)"></div><div class="blob" id="b2" style="background:#7C5CFF"></div><div id="grid"></div></div>
 <div id="scenes"></div>
@@ -85,13 +102,23 @@ D.segs.forEach((s,i)=>{const el=document.createElement('div');el.className='scen
   let hot=(s.hot||[]).map(x=>x.toLowerCase().replace(/[^a-z0-9']/g,''));
   if((s.kind==='hook'||s.kind==='line')&&!words.some(w=>hot.includes(w.toLowerCase().replace(/[^a-z0-9']/g,'')))){const c=words.map(w=>w.toLowerCase().replace(/[^a-z0-9']/g,'')).filter(w=>w.length>3);if(c.length){hot=[c.reduce((x,y)=>y.length>x.length?y:x)]}}
   const wspan=(w,j)=>{const k=w.toLowerCase().replace(/[^a-z0-9']/g,'');const cls=hot.includes(k)?(s.kind==='hook'?'w hl':'w hot'):'w';return `<span class="${cls}" data-j="${j}">${esc(w)}</span>`};
-  if((s.kind==='hook'||s.kind==='line')&&s.bullets&&s.bullets.length){h=`<div class="center" style="gap:44px">${s.emoji?`<div class="emo" style="font-size:150px">${s.emoji}</div>`:''}<div class="head sm">${words.map(wspan).join(' ')}</div><ul class="bul">${s.bullets.map((b,k)=>`<li><i>${k+1}</i><span>${esc(b)}</span></li>`).join('')}</ul></div>`}
+  if(s.kind==='hook'&&s.style==='question'){h=`<div class="center" style="gap:70px">${s.emoji?`<div class="emo" style="font-size:170px">${s.emoji}</div>`:''}<div class="head big">${words.map(wspan).join(' ')}</div><div class="opts">${(s.options||[]).map(o=>`<span class="opt">${esc(o)}</span>`).join('')}</div></div>`}
+  else if(s.kind==='hook'&&s.style==='split'){const B=s.before||{},A=s.after||{};h=`<div class="center" style="gap:230px"><div class="head sm">${words.map(wspan).join(' ')}</div><div class="split"><div class="pane b"><div class="lab">BEFORE</div><div class="pe">${B.emoji||''}</div><div class="pt">${esc(B.text||'')}</div></div><div class="pane a"><div class="lab">AFTER</div><div class="pe">${A.emoji||''}</div><div class="pt">${esc(A.text||'')}</div></div><div class="mover">${s.emoji||'👉'}</div></div></div>`}
+  else if(s.kind==='hook'&&s.style==='result'){const R=s.result||{};h=`<div class="center" style="gap:70px"><div class="res"><div class="rl">${esc(R.label||'The result')}</div><div class="rt"><span class="ck">${R.emoji||'✅'}</span><span>${esc(R.text||'')}</span></div></div><div class="head big">${words.map(wspan).join(' ')}</div></div>`}
+  else if((s.kind==='hook'||s.kind==='line')&&s.bullets&&s.bullets.length){h=`<div class="center" style="gap:44px">${s.emoji?`<div class="emo" style="font-size:150px">${s.emoji}</div>`:''}<div class="head sm">${words.map(wspan).join(' ')}</div><ul class="bul">${s.bullets.map((b,k)=>`<li><i>${k+1}</i><span>${esc(b)}</span></li>`).join('')}</ul></div>`}
   else if(s.kind==='hook'||s.kind==='line'){h=`<div class="center">${s.emoji?`<div class="emo">${s.emoji}</div>`:''}<div class="head ${s.kind==='hook'?'big':''}">${words.map(wspan).join(' ')}</div></div>`}
   else if(s.kind==='prompt'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">YOU</span>Paste this prompt</div><div class="card"><span class="ty"></span><span class="caret"></span></div></div><div class="save"><span class="e">🔖</span>Save this prompt</div></div>`}
   else if(s.kind==='reply'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">AI</span>Example reply</div><div class="card ai"><span class="ty"></span></div></div></div>`}
   else if(s.kind==='step'){h=`<div class="center"><div class="step"><div class="num">${s.n}</div><div class="card"><span class="ty"></span></div></div>${s.title?`<div class="head" style="font-size:84px">${words.map(wspan).join(' ')}</div>`:''}</div>`}
   else if(s.kind==='cta'){h=`<div class="center cta"><div class="emo">${s.emoji||'🔖'}</div><div class="head">${esc(s.title||'SAVE THIS')}</div><div class="sub">${esc(s.sub||'')}</div><div class="tiny">${esc(s.tiny||'')}</div></div>`}
   el.innerHTML=h;root.appendChild(el);});
+function hookStyle(t,s,el,lt){
+  if(s.style==='question'){const os=[...el.querySelectorAll('.opt')];const k=os.length?Math.floor(Math.max(t-.6,0)/.45)%os.length:-1;
+    os.forEach((o,j)=>{o.classList.toggle('on',t>=.6&&j===k);o.style.transform=`translateY(${10*Math.sin(t*5+j*1.3)}px) scale(${1+(t>=.6&&j===k?.08:0)})`})}
+  if(s.style==='split'){const m=el.querySelector('.mover');const x=-80+clamp(lt/1.6,0,1)*760;m.style.transform=`translateX(${x}px) rotate(${-25+50*clamp(lt/1.6,0,1)+6*Math.sin(t*6)}deg) scale(${1+.08*Math.sin(t*7)})`;
+    const b=el.querySelector('.pane.b'),a=el.querySelector('.pane.a');b.style.transform=`translateX(${-14*Math.sin(t*9)*(1-clamp(lt/.8,0,1))}px)`;a.style.transform=`scale(${1+.05*clamp((lt-1)/.4,0,1)})`;b.style.opacity=1-.45*clamp((lt-1)/.5,0,1)}
+  if(s.style==='result'){const r=el.querySelector('.res');const ck=el.querySelector('.ck');r.style.transform=`rotate(${-2.5+2.5*ease(lt/.6)}deg) scale(${1.04-.04*ease(lt/.6)})`;ck.style.transform=`scale(${1+.18*Math.abs(Math.sin(t*4))}) rotate(${10*Math.sin(t*3)}deg)`}
+}
 const scenes=[...document.querySelectorAll('.scene')];
 function seek(t){
   const T=D.total;$('#progi').style.width=(100*clamp(t/T,0,1))+'%';
@@ -114,6 +141,7 @@ function seek(t){
   const who=el.querySelector('.who');if(who){who.style.opacity=clamp(lt/.2,0,1)}
   const num=el.querySelector('.num');if(num){const q=back(lt/.35);num.style.transform=`scale(${q}) rotate(${(1-q)*-30}deg)`}
   const sv=el.querySelector('.save');if(sv){const q=back((lt-dur*.55)/.35);sv.style.opacity=clamp((lt-dur*.55)/.12,0,1);sv.style.transform=`scale(${.6+.4*q+.03*Math.sin(t*6)})`}
+  if(s.kind==='hook'&&s.style)hookStyle(t,s,el,lt);
   if(s.kind==='cta'){[...el.querySelectorAll('.head,.sub,.tiny')].forEach((x,j)=>{const q=back((lt-.15-j*.18)/.35);x.style.opacity=clamp((lt-.15-j*.18)/.12,0,1);x.style.transform=`translateY(${(1-q)*50}px)`});
     if(emo)emo.style.transform=`scale(${(.4+.6*back(lt/.45))*(1+.06*Math.sin(t*5))})`;}
 }
@@ -141,6 +169,9 @@ def build(spec, tl, total, accent):
         k = s.get('kind', 'line')
         d = {'kind': k, 'vs': vs, 've': ve, 'emoji': s.get('emoji', ''), 'hot': s.get('hot', []), 'text': s.get('text', ''), 'bullets': s.get('bullets', [])}
         if k in ('hook', 'line'): d['title'] = short_title(s)
+        if k == 'hook':
+            for f in ('style', 'options', 'before', 'after', 'result'):
+                if f in s: d[f] = s[f]
         if k == 'step': n += 1; d['n'] = s.get('n', n); d['text'] = s.get('step', s.get('text', '')); d['title'] = s.get('title', '')
         if k == 'cta':
             say = s.get('say', ''); low = say.lower(); hot = [h.lower() for h in s.get('hot', [])]

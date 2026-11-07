@@ -1,0 +1,70 @@
+{
+ "series": "AI Reality Check #14",
+ "segments": [
+  {
+   "kind": "hook",
+   "style": "split",
+   "title": "Take back an AI app's access",
+   "emoji": "✂️",
+   "before": {
+    "emoji": "🔓",
+    "text": "AI app has your inbox"
+   },
+   "after": {
+    "emoji": "🔒",
+    "text": "Access removed"
+   },
+   "say": "Before: an AI app has your inbox. After: access removed.",
+   "hot": [
+    "access"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Ollie was set to close Nov 6",
+   "say": "Ollie, an AI inbox app, was set to close November sixth. Here's how to take back its access.",
+   "emoji": "📭",
+   "hot": [
+    "close"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Google account",
+   "bullets": [
+    "Open your linked apps page",
+    "Tap the app",
+    "Remove access"
+   ],
+   "say": "Google: open your linked apps page, tap the app, remove access."
+  },
+  {
+   "kind": "line",
+   "title": "Microsoft account",
+   "bullets": [
+    "Go to microsoft.com/consent",
+    "Pick the app",
+    "Remove permissions"
+   ],
+   "say": "Microsoft: go to microsoft dot com slash consent, and remove its permissions."
+  },
+  {
+   "kind": "line",
+   "title": "Removing access isn't deleting",
+   "say": "Removing access doesn't delete what it already has. Ask the app to delete it too.",
+   "emoji": "🗑️",
+   "hot": [
+    "deleting"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for your next app clean-up, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "save",
+    "follow"
+   ]
+  }
+ ]
+}
