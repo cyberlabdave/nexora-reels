@@ -1,0 +1,178 @@
+{
+ "series": "Phone Hidden Features: 3 in 1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "3 hidden phone features",
+   "say": "Three hidden phone features most people never find. Number one.",
+   "emoji": "📱",
+   "hot": [
+    "hidden"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Tap the back of your iPhone",
+   "say": "Your iPhone has a button on the back. You just can't see it.",
+   "emoji": "📱",
+   "hot": [
+    "back"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's called Back Tap",
+   "say": "It's called Back Tap. Double or triple tap the back to run a shortcut.",
+   "emoji": "👆",
+   "hot": [
+    "Back Tap"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Turn it on here",
+   "say": "Settings, Accessibility, Touch, Back Tap.",
+   "emoji": "⚙️",
+   "bullets": [
+    "Settings",
+    "Accessibility",
+    "Touch",
+    "Back Tap"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Pick what it does",
+   "say": "Pick an action, like screenshot, Control Center, or Magnifier.",
+   "emoji": "📸",
+   "hot": [
+    "screenshot"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "iOS 14 or later",
+   "say": "It works on iOS fourteen or later.",
+   "emoji": "✅",
+   "hot": [
+    "iOS"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Your keyboard is a trackpad",
+   "say": "Number two. Your iPhone keyboard is secretly a trackpad.",
+   "emoji": "⌨️",
+   "hot": [
+    "trackpad"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Hold the space bar",
+   "say": "Touch and hold the space bar until the keyboard turns light gray.",
+   "emoji": "👇",
+   "hot": [
+    "space"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Now slide your finger",
+   "say": "Now slide your finger to move the cursor anywhere.",
+   "emoji": "↔️",
+   "hot": [
+    "slide"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "No more tapping the typo",
+   "say": "No more stabbing at the exact letter to fix a typo.",
+   "emoji": "✍️",
+   "hot": [
+    "typo"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's in Apple's own guide",
+   "say": "It's in Apple's own iPhone user guide.",
+   "emoji": "📘",
+   "hot": [
+    "Apple's"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Stop WhatsApp spam calls",
+   "say": "Number three. WhatsApp has a setting that stops calls from strangers ringing your phone.",
+   "emoji": "📵",
+   "hot": [
+    "spam"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Silence Unknown Callers",
+   "say": "It's called Silence Unknown Callers.",
+   "emoji": "🔕",
+   "hot": [
+    "Silence"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Turn it on here",
+   "say": "Open WhatsApp settings, then Privacy, then Calls.",
+   "emoji": "⚙️",
+   "bullets": [
+    "Settings",
+    "Privacy",
+    "Calls",
+    "Silence unknown callers"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Calls still show in your list",
+   "say": "Silenced calls won't ring, but they still show in your call list.",
+   "emoji": "📋",
+   "hot": [
+    "list"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Miss nothing important",
+   "say": "So you can still call back anyone you need.",
+   "emoji": "✅",
+   "hot": [
+    "nothing"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Quick recap",
+   "bullets": [
+    "Back Tap: tap your iPhone's back",
+    "Space bar = trackpad",
+    "WhatsApp: silence unknown callers"
+   ],
+   "say": "Quick recap: Back Tap: tap your iPhone's back. Space bar = trackpad. WhatsApp: silence unknown callers."
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Which one did you not know? Send this to a friend, and follow Nexora for Part 2.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Sources in the caption",
+   "emoji": "📤",
+   "hot": [
+    "comment",
+    "follow",
+    "send"
+   ]
+  }
+ ]
+}

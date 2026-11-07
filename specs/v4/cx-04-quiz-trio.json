@@ -1,0 +1,178 @@
+{
+ "series": "Guess It: 3 in 1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Can you get all 3 right?",
+   "say": "Three quick quiz questions. Can you get all three right? Number one.",
+   "emoji": "🧠",
+   "hot": [
+    "all"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Which planet has most moons?",
+   "say": "Quick quiz. Which planet has the most moons?",
+   "emoji": "🪐",
+   "hot": [
+    "moons"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Pick one",
+   "say": "Is it Jupiter, Saturn, or Neptune? Lock it in. Three. Two. One.",
+   "emoji": "🤔",
+   "bullets": [
+    "A. Jupiter",
+    "B. Saturn",
+    "C. Neptune"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's Saturn!",
+   "say": "It's Saturn!",
+   "emoji": "🪐",
+   "hot": [
+    "Saturn"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Way more than any planet",
+   "say": "NASA counts well over two hundred seventy confirmed moons. Far more than any other planet.",
+   "emoji": "🔭",
+   "hot": [
+    "270"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Most are tiny",
+   "say": "Most are tiny, just a few miles across.",
+   "emoji": "🪨",
+   "hot": [
+    "tiny"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "World's biggest desert?",
+   "say": "Number two. Quick quiz. What's the biggest desert on Earth?",
+   "emoji": "🏜️",
+   "hot": [
+    "biggest"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Pick one",
+   "say": "Sahara, Gobi, or Antarctica? Lock it in. Three. Two. One.",
+   "emoji": "🤔",
+   "bullets": [
+    "A. Sahara",
+    "B. Gobi",
+    "C. Antarctica"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's Antarctica!",
+   "say": "It's Antarctica!",
+   "emoji": "🧊",
+   "hot": [
+    "Antarctica!"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Desert = very little rain",
+   "say": "A desert is about how little rain or snow falls, not how hot it is.",
+   "emoji": "🌧️",
+   "hot": [
+    "rain"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "About 14 million km²",
+   "say": "Britannica lists the Antarctic ice sheet at about fourteen million square kilometers.",
+   "emoji": "📏",
+   "hot": [
+    "14"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Tallest mountain? Not Everest",
+   "say": "Number three. Quick quiz. The tallest mountain on Earth is not Everest.",
+   "emoji": "🏔️",
+   "hot": [
+    "Everest"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Pick one",
+   "say": "Measured from base to peak, is it K2, Mauna Kea, or Kilimanjaro? Three. Two. One.",
+   "emoji": "🤔",
+   "bullets": [
+    "A. K2",
+    "B. Mauna Kea",
+    "C. Kilimanjaro"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's Mauna Kea!",
+   "say": "It's Mauna Kea, in Hawaii!",
+   "emoji": "🌋",
+   "hot": [
+    "Mauna"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Most of it is underwater",
+   "say": "About six thousand meters of it is under the ocean.",
+   "emoji": "🌊",
+   "hot": [
+    "underwater"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Over 10,000 m base to top",
+   "say": "Base to peak, it's about ten thousand two hundred meters. Taller than Everest above sea level.",
+   "emoji": "📏",
+   "hot": [
+    "10,000"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Quick recap",
+   "bullets": [
+    "Most moons: Saturn",
+    "Biggest desert: Antarctica",
+    "Tallest base to peak: Mauna Kea"
+   ],
+   "say": "Quick recap: Most moons: Saturn. Biggest desert: Antarctica. Tallest base to peak: Mauna Kea."
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "How many did you get? Comment your score out of three, and follow Nexora for Part 2.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Sources in the caption",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow",
+    "send"
+   ]
+  }
+ ]
+}

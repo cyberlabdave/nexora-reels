@@ -1,0 +1,172 @@
+{
+ "series": "History Mysteries: 3 in 1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "3 mysteries nobody has solved",
+   "say": "Three history mysteries nobody has solved. Number one.",
+   "emoji": "🔍",
+   "hot": [
+    "nobody"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "A book nobody can read",
+   "say": "There's a six hundred year old book that nobody can read.",
+   "emoji": "📜",
+   "hot": [
+    "nobody"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "240 pages, unknown script",
+   "say": "Two hundred forty pages, in a script and language found nowhere else.",
+   "emoji": "🔤",
+   "hot": [
+    "unknown"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Plants no one can name",
+   "say": "It's full of drawings, like plants no one can identify.",
+   "emoji": "🌿",
+   "hot": [
+    "drawings"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Experts tried. All failed.",
+   "say": "For over a century, many people have tried to crack it. No one has.",
+   "emoji": "🔐",
+   "hot": [
+    "failed"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It's at Yale today",
+   "say": "It's the Voynich manuscript, kept at Yale's Beinecke Library since 1969.",
+   "emoji": "🏛️",
+   "hot": [
+    "Yale"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "A whole colony vanished",
+   "say": "Number two. In 1587, a whole colony vanished. No one knows where.",
+   "emoji": "🏝️",
+   "hot": [
+    "vanished"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Roanoke Island, 1587",
+   "say": "English settlers started a colony on Roanoke Island.",
+   "emoji": "⛵",
+   "hot": [
+    "Roanoke"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Three years later: empty",
+   "say": "The leader, John White, came back about three years later. Everyone was gone.",
+   "emoji": "🏚️",
+   "hot": [
+    "empty"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "One clue: CROATOAN",
+   "say": "The only clue: the word Croatoan, carved into a tree.",
+   "emoji": "🌳",
+   "hot": [
+    "CROATOAN"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Still unsolved",
+   "say": "Historians still argue about what happened.",
+   "emoji": "❓",
+   "hot": [
+    "unsolved"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "A 2,000-year-old computer",
+   "say": "Number three. Divers found a computer that's two thousand years old.",
+   "emoji": "⚙️",
+   "hot": [
+    "computer"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Found in a shipwreck",
+   "say": "In 1901, sponge divers found it in a Roman-era shipwreck off Greece.",
+   "emoji": "🚢",
+   "hot": [
+    "shipwreck"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Bronze gears inside",
+   "say": "Inside the corroded block: dozens of tiny bronze gears.",
+   "emoji": "🔩",
+   "hot": [
+    "gears"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "It predicted eclipses",
+   "say": "It modeled the Sun, Moon and planets, and could predict eclipses.",
+   "emoji": "🌘",
+   "hot": [
+    "eclipses"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Who built it? Unknown",
+   "say": "Who built it is still not confirmed. It's in a museum in Athens.",
+   "emoji": "🏛️",
+   "hot": [
+    "Unknown"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Quick recap",
+   "bullets": [
+    "A book nobody can read",
+    "A colony that vanished",
+    "A 2,000-year-old computer"
+   ],
+   "say": "Quick recap: A book nobody can read. A colony that vanished. A 2,000-year-old computer."
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Which mystery would you solve first? Comment below, and follow Nexora for Part 2.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Sources in the caption",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow",
+    "send"
+   ]
+  }
+ ]
+}
