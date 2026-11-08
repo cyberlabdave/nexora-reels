@@ -5,7 +5,8 @@ captured frame by frame in headless Chromium (Playwright) and encoded with ffmpe
 Usage: python3 reels3.py spec.json out.mp4 [--voice 1] [--accent cyan|mint|violet|coral]
 spec: {"series":"AI Reality Check #02","segments":[{"kind":"hook|line|prompt|reply|step|cta","say":"spoken","title":"<=6 words on screen",
         "text":"prompt / reply / step text","emoji":"📅","hot":["word"]}]}
-Kinds: hook = big headline; line = headline; prompt = typing chat card (You); reply = AI answer card; step = numbered step card; cta = save/follow end card.
+Kinds: hook = big headline; line = headline; tier = tier-list board (S-D rows): each tier segment adds one item
+("tier","item","emoji","value","callout","title") that flies into its row, earlier items stay (Format Lab Nov 8); prompt = typing chat card (You); reply = AI answer card; step = numbered step card; cta = save/follow end card.
 Text rule: light text on navy, or navy text on white cards. Never dark text on navy.
 """
 import json, os, sys, argparse, subprocess, shutil, re
@@ -66,6 +67,19 @@ ul.bul li{display:flex;align-items:center;gap:26px;padding:30px 36px;border-radi
 ul.bul li i{flex:none;width:58px;height:58px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font:900 34px Inter;font-style:normal;color:var(--cardink)}
 .head.sm{font-size:96px}
 #flash{position:absolute;inset:0;background:var(--acc);opacity:0;pointer-events:none}
+/* Format Lab Nov 8: Tier List (kind "tier") */
+.tierwrap{position:absolute;left:60px;right:60px;top:380px;display:flex;flex-direction:column;gap:18px}
+.tiertitle{font:900 64px/1.05 Inter;letter-spacing:-.02em;text-align:center;color:var(--ink);margin-bottom:6px}
+.trow{display:flex;gap:16px;height:160px;align-items:stretch}
+.tlab{flex:none;width:150px;border-radius:30px;display:grid;place-items:center;font:900 104px Inter;color:#0B1026}
+.tlane{flex:1;border-radius:30px;background:rgba(255,255,255,.07);border:3px solid rgba(255,255,255,.12);display:flex;align-items:center;gap:14px;padding:0 18px;position:relative;overflow:visible}
+.tlane .glow{position:absolute;inset:-3px;border-radius:30px;border:5px solid var(--acc);opacity:0}
+.chip{display:flex;align-items:center;gap:18px;background:#FFFFFF;color:#0B1026;border-radius:24px;padding:14px 28px 14px 18px;box-shadow:0 14px 36px rgba(0,0,0,.4);will-change:transform}
+.chip .ce{font-family:Emo;font-size:80px;line-height:1}
+.chip .ct{display:flex;flex-direction:column;text-align:left}
+.chip .cn{font:900 48px/1.05 Inter}
+.chip .cv{font:800 36px/1.1 Inter;color:#3A4470}
+.tcall{position:absolute;left:60px;right:60px;top:1395px;text-align:center;font:900 92px/1 Inter;letter-spacing:-.02em;color:var(--acc)}
 </style></head><body>
 <div id="bg"><div class="blob" id="b1" style="background:var(--acc)"></div><div class="blob" id="b2" style="background:#7C5CFF"></div><div id="grid"></div></div>
 <div id="scenes"></div>
@@ -90,6 +104,10 @@ D.segs.forEach((s,i)=>{const el=document.createElement('div');el.className='scen
   else if(s.kind==='prompt'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">YOU</span>Paste this prompt</div><div class="card"><span class="ty"></span><span class="caret"></span></div></div><div class="save"><span class="e">🔖</span>Save this prompt</div></div>`}
   else if(s.kind==='reply'){h=`<div class="center"><div class="chat"><div class="who"><span class="av">AI</span>Example reply</div><div class="card ai"><span class="ty"></span></div></div></div>`}
   else if(s.kind==='step'){h=`<div class="center"><div class="step"><div class="num">${s.n}</div><div class="card"><span class="ty"></span></div></div>${s.title?`<div class="head" style="font-size:84px">${words.map(wspan).join(' ')}</div>`:''}</div>`}
+  else if(s.kind==='tier'){const TC={S:'#FF7A66',A:'#FFB547',B:'#FFE066',C:'#46D7B5',D:'#22D3EE'};
+    const chip=(it,isNew)=>`<div class="chip${isNew?' new':''}"><span class="ce">${it.emoji||'⭐'}</span><span class="ct"><span class="cn">${esc(it.item)}</span><span class="cv">${esc(it.value||'')}</span></span></div>`;
+    const rows=(s.tiers||['S','A','B','C','D']).map(L=>{const its=(s.board||[]).filter(b=>b.tier===L);return `<div class="trow" data-t="${L}"><div class="tlab" style="background:${TC[L]||'#FFFFFF'}">${esc(L)}</div><div class="tlane"><span class="glow"></span>${its.map(b=>chip(b,b.isnew)).join('')}</div></div>`}).join('');
+    h=`<div class="tierwrap"><div class="tiertitle">${esc(s.title||'')}</div>${rows}</div><div class="tcall">${esc(s.callout||'')}</div><div class="center" style="display:none"></div>`}
   else if(s.kind==='cta'){h=`<div class="center cta"><div class="emo">${s.emoji||'🔖'}</div><div class="head">${esc(s.title||'SAVE THIS')}</div><div class="sub">${esc(s.sub||'')}</div><div class="tiny">${esc(s.tiny||'')}</div></div>`}
   el.innerHTML=h;root.appendChild(el);});
 const scenes=[...document.querySelectorAll('.scene')];
@@ -114,6 +132,14 @@ function seek(t){
   const who=el.querySelector('.who');if(who){who.style.opacity=clamp(lt/.2,0,1)}
   const num=el.querySelector('.num');if(num){const q=back(lt/.35);num.style.transform=`scale(${q}) rotate(${(1-q)*-30}deg)`}
   const sv=el.querySelector('.save');if(sv){const q=back((lt-dur*.55)/.35);sv.style.opacity=clamp((lt-dur*.55)/.12,0,1);sv.style.transform=`scale(${.6+.4*q+.03*Math.sin(t*6)})`}
+  if(s.kind==='tier'){const nc=el.querySelector('.chip.new');const q=back((lt-.1)/.5);
+    if(nc){const lane=nc.parentElement;const r=nc.getBoundingClientRect();const tx=540-(r.left+r.width/2),ty=1000-(r.top+r.height/2);
+      const k=1-q;nc.style.transform=`translate(${tx*k}px,${ty*k}px) scale(${1+1.2*k}) rotate(${-8*k}deg)`;nc.style.opacity=clamp((lt)/.1,0,1);
+      const g=lane.querySelector('.glow');g.style.opacity=lt<.55?0:clamp(1-(lt-.55)/1.2,0,1)*.9;
+      const lab=lane.parentElement.querySelector('.tlab');const pz=clamp((lt-.5)/.3,0,1);lab.style.transform=`scale(${1+.12*Math.sin(Math.PI*pz)})`;}
+    const tc=el.querySelector('.tcall');if(tc){const p2=back((lt-.55)/.35);tc.style.opacity=clamp((lt-.55)/.12,0,1);tc.style.transform=`translateY(${(1-p2)*40}px) scale(${.8+.2*p2})`}
+    const tt=el.querySelector('.tiertitle');if(tt&&cur>0&&D.segs[cur-1].kind!=='tier'){tt.style.opacity=clamp(lt/.2,0,1)}
+    [...el.querySelectorAll('.trow')].forEach((rw,j)=>{if(cur>0&&D.segs[cur-1].kind!=='tier'){const p3=back((lt-j*.06)/.35);rw.style.transform=`translateX(${(1-p3)*-120}px)`;rw.style.opacity=clamp((lt-j*.06)/.12,0,1)}});}
   if(s.kind==='cta'){[...el.querySelectorAll('.head,.sub,.tiny')].forEach((x,j)=>{const q=back((lt-.15-j*.18)/.35);x.style.opacity=clamp((lt-.15-j*.18)/.12,0,1);x.style.transform=`translateY(${(1-q)*50}px)`});
     if(emo)emo.style.transform=`scale(${(.4+.6*back(lt/.45))*(1+.06*Math.sin(t*5))})`;}
 }
@@ -142,6 +168,11 @@ def build(spec, tl, total, accent):
         d = {'kind': k, 'vs': vs, 've': ve, 'emoji': s.get('emoji', ''), 'hot': s.get('hot', []), 'text': s.get('text', ''), 'bullets': s.get('bullets', [])}
         if k in ('hook', 'line'): d['title'] = short_title(s)
         if k == 'step': n += 1; d['n'] = s.get('n', n); d['text'] = s.get('step', s.get('text', '')); d['title'] = s.get('title', '')
+        if k == 'tier':
+            board = [dict(b, isnew=False) for b in segs[-1]['board']] if segs and segs[-1].get('kind') == 'tier' else []
+            board.append({'tier': s.get('tier', 'S'), 'item': s.get('item', ''), 'emoji': s.get('emoji', ''), 'value': s.get('value', ''), 'isnew': True})
+            d.update({'board': board, 'tiers': s.get('tiers', ['S', 'A', 'B', 'C', 'D']), 'title': s.get('title', 'Ranked'),
+                      'callout': s.get('callout', f"{s.get('tier', 'S')} tier")})
         if k == 'cta':
             say = s.get('say', ''); low = say.lower(); hot = [h.lower() for h in s.get('hot', [])]
             if s.get('title'): t = s['title']

@@ -1,0 +1,73 @@
+{
+ "series": "Tier List #1",
+ "caption_draft": "Fastest animals, ranked: the cheetah isn't #1 🐆🦅\n\nD: Lion, about 50 mph\nC: Cheetah, 0 to 60 mph in under 3 seconds\nB: Black marlin, up to 80 mph (an estimate)\nA: White-throated needletail swift, 105 mph in level flight\nS: Peregrine falcon, more than 185 mph in a hunting dive\n\nSource: Britannica, \"The Fastest Animals on Earth\". Speeds are the figures Britannica gives; some are estimates.\n\nWhich animal did we miss? Comment below 👇\nMade with AI agents. #animalfacts #tierlist #fastestanimals #didyouknow #nature",
+ "segments": [
+  {
+   "kind": "hook",
+   "say": "The cheetah isn't number one. Not even close.",
+   "title": "Cheetah isn't #1. Not close.",
+   "emoji": "🐆",
+   "hot": [
+    "#1."
+   ]
+  },
+  {
+   "kind": "tier",
+   "say": "Lion. Fifty miles an hour. D tier.",
+   "title": "Fastest animals, ranked",
+   "tier": "D",
+   "item": "Lion",
+   "emoji": "🦁",
+   "value": "about 50 mph",
+   "callout": "D tier: 50 mph"
+  },
+  {
+   "kind": "tier",
+   "say": "Cheetah. Zero to sixty in under three seconds. Only C tier.",
+   "title": "Fastest animals, ranked",
+   "tier": "C",
+   "item": "Cheetah",
+   "emoji": "🐆",
+   "value": "0-60 under 3 sec",
+   "callout": "Only C tier"
+  },
+  {
+   "kind": "tier",
+   "say": "Black marlin. Up to eighty, underwater.",
+   "title": "Fastest animals, ranked",
+   "tier": "B",
+   "item": "Black marlin",
+   "emoji": "🐟",
+   "value": "up to 80 mph",
+   "callout": "80 mph underwater"
+  },
+  {
+   "kind": "tier",
+   "say": "Needletail swift. A hundred and five, flying.",
+   "title": "Fastest animals, ranked",
+   "tier": "A",
+   "item": "Needletail swift",
+   "emoji": "🐦",
+   "value": "105 mph flying",
+   "callout": "105 mph, flat out"
+  },
+  {
+   "kind": "tier",
+   "say": "S tier. Peregrine falcon. Over one eighty five, in a dive.",
+   "title": "Fastest animals, ranked",
+   "tier": "S",
+   "item": "Peregrine falcon",
+   "emoji": "🦅",
+   "value": "185+ mph dive",
+   "callout": "185+ mph dive!"
+  },
+  {
+   "kind": "cta",
+   "say": "Which animal did we miss? Comment below.",
+   "title": "COMMENT BELOW",
+   "emoji": "👇",
+   "sub": "Which animal did we miss?",
+   "tiny": "Source: Britannica"
+  }
+ ]
+}
