@@ -1,0 +1,7 @@
+{"look":"history","series":"Explore: History mysteries #2","segments":[
+ {"kind":"hook","title":"A whole colony VANISHED","doc":{"lines":["Roanoke Colony","1587","settlers: gone"],"emoji":"🏝️","stamp":"UNSOLVED"},"sub":"**1587.** No one knows where.","say":"In fifteen eighty-seven, a whole colony vanished. No one knows where."},
+ {"kind":"line","title":"Roanoke Island, 1587","emoji":"⛵","sub":"English settlers start **a colony**","say":"English settlers started a colony on Roanoke Island."},
+ {"kind":"line","title":"3 years later: EMPTY","doc":{"lines":["John White returns","about 3 years later","no one there"],"emoji":"🏚️","tilt":2},"sub":"Their leader came back. **Everyone was gone.**","say":"Their leader, John White, came back about three years later. Everyone was gone."},
+ {"kind":"line","title":"One clue: CROATOAN","doc":{"lines":["CROATOAN","CRO"],"emoji":"🌳","tilt":-2},"sub":"Carved **into the trees**","say":"The only clues: the words Croatoan and Cro, carved into trees."},
+ {"kind":"line","title":"Still unsolved","doc":{"lines":["",""],"stamp":"STILL|UNSOLVED","tilt":1},"sub":"Historians **still argue** about it","say":"Historians still argue about what happened."},
+ {"kind":"cta","title2":"YOUR THEORY?","sub":"Moved away, or something worse? Comment below","emoji":"💬","say":"Did they move away, or something worse? Comment below."}]}

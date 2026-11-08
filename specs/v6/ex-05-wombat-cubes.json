@@ -1,0 +1,7 @@
+{"look":"animal","series":"Explore: Animal facts #2","segments":[
+ {"kind":"hook","title":"This animal poops CUBES","emoji":"🟫","sub":"Real cubes. **Not a joke.**","say":"This animal poops cubes. Real cubes."},
+ {"kind":"line","title":"Meet the wombat","emoji":"🇦🇺","sub":"A burrowing animal from **Australia**","say":"Meet the wombat, from Australia."},
+ {"kind":"line","title":"Not shaped on the way out","emoji":"🔬","sub":"Scientists at **Georgia Tech** checked","say":"Scientists found the cubes are not shaped on the way out."},
+ {"kind":"line","title":"Shaped inside the gut","emoji":"🧩","items":[{"e":"🧱","label":"stiff"},{"e":"🎈","label":"stretchy"}],"say":"They take shape inside the gut. It has stiff zones and stretchy zones."},
+ {"kind":"line","title":"4 stiff zones = 4 walls","emoji":"🧊","sub":"That could make **the sides of a cube**","say":"Four stiff zones could make the four walls of a cube."},
+ {"kind":"cta","title2":"COMMENT BELOW","sub":"Your weirdest animal fact? Beat this one","emoji":"💬","say":"Got a weirder animal fact? Comment below."}]}

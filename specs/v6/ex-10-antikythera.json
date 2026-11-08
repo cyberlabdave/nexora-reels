@@ -1,0 +1,63 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A 2,000-year-old COMPUTER",
+   "doc": {
+    "lines": [
+     "Antikythera",
+     "mechanism",
+     "bronze gears"
+    ],
+    "emoji": "⚙️",
+    "stamp": "ANCIENT"
+   },
+   "sub": "Found by **divers**",
+   "say": "Divers found a computer that's two thousand years old."
+  },
+  {
+   "kind": "line",
+   "title": "Found in a shipwreck",
+   "emoji": "🚢",
+   "sub": "**1901**, a Roman-era wreck off Greece",
+   "say": "In nineteen oh one, sponge divers found it in a Roman-era shipwreck off Greece."
+  },
+  {
+   "kind": "line",
+   "title": "Bronze gears inside",
+   "emoji": "⚙️",
+   "sub": "Dozens of **tiny bronze gears**",
+   "say": "Inside the corroded block were dozens of tiny bronze gears."
+  },
+  {
+   "kind": "line",
+   "title": "It predicted ECLIPSES",
+   "emoji": "🌘",
+   "sub": "Sun, Moon and **planets**",
+   "say": "It modeled the Sun, Moon and planets, and could predict eclipses."
+  },
+  {
+   "kind": "line",
+   "title": "Who built it? Unknown",
+   "doc": {
+    "lines": [
+     "maker:",
+     "?"
+    ],
+    "stamp": "STILL|UNKNOWN",
+    "tilt": -2
+   },
+   "sub": "Now in a **museum in Athens**",
+   "say": "Who built it is still not confirmed. It's in a museum in Athens."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR THEORY?",
+   "sub": "Genius invention, or lucky one-off?",
+   "emoji": "💬",
+   "say": "Genius invention, or lucky one-off? Comment below."
+  }
+ ]
+}

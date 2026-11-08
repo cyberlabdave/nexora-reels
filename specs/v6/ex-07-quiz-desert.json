@@ -1,0 +1,6 @@
+{"look":"quiz","series":"Explore: Guess it #2","deco":"🏜️","segments":[
+ {"kind":"quiz","title":"What's the BIGGEST desert on Earth?","options":["Sahara","Gobi","Antarctica"],"answer":2,"say":"What's the biggest desert on Earth? Sahara, Gobi, or Antarctica? Lock it in. Three. Two. One."},
+ {"kind":"reveal","title":"It's Antarctica!","options":["Sahara","Gobi","Antarctica"],"answer":2,"confetti":true,"sub":"About **14 million km²**","say":"It's Antarctica! Yes, the icy one."},
+ {"kind":"line","title":"Desert = very little rain","emoji":"🌧️","sub":"It's about rain and snow, **not heat**","say":"A desert is about how little rain or snow falls, not how hot it is."},
+ {"kind":"line","title":"About 14 million km²","emoji":"🧊","sub":"Britannica: **the largest desert**","say":"Britannica lists the Antarctic ice sheet at about fourteen million square kilometers."},
+ {"kind":"cta","title2":"DID YOU GET IT?","sub":"Did you say Sahara? Be honest","emoji":"💬","say":"Did you say Sahara? Be honest. Comment below."}]}

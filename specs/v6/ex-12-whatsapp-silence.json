@@ -1,0 +1,7 @@
+{"look":"phone","series":"Explore: Phone hidden features #3","segments":[
+ {"kind":"hook","title":"Stop WhatsApp spam calls","screen":{"title":"Calls","rows":[["Unknown number","📵"],["Unknown number","📵"]],"ring":[310,815,450,120]},"sub":"One setting stops **strangers ringing**","say":"WhatsApp has a setting that stops calls from strangers ringing your phone."},
+ {"kind":"line","title":"Silence Unknown Callers","screen":{"title":"Calls","rows":[["Silence unknown callers","Off"]],"ring":[310,815,450,120]},"sub":"That's **the name**","say":"It's called Silence Unknown Callers."},
+ {"kind":"line","title":"Turn it on here","screen":{"title":"Settings","rows":[["Privacy","›"],["Calls","›"],["Silence unknown callers","On"]],"ring":[315,960,450,110]},"sub":"Settings › Privacy › **Calls**","say":"Open WhatsApp settings, then Privacy, then Calls, and turn it on."},
+ {"kind":"line","title":"Still in your call list","emoji":"📋","sub":"Silenced calls **don't ring**","say":"Silenced calls won't ring, but they still show in your call list."},
+ {"kind":"line","title":"Miss nothing important","emoji":"✅","sub":"Call back **anyone you need**","say":"So you can still call back anyone you need."},
+ {"kind":"cta","title2":"SEND THIS","sub":"to the friend who gets spam calls","emoji":"📤","say":"Send this to the friend who gets spam calls."}]}

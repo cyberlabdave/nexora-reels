@@ -1,0 +1,52 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #3",
+ "deco": "🏔️",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Tallest mountain, base to peak? NOT Everest",
+   "options": [
+    "K2",
+    "Mauna Kea",
+    "Kilimanjaro"
+   ],
+   "answer": 1,
+   "say": "The tallest mountain on Earth is not Everest. Measured from base to peak, is it K2, Mauna Kea, or Kilimanjaro? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's Mauna Kea!",
+   "options": [
+    "K2",
+    "Mauna Kea",
+    "Kilimanjaro"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "About **10,205 m** base to peak",
+   "say": "It's Mauna Kea, in Hawaii! About ten thousand two hundred meters, base to peak."
+  },
+  {
+   "kind": "line",
+   "title": "Most of it is UNDERWATER",
+   "emoji": "🌊",
+   "sub": "About **6,000 m** below the sea",
+   "say": "About six thousand meters of it is under the ocean."
+  },
+  {
+   "kind": "line",
+   "title": "Everest keeps one title",
+   "emoji": "🏔️",
+   "sub": "Still the highest **above sea level**",
+   "say": "Everest is still the highest mountain above sea level."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR CALL?",
+   "sub": "Should Mauna Kea get the title?",
+   "emoji": "💬",
+   "say": "Should Mauna Kea get the title? Comment below."
+  }
+ ]
+}

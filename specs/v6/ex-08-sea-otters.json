@@ -1,0 +1,7 @@
+{"look":"animal","series":"Explore: Animal facts #3","segments":[
+ {"kind":"hook","title":"Some otters hold hands to SLEEP","emoji":"🦦","sub":"And there's **a reason**","say":"Some sea otters hold paws while they sleep."},
+ {"kind":"line","title":"So they don't drift away","emoji":"🌊","items":[{"e":"🦦","label":"otter"},{"e":"🦦","label":"otter"}],"sub":"In the **open ocean**","say":"It keeps them from drifting apart in the open ocean."},
+ {"kind":"line","title":"Groups called RAFTS","emoji":"🛟","sub":"To stay **safe and warm**","say":"They rest in groups called rafts, to stay safe and warm."},
+ {"kind":"line","title":"Or wrap up in kelp","emoji":"🌿","sub":"Like a **seaweed seatbelt**","say":"Others wrap themselves in kelp, like a seatbelt."},
+ {"kind":"line","title":"No blubber, just fur","emoji":"🧥","sub":"Thick fur **keeps them warm**","say":"They have no blubber. Thick fur keeps them warm."},
+ {"kind":"cta","title2":"COMMENT BELOW","sub":"Otters or penguins: cutest sleepers?","emoji":"💬","say":"Otters or penguins: cutest sleepers? Comment below."}]}

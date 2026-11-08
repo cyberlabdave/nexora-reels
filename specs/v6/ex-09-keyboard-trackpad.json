@@ -1,0 +1,7 @@
+{"look":"phone","series":"Explore: Phone hidden features #2","segments":[
+ {"kind":"hook","title":"Your keyboard is a TRACKPAD","screen":{"title":"Notes","rows":[["Hold the space bar","⌨️"],["Slide to move cursor","↔️"]],"ring":[310,815,450,120]},"sub":"On **every iPhone** keyboard","say":"Your iPhone keyboard is secretly a trackpad."},
+ {"kind":"line","title":"Hold the space bar","screen":{"title":"Keyboard","rows":[["space","hold"],["Keys turn","light gray"]],"ring":[310,815,450,120]},"sub":"Until the keys turn **light gray**","say":"Touch and hold the space bar until the keyboard turns light gray."},
+ {"kind":"line","title":"Now slide your finger","screen":{"title":"Keyboard","rows":[["Slide","← cursor →"],["Let go","to type"]],"ring":[310,815,450,120]},"sub":"The cursor **follows your finger**","say":"Now slide your finger to move the cursor anywhere."},
+ {"kind":"line","title":"No more tapping the typo","emoji":"✍️","sub":"Fix typos **without stabbing** at letters","say":"No more stabbing at the exact letter to fix a typo."},
+ {"kind":"line","title":"It's in Apple's own guide","emoji":"📘","sub":"Apple **iPhone User Guide**","say":"It's in Apple's own iPhone user guide."},
+ {"kind":"cta","title2":"DID YOU KNOW?","sub":"Yes or no in the comments","emoji":"💬","say":"Did you know this one? Yes or no in the comments."}]}
