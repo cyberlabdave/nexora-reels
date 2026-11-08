@@ -1,0 +1,102 @@
+{
+ "look": "phone",
+ "series": "Explore: Phone hidden features #5",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Your iPhone knows when it's FULL",
+   "screen": {
+    "title": "Battery",
+    "rows": [
+     [
+      "To 80%",
+      "25 min"
+     ],
+     [
+      "To 100%",
+      "70 min"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "The exact time to **100%**",
+   "say": "Your iPhone can tell you exactly when it'll be fully charged."
+  },
+  {
+   "kind": "line",
+   "title": "Settings › Battery",
+   "screen": {
+    "title": "Settings",
+    "rows": [
+     [
+      "General",
+      "›"
+     ],
+     [
+      "Battery",
+      "›"
+     ]
+    ],
+    "ring": [
+     315,
+     888,
+     450,
+     110
+    ]
+   },
+   "sub": "Plug in, open **Battery**",
+   "say": "Plug it in, open Settings, and tap Battery."
+  },
+  {
+   "kind": "line",
+   "title": "Time to 80% and 100%",
+   "screen": {
+    "title": "Battery",
+    "rows": [
+     [
+      "To 80%",
+      "25 min"
+     ],
+     [
+      "To 100%",
+      "70 min"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Or to your **charge limit**",
+   "say": "At the top, you'll see the time to eighty percent, and to a hundred. Or to your charge limit."
+  },
+  {
+   "kind": "line",
+   "title": "It flashes on the Lock Screen",
+   "emoji": "🔒",
+   "sub": "For **a few seconds** after you plug in",
+   "say": "It also flashes on the Lock Screen for a few seconds."
+  },
+  {
+   "kind": "line",
+   "title": "Needs iOS 26",
+   "emoji": "📲",
+   "sub": "Update in **Settings › General**",
+   "say": "You need iOS twenty six or later."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend who's always at 2%",
+   "emoji": "📤",
+   "say": "Send this to the friend who's always at two percent."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #5",
+ "deco": "🔐",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Guess this 440-year-old lock code",
+   "options": [
+    "GOLD",
+    "ANCE",
+    "SHIP"
+   ],
+   "answer": 1,
+   "say": "This lock sank in fifteen eighty three. Its code has four letters. Gold, A N C E, or Ship? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's ANCE!",
+   "options": [
+    "GOLD",
+    "ANCE",
+    "SHIP"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "Opened for the **first time in 400+ years**",
+   "say": "It's A, N, C, E! And it opened for the first time in over four hundred years."
+  },
+  {
+   "kind": "line",
+   "title": "A 3D X-ray cracked it",
+   "emoji": "🩻",
+   "sub": "**Micro-CT scans** at Cardiff University",
+   "say": "Scientists at Cardiff University used micro CT scans to match the notches inside to the letters."
+  },
+  {
+   "kind": "line",
+   "title": "Why ANCE? Nobody knows",
+   "emoji": "❓",
+   "sub": "Did it mean something **to its owner?**",
+   "say": "Why A N C E? Nobody knows. Maybe it meant something to its owner."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR GUESS?",
+   "sub": "What could ANCE stand for?",
+   "emoji": "💬",
+   "say": "What do you think it stands for? Comment below."
+  }
+ ]
+}

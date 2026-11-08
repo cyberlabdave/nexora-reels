@@ -1,0 +1,56 @@
+{
+ "look": "animal",
+ "series": "Explore: Animal facts #6",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "This animal SURVIVED open space",
+   "emoji": "🚀",
+   "sub": "The tiny **water bear**",
+   "say": "This tiny animal survived open space. It's called the water bear, or tardigrade."
+  },
+  {
+   "kind": "line",
+   "title": "Up to 1.5 mm long",
+   "emoji": "🔬",
+   "sub": "Also called a **tardigrade**",
+   "say": "It's tiny, up to about one and a half millimeters long."
+  },
+  {
+   "kind": "line",
+   "title": "Sent into orbit in 2007",
+   "emoji": "🛰️",
+   "sub": "ESA's **FOTON-M3** mission",
+   "say": "In two thousand seven, scientists sent them into orbit on a European space mission."
+  },
+  {
+   "kind": "line",
+   "title": "Vacuum? Cosmic rays? Fine.",
+   "items": [
+    {
+     "e": "🌌",
+     "label": "vacuum"
+    },
+    {
+     "e": "☢️",
+     "label": "cosmic rays"
+    }
+   ],
+   "say": "Most survived the vacuum of space. Most survived cosmic rays too."
+  },
+  {
+   "kind": "line",
+   "title": "Some beat 1,000x the UV",
+   "sub": "And still **had babies** after",
+   "say": "Some even survived sun UV over a thousand times stronger than on Earth. And still had babies after.",
+   "emoji": "☀️"
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend who'd survive anything",
+   "emoji": "📤",
+   "say": "Send this to the friend who'd survive anything."
+  }
+ ]
+}

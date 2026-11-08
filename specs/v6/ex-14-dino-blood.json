@@ -1,0 +1,55 @@
+{
+ "look": "animal",
+ "series": "Explore: Animal facts #5",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Blood traces in DINOSAUR bones",
+   "emoji": "🦖",
+   "sub": "Real **red blood cell** traces",
+   "say": "Scientists just found blood traces in dinosaur bones."
+  },
+  {
+   "kind": "line",
+   "title": "115 million years old",
+   "emoji": "⏳",
+   "sub": "From the **Early Cretaceous**",
+   "say": "And the bones are a hundred and fifteen million years old."
+  },
+  {
+   "kind": "line",
+   "title": "Not liquid blood",
+   "emoji": "🔬",
+   "sub": "Tiny red blood cells **turned to mineral**",
+   "say": "Not liquid blood. Tiny red blood cells, turned to mineral."
+  },
+  {
+   "kind": "line",
+   "title": "Heme was still inside",
+   "emoji": "🧪",
+   "sub": "The oxygen molecule from **hemoglobin**",
+   "say": "Inside, they detected heme. That's the molecule hemoglobin uses to carry oxygen."
+  },
+  {
+   "kind": "line",
+   "title": "Meet Aratasaurus",
+   "emoji": "🇧🇷",
+   "sub": "A meat-eating dinosaur from **Brazil**",
+   "say": "It came from Aratasaurus, a meat-eating dinosaur from Brazil."
+  },
+  {
+   "kind": "line",
+   "title": "Just published in PNAS",
+   "emoji": "📘",
+   "sub": "Study led by **Curtin University**",
+   "say": "The study was just published in the journal PNAS."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to a friend who loved dinosaurs as a kid",
+   "emoji": "📤",
+   "say": "Send this to a friend who loved dinosaurs."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #5",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Stonehenge's stone came from SCOTLAND",
+   "doc": {
+    "lines": [
+     "ALTAR STONE",
+     "about 6 tonnes",
+     "sandstone"
+    ],
+    "emoji": "🪨",
+    "stamp": "700 KM"
+   },
+   "sub": "Stonehenge's **Altar Stone**",
+   "say": "Stonehenge's six tonne Altar Stone came from Scotland. Over seven hundred kilometers away."
+  },
+  {
+   "kind": "line",
+   "title": "For 100 years: Wales",
+   "doc": {
+    "lines": [
+     "Preseli Hills,",
+     "Wales?"
+    ],
+    "stamp": "WRONG",
+    "tilt": -2
+   },
+   "sub": "Where most **bluestones** came from",
+   "say": "For about a century, experts thought it came from Wales."
+  },
+  {
+   "kind": "line",
+   "title": "The minerals told the truth",
+   "bullets": [
+    "Tiny mineral grains",
+    "Their ages = a fingerprint",
+    "Match: northeast Scotland"
+   ],
+   "say": "Then scientists dated tiny mineral grains in it. Their ages matched rocks in northeast Scotland."
+  },
+  {
+   "kind": "line",
+   "title": "How did they move it?",
+   "doc": {
+    "lines": [
+     "by sea?",
+     "overland?"
+    ],
+    "emoji": "⛵",
+    "stamp": "UNKNOWN",
+    "tilt": 2
+   },
+   "sub": "Published in **Nature**, 2024",
+   "say": "How did Stone Age people move it that far? Nobody knows yet."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR THEORY?",
+   "sub": "By boat or overland? Comment below",
+   "emoji": "💬",
+   "say": "By boat, or overland? Tell me in the comments."
+  }
+ ]
+}

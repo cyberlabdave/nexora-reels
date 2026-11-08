@@ -1,0 +1,52 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #6",
+ "deco": "🕐",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Which country has the MOST time zones?",
+   "options": [
+    "Russia",
+    "USA",
+    "France"
+   ],
+   "answer": 2,
+   "say": "Which country has the most time zones? Russia, the USA, or France? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's France!",
+   "options": [
+    "Russia",
+    "USA",
+    "France"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "**12 time zones**, 13 in summer",
+   "say": "It's France! Twelve time zones, and thirteen with daylight saving."
+  },
+  {
+   "kind": "line",
+   "title": "Thanks to its territories",
+   "emoji": "🗺️",
+   "sub": "French lands **all around the globe**",
+   "say": "That's because of French territories spread around the globe."
+  },
+  {
+   "kind": "line",
+   "title": "Russia and USA: 11 each",
+   "emoji": "🥈",
+   "sub": "Tied for **second place**",
+   "say": "Russia and the USA tie for second, with eleven each."
+  },
+  {
+   "kind": "cta",
+   "title2": "DID YOU GET IT?",
+   "sub": "Did you say Russia? Be honest",
+   "emoji": "💬",
+   "say": "Did you say Russia? Be honest. Comment below."
+  }
+ ]
+}

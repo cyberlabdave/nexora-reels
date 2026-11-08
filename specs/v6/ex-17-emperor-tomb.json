@@ -1,0 +1,72 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #6",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A tomb NO ONE has opened",
+   "doc": {
+    "lines": [
+     "Qin Shi Huang",
+     "China, 246 BC"
+    ],
+    "emoji": "⛰️",
+    "stamp": "SEALED"
+   },
+   "sub": "China's **first emperor**",
+   "say": "This tomb has never been opened. It belongs to China's first emperor."
+  },
+  {
+   "kind": "line",
+   "title": "The largest known tomb",
+   "bullets": [
+    "Mound: 355 × 345 m",
+    "Started in 246 BC",
+    "Guinness World Record"
+   ],
+   "say": "Its mound is about three hundred fifty meters on each side. Guinness lists it as the largest tomb of a known person."
+  },
+  {
+   "kind": "line",
+   "title": "Lakes of mercury?",
+   "doc": {
+    "lines": [
+     "...lakes of",
+     "mercury...",
+     "crossbow traps..."
+    ],
+    "stamp": "LEGEND?",
+    "tilt": -2
+   },
+   "sub": "What **ancient accounts** describe",
+   "say": "Ancient accounts describe lakes of mercury inside, and booby-trapped crossbows."
+  },
+  {
+   "kind": "line",
+   "title": "The soil backs it up",
+   "emoji": "🧪",
+   "sub": "**High mercury** levels around it",
+   "say": "And high mercury levels in the soil around it suggest that could be true."
+  },
+  {
+   "kind": "line",
+   "title": "Scanned. Never opened.",
+   "doc": {
+    "lines": [
+     "3D scans only"
+    ],
+    "stamp": "UNOPENED",
+    "tilt": 2
+   },
+   "sub": "Not opened, **not excavated**",
+   "say": "It has been scanned, but never opened or dug up."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR CALL?",
+   "sub": "Open it, or leave it sealed?",
+   "emoji": "💬",
+   "say": "Open it, or leave it sealed? Comment below."
+  }
+ ]
+}
