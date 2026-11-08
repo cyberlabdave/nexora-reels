@@ -1,0 +1,6 @@
+{"look":"quiz","series":"Explore: Guess it #1","deco":"🪐","segments":[
+ {"kind":"quiz","title":"Which planet has the MOST moons?","options":["Jupiter","Saturn","Neptune"],"answer":1,"say":"Which planet has the most moons? Jupiter, Saturn, or Neptune? Lock in your answer. Three. Two. One."},
+ {"kind":"reveal","title":"It's Saturn!","options":["Jupiter","Saturn","Neptune"],"answer":1,"confetti":true,"say":"It's Saturn!"},
+ {"kind":"line","title":"Over 270 moons","emoji":"🪐","sub":"NASA counts **well over 270** confirmed","say":"NASA counts well over two hundred and seventy confirmed moons."},
+ {"kind":"line","title":"Most are tiny","emoji":"🌑","sub":"Far more than **any other planet**","say":"That's far more than any other planet in our solar system. Most of them are tiny."},
+ {"kind":"cta","title2":"DID YOU GET IT?","sub":"Comment your answer, honestly","emoji":"💬","say":"Did you get it right? Comment your answer. Be honest."}]}

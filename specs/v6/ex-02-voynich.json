@@ -1,0 +1,67 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A book nobody can read",
+   "doc": {
+    "lines": [
+     "qokeedy shedy",
+     "daiin okaiin",
+     "chol chor qotedy",
+     "otedy qokain"
+    ],
+    "emoji": "🌿",
+    "stamp": "UNSOLVED"
+   },
+   "sub": "The **Voynich** manuscript",
+   "say": "There's a book nobody on Earth can read. It's called the Voynich manuscript."
+  },
+  {
+   "kind": "line",
+   "title": "240 pages. Unknown script.",
+   "bullets": [
+    "240 pages",
+    "A script found nowhere else",
+    "A language no one can identify"
+   ],
+   "say": "It has two hundred and forty pages. It's written in a script found nowhere else. And no one knows the language."
+  },
+  {
+   "kind": "line",
+   "title": "Plants nobody can name",
+   "doc": {
+    "lines": [
+     "",
+     ""
+    ],
+    "emoji": "🌸",
+    "tilt": 2
+   },
+   "sub": "Drawings of **plants no one can identify**",
+   "say": "It's full of drawings, like plants that no one can identify."
+  },
+  {
+   "kind": "line",
+   "title": "1400s or 1500s",
+   "doc": {
+    "lines": [
+     "chedy qokedy",
+     "shol daiin"
+    ],
+    "stamp": "STILL|UNSOLVED",
+    "tilt": -2
+   },
+   "sub": "Many have tried. **No one has decoded it.**",
+   "say": "It's thought to date to the fourteen hundreds or fifteen hundreds. Many have tried to decode it. No one has."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR THEORY?",
+   "sub": "Code, made-up language, or hoax? Comment below",
+   "emoji": "💬",
+   "say": "So what is it? A secret code, a lost language, or a hoax? Tell me in the comments."
+  }
+ ]
+}

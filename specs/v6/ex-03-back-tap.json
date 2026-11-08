@@ -1,0 +1,7 @@
+{"look":"phone","series":"Explore: Phone hidden features #1","segments":[
+ {"kind":"hook","title":"Your iPhone has a secret button","screen":{"back":true,"ring":[440,900,200,200],"hand":[600,980],"tilt":-6},"sub":"It's on the **back**","say":"Your iPhone has a hidden button. And it's on the back."},
+ {"kind":"line","title":"It's called Back Tap","screen":{"title":"Settings","rows":[["Accessibility","›"],["Touch","›"],["Back Tap","Off ›"]],"ring":[315,960,450,110]},"sub":"Settings › Accessibility › **Touch**","say":"It's called Back Tap. Go to Settings, Accessibility, Touch, then Back Tap."},
+ {"kind":"line","title":"Double or Triple Tap","screen":{"title":"Back Tap","rows":[["Double Tap","None ›"],["Triple Tap","None ›"]],"ring":[310,815,450,120]},"sub":"Pick **Double Tap** or Triple Tap","say":"Pick Double Tap or Triple Tap."},
+ {"kind":"line","title":"Choose what it does","screen":{"title":"Double Tap","rows":[["Screenshot","✓"],["Control Center",""],["Magnifier",""]],"ring":[310,815,450,120]},"sub":"Screenshot, **Control Center**, Magnifier","say":"Then choose an action, like screenshot, Control Center, or Magnifier."},
+ {"kind":"line","title":"Tap the back. Done.","screen":{"back":true,"ring":[440,900,200,200],"hand":[600,980],"tilt":-6},"sub":"Works on **iOS 14** or later","say":"Now tap the back of your iPhone to run it. It works on iOS fourteen or later."},
+ {"kind":"cta","title2":"SEND THIS","sub":"to a friend with an iPhone","emoji":"📤","say":"Send this to a friend with an iPhone. Would you set it to screenshot, or flashlight?"}]}

@@ -55,7 +55,8 @@ def split_parts(say, en_sid):
             sid, lang = LANG.get(m.group(1), (en_sid, 'en'))
             out.append((m.group(2).strip(), sid, lang))
         elif m.group(3).strip():
-            out.append((m.group(3).strip(), en_sid, 'en'))
+            for sent in re.split(r'(?<=[.!?])\s+', m.group(3).strip()):  # one part per sentence (pop-ins follow sentences)
+                if sent.strip(): out.append((sent.strip(), en_sid, 'en'))
     return [p for p in out if re.search(r'\w', p[0])]
 
 def plain(say): return re.sub(r'\{\w\w:([^}]*)\}', r'\1', say)

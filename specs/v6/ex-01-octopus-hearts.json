@@ -1,0 +1,66 @@
+{
+ "look": "animal",
+ "series": "Explore: Animal facts #1",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "An octopus has THREE hearts",
+   "emoji": "🐙",
+   "sub": "And each one has **a different job**",
+   "say": "An octopus has three hearts. And each one has a different job."
+  },
+  {
+   "kind": "line",
+   "title": "Two pump to the gills",
+   "emoji": "🐙",
+   "items": [
+    {
+     "e": "💙",
+     "label": "gills",
+     "at": [
+      60,
+      760
+     ]
+    },
+    {
+     "e": "💙",
+     "label": "gills",
+     "at": [
+      720,
+      760
+     ]
+    },
+    {
+     "e": "❤️",
+     "label": "body",
+     "at": [
+      390,
+      1200
+     ]
+    }
+   ],
+   "say": "Two hearts push blood past the gills. The third heart pumps it to the rest of the body."
+  },
+  {
+   "kind": "line",
+   "title": "Heart 3 stops when it swims",
+   "emoji": "🏊",
+   "sub": "That's why octopuses **prefer crawling**",
+   "say": "And here's the weird part. That third heart stops beating when the octopus swims."
+  },
+  {
+   "kind": "line",
+   "title": "Its blood is BLUE",
+   "emoji": "🩵",
+   "sub": "Copper carries the oxygen, **not iron**",
+   "say": "Its blood is blue, because it carries oxygen with copper, not iron."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to a friend who loves weird animal facts",
+   "emoji": "📤",
+   "say": "Send this to a friend who loves weird animal facts. Three hearts, or brains in your arms. Which is stranger?"
+  }
+ ]
+}
