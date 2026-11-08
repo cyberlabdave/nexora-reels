@@ -1,0 +1,52 @@
+{
+ "series": "Prompt Drop #18",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Let AI rebuild your timesheet",
+   "say": "Forgot what you did this week? Let AI rebuild your timesheet.",
+   "emoji": "🗓️",
+   "hot": [
+    "timesheet"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "If your AI can see these",
+   "bullets": [
+    "Your calendar",
+    "Your sent emails",
+    "Files you edited"
+   ],
+   "say": "If your AI assistant can see your calendar, sent emails and files, try this."
+  },
+  {
+   "kind": "prompt",
+   "say": "Type this:",
+   "text": "From my calendar and sent emails this week, list each client, task and time spent. Flag anything you're unsure of."
+  },
+  {
+   "kind": "reply",
+   "say": "You get a draft, with the guesses flagged.",
+   "text": "Draft: Mon, Client A, design review. Not sure: Tue afternoon."
+  },
+  {
+   "kind": "line",
+   "title": "Check every line",
+   "say": "Then check every line yourself, before you send it or bill anyone.",
+   "emoji": "✅",
+   "hot": [
+    "check"
+   ]
+  },
+  {
+   "kind": "cta",
+   "say": "Save this for Friday, and follow Nexora, the honest referee for AI.",
+   "hot": [
+    "save",
+    "follow"
+   ],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}

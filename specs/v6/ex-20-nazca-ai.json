@@ -1,0 +1,82 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #7",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "AI found 303 hidden Nazca lines",
+   "doc": {
+    "lines": [
+     "Nazca, Peru",
+     "303 new figures"
+    ],
+    "emoji": "🏜️",
+    "stamp": "FOUND"
+   },
+   "sub": "In just **six months**",
+   "say": "AI helped find three hundred and three new Nazca drawings in the desert. In just six months."
+  },
+  {
+   "kind": "line",
+   "title": "A 70% jump",
+   "bullets": [
+    "Known before: 430",
+    "Found with AI: 303",
+    "Total now: about 733"
+   ],
+   "say": "Before this, about four hundred thirty were known. That's a jump of around seventy percent."
+  },
+  {
+   "kind": "line",
+   "title": "How the AI helped",
+   "doc": {
+    "lines": [
+     "1,309 flagged",
+     "checked on foot"
+    ],
+    "emoji": "🔍",
+    "stamp": "IBM AI",
+    "tilt": -2
+   },
+   "sub": "Yamagata University + **IBM Research**",
+   "say": "An IBM AI model flagged likely spots, and researchers checked them on foot."
+  },
+  {
+   "kind": "line",
+   "title": "Little 'billboards' by trails",
+   "doc": {
+    "lines": [
+     "people",
+     "farm animals",
+     "beside the trails"
+    ],
+    "emoji": "🚶",
+    "stamp": "SMALL",
+    "tilt": 2
+   },
+   "sub": "The giant ones show **wild animals**",
+   "say": "The smaller ones show people and farm animals, placed beside walking trails."
+  },
+  {
+   "kind": "line",
+   "title": "968 spots still unchecked",
+   "doc": {
+    "lines": [
+     "968 candidates",
+     "not surveyed yet"
+    ],
+    "stamp": "MORE?",
+    "tilt": -2
+   },
+   "sub": "Published in **PNAS**, 2024",
+   "say": "And nine hundred sixty eight flagged spots haven't been checked yet."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR THEORY?",
+   "sub": "Why make them? Comment below",
+   "emoji": "💬",
+   "say": "Why do you think they made them? Comment below."
+  }
+ ]
+}

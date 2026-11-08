@@ -1,0 +1,48 @@
+{
+ "look": "animal",
+ "series": "Explore: Animal facts #7",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "This shark can live 400 YEARS",
+   "emoji": "🦈",
+   "sub": "Meet the **Greenland shark**",
+   "say": "This shark may live for around four hundred years. Meet the Greenland shark."
+  },
+  {
+   "kind": "line",
+   "title": "One was about 392",
+   "emoji": "⏳",
+   "sub": "Dated from its **eye lenses**",
+   "say": "Scientists estimated one at about three hundred ninety two years old, by dating its eye lenses."
+  },
+  {
+   "kind": "line",
+   "title": "Grows about 1 cm a year",
+   "emoji": "📏",
+   "sub": "Roughly **0.4 inches** a year",
+   "say": "It grows only about one centimeter a year."
+  },
+  {
+   "kind": "line",
+   "title": "An adult at 150+",
+   "emoji": "🎂",
+   "sub": "Females mature at **156+ years**",
+   "say": "Females aren't adults until they're at least a hundred and fifty years old."
+  },
+  {
+   "kind": "line",
+   "title": "Longest-lived vertebrate",
+   "emoji": "🏆",
+   "sub": "Study in **Science**, 2016",
+   "say": "That makes it the longest-living animal with a backbone that we know of."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to your oldest friend",
+   "emoji": "📤",
+   "say": "Send this to your oldest friend."
+  }
+ ]
+}
