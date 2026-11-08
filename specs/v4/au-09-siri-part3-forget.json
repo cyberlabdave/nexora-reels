@@ -1,0 +1,44 @@
+{
+ "series": "AI Update #9",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Make Siri forget your chats",
+   "say": "Siri remembers you, part three: here's how to make it forget your chats.",
+   "emoji": "🧠",
+   "hot": ["forget"]
+  },
+  {
+   "kind": "line",
+   "title": "Your Siri chats are saved",
+   "say": "The new Siri app saves your conversations, and they sync to your other Apple devices.",
+   "emoji": "💬",
+   "hot": ["saved"]
+  },
+  {
+   "kind": "line",
+   "title": "Auto-delete in 3 taps",
+   "bullets": ["Settings", "Siri", "Keep Conversations"],
+   "say": "To auto-delete them, open Settings, tap Siri, then Keep Conversations."
+  },
+  {
+   "kind": "line",
+   "title": "Pick 30 days or 1 year",
+   "bullets": ["30 days", "1 year", "Older chats: deleted"],
+   "say": "Pick thirty days or one year. Older chats are deleted for good."
+  },
+  {
+   "kind": "line",
+   "title": "Delete one chat now",
+   "say": "To delete just one, swipe left on it in the Siri app and tap delete.",
+   "emoji": "🗑️",
+   "hot": ["one"]
+  },
+  {
+   "kind": "cta",
+   "say": "Send this to a friend with an iPhone, and follow Nexora for the AI news that matters.",
+   "hot": ["send", "follow"],
+   "sub": "Nexora: the honest referee for AI. Follow for one a day."
+  }
+ ]
+}
