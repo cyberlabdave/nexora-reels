@@ -1,0 +1,81 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #8",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A 4,000-year-old wall. Built against WHAT?",
+   "doc": {
+    "lines": [
+     "Morocco",
+     "clay, ash, stones"
+    ],
+    "emoji": "🧱",
+    "stamp": "UNSOLVED"
+   },
+   "sub": "Nobody knows **who they feared**",
+   "say": "This wall in Morocco is about four thousand years old. Nobody knows what its builders feared."
+  },
+  {
+   "kind": "line",
+   "title": "North Africa's oldest of its kind",
+   "doc": {
+    "lines": [
+     "defensive wall",
+     "outside the",
+     "Nile Valley"
+    ],
+    "emoji": "🗺️",
+    "stamp": "OLDEST",
+    "tilt": -2
+   },
+   "sub": "Ditches + ramparts at **Oued Beht**",
+   "say": "It's North Africa's oldest known defensive wall outside the Nile Valley."
+  },
+  {
+   "kind": "line",
+   "title": "A farming hub",
+   "bullets": [
+    "Dozens of grain pits",
+    "Far more than they needed",
+    "Livestock and crops"
+   ],
+   "say": "Beside it, dozens of pits likely stored grain. Far more than they needed."
+  },
+  {
+   "kind": "line",
+   "title": "\"We don't know\"",
+   "doc": {
+    "lines": [
+     "invaders?",
+     "land? grain?",
+     "power?"
+    ],
+    "emoji": "❓",
+    "stamp": "MYSTERY",
+    "tilt": 2
+   },
+   "sub": "The lead researcher's **own words**",
+   "say": "The lead researcher says they don't know what it protected against. Land? Grain? Power?"
+  },
+  {
+   "kind": "line",
+   "title": "Published Sept 2026",
+   "emoji": "📜",
+   "sub": "Italy, Morocco + England team in **Libyan Studies**",
+   "say": "A team from Italy, Morocco and England published it in September."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR THEORY?",
+   "sub": "Invaders or grain thieves? Comment",
+   "emoji": "💬",
+   "say": "What were they afraid of? Comment below.",
+   "recap": [
+    "About 4,000 years old",
+    "Oldest of its kind outside the Nile Valley",
+    "What it guarded against: **unknown**"
+   ]
+  }
+ ]
+}

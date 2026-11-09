@@ -19,6 +19,8 @@ Spec:
   {"kind":"quiz","title":"Which planet has the MOST moons?","options":["Jupiter","Saturn","Neptune"],"answer":1,"say":"... Three. Two. One."},
   {"kind":"reveal","title":"It's Saturn!","options":[...],"answer":1,"confetti":true,"sub":"...","say":"..."},
   {"kind":"cta","title2":"SEND THIS","sub":"to a friend who loves weird facts","emoji":"📤","say":"..."}]}
+Optional on the cta: "recap":["3 short facts", ...] turns the end card into a "SCREENSHOT THIS" save card (A/B test, Nov 9);
+without it the end card is unchanged.
 "sub" supports **bold** for the accent colour. Item pop-ins follow the spoken sentences (one sentence per item).
 """
 import json, os, sys, argparse, shutil
@@ -35,7 +37,7 @@ def ensure_multi():
 
 def page(spec, tl, total, lips):
     segs = []
-    keys = ('kind', 'title', 'title2', 'sub', 'emoji', 'items', 'bullets', 'doc', 'screen', 'options', 'answer', 'confetti', 'hot')
+    keys = ('kind', 'title', 'title2', 'sub', 'emoji', 'items', 'bullets', 'doc', 'screen', 'options', 'answer', 'confetti', 'hot', 'recap')
     for s, t in zip(spec['segments'], tl):
         d = {k: s.get(k) for k in keys}; d.update(st=t['st'], en=t['en'], parts=t['parts']); segs.append(d)
     for i, d in enumerate(segs):

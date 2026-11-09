@@ -23,6 +23,14 @@ html,body{width:1080px;height:1920px;overflow:hidden;font-family:Fredoka,Inter,s
 .end .big{font:700 150px/1 Fredoka}
 .end .sub{margin-top:30px;font:600 54px/1.15 Fredoka}
 .end .em{font:220px Emo;margin-top:40px}
+/* save end card (Creative Director A/B, Nov 9): opt-in with "recap":[...] on the cta segment */
+.end.save{top:330px}
+.end .shot{display:inline-block;font:700 74px Fredoka;padding:18px 44px;border-radius:999px;background:#FFD23F;color:#1b1b1b;box-shadow:0 10px 0 rgba(0,0,0,.25)}
+.end .shot .e{font-size:70px}
+.end .rl{margin-top:46px;display:flex;flex-direction:column;gap:24px;text-align:left}
+.end .rl .row{font-size:52px}
+.end.save .big{margin-top:70px;font-size:118px}
+.end.save .sub{margin-top:22px}
 /* ===== animal ===== */
 .animal #stage{background:radial-gradient(circle at 50% 40%,#1EC8D8 0%,#0B6FA8 55%,#06325C 100%)}
 .animal .tag{background:#FFD23F;color:#06325C}
@@ -93,6 +101,7 @@ D.segs.forEach((s,i)=>{const el=document.createElement('div');el.className='scen
  const tt=s.title||'';let th=letters(tt);if(s.hot)for(const w of s.hot){th=th}
  const BASE={animal:120,history:108,phone:106,quiz:104}[L]||110;h+=`<div class="title" style="font-size:${Math.round(tsize(tt)*BASE)}px">${th}</div>`;
  if(s.kind==='quiz'||s.kind==='reveal'){(s.options||[]).forEach((o,j)=>{h+=`<div class="opt" style="top:${700+j*190}px"><i>${'ABC'[j]}</i>${emo(o)}</div>`});if(s.kind==='quiz')h+='<div class="timer">3</div>'}
+ else if(s.kind==='cta'&&s.recap&&s.recap.length){h+=`<div class="end save"><div class="shot"><span class="e">📸</span> SCREENSHOT THIS</div><div class="rl">${s.recap.map((b,j)=>`<div class="row"><i>${j+1}</i><span>${emo(b)}</span></div>`).join('')}</div><div class="big">${esc(s.title2||'FOLLOW')}</div><div class="sub">${emo(s.sub||'')}</div></div>`;h=h.replace(/<div class="title"[^]*?<\/div>/,'')}
  else if(s.kind==='cta'){h+=`<div class="end"><div class="big">${esc(s.title2||'FOLLOW')}</div><div class="sub">${emo(s.sub||'')}</div><div class="em e">${s.emoji||'⭐'}</div></div>`;h=h.replace(/<div class="title"[^]*?<\/div>/,'')}
  else if(s.screen){const sc=s.screen;h+=`<div class="dev" style="transform:rotate(${sc.tilt??-5}deg)${sc.back?' scaleX(-1)':''}"><div class="scr ${sc.back?'dark':''}">${sc.title?`<h3>${esc(sc.title)}</h3>`:''}${(sc.rows||[]).map(r=>`<div class="srow">${esc(r[0])}<span>${esc(r[1]||'')}</span></div>`).join('')}</div></div>`;
    if(sc.ring)h+=`<div class="ring" style="left:${sc.ring[0]}px;top:${sc.ring[1]}px;width:${sc.ring[2]}px;height:${sc.ring[3]}px;transform:rotate(${sc.tilt??-5}deg)"></div>`;
