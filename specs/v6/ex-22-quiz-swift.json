@@ -1,0 +1,52 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #7",
+ "deco": "🛰️",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Built for 2 years. How long did it LAST?",
+   "options": [
+    "5 years",
+    "12 years",
+    "22 years"
+   ],
+   "answer": 2,
+   "say": "NASA built its Swift telescope for two years. How long did it really last? Five, twelve, or twenty two years? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "22 years!",
+   "options": [
+    "5 years",
+    "12 years",
+    "22 years"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "**11 times longer** than planned",
+   "say": "Twenty two years! Eleven times longer than planned."
+  },
+  {
+   "kind": "line",
+   "title": "It hunted cosmic explosions",
+   "emoji": "💥",
+   "sub": "Watched **thousands** of gamma-ray bursts",
+   "say": "It watched thousands of gamma ray bursts, the biggest explosions in the universe."
+  },
+  {
+   "kind": "line",
+   "title": "It came down on Nov 4",
+   "emoji": "🛰️",
+   "sub": "Re-entered **near Indonesia**",
+   "say": "Then its orbit sank, and it fell near Indonesia on November fourth."
+  },
+  {
+   "kind": "cta",
+   "title2": "DID YOU GET IT?",
+   "sub": "Did you guess 22? Be honest",
+   "emoji": "💬",
+   "say": "Did you guess twenty two? Comment below."
+  }
+ ]
+}
