@@ -1,0 +1,85 @@
+{
+ "series": "Showdown #3",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Private AI: app vs browser",
+   "say": "AI that runs on your own computer: app or browser?",
+   "emoji": "💻",
+   "hot": [
+    "vs"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "emoji": "📄",
+   "hot": [
+    "tested"
+   ],
+   "say": "Not tested by us. Based on official info."
+  },
+  {
+   "kind": "line",
+   "title": "Hob: a desktop app",
+   "emoji": "🖥️",
+   "hot": [
+    "app"
+   ],
+   "bullets": [
+    "Free and open-source",
+    "Mac, Windows, Linux",
+    "Works offline"
+   ],
+   "say": "Hob: a free, open-source app for Mac, Windows and Linux. Works offline."
+  },
+  {
+   "kind": "line",
+   "title": "Opera WebAI: in the browser",
+   "emoji": "🌐",
+   "hot": [
+    "browser"
+   ],
+   "bullets": [
+    "Opt-in early preview",
+    "Inside Opera One",
+    "Windows PC + Apple-silicon Mac"
+   ],
+   "say": "Opera WebAI: an opt-in early preview inside the Opera One browser."
+  },
+  {
+   "kind": "line",
+   "title": "Catch: speed = your computer",
+   "emoji": "🐢",
+   "hot": [
+    "speed"
+   ],
+   "say": "The catch for both: it runs on your computer, so speed depends on it."
+  },
+  {
+   "kind": "line",
+   "title": "Who it's built for",
+   "emoji": "🧭",
+   "hot": [
+    "built"
+   ],
+   "bullets": [
+    "Your files → Hob",
+    "Web pages → WebAI"
+   ],
+   "say": "Built for your files? Hob. For websites? WebAI."
+  },
+  {
+   "kind": "cta",
+   "title": "COMMENT BELOW",
+   "say": "Comment if you want a real hands-on test, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Not tested by us: based on official info",
+   "emoji": "👇",
+   "hot": [
+    "comment",
+    "follow"
+   ]
+  }
+ ]
+}

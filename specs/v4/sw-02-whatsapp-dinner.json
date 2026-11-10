@@ -1,0 +1,84 @@
+{
+ "series": "60-Second Workflow #2",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Group dinner, all in WhatsApp",
+   "say": "Plan a group dinner without leaving WhatsApp.",
+   "emoji": "🍝",
+   "hot": [
+    "dinner"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "emoji": "📄",
+   "hot": [
+    "tested"
+   ],
+   "say": "Not tested by us. Based on WhatsApp's blog and WABetaInfo."
+  },
+  {
+   "kind": "line",
+   "title": "Step 1: tap the date",
+   "emoji": "👆",
+   "hot": [
+    "date"
+   ],
+   "bullets": [
+    "'Dinner Fri 7pm?' gets a dotted line",
+    "Add to calendar or create event",
+    "Rolling out now"
+   ],
+   "say": "Step one. In the newest update, a date in a chat gets a dotted underline. Tap it to add it to your calendar, or start a WhatsApp event."
+  },
+  {
+   "kind": "line",
+   "title": "Step 2: invite anyone",
+   "emoji": "🔗",
+   "hot": [
+    "anyone"
+   ],
+   "bullets": [
+    "Share the event link",
+    "They RSVP, no app needed"
+   ],
+   "say": "Step two. Invite friends who aren't on WhatsApp. They open a link and RSVP. No app needed."
+  },
+  {
+   "kind": "line",
+   "title": "Step 3: your privacy",
+   "emoji": "🔒",
+   "hot": [
+    "privacy"
+   ],
+   "bullets": [
+    "Number hidden from strangers",
+    "Address shown after RSVP"
+   ],
+   "say": "Step three. Guests you don't know can't see your number, and guests without WhatsApp see the address only after they RSVP."
+  },
+  {
+   "kind": "line",
+   "title": "Settings → Events",
+   "emoji": "⚙️",
+   "hot": [
+    "Events"
+   ],
+   "say": "Find it in Settings, then Events."
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to your group's planner, and comment if you want a real hands-on test.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Not tested by us: based on WhatsApp's blog + WABetaInfo",
+   "emoji": "📤",
+   "hot": [
+    "send",
+    "comment"
+   ]
+  }
+ ]
+}

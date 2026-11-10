@@ -1,0 +1,90 @@
+{
+ "series": "AI Fails #2",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "3 AI fails this month",
+   "say": "Three AI fails this month, all on the record.",
+   "emoji": "🚩",
+   "hot": [
+    "fails"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Not tested by us",
+   "emoji": "📰",
+   "hot": [
+    "tested"
+   ],
+   "say": "Not tested by us. Based on public reports."
+  },
+  {
+   "kind": "line",
+   "title": "1. Passwords in plain text",
+   "emoji": "🔑",
+   "hot": [
+    "plain"
+   ],
+   "bullets": [
+    "Claude Code: 'don't ask again'",
+    "Saved typed passwords + keys",
+    "2,539 found in public code"
+   ],
+   "say": "One. Claude Code's don't ask again saved typed passwords in plain text. Researchers found over twenty-five hundred in public code."
+  },
+  {
+   "kind": "line",
+   "title": "2. A year of notes, gone",
+   "emoji": "🗂️",
+   "hot": [
+    "gone"
+   ],
+   "bullets": [
+    "Asked: renumber the pages",
+    "Deleted: syllabus + a year of notes",
+    "Saved by: a Dropbox backup"
+   ],
+   "say": "Two. Asked to renumber pages, an AI deleted a professor's notes. A Dropbox backup saved them."
+  },
+  {
+   "kind": "line",
+   "title": "3. Pulled after one day",
+   "emoji": "📚",
+   "hot": [
+    "day"
+   ],
+   "bullets": [
+    "Vellum let AI assistants in",
+    "Authors pushed back",
+    "Removed a day later"
+   ],
+   "say": "Three. Vellum let AI assistants in. Authors pushed back. It was gone a day later."
+  },
+  {
+   "kind": "line",
+   "title": "The fix",
+   "emoji": "✅",
+   "hot": [
+    "fix"
+   ],
+   "bullets": [
+    "Back up first",
+    "No passwords in AI commands"
+   ],
+   "say": "The fix: back up first, and no passwords in AI."
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to the friend who lets AI touch everything, and comment if you want a real test.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "tiny": "Comment if you want a real hands-on test",
+   "emoji": "📤",
+   "hot": [
+    "send",
+    "comment"
+   ]
+  }
+ ]
+}
