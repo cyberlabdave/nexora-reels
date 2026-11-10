@@ -1,0 +1,13 @@
+{
+ "look": "animal",
+ "series": "Explore: Animal facts #9",
+ "segments": [
+  {"kind":"hook","title":"It shot its TONGUE like a chameleon","emoji":"🦎","sub":"A newly named **66-million-year-old** amphibian","say":"Scientists just named a tiny animal that shot out its tongue like a chameleon."},
+  {"kind":"line","title":"Smaller than your thumb","emoji":"🤏","sub":"Its family was **under 5 cm** long","say":"Its whole family was less than five centimetres long."},
+  {"kind":"line","title":"Eyelids, claws, scales","bullets":["Eyelids","Claws","Dry, scaly skin"],"say":"It had eyelids. Claws. And dry, scaly skin."},
+  {"kind":"line","title":"Lived right before the asteroid","emoji":"☄️","sub":"Found just below the **dinosaur extinction** layer","say":"It lived in Spain, right before the asteroid that wiped out the dinosaurs."},
+  {"kind":"line","title":"Its family SURVIVED","emoji":"🌍","sub":"They lasted until about **2 million years ago**","say":"And its family survived. They lasted until about two million years ago."},
+  {"kind":"line","title":"Named from 80+ bones","emoji":"🦴","sub":"Study in **Cretaceous Research**","say":"It was named from more than eighty bones, in the journal Cretaceous Research."},
+  {"kind":"cta","title2":"SEND THIS","sub":"to a friend who loves weird animals","emoji":"📤","say":"Send this to a friend who loves weird animals."}
+ ]
+}
