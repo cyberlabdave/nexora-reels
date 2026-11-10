@@ -1,0 +1,8 @@
+{"series":"Tool Drop #2","segments":[
+ {"kind":"hook","title":"Describe it. AI builds it.","say":"Describe a trip. Meta's AI builds the planner.","emoji":"🧳","hot":["builds"]},
+ {"kind":"line","title":"Not tested by us","emoji":"📄","hot":["tested"],"say":"Not tested by us. Based on Meta's announcement."},
+ {"kind":"line","title":"Spaces, inside Meta's Muse","emoji":"✨","hot":["spaces"],"bullets":["Describe an idea in chat","Muse builds it"],"say":"It's called Spaces, inside Meta's Muse. Describe an idea in chat, and Muse builds it."},
+ {"kind":"line","title":"Meta's own examples","emoji":"🗺️","hot":["examples"],"bullets":["Trip planner","Holiday gift tracker","School dashboard"],"say":"Meta's examples: a trip planner, a holiday gift tracker, a school dashboard."},
+ {"kind":"line","title":"It updates itself","emoji":"🔄","hot":["updates"],"bullets":["Connect your apps","Updates in the background"],"say":"Connect your apps, and Meta says spaces update in the background."},
+ {"kind":"line","title":"Not stated yet","emoji":"❓","hot":["stated"],"bullets":["Full list of apps","What data they see","The price"],"say":"Not stated yet: the full list of apps, what data they see, or the price."},
+ {"kind":"cta","title":"COMMENT BELOW","say":"Comment if you want a real hands-on test, and send this to your trip planner friend.","sub":"Nexora: the honest referee for AI. Follow for one a day.","tiny":"Not tested by us: based on official info","emoji":"👇","hot":["comment","send"]}]}
