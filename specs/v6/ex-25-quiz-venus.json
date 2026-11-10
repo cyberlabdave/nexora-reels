@@ -1,0 +1,13 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #9",
+ "deco": "🪐",
+ "segments": [
+  {"kind":"quiz","title":"Which planet's DAY is longer than its YEAR?","options":["Mars","Venus","Jupiter"],"answer":1,"say":"Which planet has a day that's longer than its year? Mars, Venus, or Jupiter? Three. Two. One."},
+  {"kind":"reveal","title":"It's Venus!","options":["Mars","Venus","Jupiter"],"answer":1,"confetti":true,"sub":"One spin takes **243 Earth days**","say":"It's Venus! One spin takes two hundred and forty three Earth days."},
+  {"kind":"line","title":"But its year is shorter","emoji":"☀️","sub":"One trip around the Sun: **225 days**","say":"But one trip around the Sun takes only two hundred and twenty five."},
+  {"kind":"line","title":"It even spins BACKWARDS","emoji":"🔄","sub":"Opposite to **most planets**","say":"And it spins backwards, the opposite way to most planets."},
+  {"kind":"line","title":"Hot enough to melt lead","emoji":"🔥","sub":"Days reach about **484°C**","say":"Oh, and its days are hot enough to melt lead."},
+  {"kind":"cta","title2":"DID YOU GET IT?","sub":"Venus, Mars or Jupiter: what was your guess?","emoji":"💬","say":"Did you guess Venus? Comment below."}
+ ]
+}
