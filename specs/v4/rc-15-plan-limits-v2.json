@@ -1,0 +1,52 @@
+{
+ "series": "AI Reality Check #15",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Your AI plan can shrink overnight",
+   "say": "Your paid AI plan's limits can shrink overnight. Here's how to stay ready.",
+   "emoji": "📉",
+   "hot": [
+    "overnight"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Grok users hit it this month",
+   "say": "This month, some Grok users ran out of their weekly limit in days.",
+   "emoji": "⏱️",
+   "hot": [
+    "days"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "The reason: it costs a lot",
+   "say": "Elon Musk said serving it cost too much for what it brought in. So limits can change fast.",
+   "emoji": "💸",
+   "hot": [
+    "costs"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "3 habits that help",
+   "bullets": [
+    "Check your usage weekly",
+    "Keep a free backup tool",
+    "Don't prepay a year"
+   ],
+   "say": "Check your usage weekly, keep a free backup, and don't prepay a year."
+  },
+  {
+   "kind": "cta",
+   "title": "SAVE THIS",
+   "say": "Save this so your week never gets wrecked, and follow Nexora, the honest referee for AI.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "save",
+    "follow"
+   ]
+  }
+ ]
+}
