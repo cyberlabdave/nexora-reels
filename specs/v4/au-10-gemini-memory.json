@@ -1,0 +1,64 @@
+{
+ "series": "AI Update #10",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Gemini keeps a file on you",
+   "say": "Gemini now shows the file it keeps on you. Here's how to read it.",
+   "emoji": "🗂️",
+   "hot": [
+    "file"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "5 folders about you",
+   "bullets": [
+    "The Essentials",
+    "Career & projects",
+    "Travel & daily gear",
+    "Media, fitness & lifestyle"
+   ],
+   "say": "It's called Memory summary: what Gemini knows about you, in five folders."
+  },
+  {
+   "kind": "line",
+   "title": "Where to find it",
+   "bullets": [
+    "Settings",
+    "Personal Intelligence",
+    "Memory summary"
+   ],
+   "say": "On the web: Settings, then Personal Intelligence."
+  },
+  {
+   "kind": "line",
+   "title": "Delete what you don't want",
+   "say": "Type what to remove, and Memory history shows when each fact was saved.",
+   "emoji": "🗑️",
+   "hot": [
+    "Delete"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Who gets it now",
+   "bullets": [
+    "Google AI subscribers",
+    "US English",
+    "Web first"
+   ],
+   "say": "For now: Google AI subscribers, US English, web first."
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to the friend who tells Gemini everything, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ]
+}
