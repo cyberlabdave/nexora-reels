@@ -1,0 +1,102 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #10",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A lost city just told us its NAME",
+   "doc": {
+    "lines": [
+     "Minanbé",
+     "Campeche, Mexico"
+    ],
+    "emoji": "🌴",
+    "stamp": "FOUND 2026"
+   },
+   "sub": "Hidden under the **jungle**",
+   "say": "A lost Maya city just told us its real name."
+  },
+  {
+   "kind": "line",
+   "title": "Found by laser scans",
+   "doc": {
+    "lines": [
+     "LiDAR scan",
+     "under the trees",
+     "5 km trail by machete"
+    ],
+    "emoji": "🛰️",
+    "stamp": "LIDAR",
+    "tilt": -2
+   },
+   "sub": "Then a **5 km** jungle trail",
+   "say": "Laser scans spotted it under the jungle in Mexico."
+  },
+  {
+   "kind": "line",
+   "title": "They named it 'No road'",
+   "doc": {
+    "lines": [
+     "mina'an  be",
+     "'there is no road'"
+    ],
+    "stamp": "NO ROAD",
+    "tilt": 2
+   },
+   "sub": "In **Yucatec Maya**",
+   "say": "Archaeologists named it Minanbé: there is no road."
+  },
+  {
+   "kind": "line",
+   "title": "Its real name: SAKIL",
+   "doc": {
+    "lines": [
+     "SAKIL",
+     "linked to 'white'"
+    ],
+    "emoji": "🪨",
+    "stamp": "PROBABLY",
+    "tilt": -2
+   },
+   "sub": "Read from **carved stone**",
+   "say": "Now carvings suggest its real name was probably Sakil."
+  },
+  {
+   "kind": "line",
+   "title": "Its king was called 'Bat'",
+   "doc": {
+    "lines": [
+     "Suutz'",
+     "= BAT"
+    ],
+    "emoji": "🦇",
+    "stamp": "KING",
+    "tilt": 2
+   },
+   "sub": "Carved on **Stela 7**",
+   "say": "Its ruler was called Soots. That means, Bat."
+  },
+  {
+   "kind": "line",
+   "title": "A rival city 40 km away",
+   "doc": {
+    "lines": [
+     "Ocomtún",
+     "carved a captive"
+    ],
+    "emoji": "🏛️",
+    "stamp": "RIVALS",
+    "tilt": -2
+   },
+   "sub": "Carved a **captive** from Sakil",
+   "say": "And a rival city forty kilometers away carved a captive from Sakil."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR PICK?",
+   "sub": "King 'Bat': cool name or scary? Comment",
+   "emoji": "💬",
+   "say": "King Bat. Cool name, or scary? Comment below."
+  }
+ ]
+}

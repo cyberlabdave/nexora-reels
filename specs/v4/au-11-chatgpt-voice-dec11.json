@@ -1,0 +1,69 @@
+{
+ "series": "AI Update #11",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "ChatGPT voice changes Dec 11",
+   "say": "ChatGPT is retiring two voice modes on December eleventh.",
+   "emoji": "🎙️",
+   "hot": [
+    "voice"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "What's going",
+   "bullets": [
+    "Advanced voice",
+    "Standard voice"
+   ],
+   "say": "OpenAI says Advanced and Standard voice go away on December eleventh."
+  },
+  {
+   "kind": "line",
+   "title": "Everyone moves to GPT-Live",
+   "say": "Everyone moves to GPT-Live, launched in July.",
+   "emoji": "🔁",
+   "hot": [
+    "GPT-Live"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "What's different",
+   "bullets": [
+    "Listens while it talks",
+    "You can interrupt it"
+   ],
+   "say": "Live listens while it talks, so you can cut in."
+  },
+  {
+   "kind": "line",
+   "title": "One catch",
+   "bullets": [
+    "No video in Live yet",
+    "No screen share yet"
+   ],
+   "say": "One catch: OpenAI says Live can't do video or screen share yet."
+  },
+  {
+   "kind": "line",
+   "title": "Your old chats stay",
+   "say": "Your old chats stay in your history.",
+   "emoji": "💬",
+   "hot": [
+    "stay"
+   ]
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to a friend who talks to ChatGPT daily, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ]
+}

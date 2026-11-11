@@ -1,0 +1,68 @@
+{
+ "look": "animal",
+ "series": "Explore: Animal facts #10",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "How did DINO blood last 115M years?",
+   "emoji": "🦖",
+   "sub": "Part 2: the **mineral** that saved it",
+   "say": "How did dinosaur blood traces last a hundred and fifteen million years?"
+  },
+  {
+   "kind": "line",
+   "title": "Buried fast",
+   "emoji": "🪨",
+   "sub": "In **low-oxygen** mud full of microbes",
+   "say": "First, it was likely buried fast, in low oxygen mud."
+  },
+  {
+   "kind": "line",
+   "title": "A mineral moved in",
+   "emoji": "🔬",
+   "sub": "Called **hausmannite**",
+   "say": "Then a mineral called hausmannite filled the blood cells."
+  },
+  {
+   "kind": "line",
+   "title": "Hidden in its leg bones",
+   "emoji": "🦴",
+   "sub": "Inside tiny **blood canals**",
+   "say": "They sat in tiny canals inside its leg bones."
+  },
+  {
+   "kind": "line",
+   "title": "Heme was still inside",
+   "emoji": "🧪",
+   "sub": "A first **chemical proof**, the team says",
+   "say": "And heme was still inside. A first, the team says."
+  },
+  {
+   "kind": "line",
+   "title": "What it could teach us",
+   "emoji": "🦖",
+   "items": [
+    {
+     "e": "🩸",
+     "label": "blood"
+    },
+    {
+     "e": "🏃",
+     "label": "activity"
+    },
+    {
+     "e": "🔭",
+     "label": "ancient life"
+    }
+   ],
+   "say": "It could show how blood evolved. How active dinosaurs were. And help the search for ancient life."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to a friend who still loves dinosaurs",
+   "emoji": "📤",
+   "say": "Send this to a friend who still loves dinosaurs."
+  }
+ ]
+}

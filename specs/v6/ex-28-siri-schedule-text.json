@@ -1,0 +1,99 @@
+{
+ "look": "phone",
+ "series": "AI Update #12",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Siri can send your text LATER",
+   "screen": {
+    "title": "Messages",
+    "rows": [
+     [
+      "To: Mom",
+      "Send 8:00 AM"
+     ],
+     [
+      "Scheduled",
+      "›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "New in the **iOS 27.3 beta**",
+   "say": "Siri can now schedule your iMessages to send later, in the iOS twenty seven point three beta."
+  },
+  {
+   "kind": "line",
+   "title": "Just ask Siri",
+   "screen": {
+    "title": "Siri",
+    "rows": [
+     [
+      "Text Mom",
+      "Tomorrow"
+     ],
+     [
+      "Send at",
+      "8:00 AM"
+     ]
+    ],
+    "ring": [
+     315,
+     888,
+     450,
+     110
+    ]
+   },
+   "sub": "Ask it to **schedule** a message",
+   "say": "Ask Siri to schedule a message, and it goes out later."
+  },
+  {
+   "kind": "line",
+   "title": "Siri can also…",
+   "bullets": [
+    "Edit or unsend a text",
+    "Make and save a playlist",
+    "Add a Journal entry"
+   ],
+   "say": "In the same beta, Siri can also edit or unsend texts, make and save a playlist, and add a Journal entry."
+  },
+  {
+   "kind": "line",
+   "title": "Beta only, for now",
+   "screen": {
+    "title": "Software Update",
+    "rows": [
+     [
+      "iOS 27.3",
+      "Beta"
+     ],
+     [
+      "Public",
+      "Later"
+     ]
+    ],
+    "ring": [
+     315,
+     888,
+     450,
+     110
+    ]
+   },
+   "sub": "**Not tested by us**: based on 9to5Mac",
+   "say": "It's beta only for now. 9to5Mac says the public release comes later this year. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend who texts you at 2am",
+   "emoji": "📤",
+   "say": "Send this to the friend who always texts you at two a.m."
+  }
+ ],
+ "tag": "Siri news"
+}
