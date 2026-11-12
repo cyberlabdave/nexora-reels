@@ -1,0 +1,91 @@
+{
+ "look": "phone",
+ "series": "Explore: Phone features #6",
+ "tag": "Samsung Galaxy",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Your Galaxy can flag snooping apps",
+   "screen": {
+    "title": "Privacy alerts",
+    "rows": [
+     [
+      "Privacy risk",
+      "Alert"
+     ],
+     [
+      "Background access",
+      "Review ›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Built into **One UI 9**",
+   "say": "Your Samsung Galaxy can now warn you when an app grabs permissions in the background."
+  },
+  {
+   "kind": "line",
+   "title": "It's called Privacy Alerts",
+   "screen": {
+    "title": "Privacy alerts",
+    "rows": [
+     [
+      "Unneeded permission",
+      "Flagged"
+     ],
+     [
+      "Check app",
+      "Review ›"
+     ]
+    ],
+    "ring": [
+     315,
+     888,
+     450,
+     110
+    ]
+   },
+   "sub": "On-device AI spots **unneeded access**",
+   "say": "It's called Privacy Alerts. On-device AI flags permissions an app doesn't need."
+  },
+  {
+   "kind": "line",
+   "title": "Security Brief warns you too",
+   "bullets": [
+    "Malware",
+    "Apps from unknown sources",
+    "Unneeded permissions"
+   ],
+   "say": "Security Brief also warns about malware, unknown-source apps and unneeded permissions."
+  },
+  {
+   "kind": "line",
+   "title": "Which Galaxy phones?",
+   "bullets": [
+    "Galaxy S23 to S26",
+    "Fold5 and Flip5 or newer",
+    "Some Galaxy Tabs"
+   ],
+   "say": "It's on the Galaxy S twenty three to S twenty six, Fold five and Flip five or newer, and some tablets."
+  },
+  {
+   "kind": "line",
+   "title": "Not perfect",
+   "emoji": "🔍",
+   "sub": "Samsung: alerts may miss things · **Not tested by us**",
+   "say": "Samsung says it may miss things. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend with 100 apps they never open",
+   "emoji": "📤",
+   "say": "Send this to the friend with a hundred apps they never open."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #10",
+ "deco": "🌉",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How OLD is this brick bridge in Iraq?",
+   "options": [
+    "About 800 years",
+    "About 2,000 years",
+    "Over 3,800 years"
+   ],
+   "answer": 2,
+   "say": "This brick bridge was just dug up in Iraq. How old is it? Eight hundred years, two thousand, or over three thousand eight hundred? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Over 3,800 years!",
+   "options": [
+    "About 800 years",
+    "About 2,000 years",
+    "Over 3,800 years"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "Named after **King Sin-iddinam**",
+   "say": "Over three thousand eight hundred! It's named after King Sin-iddinam of Larsa."
+  },
+  {
+   "kind": "line",
+   "title": "It crossed the main canal",
+   "emoji": "🌊",
+   "sub": "Larsa's main **irrigation canal**",
+   "say": "It crossed the city's main irrigation canal."
+  },
+  {
+   "kind": "line",
+   "title": "Only HALF is dug up",
+   "emoji": "⛏️",
+   "sub": "The rest waits for **future digs**",
+   "say": "And only half of it is dug up so far."
+  },
+  {
+   "kind": "cta",
+   "title2": "DID YOU GET IT?",
+   "sub": "800, 2,000 or 3,800: what was your guess?",
+   "emoji": "💬",
+   "say": "What was your guess? Comment below."
+  }
+ ]
+}

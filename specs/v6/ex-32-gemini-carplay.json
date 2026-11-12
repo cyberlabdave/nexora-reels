@@ -1,0 +1,6 @@
+{"look":"phone","series":"AI Update #13","tag":"Google news","segments":[
+ {"kind":"hook","title":"Gemini just moved into your car","screen":{"title":"CarPlay","rows":[["Gemini","Tap ›"],["Live chat","Hands-free"]],"ring":[310,815,450,120]},"sub":"Rolling out on **CarPlay** worldwide","say":"Gemini just moved into your iPhone's car screen. Google is rolling it out on CarPlay worldwide."},
+ {"kind":"line","title":"Talk, don't type","screen":{"title":"Gemini Live","rows":[["What's my day?","Listening"],["Interrupt","Anytime"]],"ring":[315,888,450,110]},"sub":"Chats **sync** back to your phone","say":"It's hands-free Gemini Live. Interrupt it, change topic, and the chat syncs back to your phone."},
+ {"kind":"line","title":"Set it up in 4 steps","bullets":["Update the Gemini app","Allow the microphone","Use Gemini Live once","Tap Gemini on CarPlay"],"say":"Update the Gemini app, allow the mic, use Gemini Live once on your phone, then tap the Gemini icon in your car."},
+ {"kind":"line","title":"The catch","emoji":"⏳","sub":"Still **rolling out** · Not tested by us","say":"The catch? It's still rolling out, so the icon may take a while. Not tested by us."},
+ {"kind":"cta","title2":"SEND THIS","sub":"to the friend who drives everywhere","emoji":"📤","say":"Send this to the friend who drives everywhere."}]}
