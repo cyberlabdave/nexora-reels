@@ -1,0 +1,105 @@
+{
+ "look": "phone",
+ "series": "Phone & app news #4",
+ "tag": "Google news",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Google just made its own AirTag",
+   "screen": {
+    "title": "Find Hub",
+    "rows": [
+     [
+      "Keys",
+      "Ring ›"
+     ],
+     [
+      "Wallet",
+      "Nearby"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "**Pixel Tag** went on sale Nov 11",
+   "say": "Google just made its own AirTag. It's called Pixel Tag, and it's on sale now."
+  },
+  {
+   "kind": "line",
+   "title": "Lost keys? Ring them",
+   "screen": {
+    "title": "Pixel Tag",
+    "rows": [
+     [
+      "Play sound",
+      "Ring ›"
+     ],
+     [
+      "Find nearby",
+      "Arrow"
+     ]
+    ],
+    "ring": [
+     315,
+     888,
+     450,
+     110
+    ]
+   },
+   "sub": "Ultra Wideband points the **way**",
+   "say": "Lost your keys? Ring them, or follow the arrow."
+  },
+  {
+   "kind": "line",
+   "title": "What Google says",
+   "bullets": [
+    "Battery up to 1 year",
+    "Share with up to 10 people"
+   ],
+   "say": "Google says the battery lasts up to a year. And up to ten people can share one tag."
+  },
+  {
+   "kind": "line",
+   "title": "It warns you too",
+   "screen": {
+    "title": "Unknown tag",
+    "rows": [
+     [
+      "Tag with you",
+      "Alert"
+     ],
+     [
+      "Find it",
+      "Ring ›"
+     ]
+    ],
+    "ring": [
+     315,
+     888,
+     450,
+     110
+    ]
+   },
+   "sub": "Alerts for **unknown tags** near you",
+   "say": "If an unknown tag travels with you, your phone warns you."
+  },
+  {
+   "kind": "line",
+   "title": "The catch: Android only",
+   "emoji": "🤖",
+   "sub": "Needs **Android 9+** · Not tested by us",
+   "say": "The catch? Android only. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend who always loses their keys",
+   "emoji": "📤",
+   "say": "Send this to the friend who always loses their keys."
+  }
+ ]
+}
