@@ -1,0 +1,88 @@
+{
+ "look": "phone",
+ "series": "Phone & app news #6",
+ "tag": "WhatsApp news",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "WhatsApp is building full-quality photos",
+   "screen": {
+    "title": "Photo quality",
+    "rows": [
+     [
+      "Standard",
+      "Compressed"
+     ],
+     [
+      "HD",
+      "Less compressed"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "For **paid** WhatsApp Plus users",
+   "say": "WhatsApp is building zero-compression photos. But it's planned for paid WhatsApp Plus users."
+  },
+  {
+   "kind": "line",
+   "title": "Even HD still squeezes photos",
+   "emoji": "🗜️",
+   "sub": "HD compresses **less**, not zero",
+   "say": "Today, even HD still compresses your photos a bit."
+  },
+  {
+   "kind": "line",
+   "title": "Free fix: send as a document",
+   "screen": {
+    "title": "Attach",
+    "rows": [
+     [
+      "Document",
+      "Tap ›"
+     ],
+     [
+      "Choose photo",
+      "Full quality"
+     ]
+    ],
+    "ring": [
+     315,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Arrives **exactly** as you saved it",
+   "say": "The free fix works now. Tap attach, choose Document, pick your photo. It arrives uncompressed."
+  },
+  {
+   "kind": "line",
+   "title": "Or make HD your default",
+   "bullets": [
+    "Settings",
+    "Storage and data",
+    "Media upload quality: HD"
+   ],
+   "say": "Or make HD your default in Settings, Storage and data, Media upload quality."
+  },
+  {
+   "kind": "line",
+   "title": "Still in development",
+   "emoji": "🧪",
+   "sub": "No release date · **Not tested by us**",
+   "say": "No release date yet. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend whose photos arrive blurry",
+   "emoji": "📤",
+   "say": "Send this to the friend whose photos arrive blurry."
+  }
+ ]
+}

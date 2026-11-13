@@ -1,0 +1,81 @@
+{
+ "look": "phone",
+ "series": "Phone & app news #5",
+ "tag": "Nintendo news",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Log into Nintendo with Google? That ends",
+   "screen": {
+    "title": "Nintendo",
+    "rows": [
+     [
+      "Google sign-in",
+      "Ending"
+     ],
+     [
+      "Apple sign-in",
+      "Ending"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Ends **January 26, 2027**",
+   "say": "Do you log into your Nintendo Account with Google or Apple? Nintendo is ending that on January twenty sixth."
+  },
+  {
+   "kind": "line",
+   "title": "No password? Set one now",
+   "screen": {
+    "title": "Sign in",
+    "rows": [
+     [
+      "Forgot password?",
+      "Reset ›"
+     ],
+     [
+      "Email + password",
+      "Use this"
+     ]
+    ],
+    "ring": [
+     315,
+     888,
+     450,
+     110
+    ]
+   },
+   "sub": "Tap **Forgot your password?** to get one",
+   "say": "If you never made a password, go to the Nintendo Account sign in page and tap Forgot your password."
+  },
+  {
+   "kind": "line",
+   "title": "Do this today",
+   "bullets": [
+    "Reset your password",
+    "Check spam for the email",
+    "Add a passkey"
+   ],
+   "say": "Reset it, check your spam folder for the email, and add a passkey for faster sign in."
+  },
+  {
+   "kind": "line",
+   "title": "Already signed in?",
+   "emoji": "🎮",
+   "sub": "You may **not** need to log in again",
+   "say": "Already signed in on your Switch? You may not need to log in again. But do it before you're locked out."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend with a Switch",
+   "emoji": "📤",
+   "say": "Send this to the friend with a Switch."
+  }
+ ]
+}

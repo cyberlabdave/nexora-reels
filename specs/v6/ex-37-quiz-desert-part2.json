@@ -1,0 +1,6 @@
+{"look":"quiz","series":"Explore: Guess it #11","deco":"🏜️","tag":"Part 2","segments":[
+ {"kind":"quiz","title":"Antarctica is #1. What's the 2nd BIGGEST desert?","options":["Sahara","Arctic","Gobi"],"answer":1,"say":"Antarctica is the biggest desert on Earth. So what's number two? Sahara, Arctic, or Gobi? Three. Two. One."},
+ {"kind":"reveal","title":"It's the Arctic!","options":["Sahara","Arctic","Gobi"],"answer":1,"confetti":true,"sub":"About **13.7 million km²**","say":"It's the Arctic! Another cold one."},
+ {"kind":"line","title":"Both top spots are COLD","emoji":"🧊","sub":"Britannica: Antarctic, then **Arctic**","say":"Britannica lists the Antarctic first and the Arctic second. Both are frozen."},
+ {"kind":"line","title":"The Sahara still wins one title","emoji":"☀️","sub":"Biggest **HOT** desert on Earth","say":"The Sahara still wins one title: the biggest hot desert on Earth."},
+ {"kind":"cta","title2":"DID YOU GET IT?","sub":"Did you say Sahara again? Be honest","emoji":"💬","say":"Did you say Sahara again? Be honest. Comment below."}]}
