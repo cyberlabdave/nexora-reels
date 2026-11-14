@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #16",
+ "deco": "🛍️",
+ "tag": "Black Friday quiz",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Which AI will Black Friday shoppers use MOST?",
+   "options": [
+    "ChatGPT",
+    "Gemini",
+    "It's a tie"
+   ],
+   "answer": 2,
+   "say": "Which AI will Black Friday shoppers use most? ChatGPT, Gemini, or a tie? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's a TIE: 29% each",
+   "options": [
+    "ChatGPT",
+    "Gemini",
+    "It's a tie"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "Among shoppers **likely to use AI**",
+   "say": "A tie! Twenty-nine percent each."
+  },
+  {
+   "kind": "line",
+   "title": "34% plan to use AI this year",
+   "emoji": "🛍️",
+   "sub": "Up from **16% in 2025**",
+   "say": "Thirty-four percent plan to use AI this year, up from sixteen."
+  },
+  {
+   "kind": "line",
+   "title": "40% won't use any AI",
+   "emoji": "🙅",
+   "sub": "YouGov · **1,495 US adults**",
+   "say": "Forty percent won't use any AI."
+  },
+  {
+   "kind": "cta",
+   "title2": "COMMENT BELOW",
+   "sub": "AI for Black Friday: yes or no way?",
+   "emoji": "💬",
+   "say": "Will you use AI for Black Friday? Comment below."
+  }
+ ]
+}

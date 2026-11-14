@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #14",
+ "deco": "🦐",
+ "tag": "Animal quiz",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How hard can this SHRIMP punch?",
+   "options": [
+    "Its own weight",
+    "100x its weight",
+    "1,000x its weight"
+   ],
+   "answer": 2,
+   "say": "How hard can a mantis shrimp punch? Its own weight, a hundred times, or a thousand times? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Over 1,000x its weight!",
+   "options": [
+    "Its own weight",
+    "100x its weight",
+    "1,000x its weight"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "The hit + **imploding bubbles**",
+   "say": "Over a thousand times its body weight!"
+  },
+  {
+   "kind": "line",
+   "title": "So why doesn't its club BREAK?",
+   "emoji": "🦐",
+   "sub": "**Twisted layers**, like a spiral stack of paper",
+   "say": "Why doesn't its club break? Twisted layers inside, like a spiral stack of paper."
+  },
+  {
+   "kind": "line",
+   "title": "They filter the worst shock waves",
+   "emoji": "🛡️",
+   "sub": "Study in **Science**, 2025",
+   "say": "They filter out the worst shock waves."
+  },
+  {
+   "kind": "cta",
+   "title2": "DID YOU GET IT?",
+   "sub": "Did you guess 1,000x? Be honest",
+   "emoji": "💬",
+   "say": "Did you guess right? Comment below."
+  }
+ ]
+}
