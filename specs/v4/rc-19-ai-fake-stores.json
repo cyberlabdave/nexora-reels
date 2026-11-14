@@ -1,0 +1,63 @@
+{
+ "series": "AI Reality Check #19",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "AI can send you to fake stores",
+   "say": "Shopping with AI? It can send you to a fake store.",
+   "emoji": "🛒",
+   "hot": [
+    "fake"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "151 brands, three chatbots",
+   "bullets": [
+    "ChatGPT",
+    "Gemini",
+    "Perplexity"
+   ],
+   "say": "A brand-protection firm, Podqi, asked ChatGPT, Gemini and Perplexity about one hundred fifty-one brands."
+  },
+  {
+   "kind": "line",
+   "title": "About 1 in 11 answers",
+   "say": "About one in eleven answers pointed to a risky site: fake, or a dead domain.",
+   "emoji": "⚠️",
+   "hot": [
+    "11"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "Fakes or dead domains",
+   "bullets": [
+    "Copycat stores",
+    "Counterfeits",
+    "Dead domains anyone can buy"
+   ],
+   "say": "Think copycat stores, counterfeits, and dead domains a scammer could buy."
+  },
+  {
+   "kind": "line",
+   "title": "Before Black Friday, do this",
+   "bullets": [
+    "Type the brand's site yourself",
+    "Check the spelling of the URL",
+    "Pay only on the real site"
+   ],
+   "say": "Before Black Friday, type the brand's website yourself, check the spelling, and only pay there."
+  },
+  {
+   "kind": "cta",
+   "title": "SEND THIS",
+   "say": "Send this to the friend who asks AI where to shop, and follow Nexora.",
+   "sub": "Nexora: the honest referee for AI. Follow for one a day.",
+   "hot": [
+    "send",
+    "follow"
+   ]
+  }
+ ]
+}

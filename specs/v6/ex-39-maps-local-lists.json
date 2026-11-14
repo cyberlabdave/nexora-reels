@@ -1,0 +1,84 @@
+{
+ "look": "phone",
+ "series": "Explore: Phone features #7",
+ "tag": "Apple Maps · iOS 27",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Apple Maps has trending lists",
+   "screen": {
+    "title": "Guides",
+    "rows": [
+     [
+      "Local Lists",
+      "Trending ›"
+     ],
+     [
+      "Trending Restaurants",
+      "See all ›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Most people **never swipe up**",
+   "say": "Apple Maps now has lists of what's trending near you. Most people never find them."
+  },
+  {
+   "kind": "line",
+   "title": "It's called Local Lists",
+   "emoji": "📍",
+   "sub": "New in **iOS 27**",
+   "say": "It's called Local Lists, and it's new in iOS twenty-seven."
+  },
+  {
+   "kind": "line",
+   "title": "Swipe up, find Guides",
+   "bullets": [
+    "Open Maps",
+    "Swipe up the bottom card",
+    "Tap a list in Guides"
+   ],
+   "say": "Open Maps, swipe up on the bottom card, and tap a list in the Guides section."
+  },
+  {
+   "kind": "line",
+   "title": "Breakfast, parks, museums",
+   "emoji": "🥞",
+   "items": [
+    {
+     "e": "🥞",
+     "label": "breakfast"
+    },
+    {
+     "e": "🌳",
+     "label": "parks"
+    },
+    {
+     "e": "🏛️",
+     "label": "museums"
+    }
+   ],
+   "sub": "Each list shows **when it was updated**",
+   "say": "Breakfast spots. Parks. Museums. Each list shows when it was last updated."
+  },
+  {
+   "kind": "line",
+   "title": "US cities only, for now",
+   "emoji": "🇺🇸",
+   "sub": "Not every area · **Not tested by us**",
+   "say": "It's US cities only for now, and not every area has lists. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend who never picks the restaurant",
+   "emoji": "📤",
+   "say": "Send this to the friend who never picks the restaurant."
+  }
+ ]
+}
