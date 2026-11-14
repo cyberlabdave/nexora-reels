@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #13",
+ "deco": "🏜️",
+ "tag": "Desert quiz · Part 3",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Which desert is the DRIEST on Earth?",
+   "options": [
+    "Sahara",
+    "Atacama",
+    "Gobi"
+   ],
+   "answer": 1,
+   "say": "Which desert is the driest on Earth? Sahara, Atacama, or Gobi? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's the Atacama!",
+   "options": [
+    "Sahara",
+    "Atacama",
+    "Gobi"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "In **Chile**, South America",
+   "say": "It's the Atacama, in Chile!"
+  },
+  {
+   "kind": "line",
+   "title": "A town went 14 YEARS with no rain",
+   "emoji": "☀️",
+   "sub": "Arica, Chile · **1903 to 1918**",
+   "say": "One town there, Arica, went over fourteen years without a single drop of rain."
+  },
+  {
+   "kind": "line",
+   "title": "The Sahara gets WAY more rain",
+   "emoji": "🌧️",
+   "sub": "**100-250 mm** a year vs 10-15 mm",
+   "say": "The Sahara gets one hundred to two hundred fifty millimeters of rain a year. The Atacama gets just ten to fifteen."
+  },
+  {
+   "kind": "cta",
+   "title2": "DID YOU GET IT?",
+   "sub": "Did you say Sahara? Be honest",
+   "emoji": "💬",
+   "say": "Did you say Sahara? Be honest. Comment below."
+  }
+ ]
+}
