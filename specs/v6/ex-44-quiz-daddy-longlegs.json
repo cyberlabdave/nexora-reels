@@ -1,0 +1,73 @@
+{
+ "look": "quiz",
+ "series": "Explore: Guess it #15",
+ "deco": "🕸️",
+ "tag": "Animal quiz",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Is a daddy longlegs a SPIDER?",
+   "options": [
+    "Always",
+    "Never",
+    "Depends which one"
+   ],
+   "answer": 2,
+   "say": "Is a daddy longlegs a spider? Always, never, or it depends? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It depends!",
+   "options": [
+    "Always",
+    "Never",
+    "Depends which one"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "**3 different animals** share the name",
+   "say": "It depends! Three animals share the name."
+  },
+  {
+   "kind": "line",
+   "title": "Three animals, one name",
+   "items": [
+    {
+     "e": "🕸️",
+     "label": "cellar spider"
+    },
+    {
+     "e": "🦂",
+     "label": "harvestman"
+    },
+    {
+     "e": "🦟",
+     "label": "crane fly"
+    }
+   ],
+   "sub": "Only one is a **real spider**",
+   "say": "Cellar spiders are spiders. Harvestmen are closer to scorpions. Crane flies are insects."
+  },
+  {
+   "kind": "line",
+   "title": "Most venomous spider? MYTH",
+   "emoji": "🚫",
+   "sub": "Harvestmen have **no venom, no silk**",
+   "say": "The super-venomous myth? False. Harvestmen have no venom."
+  },
+  {
+   "kind": "line",
+   "title": "But some catch FROGS",
+   "emoji": "🐸",
+   "sub": "**10 reports** from South America",
+   "say": "But some have been seen eating frogs!"
+  },
+  {
+   "kind": "cta",
+   "title2": "SEND THIS",
+   "sub": "to the friend who's scared of them",
+   "emoji": "📤",
+   "say": "Send this to a friend who's scared of them."
+  }
+ ]
+}

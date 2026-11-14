@@ -1,0 +1,53 @@
+{
+ "look": "history",
+ "series": "Explore: History mysteries #11",
+ "tag": "Gödel's notebooks",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "1,009 pages in a DEAD shorthand",
+   "emoji": "📓",
+   "sub": "Kurt Gödel's **hidden notebooks**",
+   "say": "Kurt Gödel left over a thousand pages in a dead shorthand."
+  },
+  {
+   "kind": "line",
+   "title": "Written in Gabelsberger",
+   "doc": {
+    "lines": [
+     "Gabelsberger",
+     "shorthand"
+    ],
+    "emoji": "✍️",
+    "stamp": "1940s"
+   },
+   "sub": "Obsolete **even back then**",
+   "say": "Sixteen notebooks from the nineteen-forties, in an obsolete shorthand."
+  },
+  {
+   "kind": "line",
+   "title": "Humans: about 1 page a week",
+   "emoji": "🐢",
+   "sub": "Then a researcher **tried AI**",
+   "say": "Humans managed a page a week. Then a researcher tried an AI, Claude."
+  },
+  {
+   "kind": "line",
+   "title": "AI: a digest in days",
+   "bullets": [
+    "663 results found",
+    "~400 held up as stated",
+    "~200 needed fixing",
+    "~50 were false"
+   ],
+   "say": "In days: six hundred sixty-three results. About four hundred held up. Two hundred needed fixes. Fifty were false."
+  },
+  {
+   "kind": "cta",
+   "title2": "COMMENT BELOW",
+   "sub": "A human checked every page. Trust AI with history?",
+   "emoji": "💬",
+   "say": "A human still checked every page. Would you trust AI with history? Comment below."
+  }
+ ]
+}
