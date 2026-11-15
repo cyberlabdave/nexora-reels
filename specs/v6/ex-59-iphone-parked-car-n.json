@@ -1,0 +1,19 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #13",
+ "tag": "Phone Trick #13",
+ "segments": [
+  {"kind": "hook", "title": "Your iPhone knows where you PARKED",
+   "screen": {"title": "Maps", "rows": [["🚗 Parked Car", "›"], ["Directions", "Go ›"]], "ring": [310, 815, 450, 120]},
+   "sub": "No app, no pin, **already built in**", "say": "Your iPhone already knows where you parked."},
+  {"kind": "line", "title": "It drops a pin when you LEAVE", "emoji": "📍",
+   "sub": "When you disconnect from **CarPlay or car Bluetooth**", "say": "When you disconnect from your car's CarPlay or Bluetooth, Maps drops a marker."},
+  {"kind": "line", "title": "Turn it on in 3 taps",
+   "screen": {"title": "Settings › Apps › Maps", "rows": [["Show Parked Location", "On"], ["Significant Locations", "On"]], "ring": [310, 815, 450, 120]},
+   "sub": "Settings › Apps › Maps › **Show Parked Location**", "say": "Open Settings, then Apps, then Maps, and turn on Show Parked Location. Significant Locations needs to be on too."},
+  {"kind": "line", "title": "Find it: search PARKED CAR", "emoji": "🔎",
+   "sub": "Source: **Apple Support**", "say": "To find your car, search Parked Car in Maps and tap Directions."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Phone Trick #14 tomorrow", "emoji": "🚗",
+   "say": "Follow for Phone Trick number 14 tomorrow."}
+ ]
+}

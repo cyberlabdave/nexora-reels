@@ -1,0 +1,18 @@
+{
+ "look": "quiz",
+ "series": "Weird Animal #18",
+ "tag": "Weird Animal #18",
+ "deco": "🦃",
+ "segments": [
+  {"kind": "quiz", "title": "How fast can a WILD turkey fly?", "options": ["It can't fly", "15 mph", "55 mph"], "answer": 2,
+   "say": "How fast can a wild turkey fly? It can't fly, fifteen miles an hour, or fifty-five? Comment your guess. Three. Two. One."},
+  {"kind": "reveal", "title": "Up to 55 mph!", "options": ["It can't fly", "15 mph", "55 mph"], "answer": 2, "confetti": true,
+   "sub": "Wild turkeys **do fly**", "say": "Up to fifty-five miles an hour! Wild turkeys really do fly."},
+  {"kind": "line", "title": "They RUN 25 mph too", "emoji": "🏃",
+   "sub": "On the ground, **up to 25 mph**", "say": "And they can run up to twenty-five miles an hour."},
+  {"kind": "line", "title": "At night they sleep in TREES", "emoji": "🌳",
+   "sub": "Source: **PBS Nature**", "say": "At sundown they fly up into the trees and hop branch to branch to a high roost."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Weird Animal #19 tomorrow", "emoji": "🦃",
+   "say": "Follow for Weird Animal number 19 tomorrow."}
+ ]
+}
