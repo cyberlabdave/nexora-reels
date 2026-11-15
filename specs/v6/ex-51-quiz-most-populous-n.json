@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "deco": "🌏",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Which country has the MOST people?",
+   "options": [
+    "China",
+    "India",
+    "USA"
+   ],
+   "answer": 1,
+   "say": "Which country has the most people? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's India!",
+   "options": [
+    "China",
+    "India",
+    "USA"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "India passed **China** in 2023",
+   "say": "It's India!"
+  },
+  {
+   "kind": "line",
+   "title": "China held #1 for DECADES",
+   "emoji": "🇨🇳",
+   "sub": "Then India **overtook it**",
+   "say": "China held the top spot for decades, until India overtook it."
+  },
+  {
+   "kind": "line",
+   "title": "It happened in April 2023",
+   "emoji": "📅",
+   "sub": "Source: **United Nations** population division",
+   "say": "The United Nations says it happened in April twenty twenty three."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Comment your answer · tomorrow's is harder",
+   "emoji": "🧠",
+   "say": "Comment your answer, then follow: tomorrow's is harder."
+  }
+ ],
+ "series": "Guess It #12",
+ "tag": "Guess It #12"
+}

@@ -1,0 +1,91 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #12",
+ "tag": "Phone Trick #12",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Does YOUR iPhone get Siri AI?",
+   "screen": {
+    "title": "Settings",
+    "rows": [
+     [
+      "Apple Intelligence & Siri",
+      "›"
+     ],
+     [
+      "Siri AI",
+      "Beta"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Many iPhones **don't**",
+   "say": "Does your iPhone get the new Siri AI? Many don't."
+  },
+  {
+   "kind": "line",
+   "title": "These ones DO",
+   "bullets": [
+    "iPhone 15 Pro and 15 Pro Max",
+    "Every iPhone 16 model",
+    "Every iPhone 17 model"
+   ],
+   "say": "Apple says you need an iPhone fifteen Pro, or any iPhone sixteen or newer."
+  },
+  {
+   "kind": "line",
+   "title": "Plain iPhone 15? NO",
+   "bullets": [
+    "iPhone 15 and 15 Plus",
+    "iPhone 14 and older"
+   ],
+   "sub": "No Apple Intelligence support",
+   "say": "The plain iPhone fifteen, fifteen Plus, and older models miss out."
+  },
+  {
+   "kind": "line",
+   "title": "Check it in 5 seconds",
+   "screen": {
+    "title": "General › About",
+    "rows": [
+     [
+      "Model Name",
+      "iPhone 15 Pro"
+     ],
+     [
+      "iOS Version",
+      "27.2"
+     ]
+    ],
+    "ring": [
+     315,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Settings › General › **About**",
+   "say": "Check it in Settings, General, About."
+  },
+  {
+   "kind": "line",
+   "title": "Still beta, not in the EU yet",
+   "emoji": "🇪🇺",
+   "sub": "**Not tested by us**: based on Apple",
+   "say": "It's still beta, and not in the EU yet. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #13 tomorrow",
+   "emoji": "🇪🇺",
+   "say": "Follow for Phone Trick number 13 tomorrow."
+  }
+ ]
+}

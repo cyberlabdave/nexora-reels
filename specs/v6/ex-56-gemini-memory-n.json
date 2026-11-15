@@ -1,0 +1,92 @@
+{
+ "look": "phone",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Gemini keeps a FILE on you",
+   "screen": {
+    "title": "Memory summary",
+    "rows": [
+     [
+      "The Essentials",
+      "›"
+     ],
+     [
+      "Career & projects",
+      "›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Here's how to **read it**",
+   "say": "Gemini now shows the file it keeps on you. Here's how to read it."
+  },
+  {
+   "kind": "line",
+   "title": "It's called Memory summary",
+   "bullets": [
+    "The Essentials",
+    "Career & projects",
+    "Travel & daily gear",
+    "Media, fitness & lifestyle"
+   ],
+   "say": "It's called Memory summary: what Gemini knows about you, sorted into folders."
+  },
+  {
+   "kind": "line",
+   "title": "Where to find it",
+   "screen": {
+    "title": "Settings",
+    "rows": [
+     [
+      "Personal Intelligence",
+      "›"
+     ],
+     [
+      "Memory summary",
+      "›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "On the web: Settings › **Personal Intelligence**",
+   "say": "On the web: Settings, then Personal Intelligence."
+  },
+  {
+   "kind": "line",
+   "title": "Delete what you don't want",
+   "emoji": "🗑️",
+   "sub": "Memory history shows **when** each fact was saved",
+   "say": "Type what to remove. Memory history shows when each fact was saved."
+  },
+  {
+   "kind": "line",
+   "title": "Who gets it now",
+   "bullets": [
+    "Google AI subscribers",
+    "US English",
+    "Web first"
+   ],
+   "say": "For now: Google AI subscribers, US English, web first."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #9 tomorrow",
+   "emoji": "🗑️",
+   "say": "Follow for Phone Trick number 9 tomorrow."
+  }
+ ],
+ "series": "Phone Trick #8",
+ "tag": "Phone Trick #8"
+}
