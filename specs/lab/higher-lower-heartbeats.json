@@ -1,0 +1,83 @@
+{
+ "look": "animal",
+ "series": "Weird Animal · Higher or Lower",
+ "tag": "🐾 Higher or Lower",
+ "segments": [
+  {
+   "kind": "hilo",
+   "title": "Higher or LOWER than you?",
+   "round": 1,
+   "of": 3,
+   "known": {
+    "e": "🧍",
+    "label": "You, resting",
+    "n": 72,
+    "pre": "~",
+    "unit": "heartbeats a minute"
+   },
+   "mystery": {
+    "e": "🐘",
+    "label": "Asian elephant",
+    "n": 30,
+    "pre": "~",
+    "unit": "heartbeats a minute"
+   },
+   "answer": "lower",
+   "reveal": 3,
+   "say": "You: about seventy-two beats a minute. Elephant: higher or lower? Three, two, one. Lower! About thirty."
+  },
+  {
+   "kind": "hilo",
+   "title": "Round 2: higher or lower?",
+   "round": 2,
+   "of": 3,
+   "known": {
+    "e": "🐘",
+    "label": "Asian elephant",
+    "n": 30,
+    "pre": "~",
+    "unit": "heartbeats a minute"
+   },
+   "mystery": {
+    "e": "🐦",
+    "label": "Hummingbird",
+    "n": 1000,
+    "suf": "+",
+    "unit": "heartbeats a minute"
+   },
+   "answer": "higher",
+   "reveal": 2,
+   "say": "Hummingbird: higher or lower? Three, two, one. Higher! Over a thousand, in some species."
+  },
+  {
+   "kind": "hilo",
+   "title": "Last one!",
+   "round": 3,
+   "of": 3,
+   "known": {
+    "e": "🐦",
+    "label": "Hummingbird",
+    "n": 1000,
+    "suf": "+",
+    "unit": "heartbeats a minute"
+   },
+   "mystery": {
+    "e": "🐋",
+    "label": "Blue whale, diving",
+    "n": 2,
+    "unit": "heartbeats a minute"
+   },
+   "answer": "lower",
+   "reveal": 2,
+   "confetti": true,
+   "say": "Blue whale, on a deep dive: higher or lower? Three, two, one. Lower! Just two."
+  },
+  {
+   "kind": "cta",
+   "title2": "YOUR SCORE?",
+   "sub": "Comment it: out of 3?",
+   "emoji": "🫀",
+   "say": "Comment your score out of three. Follow for round two."
+  }
+ ]
+}

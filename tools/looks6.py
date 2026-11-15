@@ -18,6 +18,13 @@ Spec:
   {"kind":"line","title":"...","screen":{"title":"Back Tap","rows":[["Double Tap","Screenshot ›"]],"ring":[310,815,450,120],"back":false},"sub":"...","say":"..."}, (phone)
   {"kind":"quiz","title":"Which planet has the MOST moons?","options":["Jupiter","Saturn","Neptune"],"answer":1,"say":"... Three. Two. One."},
   {"kind":"reveal","title":"It's Saturn!","options":[...],"answer":1,"confetti":true,"sub":"...","say":"..."},
+  {"kind":"hilo","title":"Higher or lower?","round":1,"of":3,"known":{"e":"🧍","label":"You, resting","n":72,"pre":"~","unit":"beats/min"},
+   "mystery":{"e":"🐘","label":"Elephant","n":30,"pre":"~","unit":"beats/min"},"answer":"lower","reveal":2,
+   "say":"You: about seventy-two beats a minute. An elephant: higher or lower? Three, two, one. Lower! About thirty."},
+   ("Higher or Lower", Format Lab Nov 15, 2026, owner approval pending: a chain game. Top card = known number, bottom card = mystery,
+    HIGHER/LOWER buttons + 3-2-1 timer; at sentence index "reveal" the right button lights up and the mystery number rolls to its value.
+    In the next hilo segment the previous mystery card slides up to become the known card, so 3 rounds feel like one streak.
+    End with a cta asking viewers to comment their score out of N.)
   {"kind":"cta","title2":"SEND THIS","sub":"to a friend who loves weird facts","emoji":"📤","say":"..."}]}
 "sub" supports **bold** for the accent colour. Item pop-ins follow the spoken sentences (one sentence per item).
 """
@@ -35,7 +42,8 @@ def ensure_multi():
 
 def page(spec, tl, total, lips):
     segs = []
-    keys = ('kind', 'title', 'title2', 'sub', 'emoji', 'items', 'bullets', 'doc', 'screen', 'options', 'answer', 'confetti', 'hot')
+    keys = ('kind', 'title', 'title2', 'sub', 'emoji', 'items', 'bullets', 'doc', 'screen', 'options', 'answer', 'confetti', 'hot',
+            'known', 'mystery', 'round', 'of', 'reveal')
     for s, t in zip(spec['segments'], tl):
         d = {k: s.get(k) for k in keys}; d.update(st=t['st'], en=t['en'], parts=t['parts']); segs.append(d)
     for i, d in enumerate(segs):
