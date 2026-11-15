@@ -1,0 +1,45 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #14",
+ "tag": "Weird Animal #14",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Owls turn their heads 270°",
+   "emoji": "🦉",
+   "sub": "Without **cutting off the blood** to their brain",
+   "say": "Owls can turn their heads two hundred seventy degrees, and their brain still gets blood."
+  },
+  {
+   "kind": "line",
+   "title": "Humans? Arteries can TEAR",
+   "emoji": "⚠️",
+   "sub": "Sudden neck twists can **damage blood vessels**",
+   "say": "In people, sudden twists of the neck can stretch and tear blood vessels."
+  },
+  {
+   "kind": "line",
+   "title": "Owls have 3 TRICKS",
+   "say": "Johns Hopkins scientists found three tricks. Wide holes in the neck bones. Blood pools under the jaw. And backup blood paths.",
+   "bullets": [
+    "Wide holes in the neck bones",
+    "Blood pools under the jaw",
+    "Backup blood paths"
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "270° in EITHER direction",
+   "emoji": "🔄",
+   "sub": "Johns Hopkins study, **2013**",
+   "say": "That's up to two hundred seventy degrees, in either direction."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Weird Animal #15 tomorrow",
+   "emoji": "🦉",
+   "say": "Follow for Weird Animal number fifteen tomorrow."
+  }
+ ]
+}

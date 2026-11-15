@@ -1,0 +1,6 @@
+{"look":"quiz","series":"Guess It #17","deco":"☀️","tag":"Guess It #17","segments":[
+ {"kind":"quiz","title":"How long does SUNLIGHT take to reach us?","options":["8 seconds","8 minutes","8 hours"],"answer":1,"say":"How long does sunlight take to reach Earth? Comment your answer. Three. Two. One."},
+ {"kind":"reveal","title":"About 8 minutes!","options":["8 seconds","8 minutes","8 hours"],"answer":1,"confetti":true,"sub":"**8 minutes 20 seconds**, to be exact","say":"About eight minutes and twenty seconds!"},
+ {"kind":"line","title":"You see the Sun's PAST","emoji":"🌞","sub":"That light left **8 minutes ago**","say":"So the Sun you see is the Sun from eight minutes ago."},
+ {"kind":"line","title":"Light is that FAST","emoji":"⚡","sub":"Source: **Smithsonian Air and Space Museum**","say":"And it still crosses about a hundred and fifty million kilometers to get here."},
+ {"kind":"cta","title2":"FOLLOW","sub":"Tomorrow's quiz is harder","emoji":"🧠","say":"Follow. Tomorrow's is harder."}]}

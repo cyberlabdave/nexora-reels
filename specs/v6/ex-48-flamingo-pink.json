@@ -1,0 +1,52 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #15",
+ "tag": "Weird Animal #15",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Flamingos are NOT born pink",
+   "emoji": "🦩",
+   "sub": "The chicks are **gray**",
+   "say": "Flamingos aren't born pink. The chicks have gray feathers."
+  },
+  {
+   "kind": "line",
+   "title": "The pink comes from FOOD",
+   "emoji": "🦐",
+   "items": [
+    {
+     "e": "🦐",
+     "label": "shrimp"
+    },
+    {
+     "e": "🦠",
+     "label": "plankton"
+    }
+   ],
+   "sub": "Pigments like **beta-carotene**",
+   "say": "The pink comes from pigments in their food. Tiny shrimp. And plankton."
+  },
+  {
+   "kind": "line",
+   "title": "More pigment = BRIGHTER bird",
+   "emoji": "🎨",
+   "sub": "Less in the diet, **paler feathers**",
+   "say": "The more of those pigments a flamingo eats, the brighter it gets."
+  },
+  {
+   "kind": "line",
+   "title": "Baby bills start pink, then go BLACK",
+   "emoji": "🐣",
+   "sub": "Source: **PBS Nature**",
+   "say": "Even weirder: a chick's bill starts pink and turns black within about a week."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Weird animals every day",
+   "emoji": "🦩",
+   "say": "Follow for a weird animal every day."
+  }
+ ]
+}
