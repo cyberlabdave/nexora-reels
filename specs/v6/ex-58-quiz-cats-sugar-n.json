@@ -1,0 +1,18 @@
+{
+ "look": "quiz",
+ "series": "Weird Animal #17",
+ "tag": "Weird Animal #17",
+ "deco": "🐱",
+ "segments": [
+  {"kind": "quiz", "title": "Which animal CAN'T taste sugar?", "options": ["Dog", "Cat", "Horse"], "answer": 1,
+   "say": "Which animal can't taste sugar? A dog, a cat, or a horse? Comment your guess. Three. Two. One."},
+  {"kind": "reveal", "title": "The CAT!", "options": ["Dog", "Cat", "Horse"], "answer": 1, "confetti": true,
+   "sub": "Your cat has **never tasted sweet**", "say": "The cat! Your cat has never tasted sweet."},
+  {"kind": "line", "title": "Its sweet GENE is broken", "emoji": "🧬",
+   "sub": "Part of the **sweet-taste gene** is missing", "say": "Part of its sweet taste gene is missing, so it can't build the sweet sensor."},
+  {"kind": "line", "title": "Chickens can't taste it EITHER", "emoji": "🐔",
+   "sub": "Source: **Monell Center** study, via Scientific American", "say": "Chickens are missing the sweet gene too."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Weird Animal #18 tomorrow", "emoji": "🐱",
+   "say": "Follow for Weird Animal number 18 tomorrow."}
+ ]
+}
