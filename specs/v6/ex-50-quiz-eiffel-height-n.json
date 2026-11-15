@@ -1,6 +1,6 @@
 {
  "look": "quiz",
- "deco": "🗼",
+ "deco": "🇫🇷",
  "segments": [
   {
    "kind": "quiz",
@@ -36,7 +36,7 @@
   {
    "kind": "line",
    "title": "New antennas = taller tower",
-   "emoji": "🗼",
+   "emoji": "📏",
    "sub": "Latest one added in **2022**. Source: **toureiffel.paris**",
    "say": "New antennas on top made it taller. The latest went up in twenty twenty two."
   },
