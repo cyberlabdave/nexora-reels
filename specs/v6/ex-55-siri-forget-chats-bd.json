@@ -1,0 +1,78 @@
+{
+ "look": "phone",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Make Siri FORGET your chats",
+   "screen": {
+    "title": "Siri",
+    "rows": [
+     [
+      "Keep Conversations",
+      "1 Year ›"
+     ],
+     [
+      "Chat history",
+      "Synced"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "The new Siri app **saves** them",
+   "say": "Here's how to make Siri forget your chats."
+  },
+  {
+   "kind": "line",
+   "title": "Your Siri chats are SAVED",
+   "emoji": "💬",
+   "sub": "And they **sync** to your other Apple devices",
+   "say": "The new Siri app saves your conversations, and they sync to your other Apple devices."
+  },
+  {
+   "kind": "line",
+   "title": "Auto-delete in 3 taps",
+   "screen": {
+    "title": "Settings › Siri",
+    "rows": [
+     [
+      "Keep Conversations",
+      "›"
+     ],
+     [
+      "30 Days",
+      "1 Year"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Settings › Siri › **Keep Conversations**",
+   "say": "Open Settings, tap Siri, then Keep Conversations. Pick thirty days or one year."
+  },
+  {
+   "kind": "line",
+   "title": "Delete ONE chat now",
+   "emoji": "🗑️",
+   "sub": "Swipe left in the Siri app, **tap Delete**",
+   "say": "To delete just one, swipe left on it in the Siri app and tap delete."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #8 tomorrow",
+   "emoji": "💬",
+   "say": "Follow for Phone Trick number 8 tomorrow."
+  }
+ ],
+ "series": "Phone Trick #7",
+ "tag": "Phone Trick #7"
+}

@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #11",
+ "tag": "Guess It #11",
+ "deco": "☀️",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How OLD is the sunlight on your face?",
+   "options": [
+    "8 minutes",
+    "8 years",
+    "Thousands of years"
+   ],
+   "answer": 2,
+   "say": "Part two. How old is the sunlight on your face right now? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Thousands of years!",
+   "options": [
+    "8 minutes",
+    "8 years",
+    "Thousands of years"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "Its energy spent about **40,000 years** inside the Sun",
+   "say": "Thousands of years! NASA says its energy spent about forty thousand years inside the Sun."
+  },
+  {
+   "kind": "line",
+   "title": "Trapped inside the SUN",
+   "emoji": "🌞",
+   "sub": "Absorbed and sent out **again and again**",
+   "say": "It gets absorbed and sent out again and again before it reaches the surface."
+  },
+  {
+   "kind": "line",
+   "title": "8 minutes is the LAST leg",
+   "emoji": "⚡",
+   "sub": "Source: **NASA Goddard**; UCAR",
+   "say": "The trip from the Sun to your face? Only the last eight minutes."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #12 tomorrow",
+   "emoji": "🧠",
+   "say": "Comment your answer, then follow for Guess It number 12 tomorrow."
+  }
+ ]
+}
