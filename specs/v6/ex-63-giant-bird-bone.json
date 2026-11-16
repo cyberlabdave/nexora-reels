@@ -1,0 +1,58 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #19",
+ "tag": "Weird Animal #19",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A giant bird named from ONE bone",
+   "emoji": "🦴",
+   "sub": "Found in the **Hobbit cave** on Flores",
+   "say": "Scientists named a brand new giant bird from just one bone."
+  },
+  {
+   "kind": "line",
+   "title": "Meet Megapodius rokusi",
+   "emoji": "🐔",
+   "sub": "An extinct cousin of the **chicken**",
+   "say": "Meet Megapodius rokusi, an extinct cousin of the chicken."
+  },
+  {
+   "kind": "line",
+   "title": "Several times HEAVIER",
+   "items": [
+    {
+     "e": "🐔",
+     "label": "Today: up to 1.2 kg"
+    },
+    {
+     "e": "🦃",
+     "label": "Rokusi: about 3.9 kg"
+    }
+   ],
+   "sub": "vs the megapode living on **Flores today**",
+   "say": "The megapode living on Flores today weighs up to about one kilo. This one was about three point nine kilos."
+  },
+  {
+   "kind": "line",
+   "title": "Half of one LEG bone",
+   "emoji": "🦴",
+   "sub": "Bigger than in any known **Megapodius**",
+   "say": "All from half of one leg bone, bigger than in any other known species of its kind."
+  },
+  {
+   "kind": "line",
+   "title": "Up to 190,000 years old",
+   "emoji": "⏳",
+   "sub": "Source: **Alcheringa** journal, via Sci.News",
+   "say": "The cave layers are about one hundred twenty to one hundred ninety thousand years old."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Weird Animal #20 tomorrow",
+   "emoji": "🦴",
+   "say": "Follow for Weird Animal number 20 tomorrow."
+  }
+ ]
+}

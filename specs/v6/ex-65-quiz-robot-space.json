@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #20",
+ "tag": "Guess It #20",
+ "deco": "🛰️",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "What built the first structure in space ALONE?",
+   "options": [
+    "Astronauts",
+    "A robot",
+    "A Mars rover"
+   ],
+   "answer": 1,
+   "say": "What just built the first structure in space on its own? Astronauts, a robot, or a Mars rover? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "A ROBOT!",
+   "options": [
+    "Astronauts",
+    "A robot",
+    "A Mars rover"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "Caltech's **ASTRA** robot, no human at the controls",
+   "say": "A robot! Caltech's ASTRA robot did it with no human at the controls."
+  },
+  {
+   "kind": "line",
+   "title": "It built part of an ANTENNA",
+   "emoji": "📡",
+   "sub": "Talking to Earth only **15 minutes a day**",
+   "say": "It built part of an antenna frame in orbit, while talking to Earth only about fifteen minutes a day."
+  },
+  {
+   "kind": "line",
+   "title": "A first, says Caltech",
+   "emoji": "🤖",
+   "sub": "Source: **Caltech** and DARPA, via Space.com",
+   "say": "The team calls it the first time a structure was built on its own in space."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #21 tomorrow",
+   "emoji": "🧠",
+   "say": "Comment your answer, then follow for Guess It number 21 tomorrow."
+  }
+ ]
+}

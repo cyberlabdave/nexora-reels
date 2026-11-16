@@ -1,0 +1,78 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #14",
+ "tag": "Phone Trick #14",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Free trials RENEW on their own",
+   "screen": {
+    "title": "Subscriptions",
+    "rows": [
+     [
+      "Active",
+      "›"
+     ],
+     [
+      "Free trial",
+      "Renews ›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Check **this screen** on your iPhone",
+   "say": "Free trials on your iPhone renew on their own. Check this one screen."
+  },
+  {
+   "kind": "line",
+   "title": "Find it in 2 taps",
+   "screen": {
+    "title": "Settings › Your name",
+    "rows": [
+     [
+      "Subscriptions",
+      "›"
+     ],
+     [
+      "Payment & Shipping",
+      "›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Settings › your name › **Subscriptions**",
+   "say": "Open Settings, tap your name, then tap Subscriptions."
+  },
+  {
+   "kind": "line",
+   "title": "Cancel what you don't use",
+   "emoji": "🗑️",
+   "sub": "Tap it › **Cancel Subscription**",
+   "say": "Tap any subscription you don't want, then tap Cancel Subscription."
+  },
+  {
+   "kind": "line",
+   "title": "Trial? Cancel 24 hours early",
+   "emoji": "⏰",
+   "sub": "Source: **Apple Support**",
+   "say": "On a free trial? Apple says cancel at least twenty four hours before it ends."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #15 tomorrow",
+   "emoji": "📱",
+   "say": "Follow for Phone Trick number 15 tomorrow."
+  }
+ ]
+}
