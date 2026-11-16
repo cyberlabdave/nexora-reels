@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #19",
+ "tag": "Guess It #19",
+ "deco": "🌊",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Rock + HYDROGEN + heat makes what?",
+   "options": [
+    "Gold",
+    "Water",
+    "Diamonds"
+   ],
+   "answer": 1,
+   "say": "Rock plus hydrogen plus heat makes what? Gold, water, or diamonds? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "WATER!",
+   "options": [
+    "Gold",
+    "Water",
+    "Diamonds"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "Almost **80%** of the iron oxide turned into iron + water",
+   "say": "Water! Almost eighty percent of the iron oxide turned into iron and water vapor."
+  },
+  {
+   "kind": "line",
+   "title": "Earth may have MADE its oceans",
+   "emoji": "🌍",
+   "sub": "Maybe **hundreds of oceans' worth**, says the lead scientist",
+   "say": "So the young Earth may have made much of its own water. Maybe hundreds of oceans' worth."
+  },
+  {
+   "kind": "line",
+   "title": "Still being tested",
+   "emoji": "🔬",
+   "sub": "Source: **University of New Mexico**, Nature Geoscience",
+   "say": "How much of today's water came this way is still unknown."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #20 tonight",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 20 tonight."
+  }
+ ]
+}
