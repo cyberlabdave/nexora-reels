@@ -1,0 +1,62 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #20",
+ "tag": "Weird Animal #20",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "The FIRST neck could barely turn",
+   "emoji": "🐟",
+   "sub": "About **5°** side to side",
+   "say": "The first neck ever could barely turn. About five degrees."
+  },
+  {
+   "kind": "line",
+   "title": "Meet Tiktaalik",
+   "emoji": "🐟",
+   "sub": "A fish with a neck, **375 million years** ago",
+   "say": "Meet Tiktaalik: a fish with a neck, three hundred seventy-five million years ago."
+  },
+  {
+   "kind": "line",
+   "title": "Twists? NOT possible",
+   "items": [
+    {
+     "e": "↔️",
+     "label": "side: ~5°"
+    },
+    {
+     "e": "↕️",
+     "label": "up: ~2°"
+    },
+    {
+     "e": "🚫",
+     "label": "big twists"
+    }
+   ],
+   "sub": "Modelled with **sturgeon spines**",
+   "say": "Sideways, about five degrees. Upward, about two. No big twists. The team modelled it with living sturgeon spines."
+  },
+  {
+   "kind": "line",
+   "title": "So why a NECK?",
+   "emoji": "💪",
+   "sub": "To free the **shoulders** for front limbs",
+   "say": "So why have a neck at all? Probably to free the shoulders for the front limbs."
+  },
+  {
+   "kind": "line",
+   "title": "From a Nature study",
+   "emoji": "🔬",
+   "sub": "Source: **Nature**, Penn State team",
+   "say": "Source: a Nature study by a Penn State team."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Weird Animal #21 tonight",
+   "emoji": "🐟",
+   "say": "Follow for Weird Animal number 21 tonight."
+  }
+ ]
+}

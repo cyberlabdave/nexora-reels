@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "deco": "🌊",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Which ocean is the BIGGEST?",
+   "options": [
+    "Atlantic",
+    "Indian",
+    "Pacific"
+   ],
+   "answer": 2,
+   "say": "Which ocean is the biggest? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "The Pacific!",
+   "options": [
+    "Atlantic",
+    "Indian",
+    "Pacific"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "About **162 million km²**",
+   "say": "The Pacific!"
+  },
+  {
+   "kind": "line",
+   "title": "ALL the continents fit inside",
+   "emoji": "🌍",
+   "sub": "Every continent, **in one ocean**",
+   "say": "All of the world's continents could fit inside the Pacific."
+  },
+  {
+   "kind": "line",
+   "title": "Over HALF of Earth's free water",
+   "emoji": "💧",
+   "sub": "Source: **NOAA**",
+   "say": "It holds more than half of the free water on Earth."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #17 tonight",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 17 tonight."
+  }
+ ],
+ "series": "Guess It #16",
+ "tag": "Guess It #16"
+}

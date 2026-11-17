@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "deco": "🌐",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How many countries are in the UN?",
+   "options": [
+    "93",
+    "143",
+    "193"
+   ],
+   "answer": 2,
+   "say": "How many countries are members of the United Nations? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "193 countries!",
+   "options": [
+    "93",
+    "143",
+    "193"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "**193** member states",
+   "say": "One hundred ninety three!"
+  },
+  {
+   "kind": "line",
+   "title": "Almost EVERY country",
+   "emoji": "🗺️",
+   "sub": "Each one gets **a vote** in the General Assembly",
+   "say": "That's almost every country on Earth, and each one gets a vote in the General Assembly."
+  },
+  {
+   "kind": "line",
+   "title": "Did you guess close?",
+   "emoji": "🎯",
+   "sub": "Source: **United Nations**",
+   "say": "Source: the United Nations."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #14 tonight",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 14 tonight."
+  }
+ ],
+ "series": "Guess It #13",
+ "tag": "Guess It #13"
+}

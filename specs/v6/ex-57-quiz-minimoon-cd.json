@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #18",
+ "tag": "Guess It #18",
+ "deco": "🌙",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How many moons does Earth have RIGHT NOW?",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "say": "How many moons does Earth have right now? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Two! For now...",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "A tiny **minimoon** called 2026 QQ8",
+   "say": "Two! For now. A tiny minimoon called twenty twenty-six Q Q eight."
+  },
+  {
+   "kind": "line",
+   "title": "It's only about 2 METRES wide",
+   "emoji": "🪨",
+   "sub": "Roughly **6 feet** across",
+   "say": "It's a space rock only about two metres wide."
+  },
+  {
+   "kind": "line",
+   "title": "Caught in April, gone by JANUARY",
+   "emoji": "⏳",
+   "sub": "Source: **Space.com**, Nov 5",
+   "say": "Earth caught it in April, and it should drift away around January."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #19 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 19 tomorrow."
+  }
+ ]
+}

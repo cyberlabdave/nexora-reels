@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "deco": "🔴",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How long is ONE DAY on Mars?",
+   "options": [
+    "About 12 hours",
+    "About 24½ hours",
+    "About 48 hours"
+   ],
+   "answer": 1,
+   "say": "How long is one day on Mars? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Just over 24 hours!",
+   "options": [
+    "About 12 hours",
+    "About 24½ hours",
+    "About 48 hours"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "**24 h 39 min** for a full day",
+   "say": "Just over twenty four hours! About twenty four hours and thirty nine minutes."
+  },
+  {
+   "kind": "line",
+   "title": "It's called a SOL",
+   "emoji": "🔴",
+   "sub": "About **40 minutes longer** than ours",
+   "say": "A Mars day is called a sol, about forty minutes longer than ours."
+  },
+  {
+   "kind": "line",
+   "title": "But a Mars YEAR? 687 days",
+   "emoji": "🔄",
+   "sub": "Source: **Royal Museums Greenwich**",
+   "say": "But a Mars year lasts six hundred eighty seven days."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #16 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 16 tomorrow."
+  }
+ ],
+ "series": "Guess It #15",
+ "tag": "Guess It #15"
+}
