@@ -1,0 +1,19 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #21",
+ "tag": "Weird Animal #21",
+ "segments": [
+  {"kind": "hook", "title": "This octopus chased lasers like a CAT", "emoji": "🐙", "sub": "**323 meters** down",
+   "say": "This octopus chased lasers like a cat, three hundred twenty-three meters down."},
+  {"kind": "line", "title": "A robot was filming", "emoji": "🤖", "sub": "ROV **Hercules**, off Hawaii",
+   "say": "An ocean exploration robot called Hercules was filming near Hawaii."},
+  {"kind": "line", "title": "Two green laser dots", "items": [{"e": "🟢", "label": "laser"}, {"e": "🟢", "label": "laser"}, {"e": "🐙", "label": "pounce!"}],
+   "sub": "Used to show **size** on camera", "say": "It shines two green scaling lasers. The octopus kept chasing them. Then it pounced."},
+  {"kind": "line", "title": "Twilight zone, near darkness", "emoji": "🌑", "sub": "Papahānaumokuākea **marine sanctuary**",
+   "say": "This was in the twilight zone, where almost no sunlight reaches."},
+  {"kind": "line", "title": "Smart, curious octopus", "emoji": "🧠", "sub": "Source: **Nautilus Live**, via Laughing Squid",
+   "say": "The crew said it shows how intelligent octopuses likely are."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Weird Animal #22 tomorrow", "emoji": "🐙",
+   "say": "Follow for Weird Animal number 22 tomorrow."}
+ ]
+}

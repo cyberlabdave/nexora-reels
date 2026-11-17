@@ -1,0 +1,18 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #15",
+ "tag": "Phone Trick #15",
+ "segments": [
+  {"kind": "hook", "title": "Your iPhone can WATCH a price", "screen": {"title": "Safari", "rows": [["Notify Me", "🔔 ›"], ["Reader", "›"]], "ring": [310, 815, 450, 120]},
+   "sub": "Before **Black Friday**", "say": "Your iPhone can watch a product page for you before Black Friday."},
+  {"kind": "line", "title": "Tap the menu, then Notify Me", "screen": {"title": "Page menu ☰", "rows": [["Notify Me", "›"], ["Share", "›"]], "ring": [310, 815, 450, 120]},
+   "sub": "☰ left of the **address bar**", "say": "Open the page in Safari, tap the menu button left of the address bar, then tap Notify Me."},
+  {"kind": "line", "title": "Say what to look for", "emoji": "💬", "sub": "e.g. **\"price drops\"**", "say": "Type what Safari should look for, like a price drop."},
+  {"kind": "line", "title": "Hourly, daily, weekly", "bullets": ["Hourly", "Daily", "Weekly or monthly"], "sub": "Fastest: **once an hour**",
+   "say": "Choose how often it checks. The fastest is once an hour."},
+  {"kind": "line", "title": "Needs iOS 27", "emoji": "📱", "sub": "Not tested by us · **Tom's Guide, Cult of Mac**",
+   "say": "It's part of Safari in iOS twenty-seven. Not tested by us."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Phone Trick #16 tomorrow", "emoji": "📱",
+   "say": "Follow for Phone Trick number 16 tomorrow."}
+ ]
+}

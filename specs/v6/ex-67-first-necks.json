@@ -1,0 +1,19 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #20",
+ "tag": "Weird Animal #20",
+ "segments": [
+  {"kind": "hook", "title": "The first necks could BARELY move", "emoji": "🐟", "sub": "Not built for **looking around**",
+   "say": "The first necks in history could barely move."},
+  {"kind": "line", "title": "Meet Tiktaalik", "emoji": "🦎", "sub": "A fish with a neck, **375 million years** ago",
+   "say": "Meet Tiktaalik, a fish with a neck, about three hundred seventy-five million years ago."},
+  {"kind": "line", "title": "Side to side? About 5°", "items": [{"e": "↔️", "label": "side: ~5°"}, {"e": "↕️", "label": "up: ~2°"}],
+   "sub": "Big **twists**: not possible", "say": "Scientists modelled it. Sideways, about five degrees. Upward, about two. Big twists were not possible."},
+  {"kind": "line", "title": "So why a NECK?", "emoji": "💪", "sub": "To free the **shoulders** for front limbs",
+   "say": "So why a neck? Probably to free the shoulders as the front limbs took on more work."},
+  {"kind": "line", "title": "Tested with sturgeon spines", "emoji": "🔬", "sub": "Source: **Nature** study, Penn State team",
+   "say": "The team measured spines of living sturgeon to model six fossil animals."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Weird Animal #21 tonight", "emoji": "🐟",
+   "say": "Follow for Weird Animal number 21 tonight."}
+ ]
+}

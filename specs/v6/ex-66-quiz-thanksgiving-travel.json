@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #21",
+ "tag": "Guess It #21",
+ "deco": "🚗",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How many Americans TRAVEL for Thanksgiving?",
+   "options": [
+    "18 million",
+    "45 million",
+    "81.5 million"
+   ],
+   "answer": 2,
+   "say": "How many Americans travel for Thanksgiving this year? Comment your answer. Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "81.5 MILLION!",
+   "options": [
+    "18 million",
+    "45 million",
+    "81.5 million"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "50+ miles from home, **Nov 24 to 30**",
+   "say": "Eighty-one and a half million! That's AAA's forecast, starting today."
+  },
+  {
+   "kind": "line",
+   "title": "About 9 in 10 DRIVE",
+   "emoji": "🚗",
+   "sub": "**72.9 million** by car",
+   "say": "And about nine in ten of them drive. Seventy-two point nine million by car."
+  },
+  {
+   "kind": "line",
+   "title": "First DIP in 3 years",
+   "emoji": "📉",
+   "sub": "Source: **AAA** Thanksgiving forecast",
+   "say": "It's a hair below last year, ending a three-year record streak."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #22 tomorrow",
+   "emoji": "🧠",
+   "say": "Comment your answer, then follow for Guess It number 22 tomorrow."
+  }
+ ]
+}

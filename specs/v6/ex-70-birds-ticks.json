@@ -1,0 +1,19 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #11",
+ "tag": "Weird Animal #11",
+ "segments": [
+  {"kind": "hook", "title": "Birds get TICKS too", "emoji": "🐦", "sub": "And they hide **anywhere**",
+   "say": "Birds get ticks too. And they can hide anywhere."},
+  {"kind": "line", "title": "Not just head and ears", "emoji": "🔍", "sub": "Scientists check the **whole body**",
+   "say": "People thought ticks stayed around the head and ears. So scientists checked the whole bird."},
+  {"kind": "line", "title": "One morning's catch", "items": [{"e": "🐦", "label": "cardinal"}, {"e": "🐦‍⬛", "label": "catbird"}, {"e": "🪶", "label": "thrasher"}],
+   "sub": "Oklahoma State **field team**", "say": "One morning they caught a cardinal. A catbird. And a brown thrasher."},
+  {"kind": "line", "title": "Literally ANYWHERE", "emoji": "🐦", "sub": "says Prof. **Scott Loss**",
+   "say": "The tick could be literally anywhere on the bird, says Professor Scott Loss."},
+  {"kind": "line", "title": "One deer: THOUSANDS", "emoji": "🦌", "sub": "Source: **Harvest Public Media**, Nov 16",
+   "say": "And a single white-tailed deer can carry thousands of ticks."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Weird Animal #12 tonight", "emoji": "🐦",
+   "say": "Follow for Weird Animal number 12 tonight."}
+ ]
+}
