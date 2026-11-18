@@ -1,0 +1,19 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #16",
+ "tag": "Phone Trick #16",
+ "segments": [
+  {"kind": "hook", "title": "Google Wallet is on iPhone now", "screen": {"title": "Google Wallet", "rows": [["Boarding pass", "›"], ["Tap to pay", "❌"]], "ring": [310, 815, 450, 120]},
+   "sub": "But it **can't tap to pay**", "say": "Google Wallet just landed on iPhone. But it can't tap to pay at the store."},
+  {"kind": "line", "title": "What it CAN hold", "bullets": ["Boarding passes", "Tickets", "Loyalty cards", "Gym memberships"],
+   "sub": "Scan cards with your **camera**", "say": "It holds boarding passes, tickets, loyalty cards and gym memberships. You scan cards with the camera."},
+  {"kind": "line", "title": "Tracks your orders", "screen": {"title": "Home", "rows": [["Recent purchases", "›"], ["Passes", "›"]], "ring": [310, 815, 450, 120]},
+   "sub": "Receipts and **delivery updates**", "say": "It also shows recent purchases and delivery updates from your Google account."},
+  {"kind": "line", "title": "No tap to pay on iPhone", "emoji": "🚫",
+   "sub": "Google cites **platform restrictions**", "say": "Paying at the register still isn't there. Google points to platform restrictions."},
+  {"kind": "line", "title": "US only for now", "emoji": "🇺🇸",
+   "sub": "Not tested by us · **9to5Google**", "say": "It's US only for now. Not tested by us."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Phone Trick #17 tomorrow", "emoji": "📱",
+   "say": "Follow for Phone Trick number 17 tomorrow."}
+ ]
+}

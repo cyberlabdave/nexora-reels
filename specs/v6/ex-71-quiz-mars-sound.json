@@ -1,0 +1,21 @@
+{
+ "look": "quiz",
+ "series": "Guess It #22",
+ "tag": "Guess It #22",
+ "deco": "🪐",
+ "segments": [
+  {"kind": "quiz", "title": "Is sound FASTER or SLOWER on Mars?",
+   "options": ["Faster", "The same", "Slower"], "answer": 2,
+   "say": "Is sound faster or slower on Mars? Pick one. Three. Two. One."},
+  {"kind": "reveal", "title": "SLOWER!", "options": ["Faster", "The same", "Slower"], "answer": 2, "confetti": true,
+   "sub": "About **540 mph** on Mars", "say": "Slower! About five hundred forty miles per hour on Mars."},
+  {"kind": "line", "title": "Earth: about 760 mph", "emoji": "🌍",
+   "sub": "Speed of sound at **sea level**", "say": "On Earth, at sea level, it's about seven hundred sixty."},
+  {"kind": "line", "title": "NASA blades beat it anyway", "emoji": "🚁",
+   "sub": "Rotor tips hit **Mach 1.08** in a Mars-air chamber", "say": "NASA still spun Mars helicopter blades past it, to Mach one point oh eight, in a Mars air chamber."},
+  {"kind": "line", "title": "30% more lift", "emoji": "⬆️",
+   "sub": "Source: **NASA JPL**", "say": "That gave thirty percent more lift, for future Mars helicopters."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Guess It #23 tonight", "emoji": "🧠",
+   "say": "Follow for Guess It number 23 tonight."}
+ ]
+}

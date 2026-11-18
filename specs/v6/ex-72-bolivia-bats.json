@@ -1,0 +1,19 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #22",
+ "tag": "Weird Animal #22",
+ "segments": [
+  {"kind": "hook", "title": "ONE park has 99 kinds of BATS", "emoji": "🦇",
+   "sub": "Madidi National Park, **Bolivia**", "say": "One park in Bolivia has ninety-nine kinds of bats."},
+  {"kind": "line", "title": "68% of Bolivia's bats", "emoji": "🦇",
+   "sub": "All in **one park**", "say": "That's sixty-eight percent of all the bat species known in Bolivia, in one park."},
+  {"kind": "line", "title": "Fruit, nectar and more", "items": [{"e": "🍌", "label": "fruit"}, {"e": "🌺", "label": "nectar"}, {"e": "🦟", "label": "bugs"}],
+   "sub": "Many **different diets**", "say": "Some eat fruit. Some drink nectar from flowers. Others catch insects."},
+  {"kind": "line", "title": "7 new to Bolivia", "emoji": "📍",
+   "sub": "Found by **nets and sound** recorders", "say": "Seven species had never been recorded in Bolivia before."},
+  {"kind": "line", "title": "One may be NEW to science", "emoji": "❓",
+   "sub": "Source: **ZooKeys** study, via Pensoft and WCS", "say": "And one big-eared bat may be a species nobody has named yet."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Weird Animal #23 tomorrow", "emoji": "🦇",
+   "say": "Follow for Weird Animal number 23 tomorrow."}
+ ]
+}
