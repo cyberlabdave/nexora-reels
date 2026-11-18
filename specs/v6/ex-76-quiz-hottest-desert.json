@@ -1,0 +1,10 @@
+{"look":"quiz","series":"Guess It #25","deco":"🏜️","tag":"Guess It #25","segments":[
+ {"kind":"quiz","title":"Where was Earth's HOTTEST temperature recorded?","options":["Sahara","Death Valley","Outback"],"answer":1,
+  "say":"Where was Earth's hottest temperature ever recorded? Sahara, Death Valley, or the Australian Outback? Three. Two. One."},
+ {"kind":"reveal","title":"Death Valley!","options":["Sahara","Death Valley","Outback"],"answer":1,"confetti":true,
+  "sub":"**134°F (57°C)** · July 10, 1913","say":"Death Valley, California! One hundred thirty-four degrees, back in nineteen thirteen."},
+ {"kind":"line","title":"The GROUND hit 201°F","emoji":"🔥","sub":"Furnace Creek · **July 15, 1972**","say":"And one day, the ground itself hit two hundred and one degrees."},
+ {"kind":"line","title":"Under 2 inches of rain a year","emoji":"🌵","sub":"Driest place in **North America**","say":"It gets less than two inches of rain a year."},
+ {"kind":"line","title":"Source: National Park Service","emoji":"🏜️","sub":"Hottest place on Earth: **official record**","say":"That's the official record, from the National Park Service."},
+ {"kind":"cta","title2":"FOLLOW","sub":"Guess It #26 tonight","emoji":"🧠","say":"Follow for Guess It number 26 tonight."}
+]}
