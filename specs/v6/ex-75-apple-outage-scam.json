@@ -1,0 +1,90 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #10",
+ "tag": "Phone Trick #10",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Apple went down. Don't tap THIS",
+   "screen": {
+    "title": "Messages",
+    "rows": [
+     [
+      "Verify your Apple ID",
+      "⚠️"
+     ],
+     [
+      "Tap this link",
+      "❌"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "The text that follows an **outage**",
+   "say": "Apple went down this week. Don't tap this text."
+  },
+  {
+   "kind": "line",
+   "title": "Nov 17: Apple services down",
+   "bullets": [
+    "iCloud sign-in",
+    "iCloud Mail",
+    "App Store",
+    "Apple Music"
+   ],
+   "sub": "From about **12:45pm ET**",
+   "say": "On November seventeenth, iCloud sign-in, iCloud Mail, the App Store and Apple Music had outages, from about a quarter to one."
+  },
+  {
+   "kind": "line",
+   "title": "Apple: an internal update",
+   "emoji": "🛠️",
+   "sub": "Most systems **back that day**",
+   "say": "Apple said an internal update caused it, and many systems were back up that afternoon."
+  },
+  {
+   "kind": "line",
+   "title": "Scam texts come next",
+   "emoji": "🚫",
+   "sub": "Don't tap **\"verify your Apple ID\"**",
+   "say": "After an outage, don't tap any verify your Apple ID texts or emails."
+  },
+  {
+   "kind": "line",
+   "title": "Sign in the safe way",
+   "screen": {
+    "title": "Settings",
+    "rows": [
+     [
+      "Your name",
+      "›"
+     ],
+     [
+      "apple.com",
+      "›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Not tested by us · **Tom's Guide**",
+   "say": "Sign in only through Settings, or by typing apple dot com yourself. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #11 tomorrow",
+   "emoji": "📱",
+   "say": "Follow for Phone Trick number 11 tomorrow."
+  }
+ ]
+}
