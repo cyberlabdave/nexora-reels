@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #23",
+ "tag": "Guess It #23",
+ "deco": "🪨",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How much time is MISSING from these rocks?",
+   "options": [
+    "1,000 years",
+    "1 million years",
+    "Up to 1 billion"
+   ],
+   "answer": 2,
+   "say": "How much time is missing from rocks like the Grand Canyon's? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Up to a BILLION years!",
+   "options": [
+    "1,000 years",
+    "1 million years",
+    "Up to 1 billion"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "**200 million** to over a billion, by place",
+   "say": "Up to a billion years! From two hundred million, depending on the place."
+  },
+  {
+   "kind": "line",
+   "title": "The Great Unconformity",
+   "emoji": "🏜️",
+   "sub": "Young rock sits on **far older** granite",
+   "say": "Geologists call it the Great Unconformity: young rock sitting right on far older granite."
+  },
+  {
+   "kind": "line",
+   "title": "New idea: the deep Earth",
+   "emoji": "🌍",
+   "sub": "A model, not proven · **Nature**, Univ. of Wollongong",
+   "say": "A new model says slow currents deep inside Earth lifted the land, so it wore away. An idea, not proof yet."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #24 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 24 tomorrow."
+  }
+ ]
+}
