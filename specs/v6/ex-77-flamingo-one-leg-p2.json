@@ -1,0 +1,19 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #23",
+ "tag": "Weird Animal #23",
+ "segments": [
+  {"kind": "hook", "title": "Flamingos SLEEP on one leg", "emoji": "🦩",
+   "sub": "Flamingo facts **Part 2**", "say": "Flamingos can sleep standing on one leg."},
+  {"kind": "line", "title": "Almost NO muscle needed", "emoji": "💪",
+   "sub": "The body **locks into place**", "say": "And it takes almost no muscle effort."},
+  {"kind": "line", "title": "They sway LESS asleep", "emoji": "😴",
+   "sub": "People do **the opposite**", "say": "When they doze off, they sway even less. People sway more."},
+  {"kind": "line", "title": "That bend? It's the ANKLE", "emoji": "🦴",
+   "sub": "The knee is hidden **in the feathers**", "say": "And that backwards knee? It's actually the ankle."},
+  {"kind": "line", "title": "Measured at Zoo Atlanta", "emoji": "🔬",
+   "sub": "Source: **Georgia Tech & Emory**, Biology Letters", "say": "Scientists from Georgia Tech and Emory measured it at Zoo Atlanta."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "Weird Animal #24 tonight", "emoji": "🦩",
+   "say": "Follow for Weird Animal number 24 tonight."}
+ ]
+}
