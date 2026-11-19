@@ -1,0 +1,76 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #17",
+ "tag": "Phone Trick #17",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Siri AI now has a DAILY limit",
+   "screen": {
+    "title": "Siri",
+    "rows": [
+     [
+      "Daily limit reached",
+      "⏸"
+     ],
+     [
+      "Set a timer",
+      "✅"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Here's **what still works**",
+   "say": "Siri AI now has a daily limit on iPhone. Here's what still works."
+  },
+  {
+   "kind": "line",
+   "title": "Simple asks keep working",
+   "bullets": [
+    "Timers ✅",
+    "Simple requests ✅",
+    "Advanced Siri AI ⏸"
+   ],
+   "sub": "Advanced requests **pause**",
+   "say": "Simple requests, like timers, keep working. Advanced Siri AI pauses until it resets."
+  },
+  {
+   "kind": "line",
+   "title": "Resets around midnight",
+   "emoji": "🕛",
+   "sub": "Unused uses **don't roll over**",
+   "say": "It resets around midnight, and unused uses don't roll over."
+  },
+  {
+   "kind": "line",
+   "title": "Bigger iCloud+ = more uses",
+   "bullets": [
+    "Free & 50GB: standard",
+    "200GB: up to 2x",
+    "2TB: up to 5x",
+    "12TB: up to 20x"
+   ],
+   "sub": "Starts with **iOS 27.3**",
+   "say": "Bigger iCloud plus plans get more, up to twenty times the standard limit, from iOS twenty-seven point three."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Apple Support",
+   "emoji": "🍎",
+   "sub": "Not tested by us · **not in EU, UK, Brazil, S. Korea**",
+   "say": "That's from Apple's support page. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #18 tomorrow",
+   "emoji": "📱",
+   "say": "Follow for Phone Trick number 18 tomorrow."
+  }
+ ]
+}
