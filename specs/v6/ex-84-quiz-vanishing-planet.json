@@ -1,0 +1,10 @@
+{"look":"quiz","series":"Guess It #26","deco":"🪐","tag":"Guess It #26","segments":[
+ {"kind":"quiz","title":"A giant planet STOPPED crossing its star. Why?","options":["It exploded","Its star ate it","A hidden planet"],"answer":2,
+  "say":"A giant planet stopped crossing its star. Why? It exploded, its star ate it, or a hidden planet? Three. Two. One."},
+ {"kind":"reveal","title":"A hidden planet tilted it!","options":["It exploded","Its star ate it","A hidden planet"],"answer":2,"confetti":true,
+  "sub":"The planet is **still there**","say":"A hidden planet tilted its orbit. It's still there!"},
+ {"kind":"line","title":"Meet TOI-2535 b","emoji":"🪐","sub":"**Jupiter-sized**, ~1,000 light-years away","say":"It's a Jupiter-sized planet, about a thousand light-years away."},
+ {"kind":"line","title":"NASA's TESS watched 7 years","emoji":"🔭","sub":"Then the crossings **vanished**","say":"NASA's TESS telescope watched it cross for seven years. Then it vanished."},
+ {"kind":"line","title":"The culprit: Saturn-mass","emoji":"🌑","sub":"An **unseen neighbor** planet","say":"The likely culprit: an unseen neighbor, about as heavy as Saturn."},
+ {"kind":"cta","title2":"FOLLOW","sub":"Guess It #27 tomorrow","emoji":"🧠","say":"Follow for Guess It number 27 tomorrow."}
+]}
