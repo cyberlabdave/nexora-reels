@@ -1,0 +1,60 @@
+{
+ "look": "quiz",
+ "series": "Guess It #12 · Part 2",
+ "deco": "🏙️",
+ "tag": "Guess It #12 · Part 2",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Which CITY has the most people?",
+   "options": [
+    "Tokyo",
+    "Jakarta",
+    "Delhi"
+   ],
+   "answer": 1,
+   "say": "Guess It twelve was the country with the most people. Part two: which city has the most? Tokyo, Jakarta, or Delhi? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's Jakarta!",
+   "options": [
+    "Tokyo",
+    "Jakarta",
+    "Delhi"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "About **42 million** people",
+   "say": "It's Jakarta! About forty-two million people."
+  },
+  {
+   "kind": "line",
+   "title": "Dhaka is #2",
+   "emoji": "🇧🇩",
+   "sub": "About **37 million** people",
+   "say": "Dhaka in Bangladesh is number two, with about thirty-seven million."
+  },
+  {
+   "kind": "line",
+   "title": "Tokyo fell to #3",
+   "emoji": "🗼",
+   "sub": "It was #1 in the UN's **2000** report",
+   "say": "And Tokyo, number one in the year two thousand, fell to third."
+  },
+  {
+   "kind": "line",
+   "title": "Source: United Nations",
+   "emoji": "🌏",
+   "sub": "World Urbanization Prospects **2025**",
+   "say": "That's from the United Nations' latest city count."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #16 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 16 tomorrow."
+  }
+ ]
+}

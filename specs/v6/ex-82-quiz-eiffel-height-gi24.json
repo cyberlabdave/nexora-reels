@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "deco": "🇫🇷",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How tall is the EIFFEL TOWER?",
+   "options": [
+    "130 meters",
+    "330 meters",
+    "530 meters"
+   ],
+   "answer": 1,
+   "say": "How tall is the Eiffel Tower? A hundred thirty, three hundred thirty, or five hundred thirty meters? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "330 meters!",
+   "options": [
+    "130 meters",
+    "330 meters",
+    "530 meters"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "About **1,083 feet**",
+   "say": "Three hundred thirty meters!"
+  },
+  {
+   "kind": "line",
+   "title": "It GREW over time",
+   "emoji": "📡",
+   "sub": "About **312 m** when it opened in 1889",
+   "say": "It opened in eighteen eighty nine at about three hundred twelve meters."
+  },
+  {
+   "kind": "line",
+   "title": "New antennas = taller tower",
+   "emoji": "📏",
+   "sub": "Latest one added in **2022**. Source: **toureiffel.paris**",
+   "say": "New antennas on top made it taller. The latest went up in twenty twenty two."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #25 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 25 tomorrow."
+  }
+ ],
+ "series": "Guess It #24",
+ "tag": "Guess It #24"
+}
