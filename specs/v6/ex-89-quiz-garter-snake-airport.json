@@ -1,0 +1,67 @@
+{
+ "look": "quiz",
+ "series": "Weird Animal #27",
+ "deco": "🐍",
+ "tag": "Weird Animal #27",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "A super RARE US snake lives where?",
+   "options": [
+    "A desert",
+    "Next to an airport",
+    "A volcano"
+   ],
+   "answer": 1,
+   "say": "One of America's rarest snakes lives where? A desert, an airport, or a volcano? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Next to an AIRPORT!",
+   "options": [
+    "A desert",
+    "Next to an airport",
+    "A volcano"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "Near **San Francisco's** airport",
+   "say": "Next to an airport! Near San Francisco's airport."
+  },
+  {
+   "kind": "line",
+   "title": "San Francisco garter snake",
+   "emoji": "🐍",
+   "sub": "**Endangered** and super colorful",
+   "say": "It's the San Francisco garter snake, endangered and super colorful."
+  },
+  {
+   "kind": "line",
+   "title": "62 young snakes released",
+   "emoji": "🌿",
+   "sub": "Bred at the **San Francisco Zoo**",
+   "say": "Sixty-two young snakes, bred at the San Francisco Zoo, were just released."
+  },
+  {
+   "kind": "line",
+   "title": "A FIRST, ever",
+   "emoji": "🎉",
+   "sub": "First time **released into the wild**",
+   "say": "It's the first time they've ever been released into the wild."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Nautilus",
+   "emoji": "🔬",
+   "sub": "Plus **Popular Science**, Nov 2026",
+   "say": "Source: Nautilus."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Weird Animal #28 tomorrow",
+   "emoji": "🐍",
+   "say": "Follow for Weird Animal number 28 tomorrow."
+  }
+ ]
+}

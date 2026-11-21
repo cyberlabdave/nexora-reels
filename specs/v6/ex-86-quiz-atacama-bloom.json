@@ -1,0 +1,10 @@
+{"look":"quiz","series":"Guess It #27","deco":"🌸","tag":"Guess It #27","segments":[
+ {"kind":"quiz","title":"The DRIEST desert just turned what color?","options":["Bright blue","Purple","Black"],"answer":1,
+  "say":"One of the driest deserts on Earth just changed color. Bright blue, purple, or black? Three. Two. One."},
+ {"kind":"reveal","title":"PURPLE flowers!","options":["Bright blue","Purple","Black"],"answer":1,"confetti":true,
+  "sub":"Seen **from space**","say":"Purple! It burst into flowers you can see from space."},
+ {"kind":"line","title":"Atacama, Chile","emoji":"🏜️","sub":"One of the **driest places** on Earth","say":"This is Chile's Atacama, one of the driest places on Earth."},
+ {"kind":"line","title":"Rare rains woke the seeds","emoji":"🌧️","sub":"**El Niño** rains, says NASA","say":"Rare El Niño rains woke up seeds hiding in the ground."},
+ {"kind":"line","title":"Biggest bloom in decades","emoji":"🛰️","sub":"NASA's **Landsat** saw it from orbit","say":"Reports call it the biggest bloom in decades, and NASA's Landsat saw it from orbit."},
+ {"kind":"cta","title2":"FOLLOW","sub":"Guess It #28 tomorrow","emoji":"🧠","say":"Follow for Guess It number 28 tomorrow."}
+]}

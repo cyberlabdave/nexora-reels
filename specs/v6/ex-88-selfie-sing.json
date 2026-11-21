@@ -1,0 +1,9 @@
+{"look":"phone","series":"Phone Trick #19","tag":"Phone Trick #19","segments":[
+ {"kind":"hook","title":"Apple Music is getting a KARAOKE camera","screen":{"title":"Apple Music","rows":[["Lyrics","🎤"],["Camera","📷 ›"]],"ring":[310,815,450,120]},
+  "sub":"In the **iOS 27.3 beta**","say":"Apple Music is about to turn your iPhone into a karaoke camera. It's in the iOS 27.3 beta."},
+ {"kind":"line","title":"It's called Selfie Sing","emoji":"🎤","sub":"Film yourself **singing along**","say":"It's called Selfie Sing. You film yourself singing along."},
+ {"kind":"line","title":"How it works","bullets":["Play a song","Open the lyrics","Tap the camera button"],"say":"Play a song, open the lyrics, and tap the new camera button on the right."},
+ {"kind":"line","title":"Beta only, for now","emoji":"🧪","sub":"Expected for everyone **in December**","say":"It's beta only for now, expected for everyone in December."},
+ {"kind":"line","title":"Source: 9to5Mac","emoji":"🍎","sub":"Nov 20, 2026 · **Not tested by us**","say":"That's from nine to five Mac. Not tested by us."},
+ {"kind":"cta","title2":"FOLLOW","sub":"Phone Trick #20 tomorrow","emoji":"📱","say":"Follow for Phone Trick number 20 tomorrow."}
+]}
