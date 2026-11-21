@@ -1,0 +1,11 @@
+{"look":"phone","series":"Phone Trick #19","tag":"Phone Trick #19","segments":[
+ {"kind":"hook","title":"Apple Music is getting a KARAOKE camera","screen":{"title":"Apple Music","rows":[["Lyrics","🎤"],["Camera","📷 ›"]],"ring":[310,815,450,120]},
+  "sub":"In the **iOS 27.3 beta**","say":"Apple Music is getting a karaoke camera. It's in the iOS 27.3 beta."},
+ {"kind":"line","title":"It's called Selfie Sing","emoji":"🤳","sub":"Film yourself **singing along**","say":"It's called Selfie Sing. You film yourself singing along."},
+ {"kind":"line","title":"Step 1: Play a song","emoji":"🎵","sub":"Any song in **Apple Music**","say":"Step one: play a song."},
+ {"kind":"line","title":"Step 2: Open the lyrics","emoji":"🎤","sub":"The **lyrics** view","say":"Step two: open the lyrics."},
+ {"kind":"line","title":"Step 3: Tap the camera","emoji":"📷","sub":"New button **on the right**","say":"Step three: tap the new camera button on the right."},
+ {"kind":"line","title":"Beta only, for now","emoji":"🧪","sub":"Expected for everyone **in December**","say":"It's beta only for now, expected for everyone in December."},
+ {"kind":"line","title":"Source: 9to5Mac","emoji":"🍎","sub":"Nov 20, 2026 · **Not tested by us**","say":"That's from nine to five Mac. Not tested by us."},
+ {"kind":"cta","title2":"FOLLOW","sub":"Phone Trick #20 tomorrow","emoji":"📱","say":"Follow for Phone Trick number 20 tomorrow."}
+]}
