@@ -1,0 +1,91 @@
+{
+ "look": "quiz",
+ "series": "Guess It: Blind Rank (Format Lab sample)",
+ "tag": "❓ Guess It · Blind Rank",
+ "rank": {
+  "items": [
+   {
+    "e": "🌊",
+    "label": "Indian",
+    "rank": 3,
+    "value": "70.6M km²"
+   },
+   {
+    "e": "🧊",
+    "label": "Arctic",
+    "rank": 5,
+    "value": "15.6M km²"
+   },
+   {
+    "e": "🐋",
+    "label": "Pacific",
+    "rank": 1,
+    "value": "168.7M km²"
+   },
+   {
+    "e": "🐧",
+    "label": "Southern",
+    "rank": 4,
+    "value": "22.0M km²"
+   },
+   {
+    "e": "⛵",
+    "label": "Atlantic",
+    "rank": 2,
+    "value": "85.1M km²"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "kind": "blind",
+   "title": "Blind rank 5 OCEANS by size",
+   "sub": "No moving them **later!**",
+   "say": "Rank five oceans by size. Blind!"
+  },
+  {
+   "kind": "blind",
+   "title": "Where does it go?",
+   "pick": 0,
+   "say": "Indian. Three, two, one."
+  },
+  {
+   "kind": "blind",
+   "title": "Where does it go?",
+   "pick": 1,
+   "say": "Arctic. Three, two, one."
+  },
+  {
+   "kind": "blind",
+   "title": "Where does it go?",
+   "pick": 2,
+   "say": "Pacific. Three, two, one."
+  },
+  {
+   "kind": "blind",
+   "title": "Where does it go?",
+   "pick": 3,
+   "say": "Southern. Three, two, one."
+  },
+  {
+   "kind": "blind",
+   "title": "Last one!",
+   "pick": 4,
+   "say": "Atlantic. Locked!"
+  },
+  {
+   "kind": "rankreveal",
+   "title": "The REAL order",
+   "from": 1,
+   "say": "The real order. Five: Arctic. Four: Southern. Three: Indian. Two: Atlantic. One: the Pacific!",
+   "sub": "Pacific = **nearly half** the ocean"
+  },
+  {
+   "kind": "cta",
+   "title2": "COMMENT",
+   "sub": "your score out of **5**",
+   "emoji": "🧠",
+   "say": "Comment your score out of five!"
+  }
+ ]
+}

@@ -18,6 +18,14 @@ Spec:
   {"kind":"line","title":"...","screen":{"title":"Back Tap","rows":[["Double Tap","Screenshot ›"]],"ring":[310,815,450,120],"back":false},"sub":"...","say":"..."}, (phone)
   {"kind":"quiz","title":"Which planet has the MOST moons?","options":["Jupiter","Saturn","Neptune"],"answer":1,"say":"... Three. Two. One."},
   {"kind":"reveal","title":"It's Saturn!","options":[...],"answer":1,"confetti":true,"sub":"...","say":"..."},
+  ("Blind Rank", Format Lab Nov 22, 2026, owner approval pending. Top-level "rank":{"items":[{"e":"🌊","label":"Indian","rank":3,"value":"70.6M km²"},...]}
+   lists the items in ARRIVAL order with their true rank (1 = top). Segments:
+   {"kind":"blind","title":"Blind rank: BIGGEST oceans","sub":"No moving them later","say":"..."}            (hook: empty board, no "pick")
+   {"kind":"blind","title":"Where does it go?","pick":0,"say":"First: the Indian Ocean. Pick a slot. Three, two, one."}
+     big card pops in over the dimmed 1-5 board, 3-2-1 timer, then the card shrinks into the tray (can't be moved later).
+   {"kind":"rankreveal","title":"The real order","from":1,"say":"Here's the truth. Number five: ... Number one: ..."}
+     from sentence index "from", one sentence per item, chips fly from the tray into their true slot from #5 up to #1; confetti on #1.
+   End with a cta asking viewers to comment how many they got right.)
   {"kind":"cta","title2":"SEND THIS","sub":"to a friend who loves weird facts","emoji":"📤","say":"..."}]}
 "sub" supports **bold** for the accent colour. Item pop-ins follow the spoken sentences (one sentence per item).
 """
@@ -35,13 +43,14 @@ def ensure_multi():
 
 def page(spec, tl, total, lips):
     segs = []
-    keys = ('kind', 'title', 'title2', 'sub', 'emoji', 'items', 'bullets', 'doc', 'screen', 'options', 'answer', 'confetti', 'hot')
+    keys = ('kind', 'title', 'title2', 'sub', 'emoji', 'items', 'bullets', 'doc', 'screen', 'options', 'answer', 'confetti', 'hot',
+            'pick', 'from')
     for s, t in zip(spec['segments'], tl):
         d = {k: s.get(k) for k in keys}; d.update(st=t['st'], en=t['en'], parts=t['parts']); segs.append(d)
     for i, d in enumerate(segs):
         d['vs'] = 0 if i == 0 else d['st'] - 0.15
         d['ve'] = segs[i + 1]['st'] - 0.15 if i + 1 < len(segs) else total
-    data = {'look': spec.get('look', 'animal'), 'tag': spec.get('tag'), 'deco': spec.get('deco'), 'segs': segs, 'total': total, 'lips': lips, 'fps': FPS}
+    data = {'look': spec.get('look', 'animal'), 'tag': spec.get('tag'), 'deco': spec.get('deco'), 'rank': spec.get('rank'), 'segs': segs, 'total': total, 'lips': lips, 'fps': FPS}
     html = open(os.path.join(HERE, 'looks6.html')).read()
     return html.replace('FONTDIR', 'file://' + os.path.abspath(kids5.FONT_DIR)).replace('/*DATA*/null', json.dumps(data, ensure_ascii=False))
 
