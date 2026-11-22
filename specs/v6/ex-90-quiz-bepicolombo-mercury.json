@@ -1,0 +1,67 @@
+{
+ "look": "quiz",
+ "series": "Guess It #28",
+ "deco": "🪐",
+ "tag": "Guess It #28",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How long did it take to REACH Mercury?",
+   "options": [
+    "8 months",
+    "2 years",
+    "8 years"
+   ],
+   "answer": 2,
+   "say": "How long did it take to fly to Mercury? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "About 8 YEARS!",
+   "options": [
+    "8 months",
+    "2 years",
+    "8 years"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "Launched in **2018**",
+   "say": "About eight years! It launched back in twenty eighteen."
+  },
+  {
+   "kind": "line",
+   "title": "It's called BepiColombo",
+   "emoji": "🛰️",
+   "sub": "Europe + Japan, **together**",
+   "say": "It's BepiColombo, from Europe and Japan."
+  },
+  {
+   "kind": "line",
+   "title": "In orbit since Nov 21",
+   "emoji": "☀️",
+   "sub": "Announced by **ESA**",
+   "say": "On November twenty first, ESA announced it's now in orbit around Mercury."
+  },
+  {
+   "kind": "line",
+   "title": "Why SO long? Braking!",
+   "emoji": "🔄",
+   "sub": "The Sun's pull **speeds you up**",
+   "say": "Why so long? The Sun's pull speeds you up, so it looped around to brake."
+  },
+  {
+   "kind": "line",
+   "title": "Only the 2nd ever",
+   "emoji": "🥈",
+   "sub": "After NASA's **MESSENGER**",
+   "say": "It's only the second mission ever to orbit Mercury."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #29 tonight",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 29 tonight."
+  }
+ ]
+}

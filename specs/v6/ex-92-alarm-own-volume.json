@@ -1,0 +1,74 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #20",
+ "tag": "Phone Trick #20",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Your iPhone ALARM has its own volume now",
+   "screen": {
+    "title": "Sounds & Haptics",
+    "rows": [
+     [
+      "Alarms & Timers",
+      "🔊 ›"
+     ],
+     [
+      "Ringtone",
+      "🔉"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "New in **iOS 27**",
+   "say": "Your iPhone alarm has its own volume now. It's new in iOS 27."
+  },
+  {
+   "kind": "line",
+   "title": "Quiet ringer, quiet alarm",
+   "emoji": "😴",
+   "sub": "They used to **share one slider**",
+   "say": "Before, a quiet ringer could mean a quiet alarm."
+  },
+  {
+   "kind": "line",
+   "title": "Step 1: Open Settings",
+   "emoji": "⚙️",
+   "sub": "The **gray gear** app",
+   "say": "Step one: open Settings."
+  },
+  {
+   "kind": "line",
+   "title": "Step 2: Sounds and Haptics",
+   "emoji": "🔔",
+   "sub": "Tap **Sounds & Haptics**",
+   "say": "Step two: tap Sounds and Haptics."
+  },
+  {
+   "kind": "line",
+   "title": "Step 3: Set alarm volume",
+   "emoji": "⏰",
+   "sub": "Its **own slider** for alarms",
+   "say": "Step three: set the alarm slider on its own."
+  },
+  {
+   "kind": "line",
+   "title": "Source: 9to5Mac",
+   "emoji": "🍎",
+   "sub": "iOS 27 · **Not tested by us**",
+   "say": "That's from nine to five Mac. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #21 tomorrow",
+   "emoji": "📱",
+   "say": "Follow for Phone Trick number 21 tomorrow."
+  }
+ ]
+}
