@@ -1,0 +1,67 @@
+{
+ "look": "quiz",
+ "series": "Guess It · Ocean Part 2",
+ "deco": "🏝️",
+ "tag": "Guess It · Ocean Part 2",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How far is this atoll from ANYONE?",
+   "options": [
+    "38 km",
+    "385 km",
+    "3,850 km"
+   ],
+   "answer": 1,
+   "say": "Ocean quiz, part two: how far is this atoll from the nearest island where people live? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "About 385 KM!",
+   "options": [
+    "38 km",
+    "385 km",
+    "3,850 km"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "Bokak atoll, **Marshall Islands**",
+   "say": "About three hundred eighty five kilometers! It's Bokak atoll, in the Marshall Islands."
+  },
+  {
+   "kind": "line",
+   "title": "Barely touched by people",
+   "emoji": "🌊",
+   "sub": "Scientists surveyed it as a **baseline**",
+   "say": "It's barely touched by people, so scientists surveyed it to see a wild reef."
+  },
+  {
+   "kind": "line",
+   "title": "15 seabird colonies",
+   "emoji": "🐦",
+   "sub": "Across **two remote atolls**",
+   "say": "They counted fifteen seabird colonies across two remote atolls."
+  },
+  {
+   "kind": "line",
+   "title": "266+ kinds of reef fish",
+   "emoji": "🐠",
+   "sub": "Plus **deep-sea fish** too",
+   "say": "And more than two hundred sixty six kinds of reef fish."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Frontiers study",
+   "emoji": "🔬",
+   "sub": "Nov 2026, via **Cult of Mac**",
+   "say": "The study came out this month."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #20 tonight",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 20 tonight."
+  }
+ ]
+}
