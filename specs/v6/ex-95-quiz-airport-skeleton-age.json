@@ -1,0 +1,67 @@
+{
+ "look": "quiz",
+ "series": "Guess It #29",
+ "deco": "✈️",
+ "tag": "Guess It #29",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Found at an AIRPORT. How OLD?",
+   "options": [
+    "500 years",
+    "3,000 years",
+    "13,000 years"
+   ],
+   "answer": 2,
+   "say": "A skeleton was found at Mexico City's new airport. How old is it? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "About 13,000 YEARS!",
+   "options": [
+    "500 years",
+    "3,000 years",
+    "13,000 years"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "Among the **oldest** in the Valley of Mexico",
+   "say": "About thirteen thousand years! Among the oldest found in the Valley of Mexico."
+  },
+  {
+   "kind": "line",
+   "title": "Nicknamed Yotzin",
+   "emoji": "✈️",
+   "sub": "Found at the **AIFA** airport site",
+   "say": "Scientists nicknamed him Yotzin."
+  },
+  {
+   "kind": "line",
+   "title": "Two dating methods",
+   "emoji": "🔬",
+   "sub": "About **11,700 to 13,000** years",
+   "say": "Two dating methods put him at about twelve to thirteen thousand years."
+  },
+  {
+   "kind": "line",
+   "title": "Next: his DNA",
+   "emoji": "🧬",
+   "sub": "To be read in **Spain**",
+   "say": "Next, his DNA will be read in Spain."
+  },
+  {
+   "kind": "line",
+   "title": "Source: INAH",
+   "emoji": "🇲🇽",
+   "sub": "Mexico's **archaeology** institute",
+   "say": "Source: Mexico's archaeology institute."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #30 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 30 tomorrow."
+  }
+ ]
+}
