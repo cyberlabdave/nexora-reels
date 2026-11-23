@@ -1,0 +1,9 @@
+{"look":"quiz","series":"Guess It #30","deco":"🕳️","tag":"Guess It #30 · daily","segments":[
+ {"kind":"quiz","title":"The biggest cave: how TALL inside?","options":["20 meters","200 meters","2 kilometers"],"answer":1,"say":"Earth's biggest cave. How tall does it get inside? Three. Two. One."},
+ {"kind":"reveal","title":"Up to about 200 METERS!","options":["20 meters","200 meters","2 kilometers"],"answer":1,"confetti":true,"sub":"About **655 feet** high","say":"Up to about two hundred meters! That's around six hundred fifty five feet."},
+ {"kind":"line","title":"It's Son Doong","emoji":"🇻🇳","sub":"In **Vietnam**","say":"It's called Son Doong, in Vietnam."},
+ {"kind":"line","title":"Jungles grow INSIDE","emoji":"🌳","sub":"Where the **roof fell in**","say":"Where the roof collapsed, sunlight gets in, and jungles grow inside."},
+ {"kind":"line","title":"It makes its own mist","emoji":"☁️","sub":"Its own **climate** underground","say":"It's so big it has its own climate, with clouds of mist."},
+ {"kind":"line","title":"Source: National Geographic","emoji":"🔦","sub":"Also **Live Science**","say":"Sources: National Geographic and Live Science."},
+ {"kind":"cta","title2":"FOLLOW","sub":"#31 drops tomorrow at 10am","emoji":"🧠","say":"Follow. Guess It number 31 drops tomorrow at 10 a.m."}
+]}

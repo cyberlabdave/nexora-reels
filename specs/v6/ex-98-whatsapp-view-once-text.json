@@ -1,0 +1,8 @@
+{"look":"phone","series":"Phone Trick #21","tag":"Phone Trick #21 · daily","segments":[
+ {"kind":"hook","title":"WhatsApp texts that VANISH after one read","screen":{"title":"WhatsApp","rows":[["New message","① View once"],["Opened","Gone ✓"]],"ring":[310,815,450,120]},"sub":"Testing on **iPhone** now","say":"WhatsApp is testing texts that vanish after one read. On iPhone."},
+ {"kind":"line","title":"Like view-once photos","emoji":"📸","sub":"Now for **text** too","say":"You know view-once photos? Now it's coming to text messages."},
+ {"kind":"line","title":"Open it once, it's gone","emoji":"💨","sub":"Read **one time** only","say":"Your friend opens it once, and it's gone."},
+ {"kind":"line","title":"Beta only, for now","emoji":"🧪","sub":"Not out for **everyone** yet","say":"It's in beta for now, so most people don't have it yet."},
+ {"kind":"line","title":"Source: WABetaInfo","emoji":"📰","sub":"Beta news · **Not tested by us**","say":"That's from WABetaInfo. Not tested by us."},
+ {"kind":"cta","title2":"FOLLOW","sub":"#22 drops tomorrow at 6pm","emoji":"📱","say":"Follow. Phone Trick number 22 drops tomorrow at 6 p.m."}
+]}
