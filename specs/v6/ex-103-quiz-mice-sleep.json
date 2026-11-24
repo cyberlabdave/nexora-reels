@@ -1,0 +1,8 @@
+{"look":"quiz","series":"Guess It #32","deco":"😴","tag":"Guess It #32","segments":[
+ {"kind":"quiz","title":"Brain cells OFF: how much less sleep?","options":["20% less","45% less","70% less"],"answer":2,"say":"Scientists switched off some brain cells in mice. How much less did they sleep? Three. Two. One."},
+ {"kind":"reveal","title":"About 70% LESS!","options":["20% less","45% less","70% less"],"answer":2,"confetti":true,"sub":"In **mice**, not people","say":"About seventy percent less! That's in mice, not people."},
+ {"kind":"line","title":"Cells that build sleepiness","emoji":"🧠","sub":"They track how long you're **awake**","say":"These cells get more active the longer the mice stay awake."},
+ {"kind":"line","title":"Turned on: deeper sleep","emoji":"🛌","sub":"Turned off: **wide awake**","say":"Turn them on, and the mice sleep longer and deeper."},
+ {"kind":"line","title":"Source: Nature","emoji":"🔬","sub":"Via **University of Basel**","say":"The study is in the journal Nature."},
+ {"kind":"cta","title2":"FOLLOW","sub":"for Guess It #33 tomorrow","emoji":"🧠","say":"Follow for Guess It number 33 tomorrow."}
+]}

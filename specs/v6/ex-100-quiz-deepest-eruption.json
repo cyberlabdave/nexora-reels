@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #31",
+ "deco": "🌋",
+ "tag": "Guess It #31",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Deepest EXPLOSIVE eruption: how deep?",
+   "options": [
+    "60 meters",
+    "600 meters",
+    "6,000+ meters"
+   ],
+   "answer": 2,
+   "say": "The deepest explosive volcano rocks ever found. How deep? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "Over 6,000 METERS down!",
+   "options": [
+    "60 meters",
+    "600 meters",
+    "6,000+ meters"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "One flow at **6,148 m**",
+   "say": "Over six thousand meters! One flow at six thousand one hundred forty eight."
+  },
+  {
+   "kind": "line",
+   "title": "Next to the Challenger Deep",
+   "emoji": "🌊",
+   "sub": "Where explosions **shouldn't** happen",
+   "say": "Right beside the Challenger Deep, where explosions shouldn't happen."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Frontiers in Earth Science",
+   "emoji": "🔬",
+   "sub": "Found by a **robot sub**",
+   "say": "A robot sub found them. Study: Frontiers in Earth Science."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "for Guess It #32 tonight",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 32 tonight."
+  }
+ ]
+}

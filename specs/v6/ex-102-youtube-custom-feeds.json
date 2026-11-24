@@ -1,0 +1,71 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #22",
+ "tag": "Phone Trick #22",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Build your OWN YouTube home feed",
+   "screen": {
+    "title": "YouTube Home",
+    "rows": [
+     [
+      "New feed",
+      "+"
+     ],
+     [
+      "Free",
+      "3 feeds"
+     ],
+     [
+      "Premium",
+      "8 feeds"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Free users get **3**",
+   "say": "YouTube now lets you build your own home feeds. Free users get three."
+  },
+  {
+   "kind": "line",
+   "title": "Tap + on your Home feed",
+   "emoji": "➕",
+   "sub": "Then **describe** what you want",
+   "say": "Tap the plus at the top of Home, and describe what you want to see."
+  },
+  {
+   "kind": "line",
+   "title": "Free: 3 · Premium: 8",
+   "emoji": "📺",
+   "sub": "Feeds you can **keep**",
+   "say": "Free users can keep three feeds. Premium members get eight."
+  },
+  {
+   "kind": "line",
+   "title": "US, English only for now",
+   "emoji": "🇺🇸",
+   "sub": "Not on **tablets**",
+   "say": "For now it's US only, in English, and not on tablets."
+  },
+  {
+   "kind": "line",
+   "title": "Source: YouTube Help",
+   "emoji": "📰",
+   "sub": "Official help page · **Not tested by us**",
+   "say": "That's from YouTube's help page. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "for Phone Trick #23 tomorrow",
+   "emoji": "📱",
+   "say": "Follow for Phone Trick number 23 tomorrow."
+  }
+ ]
+}
