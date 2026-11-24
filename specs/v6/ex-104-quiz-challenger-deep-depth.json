@@ -1,0 +1,8 @@
+{"look":"quiz","series":"Guess It #23","deco":"🌊","tag":"Guess It #23","segments":[
+ {"kind":"quiz","title":"How deep is the DEEPEST spot in the ocean?","options":["About 1 km","About 5 km","About 11 km"],"answer":2,"say":"How deep is the deepest spot in the ocean? Three. Two. One."},
+ {"kind":"reveal","title":"About 11 KILOMETERS!","options":["About 1 km","About 5 km","About 11 km"],"answer":2,"confetti":true,"sub":"**10,935 m** (35,876 ft)","say":"About eleven kilometers! Ten thousand nine hundred thirty five meters."},
+ {"kind":"line","title":"It's the Challenger Deep","emoji":"📍","sub":"In the **Mariana Trench**, Pacific","say":"It's the Challenger Deep, in the Mariana Trench."},
+ {"kind":"line","title":"Average ocean: 3.7 km","emoji":"🐳","sub":"The Deep is about **3x** deeper","say":"The average ocean is only about three point seven kilometers deep."},
+ {"kind":"line","title":"Source: NOAA","emoji":"🔬","sub":"US **ocean agency**","say":"Source: NOAA."},
+ {"kind":"cta","title2":"FOLLOW","sub":"for Guess It #24 tomorrow","emoji":"🧠","say":"Follow for Guess It number 24 tomorrow."}
+]}
