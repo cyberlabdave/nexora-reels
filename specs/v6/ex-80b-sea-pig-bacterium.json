@@ -1,0 +1,56 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #24",
+ "tag": "Weird Animal #24",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Sea pigs carry a HIDDEN bacterium",
+   "emoji": "🐷",
+   "sub": "A bacterium **nobody had named**",
+   "say": "Sea pigs carry a hidden bacterium under their skin, one nobody had named."
+  },
+  {
+   "kind": "line",
+   "title": "It's NOT a pig",
+   "emoji": "🥒",
+   "sub": "It's a **sea cucumber**",
+   "say": "First: a sea pig is not a pig. It's a sea cucumber."
+  },
+  {
+   "kind": "line",
+   "title": "It lives 6,000 m DOWN",
+   "emoji": "🌊",
+   "sub": "A **deep-sea** animal",
+   "say": "It can live six thousand meters deep."
+  },
+  {
+   "kind": "line",
+   "title": "ONE bacterium, over 70%",
+   "emoji": "🦠",
+   "sub": "Of the bacteria **in its body wall**",
+   "say": "In its body wall, one single kind of bacterium made up more than seventy percent of the bacteria found."
+  },
+  {
+   "kind": "line",
+   "title": "Its genome is TINY",
+   "emoji": "🧬",
+   "sub": "About **7x smaller** than E. coli's",
+   "say": "Its genome is tiny: about seven times smaller than E. coli's."
+  },
+  {
+   "kind": "line",
+   "title": "Found by University of Tokyo",
+   "emoji": "🔬",
+   "sub": "Source: **ISME Host Microbe**, Nov 2026",
+   "say": "University of Tokyo scientists just described it."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Weird Animal #25 tomorrow",
+   "emoji": "🐷",
+   "say": "Follow for Weird Animal number 25 tomorrow."
+  }
+ ]
+}
