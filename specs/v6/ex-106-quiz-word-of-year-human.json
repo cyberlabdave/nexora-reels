@@ -1,0 +1,60 @@
+{
+ "look": "quiz",
+ "series": "Guess It #33",
+ "deco": "📖",
+ "tag": "Guess It #33 · daily",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "2026's word, picked because of AI?",
+   "options": [
+    "Robot",
+    "Slop",
+    "Human"
+   ],
+   "answer": 2,
+   "say": "A dictionary picked one word for this year, because of AI. Which? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's HUMAN!",
+   "options": [
+    "Robot",
+    "Slop",
+    "Human"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "**Cambridge Dictionary**, Word of the Year",
+   "say": "It's human! Cambridge Dictionary's Word of the Year."
+  },
+  {
+   "kind": "line",
+   "title": "Why? AI blurs the line",
+   "emoji": "🤖",
+   "sub": "Between **people** and machines",
+   "say": "AI is blurring the line between people and machines."
+  },
+  {
+   "kind": "line",
+   "title": "Collins picked 'mogging'",
+   "emoji": "📈",
+   "sub": "Usage up **210%** in 2026",
+   "say": "Collins went with mogging. Its use jumped two hundred ten percent."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Cambridge, Collins",
+   "emoji": "📚",
+   "sub": "Via **CNN** and **AP**",
+   "say": "Sources: CNN and AP."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "#34 drops tomorrow at 10am",
+   "emoji": "🧠",
+   "say": "Follow. Guess It number 34 drops tomorrow at 10."
+  }
+ ]
+}

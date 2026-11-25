@@ -1,0 +1,58 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #33",
+ "tag": "Weird Animal #33 · daily",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "A 17-FOOT shark stared into their sub",
+   "emoji": "🦈",
+   "sub": "About **1,700 feet** down",
+   "say": "A seventeen foot shark swam right up to a submarine window."
+  },
+  {
+   "kind": "line",
+   "title": "Longer than a car",
+   "items": [
+    {
+     "e": "🦈",
+     "label": "~17 ft shark"
+    },
+    {
+     "e": "🚗",
+     "label": "~15 ft car"
+    }
+   ],
+   "sub": "A **bluntnose sixgill**",
+   "say": "Longer than a car! It's a bluntnose sixgill."
+  },
+  {
+   "kind": "line",
+   "title": "Off the Bahamas, in 2019",
+   "emoji": "🎥",
+   "sub": "The clip went **viral again**",
+   "say": "Filmed off the Bahamas in twenty nineteen. It went viral again this week."
+  },
+  {
+   "kind": "line",
+   "title": "They can reach 20 feet",
+   "emoji": "📏",
+   "sub": "And dive near **6,500 ft**",
+   "say": "Sixgills can reach twenty feet, and dive near sixty five hundred feet."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Fox News, Geo.tv",
+   "emoji": "🔬",
+   "sub": "On the **OceanX** dive",
+   "say": "Sources: Fox News and Geo TV."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "#34 drops tomorrow at noon",
+   "emoji": "🐾",
+   "say": "Follow. Weird Animal number 34 drops tomorrow at noon."
+  }
+ ]
+}

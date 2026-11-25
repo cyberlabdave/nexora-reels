@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It · Thanksgiving Part 2",
+ "deco": "🦃",
+ "tag": "Guess It · Thanksgiving Part 2",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "81.5 million travel. How many FLY?",
+   "options": [
+    "About 1 million",
+    "About 6 million",
+    "About 30 million"
+   ],
+   "answer": 1,
+   "say": "Eighty one and a half million Americans travel for Thanksgiving. How many fly? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "About 6 MILLION!",
+   "options": [
+    "About 1 million",
+    "About 6 million",
+    "About 30 million"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "**5.96 million** domestic flyers",
+   "say": "About six million! Five point nine six million."
+  },
+  {
+   "kind": "line",
+   "title": "Most of them DRIVE",
+   "sub": "**72.9 million** by car",
+   "say": "Most drive: seventy two point nine million by car.",
+   "emoji": "🚗"
+  },
+  {
+   "kind": "line",
+   "title": "Source: AAA forecast",
+   "emoji": "📊",
+   "sub": "Nov 24 to 30 · via **FOX Weather**",
+   "say": "That's AAA's forecast for this week."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "for Guess It #25 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 25 tomorrow."
+  }
+ ]
+}

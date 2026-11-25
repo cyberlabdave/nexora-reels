@@ -1,0 +1,58 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #32",
+ "tag": "Weird Animal #32 · daily",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "This fish lives in ONE pool on Earth",
+   "emoji": "🐟",
+   "sub": "Only **137** were counted",
+   "say": "This fish lives in one pool on Earth. Only one hundred thirty seven were counted."
+  },
+  {
+   "kind": "line",
+   "title": "A cave pool in the desert",
+   "emoji": "🏜️",
+   "sub": "**Death Valley** National Park",
+   "say": "A cave pool in Death Valley."
+  },
+  {
+   "kind": "line",
+   "title": "Nearly DOUBLE last year",
+   "items": [
+    {
+     "e": "🐟",
+     "label": "69 · fall 2025"
+    },
+    {
+     "e": "🐠",
+     "label": "137 · fall 2026"
+    }
+   ],
+   "sub": "A **hopeful** comeback",
+   "say": "Last fall: sixty nine. Now: nearly double."
+  },
+  {
+   "kind": "line",
+   "title": "Faraway quakes slosh it",
+   "emoji": "🌊",
+   "sub": "Bad news for **spawning**",
+   "say": "Faraway earthquakes make the pool slosh, which hurts spawning."
+  },
+  {
+   "kind": "line",
+   "title": "Source: National Park Service count",
+   "emoji": "🔬",
+   "sub": "Via **Earth.com**",
+   "say": "That's the National Park Service count."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "#33 drops tonight at 8",
+   "emoji": "🐾",
+   "say": "Follow. Weird Animal number 33 drops tonight at 8."
+  }
+ ]
+}

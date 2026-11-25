@@ -1,0 +1,67 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #23",
+ "tag": "Phone Trick #23 · daily",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Signal now BLOCKS Siri AI from your chats",
+   "screen": {
+    "title": "Signal · Privacy",
+    "rows": [
+     [
+      "Block Siri AI",
+      "On ●"
+     ],
+     [
+      "Screenshots",
+      "Blocked"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "On by **default** on iOS 27",
+   "say": "Signal now blocks Siri AI from reading your chats. It's on by default."
+  },
+  {
+   "kind": "line",
+   "title": "It blocks screenshots too",
+   "emoji": "📵",
+   "sub": "So **AI** can't scan the screen",
+   "say": "It blocks screenshots too, so phone AI can't scan your chats."
+  },
+  {
+   "kind": "line",
+   "title": "Need one screenshot?",
+   "emoji": "⏱️",
+   "sub": "Turn it off for **10 minutes**",
+   "say": "Need a screenshot? Switch it off for ten minutes."
+  },
+  {
+   "kind": "line",
+   "title": "Signal 8.37 on iOS 27",
+   "emoji": "📱",
+   "sub": "Gemini on **Android** too",
+   "say": "It's in Signal eight point three seven on iOS twenty seven."
+  },
+  {
+   "kind": "line",
+   "title": "Source: MacRumors",
+   "emoji": "📰",
+   "sub": "Nov 24 · **Not tested by us**",
+   "say": "Source: MacRumors. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "#24 drops tomorrow at 6pm",
+   "emoji": "📱",
+   "say": "Follow. Phone Trick number 24 drops tomorrow at 6."
+  }
+ ]
+}
