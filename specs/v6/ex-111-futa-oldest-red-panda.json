@@ -3,47 +3,11 @@
  "series": "Weird Animal #34",
  "tag": "Weird Animal #34",
  "segments": [
-  {
-   "kind": "hook",
-   "title": "This red panda just turned 23",
-   "emoji": "🎂",
-   "sub": "The world's **oldest** red panda",
-   "say": "Meet Futa. At twenty three, the world's oldest red panda."
-  },
-  {
-   "kind": "line",
-   "title": "Most live 12 to 17 years",
-   "emoji": "⏳",
-   "sub": "Futa beat that by **6+ years**",
-   "say": "Most red pandas live twelve to seventeen years."
-  },
-  {
-   "kind": "line",
-   "title": "The old record: 21 years",
-   "emoji": "🏆",
-   "sub": "Taylor, at **ZooMontana**",
-   "say": "The old record holder, Taylor, lived to twenty one."
-  },
-  {
-   "kind": "line",
-   "title": "Home: a zoo in Chiba, Japan",
-   "emoji": "🗾",
-   "sub": "Born in **2003**",
-   "say": "Futa lives at a zoo in Chiba, Japan, and was born in two thousand three."
-  },
-  {
-   "kind": "line",
-   "title": "Source: Guinness World Records",
-   "emoji": "📜",
-   "sub": "Confirmed **Nov 2026**",
-   "say": "Source: Guinness World Records."
-  },
-  {
-   "kind": "cta",
-   "title2": "FOLLOW",
-   "sub": "for Weird Animal #35 tomorrow",
-   "emoji": "🐾",
-   "say": "Follow for Weird Animal number 35 tomorrow."
-  }
+  {"kind": "hook", "title": "This red panda just turned 23", "emoji": "🎂", "sub": "The world's **oldest** red panda", "say": "Meet Futa. At twenty three, the world's oldest red panda."},
+  {"kind": "line", "title": "Most live 12 to 17 years", "emoji": "⏳", "items": [{"e": "⏳", "label": "most: 12-17"}, {"e": "🎂", "label": "Futa: 23"}], "sub": "Futa beat that by **6+ years**", "say": "Most red pandas live twelve to seventeen years. Futa is twenty three."},
+  {"kind": "line", "title": "The old record: 21 years", "emoji": "🏆", "items": [{"e": "🏆", "label": "Taylor: 21"}, {"e": "👑", "label": "Futa: 23"}], "sub": "Taylor, at **ZooMontana**", "say": "The old record holder, Taylor at ZooMontana, reached twenty one. Now Futa holds the record."},
+  {"kind": "line", "title": "Home: a zoo in Chiba, Japan", "emoji": "🗾", "items": [{"e": "🗾", "label": "Chiba, Japan"}, {"e": "🐣", "label": "born 2003"}], "sub": "Born in **2003**", "say": "Futa lives at a zoo in Chiba, Japan. Futa was born in two thousand three."},
+  {"kind": "line", "title": "Source: Guinness World Records", "emoji": "📜", "sub": "Confirmed **Nov 2026**", "say": "Source: Guinness World Records."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "for Weird Animal #35 tomorrow", "emoji": "🎂", "say": "Follow for Weird Animal 35 tomorrow."}
  ]
 }
