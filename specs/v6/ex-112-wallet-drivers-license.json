@@ -1,0 +1,70 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #24",
+ "tag": "Phone Trick #24 · daily",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Your license can live in your iPhone",
+   "screen": {
+    "title": "Wallet",
+    "rows": [
+     [
+      "Driver's License",
+      "Add ›"
+     ],
+     [
+      "Live in",
+      "16 states"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "In **16 US states** now",
+   "say": "Your driver's license can live in Apple Wallet, in sixteen US states."
+  },
+  {
+   "kind": "line",
+   "title": "Is your state on the list?",
+   "bullets": [
+    "Arizona, California",
+    "Georgia, Ohio",
+    "+ 12 more states"
+   ],
+   "say": "Arizona, California, Georgia, Ohio, and twelve more."
+  },
+  {
+   "kind": "line",
+   "title": "3 more states are next",
+   "emoji": "🗺️",
+   "sub": "Connecticut, N. Carolina, **Utah**",
+   "say": "Connecticut, North Carolina and Utah are next."
+  },
+  {
+   "kind": "line",
+   "title": "Flying? Keep your real card",
+   "emoji": "✈️",
+   "sub": "Only **some** TSA checkpoints",
+   "say": "TSA takes it at some checkpoints. Keep your real card."
+  },
+  {
+   "kind": "line",
+   "title": "Source: MacRumors",
+   "emoji": "📰",
+   "sub": "Nov 23 · **Not tested by us**",
+   "say": "Source: MacRumors. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "#25 drops tomorrow at 6pm",
+   "emoji": "📱",
+   "say": "Follow. Phone Trick number 25 drops tomorrow at 6."
+  }
+ ]
+}

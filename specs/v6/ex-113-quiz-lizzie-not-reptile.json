@@ -1,0 +1,53 @@
+{
+ "look": "quiz",
+ "series": "Guess It #35",
+ "deco": "🦎",
+ "tag": "Guess It #35",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "The 'first reptile' was really...?",
+   "options": [
+    "A reptile",
+    "A fish-like animal",
+    "A dinosaur"
+   ],
+   "answer": 1,
+   "say": "This fossil was called the first reptile. What was it really? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "NOT a reptile!",
+   "options": [
+    "A reptile",
+    "A fish-like animal",
+    "A dinosaur"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "It had **gills**",
+   "say": "Not a reptile! It had gills and a fish-like mouth."
+  },
+  {
+   "kind": "line",
+   "title": "345 million years old",
+   "emoji": "🦴",
+   "sub": "Found in **Scotland**, nickname Lizzie",
+   "say": "It's three hundred forty five million years old, found in Scotland. Nickname: Lizzie."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Nature",
+   "emoji": "🔬",
+   "sub": "**AMNH** and **Oxford** X-ray scans",
+   "say": "New X-ray scans, in the journal Nature."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "for Guess It #36 tomorrow",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 36 tomorrow."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "look": "quiz",
+ "series": "Guess It #34",
+ "deco": "🐟",
+ "tag": "Guess It #34",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "How old can this river fish get?",
+   "options": [
+    "13 years",
+    "61 years",
+    "131 years"
+   ],
+   "answer": 2,
+   "say": "A plain river fish. How old can it get? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "131 YEARS old!",
+   "options": [
+    "13 years",
+    "61 years",
+    "131 years"
+   ],
+   "answer": 2,
+   "confetti": true,
+   "sub": "Older than **anyone alive**",
+   "say": "One hundred thirty one years! Older than anyone alive today."
+  },
+  {
+   "kind": "line",
+   "title": "The old record? Just 61",
+   "emoji": "📏",
+   "sub": "Aged by their **ear stones**",
+   "say": "The old record was just sixty one."
+  },
+  {
+   "kind": "line",
+   "title": "The catch: few young fish",
+   "emoji": "⚠️",
+   "sub": "Fewer **new fish** joining",
+   "say": "But fewer young ones are joining."
+  },
+  {
+   "kind": "line",
+   "title": "Source: Communications Biology",
+   "emoji": "🔬",
+   "sub": "Upper **Missouri River**",
+   "say": "Study: Communications Biology."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "for Guess It #35 tonight",
+   "emoji": "🧠",
+   "say": "Follow for Guess It number 35 tonight."
+  }
+ ]
+}
