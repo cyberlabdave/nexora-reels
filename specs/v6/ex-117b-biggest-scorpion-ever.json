@@ -1,0 +1,13 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #36",
+ "tag": "Weird Animal #36 · daily",
+ "segments": [
+  {"kind": "hook", "title": "The biggest scorpion EVER", "emoji": "🦂", "sub": "Pincers over **16 cm** long", "say": "This was the biggest scorpion ever."},
+  {"kind": "line", "title": "Pincers over 16 cm", "emoji": "🦂", "items": [{"e": "🦀", "label": "pincer"}, {"e": "📏", "label": "16+ cm"}], "sub": "Just **one** claw", "say": "Its pincers? Over sixteen centimeters long."},
+  {"kind": "line", "title": "Maybe 1 METRE long", "emoji": "📏", "items": [{"e": "📏", "label": "~1 metre"}, {"e": "🦴", "label": "fossil pieces"}], "sub": "An **estimate** from fossil pieces", "say": "The whole body may have been a meter long. That's an estimate from fossil pieces."},
+  {"kind": "line", "title": "415 million years ago", "emoji": "⏳", "items": [{"e": "⏳", "label": "415M years"}, {"e": "🗺️", "label": "England + Wales"}], "sub": "In what's now **England and Wales**", "say": "It lived four hundred fifteen million years ago. In what's now England and Wales."},
+  {"kind": "line", "title": "1871: called a giant woodlouse?!", "emoji": "🦐", "items": [{"e": "🪨", "label": "1871"}, {"e": "🦐", "label": "crustacean?"}], "sub": "Source: **NHM London**", "say": "In eighteen seventy one, it was mistaken for a giant woodlouse-like crustacean."},
+  {"kind": "cta", "title2": "FOLLOW", "sub": "#37 drops tomorrow at noon", "emoji": "🦂", "say": "Follow for number 37 tomorrow at noon."}
+ ]
+}
