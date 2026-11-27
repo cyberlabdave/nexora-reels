@@ -1,0 +1,6 @@
+{"look":"quiz","series":"Guess It · Thanksgiving weekend","deco":"🛍️","tag":"Guess It · Thanksgiving weekend","segments":[
+{"kind":"quiz","title":"How many Americans shop Thanksgiving weekend?","options":["About 18 million","About 80 million","About 183 million"],"answer":2,"say":"How many Americans plan to shop this Thanksgiving weekend? Three. Two. One."},
+{"kind":"reveal","title":"About 183 MILLION!","options":["About 18 million","About 80 million","About 183 million"],"answer":2,"confetti":true,"sub":"**182.7 million** plan to shop","say":"About one hundred eighty three million people!"},
+{"kind":"line","title":"Black Friday is #1","emoji":"🛒","sub":"**69%** of weekend shoppers","say":"Black Friday is the top day. Sixty nine percent of them shop it."},
+{"kind":"line","title":"Source: NRF survey","emoji":"📊","sub":"Released **Nov 19, 2026**","say":"That's the National Retail Federation's survey."},
+{"kind":"cta","title2":"FOLLOW","sub":"for Guess It #28 tomorrow","emoji":"🧠","say":"Follow for Guess It number 28 tomorrow."}]}
