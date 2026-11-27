@@ -1,0 +1,6 @@
+{"look":"quiz","series":"Guess It #36","deco":"🌱","tag":"Guess It #36 · daily","segments":[
+{"kind":"quiz","title":"How much life is in ONE spoon of soil?","options":["A few bugs","About 1,000","More than all humans"],"answer":2,"say":"One tablespoon of soil. How many living things are in it? Three. Two. One."},
+{"kind":"reveal","title":"More than ALL of us!","options":["A few bugs","About 1,000","More than all humans"],"answer":2,"confetti":true,"sub":"More than **people on Earth**","say":"More living things than there are people on Earth!"},
+{"kind":"line","title":"95% of our food","emoji":"🥕","sub":"Grows in **soil**, directly or not","say":"And about ninety five percent of our food is produced in soil."},
+{"kind":"line","title":"World Soil Day: Dec 5","emoji":"🌍","sub":"Source: **UN FAO**","say":"Tomorrow is World Soil Day. Source: the UN's FAO."},
+{"kind":"cta","title2":"FOLLOW","sub":"#37 drops tomorrow at 10am","emoji":"🧠","say":"Follow. Guess It number 37 drops tomorrow at 10."}]}

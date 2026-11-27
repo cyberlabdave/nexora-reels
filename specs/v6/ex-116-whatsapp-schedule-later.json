@@ -1,0 +1,7 @@
+{"look":"phone","series":"Phone Trick #25","tag":"Phone Trick #25 · daily","segments":[
+{"kind":"hook","title":"WhatsApp can send your text LATER","screen":{"title":"Send later","rows":[["Date","Choose ›"],["Time","Choose ›"]],"ring":[310,815,450,120]},"sub":"Just **hold** the send button","say":"WhatsApp can now send your message later. Just hold the send button."},
+{"kind":"line","title":"10 minutes to 2 weeks","emoji":"⏰","sub":"Pick a **date and time**","say":"Pick a time from ten minutes to two weeks ahead."},
+{"kind":"line","title":"Chats and groups","emoji":"💬","sub":"Texts, links or **one** photo or file","say":"It works for texts, links, or one photo or file, in chats and groups."},
+{"kind":"line","title":"Changed your mind?","emoji":"✏️","sub":"Edit or delete it in **chat info**","say":"Changed your mind? Edit or delete it in chat info."},
+{"kind":"line","title":"Rolling out in stages","emoji":"📲","sub":"Source: **WABetaInfo** · Not tested by us","say":"It's rolling out in stages, so you may not have it yet. Not tested by us."},
+{"kind":"cta","title2":"FOLLOW","sub":"#26 drops tomorrow at 6pm","emoji":"📱","say":"Follow. Phone Trick number 26 drops tomorrow at 6."}]}

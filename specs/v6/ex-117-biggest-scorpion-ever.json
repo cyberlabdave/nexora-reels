@@ -1,0 +1,42 @@
+{
+ "look": "animal",
+ "series": "Weird Animal #36",
+ "tag": "Weird Animal #36 · daily",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "The biggest scorpion EVER",
+   "emoji": "🦂",
+   "sub": "Pincers over **16 cm** long",
+   "say": "This was the biggest scorpion ever. Its pincers were over sixteen centimeters long."
+  },
+  {
+   "kind": "line",
+   "title": "Maybe 1 metre long",
+   "emoji": "📏",
+   "sub": "An **estimate** from fossil pieces",
+   "say": "Maybe a meter long. That's an estimate from fossil pieces."
+  },
+  {
+   "kind": "line",
+   "title": "415 million years ago",
+   "emoji": "🌍",
+   "sub": "In what's now **England and Wales**",
+   "say": "It lived four hundred fifteen million years ago, in what's now England and Wales."
+  },
+  {
+   "kind": "line",
+   "title": "First called a giant woodlouse",
+   "emoji": "🦐",
+   "sub": "Back in **1871** · Source: **NHM London**",
+   "say": "In eighteen seventy one, it was mistaken for a giant woodlouse-like crustacean."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "#37 drops tomorrow at noon",
+   "emoji": "🐾",
+   "say": "Follow. Weird Animal number 37 drops tomorrow at noon."
+  }
+ ]
+}

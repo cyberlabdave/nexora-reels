@@ -1,0 +1,6 @@
+{"look":"animal","series":"Weird Animal #35","tag":"Weird Animal #35 · daily","segments":[
+{"kind":"hook","title":"A cheetah hits up to 70 MPH","emoji":"💨","sub":"The **fastest** land animal","say":"A cheetah can hit seventy miles an hour. The fastest animal on land."},
+{"kind":"line","title":"It hunts in one burst","emoji":"⚡","sub":"It **outruns** its prey","say":"It hunts by outrunning its prey in one burst of speed."},
+{"kind":"line","title":"Far fewer than in 1900","items":[{"e":"🐾","label":"1900 · ~100,000"},{"e":"📉","label":"today · far fewer"}],"sub":"Listed **vulnerable**","say":"In nineteen hundred, about a hundred thousand lived in Africa. Today, far fewer."},
+{"kind":"line","title":"Today is Cheetah Day","emoji":"🎉","sub":"Source: **African Wildlife Foundation**","say":"Today is International Cheetah Day."},
+{"kind":"cta","title2":"FOLLOW","sub":"#36 drops tonight at 8","emoji":"🐾","say":"Follow. Weird Animal number 36 drops tonight at 8."}]}
