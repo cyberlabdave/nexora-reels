@@ -1,0 +1,92 @@
+{
+ "look": "phone",
+ "series": "Phone Trick #26",
+ "tag": "Phone Trick #26 · daily",
+ "segments": [
+  {
+   "kind": "hook",
+   "title": "Your Android has a SCAM shield",
+   "screen": {
+    "title": "Protection & safety",
+    "rows": [
+     [
+      "Enhanced Protection",
+      "On ›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Inside **Google Messages**",
+   "say": "Your Android has a scam text shield, inside Google Messages."
+  },
+  {
+   "kind": "line",
+   "title": "Where to find it",
+   "screen": {
+    "title": "Settings",
+    "rows": [
+     [
+      "Protection & safety",
+      "›"
+     ],
+     [
+      "Enhanced Protection",
+      "›"
+     ]
+    ],
+    "ring": [
+     310,
+     815,
+     450,
+     120
+    ]
+   },
+   "sub": "Settings › **Protection & safety**",
+   "say": "In Messages settings, tap Protection and safety, then Enhanced Protection."
+  },
+  {
+   "kind": "line",
+   "title": "Gemini spots scam texts",
+   "items": [
+    {
+     "e": "💬",
+     "label": "text"
+    },
+    {
+     "e": "⚠️",
+     "label": "scam warning"
+    }
+   ],
+   "sub": "Likely scams get **flagged**",
+   "say": "Gemini checks texts for scams. Likely scams get a warning."
+  },
+  {
+   "kind": "line",
+   "title": "Links checked BEFORE you tap",
+   "items": [
+    {
+     "e": "🔗",
+     "label": "unknown link"
+    },
+    {
+     "e": "🛡️",
+     "label": "checked on phone"
+    }
+   ],
+   "sub": "Pixel 10, Galaxy S26 + **newer**",
+   "say": "On newer phones like Pixel 10 and Galaxy S26, links from strangers get checked before you tap. Not tested by us."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Phone Trick #27 tomorrow",
+   "emoji": "🛡️",
+   "say": "Follow for Phone Trick number 27 tomorrow."
+  }
+ ]
+}

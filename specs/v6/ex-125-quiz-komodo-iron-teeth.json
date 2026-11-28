@@ -1,0 +1,71 @@
+{
+ "look": "quiz",
+ "series": "Guess It #38",
+ "deco": "🦎",
+ "tag": "Guess It #38 · daily",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "Why are Komodo teeth ORANGE?",
+   "options": [
+    "Blood",
+    "Iron",
+    "Rust from food"
+   ],
+   "answer": 1,
+   "say": "Komodo dragon teeth have orange tips. Why? Blood, iron, or rust from food? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's IRON!",
+   "options": [
+    "Blood",
+    "Iron",
+    "Rust from food"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "A thin **metal coat**",
+   "say": "It's iron! A thin coat on the tips and edges."
+  },
+  {
+   "kind": "line",
+   "title": "Keeps them razor-sharp",
+   "items": [
+    {
+     "e": "🦷",
+     "label": "iron edge"
+    },
+    {
+     "e": "🔪",
+     "label": "razor-sharp"
+    }
+   ],
+   "sub": "For **tearing** prey",
+   "say": "The iron helps keep the teeth razor sharp. Perfect for tearing prey."
+  },
+  {
+   "kind": "line",
+   "title": "Never seen in a reptile before",
+   "items": [
+    {
+     "e": "🦎",
+     "label": "Komodo"
+    },
+    {
+     "e": "🔬",
+     "label": "a first"
+    }
+   ],
+   "sub": "Source: **King's College London**",
+   "say": "Scientists had never seen this in a meat eating reptile before."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #39 tomorrow",
+   "emoji": "🦎",
+   "say": "Follow for Guess It number 39 tomorrow."
+  }
+ ]
+}

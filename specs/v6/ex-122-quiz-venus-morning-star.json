@@ -1,0 +1,91 @@
+{
+ "look": "quiz",
+ "series": "Guess It #37",
+ "deco": "🌟",
+ "tag": "Guess It #37 · daily",
+ "segments": [
+  {
+   "kind": "quiz",
+   "title": "That bright 'star' before sunrise?",
+   "options": [
+    "Sirius",
+    "Planet Venus",
+    "A satellite"
+   ],
+   "answer": 1,
+   "say": "That bright star before sunrise. What is it? Sirius, Venus, or a satellite? Three. Two. One."
+  },
+  {
+   "kind": "reveal",
+   "title": "It's the planet VENUS!",
+   "options": [
+    "Sirius",
+    "Planet Venus",
+    "A satellite"
+   ],
+   "answer": 1,
+   "confetti": true,
+   "sub": "Not a **star** at all",
+   "say": "It's Venus! A planet, not a star."
+  },
+  {
+   "kind": "line",
+   "title": "Brighter than ANY star",
+   "items": [
+    {
+     "e": "🌟",
+     "label": "Venus"
+    },
+    {
+     "e": "⭐",
+     "label": "every star"
+    }
+   ],
+   "sub": "The **morning star**",
+   "say": "It outshines every star. That's why it's called the morning star."
+  },
+  {
+   "kind": "line",
+   "title": "This morning: a triangle",
+   "items": [
+    {
+     "e": "🌙",
+     "label": "Moon"
+    },
+    {
+     "e": "✨",
+     "label": "Spica"
+    },
+    {
+     "e": "🌟",
+     "label": "Venus"
+    }
+   ],
+   "sub": "Source: **Sky at Night Magazine**",
+   "say": "This morning, Venus, the Moon and the star Spica made a triangle."
+  },
+  {
+   "kind": "line",
+   "title": "Look east before sunrise",
+   "items": [
+    {
+     "e": "🧭",
+     "label": "east"
+    },
+    {
+     "e": "⏰",
+     "label": "1-2 h before dawn"
+    }
+   ],
+   "sub": "Bright all **December**",
+   "say": "Look east before dawn. It stays bright all December."
+  },
+  {
+   "kind": "cta",
+   "title2": "FOLLOW",
+   "sub": "Guess It #38 tonight at 8",
+   "emoji": "🌟",
+   "say": "Follow for Guess It number 38 tonight."
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{"look":"animal","series":"Weird Animal #37","tag":"Weird Animal #37 · daily","segments":[
+{"kind":"hook","title":"This 'unicorn horn' is a TOOTH","emoji":"🦷","items":[{"e":"🐋","label":"narwhal"},{"e":"🦷","label":"tusk = tooth"}],"sub":"The **narwhal's** tusk","say":"This unicorn horn is actually a tooth. It's a narwhal's tusk."},
+{"kind":"line","title":"Up to 2 metres long","items":[{"e":"🦷","label":"tusk ~2 m"},{"e":"🐋","label":"~half its body"}],"sub":"Usually its **upper-left** tooth","say":"It can grow up to two meters. That's about half the narwhal's body."},
+{"kind":"line","title":"Two spirals inside","items":[{"e":"🌀","label":"one way"},{"e":"🌀","label":"the other way"}],"sub":"Twisting like **rope**","say":"Scans found two tiny spirals inside. They twist in opposite directions, like rope."},
+{"kind":"line","title":"That keeps it strong","items":[{"e":"💪","label":"strong"},{"e":"🔬","label":"new study"}],"sub":"Source: **Nature Communications**","say":"Scientists say that helps keep it strong."},
+{"kind":"cta","title2":"FOLLOW","sub":"Weird Animal #38 tomorrow","emoji":"🐋","say":"Follow for Weird Animal number 38 tomorrow."}]}
