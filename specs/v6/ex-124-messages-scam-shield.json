@@ -71,7 +71,7 @@
    "items": [
     {
      "e": "🔗",
-     "label": "unknown link"
+     "label": "unfamiliar link"
     },
     {
      "e": "🛡️",
@@ -79,7 +79,7 @@
     }
    ],
    "sub": "Pixel 10, Galaxy S26 + **newer**",
-   "say": "On newer phones like Pixel 10 and Galaxy S26, links from strangers get checked before you tap. Not tested by us."
+   "say": "On newer phones like Pixel 10 and Galaxy S26, unfamiliar links get checked before you tap. Not tested by us."
   },
   {
    "kind": "cta",

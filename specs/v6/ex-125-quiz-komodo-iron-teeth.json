@@ -46,19 +46,19 @@
   },
   {
    "kind": "line",
-   "title": "Never seen in a reptile before",
+   "title": "Iron packed on the EDGES",
    "items": [
     {
      "e": "🦎",
-     "label": "Komodo"
+     "label": "many reptiles: a little"
     },
     {
-     "e": "🔬",
-     "label": "a first"
+     "e": "🦷",
+     "label": "Komodo: edges + tips"
     }
    ],
    "sub": "Source: **King's College London**",
-   "say": "Scientists had never seen this in a meat eating reptile before."
+   "say": "Many reptiles have a little iron in their teeth. Komodos pack it on the edges and tips."
   },
   {
    "kind": "cta",
